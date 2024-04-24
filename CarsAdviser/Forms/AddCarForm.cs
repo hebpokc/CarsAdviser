@@ -83,7 +83,7 @@ namespace CarsAdviser.Forms
                 foreach (var file in openFileDialog.FileNames)
                 {
                     string imagePath = openFileDialog.FileName;
-                    string destinationFolderPath = Path.Combine("../../", "Images", "CarImages");
+                    string destinationFolderPath = Path.Combine("../../", "Images", "CarsImages");
                     string destinationPath = Path.Combine(destinationFolderPath, Path.GetFileName(imagePath));
 
                     if (!Directory.Exists(destinationFolderPath))

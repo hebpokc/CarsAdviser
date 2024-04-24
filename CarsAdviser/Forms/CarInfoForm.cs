@@ -162,7 +162,7 @@ namespace CarsAdviser.Forms
         }
         private void saveMarkBtn_Click(object sender, EventArgs e)
         {
-            var rating = (int)carRatingStar.Value  * 2;
+            var rating = (int)(carRatingStar.Value * 2);
             UpdateCarRating(carId, rating);
         }
 
