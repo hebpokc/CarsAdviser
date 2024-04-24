@@ -29,6 +29,7 @@ namespace CarsAdviser
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.headerPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.notificationLabel2 = new System.Windows.Forms.Label();
             this.notificationLabel1 = new System.Windows.Forms.Label();
@@ -241,6 +242,7 @@ namespace CarsAdviser
             this.accountCirclePictureBox.Name = "accountCirclePictureBox";
             this.accountCirclePictureBox.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.accountCirclePictureBox.Size = new System.Drawing.Size(66, 51);
+            this.accountCirclePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.accountCirclePictureBox.TabIndex = 25;
             this.accountCirclePictureBox.TabStop = false;
             // 
@@ -264,10 +266,11 @@ namespace CarsAdviser
             this.ClientSize = new System.Drawing.Size(1424, 1024);
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.headerPanel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(16, 1024);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CarsAdviser";
+            this.Text = "CarPulse";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.headerPanel.ResumeLayout(false);

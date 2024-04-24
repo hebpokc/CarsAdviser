@@ -79,9 +79,20 @@ namespace CarsAdviser.Forms
             }
         }
 
-        private void SignInForm_Load(object sender, EventArgs e)
+        private void loginTextBox_KeyDown(object sender, KeyEventArgs e)
         {
-            
+            if (e.KeyCode == Keys.Enter)
+            {
+                signInBtn.PerformClick();
+            }
+        }
+
+        private void passwordTextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                signInBtn.PerformClick();
+            }
         }
     }
 }

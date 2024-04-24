@@ -63,6 +63,7 @@ namespace CarsAdviser.Forms
             this.carPictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.carPictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.carPictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.saveMarkBtn = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox2)).BeginInit();
@@ -191,10 +192,10 @@ namespace CarsAdviser.Forms
             // priceLabel1
             // 
             this.priceLabel1.AutoSize = true;
-            this.priceLabel1.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.priceLabel1.Location = new System.Drawing.Point(40, 507);
+            this.priceLabel1.Font = new System.Drawing.Font("Candara", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.priceLabel1.Location = new System.Drawing.Point(39, 504);
             this.priceLabel1.Name = "priceLabel1";
-            this.priceLabel1.Size = new System.Drawing.Size(99, 23);
+            this.priceLabel1.Size = new System.Drawing.Size(111, 26);
             this.priceLabel1.TabIndex = 11;
             this.priceLabel1.Text = "Стоимость";
             // 
@@ -280,106 +281,106 @@ namespace CarsAdviser.Forms
             // 
             // colorInfoLabel
             // 
-            this.colorInfoLabel.AutoSize = true;
             this.colorInfoLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.colorInfoLabel.ForeColor = System.Drawing.Color.Black;
-            this.colorInfoLabel.Location = new System.Drawing.Point(307, 465);
+            this.colorInfoLabel.Location = new System.Drawing.Point(235, 465);
             this.colorInfoLabel.Name = "colorInfoLabel";
-            this.colorInfoLabel.Size = new System.Drawing.Size(101, 19);
+            this.colorInfoLabel.Size = new System.Drawing.Size(160, 20);
             this.colorInfoLabel.TabIndex = 46;
             this.colorInfoLabel.Text = "Серебристый";
+            this.colorInfoLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // wheelInfoLabel
             // 
-            this.wheelInfoLabel.AutoSize = true;
             this.wheelInfoLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.wheelInfoLabel.ForeColor = System.Drawing.Color.Black;
-            this.wheelInfoLabel.Location = new System.Drawing.Point(307, 430);
+            this.wheelInfoLabel.Location = new System.Drawing.Point(235, 430);
             this.wheelInfoLabel.Name = "wheelInfoLabel";
-            this.wheelInfoLabel.Size = new System.Drawing.Size(62, 19);
+            this.wheelInfoLabel.Size = new System.Drawing.Size(160, 20);
             this.wheelInfoLabel.TabIndex = 45;
             this.wheelInfoLabel.Text = "Правый";
+            this.wheelInfoLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // trunkInfoLabel
             // 
-            this.trunkInfoLabel.AutoSize = true;
             this.trunkInfoLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.trunkInfoLabel.ForeColor = System.Drawing.Color.Black;
-            this.trunkInfoLabel.Location = new System.Drawing.Point(307, 393);
+            this.trunkInfoLabel.Location = new System.Drawing.Point(235, 393);
             this.trunkInfoLabel.Name = "trunkInfoLabel";
-            this.trunkInfoLabel.Size = new System.Drawing.Size(139, 21);
+            this.trunkInfoLabel.Size = new System.Drawing.Size(160, 20);
             this.trunkInfoLabel.TabIndex = 44;
             this.trunkInfoLabel.Text = "от 390 л до 1299л";
+            this.trunkInfoLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // transmissionInfoLabel
             // 
-            this.transmissionInfoLabel.AutoSize = true;
             this.transmissionInfoLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.transmissionInfoLabel.ForeColor = System.Drawing.Color.Black;
-            this.transmissionInfoLabel.Location = new System.Drawing.Point(307, 358);
+            this.transmissionInfoLabel.Location = new System.Drawing.Point(155, 358);
             this.transmissionInfoLabel.Name = "transmissionInfoLabel";
             this.transmissionInfoLabel.Size = new System.Drawing.Size(241, 19);
             this.transmissionInfoLabel.TabIndex = 43;
             this.transmissionInfoLabel.Text = "Бесступенчатая коробка передач";
+            this.transmissionInfoLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // driveInfoLabel
             // 
-            this.driveInfoLabel.AutoSize = true;
             this.driveInfoLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.driveInfoLabel.ForeColor = System.Drawing.Color.Black;
-            this.driveInfoLabel.Location = new System.Drawing.Point(307, 322);
+            this.driveInfoLabel.Location = new System.Drawing.Point(235, 322);
             this.driveInfoLabel.Name = "driveInfoLabel";
-            this.driveInfoLabel.Size = new System.Drawing.Size(77, 19);
+            this.driveInfoLabel.Size = new System.Drawing.Size(160, 20);
             this.driveInfoLabel.TabIndex = 42;
             this.driveInfoLabel.Text = "Передний";
+            this.driveInfoLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // fuelInfoLabel
             // 
-            this.fuelInfoLabel.AutoSize = true;
             this.fuelInfoLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.fuelInfoLabel.ForeColor = System.Drawing.Color.Black;
-            this.fuelInfoLabel.Location = new System.Drawing.Point(307, 286);
+            this.fuelInfoLabel.Location = new System.Drawing.Point(235, 286);
             this.fuelInfoLabel.Name = "fuelInfoLabel";
-            this.fuelInfoLabel.Size = new System.Drawing.Size(57, 19);
+            this.fuelInfoLabel.Size = new System.Drawing.Size(160, 20);
             this.fuelInfoLabel.TabIndex = 41;
-            this.fuelInfoLabel.Text = "Бензин";
+            this.fuelInfoLabel.Text = "Электричество";
+            this.fuelInfoLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // engineInfoLabel
             // 
-            this.engineInfoLabel.AutoSize = true;
             this.engineInfoLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.engineInfoLabel.ForeColor = System.Drawing.Color.Black;
-            this.engineInfoLabel.Location = new System.Drawing.Point(307, 251);
+            this.engineInfoLabel.Location = new System.Drawing.Point(235, 251);
             this.engineInfoLabel.Name = "engineInfoLabel";
-            this.engineInfoLabel.Size = new System.Drawing.Size(60, 19);
+            this.engineInfoLabel.Size = new System.Drawing.Size(160, 20);
             this.engineInfoLabel.TabIndex = 40;
             this.engineInfoLabel.Text = "Гибрид";
+            this.engineInfoLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // bodyInfoLabel
             // 
-            this.bodyInfoLabel.AutoSize = true;
             this.bodyInfoLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.bodyInfoLabel.ForeColor = System.Drawing.Color.Black;
-            this.bodyInfoLabel.Location = new System.Drawing.Point(307, 215);
+            this.bodyInfoLabel.Location = new System.Drawing.Point(235, 215);
             this.bodyInfoLabel.Name = "bodyInfoLabel";
-            this.bodyInfoLabel.Size = new System.Drawing.Size(85, 19);
+            this.bodyInfoLabel.Size = new System.Drawing.Size(160, 20);
             this.bodyInfoLabel.TabIndex = 39;
             this.bodyInfoLabel.Text = "Кроссовер";
+            this.bodyInfoLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // mileageInfoLabel
             // 
-            this.mileageInfoLabel.AutoSize = true;
             this.mileageInfoLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.mileageInfoLabel.ForeColor = System.Drawing.Color.Black;
-            this.mileageInfoLabel.Location = new System.Drawing.Point(307, 180);
+            this.mileageInfoLabel.Location = new System.Drawing.Point(235, 180);
             this.mileageInfoLabel.Name = "mileageInfoLabel";
-            this.mileageInfoLabel.Size = new System.Drawing.Size(69, 21);
+            this.mileageInfoLabel.Size = new System.Drawing.Size(160, 20);
             this.mileageInfoLabel.TabIndex = 38;
             this.mileageInfoLabel.Text = "5000 км";
+            this.mileageInfoLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // carRatingStar
             // 
-            this.carRatingStar.Location = new System.Drawing.Point(262, 141);
+            this.carRatingStar.Location = new System.Drawing.Point(275, 141);
             this.carRatingStar.Name = "carRatingStar";
             this.carRatingStar.RatingColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.carRatingStar.Size = new System.Drawing.Size(120, 28);
@@ -387,6 +388,7 @@ namespace CarsAdviser.Forms
             // 
             // toBookmarksBtn
             // 
+            this.toBookmarksBtn.Animated = true;
             this.toBookmarksBtn.BorderRadius = 7;
             this.toBookmarksBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.toBookmarksBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -400,9 +402,11 @@ namespace CarsAdviser.Forms
             this.toBookmarksBtn.Size = new System.Drawing.Size(283, 45);
             this.toBookmarksBtn.TabIndex = 48;
             this.toBookmarksBtn.Text = "В закладки";
+            this.toBookmarksBtn.Click += new System.EventHandler(this.toBookmarksBtn_Click);
             // 
             // hideBtn
             // 
+            this.hideBtn.Animated = true;
             this.hideBtn.BorderRadius = 7;
             this.hideBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.hideBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -416,6 +420,7 @@ namespace CarsAdviser.Forms
             this.hideBtn.Size = new System.Drawing.Size(283, 45);
             this.hideBtn.TabIndex = 49;
             this.hideBtn.Text = "Скрыть";
+            this.hideBtn.Click += new System.EventHandler(this.hideBtn_Click);
             // 
             // carPictureBox4
             // 
@@ -424,6 +429,7 @@ namespace CarsAdviser.Forms
             this.carPictureBox4.Location = new System.Drawing.Point(1112, 370);
             this.carPictureBox4.Name = "carPictureBox4";
             this.carPictureBox4.Size = new System.Drawing.Size(184, 101);
+            this.carPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.carPictureBox4.TabIndex = 36;
             this.carPictureBox4.TabStop = false;
             // 
@@ -434,6 +440,7 @@ namespace CarsAdviser.Forms
             this.carPictureBox3.Location = new System.Drawing.Point(910, 370);
             this.carPictureBox3.Name = "carPictureBox3";
             this.carPictureBox3.Size = new System.Drawing.Size(184, 101);
+            this.carPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.carPictureBox3.TabIndex = 35;
             this.carPictureBox3.TabStop = false;
             // 
@@ -444,6 +451,7 @@ namespace CarsAdviser.Forms
             this.carPictureBox2.Location = new System.Drawing.Point(707, 370);
             this.carPictureBox2.Name = "carPictureBox2";
             this.carPictureBox2.Size = new System.Drawing.Size(184, 101);
+            this.carPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.carPictureBox2.TabIndex = 34;
             this.carPictureBox2.TabStop = false;
             // 
@@ -454,14 +462,34 @@ namespace CarsAdviser.Forms
             this.carPictureBox1.Location = new System.Drawing.Point(707, 21);
             this.carPictureBox1.Name = "carPictureBox1";
             this.carPictureBox1.Size = new System.Drawing.Size(589, 318);
+            this.carPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.carPictureBox1.TabIndex = 33;
             this.carPictureBox1.TabStop = false;
+            // 
+            // saveMarkBtn
+            // 
+            this.saveMarkBtn.Animated = true;
+            this.saveMarkBtn.BorderRadius = 7;
+            this.saveMarkBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.saveMarkBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.saveMarkBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.saveMarkBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.saveMarkBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.saveMarkBtn.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.saveMarkBtn.ForeColor = System.Drawing.Color.White;
+            this.saveMarkBtn.Location = new System.Drawing.Point(858, 596);
+            this.saveMarkBtn.Name = "saveMarkBtn";
+            this.saveMarkBtn.Size = new System.Drawing.Size(283, 45);
+            this.saveMarkBtn.TabIndex = 50;
+            this.saveMarkBtn.Text = "Сохранить оценку";
+            this.saveMarkBtn.Click += new System.EventHandler(this.saveMarkBtn_Click);
             // 
             // CarInfoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1424, 1024);
+            this.Controls.Add(this.saveMarkBtn);
             this.Controls.Add(this.hideBtn);
             this.Controls.Add(this.toBookmarksBtn);
             this.Controls.Add(this.carRatingStar);
@@ -544,5 +572,6 @@ namespace CarsAdviser.Forms
         private Guna.UI2.WinForms.Guna2RatingStar carRatingStar;
         private Guna.UI2.WinForms.Guna2Button toBookmarksBtn;
         private Guna.UI2.WinForms.Guna2Button hideBtn;
+        private Guna.UI2.WinForms.Guna2Button saveMarkBtn;
     }
 }

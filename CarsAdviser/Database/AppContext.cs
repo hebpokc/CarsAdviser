@@ -4,21 +4,21 @@ using System.IO;
 
 namespace CarsAdviser.Database
 {
-    internal class AppContext : DbContext
+    public class AppContext : DbContext
     {
         public DbSet<Users> Users { get; set; }
-        public DbSet<Users_bookmarks> UsersBookmarks { get; set; }
-        public DbSet<Users_hidden_auto> UsersHiddenAuto { get; set; }
+        public DbSet<Users_bookmarks> Users_bookmarks { get; set; }
+        public DbSet<Users_hidden_auto> Users_hidden_auto { get; set; }
         public DbSet<Cars> Cars { get; set; }
-        public DbSet<Cars_model> CarsModels { get; set; }
-        public DbSet<Cars_stamp> CarsStamps { get; set; }
-        public DbSet<Cars_body> CarsBodies { get; set; }
-        public DbSet<Cars_engine> CarsEngines { get; set; }
-        public DbSet<Cars_fuel> CarsFuels { get; set; }
-        public DbSet<Cars_drive> CarsDrives { get; set; }
-        public DbSet<Cars_checkpoint> CarsCheckpoints { get; set; }
-        public DbSet<Cars_wheel> CarsWheels { get; set; }
-        public DbSet<Cars_colour> CarsColours { get; set; }
+        public DbSet<Cars_model> Cars_model { get; set; }
+        public DbSet<Cars_stamp> Cars_stamp { get; set; }
+        public DbSet<Cars_body> Cars_body{ get; set; }
+        public DbSet<Cars_engine> Cars_engine { get; set; }
+        public DbSet<Cars_fuel> Cars_fuel { get; set; }
+        public DbSet<Cars_drive> Cars_drive { get; set; }
+        public DbSet<Cars_checkpoint> Cars_checkpoint { get; set; }
+        public DbSet<Cars_wheel> Cars_wheel { get; set; }
+        public DbSet<Cars_colour> Cars_colour { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string path = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
@@ -73,10 +73,10 @@ namespace CarsAdviser.Database
                 .WithMany()
                 .HasForeignKey(c => c.Cars_colour);
 
-            modelBuilder.Entity<Cars_stamp>()
-            .HasOne(c => c.Cars_Model)
+            modelBuilder.Entity<Cars_model>()
+            .HasOne(c => c.Cars_Stamp)
             .WithMany()
-            .HasForeignKey(c => c.Cars_model);
+            .HasForeignKey(c => c.Cars_stamp);
 
             modelBuilder.Entity<Users_bookmarks>()
             .HasOne(ub => ub.Users)
@@ -92,6 +92,8 @@ namespace CarsAdviser.Database
             .HasOne(uha => uha.Users)
             .WithMany(u => u.UserHiddenAutos)
             .HasForeignKey(uha => uha.Users_id);
+
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

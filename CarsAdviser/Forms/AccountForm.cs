@@ -13,21 +13,21 @@ namespace CarsAdviser.Forms
 {
     public partial class AccountForm : Form
     {
-        private MainForm parentForm;
+        public MainForm parentForm;
         private Form currentChildForm;
-        private int CurrentUserId;
+        private int currentUserId;
         public AccountForm(MainForm parentForm, int CurrentUserId)
         {
             InitializeComponent();
             this.parentForm = parentForm;
-            this.CurrentUserId = CurrentUserId;
+            this.currentUserId = CurrentUserId;
         }
 
         private void AccountForm_Load(object sender, EventArgs e)
         {
-            OpenChildForm(new DataFillingForm(this));
+            OpenChildForm(new DataFillingForm(this, currentUserId));
             personalInformationBtn.Font = new Font(personalInformationBtn.Font.FontFamily, personalInformationBtn.Font.Size, FontStyle.Bold);
-            LoadUserData(CurrentUserId);
+            LoadUserData(currentUserId);
         }
         public void OpenChildForm(Form childForm)
         {
@@ -41,33 +41,42 @@ namespace CarsAdviser.Forms
         }
         private void LoadUserData(int userId)
         {
-            using (var context = new AppContext())
+            try
             {
-                var user = context.Users.FirstOrDefault(u => u.ID == userId);
-                if (user != null)
+                using (var context = new AppContext())
                 {
-                    if (!string.IsNullOrEmpty(user.Avatar))
+                    var user = context.Users.FirstOrDefault(u => u.ID == userId);
+                    if (user != null)
                     {
-                        accountCirclePictureBox.Image = Image.FromFile(user.Avatar);
-                    }
-                    else
-                    {
-                        accountCirclePictureBox.Image = Properties.Resources.noAvatar;
-                    }
+                        if (!string.IsNullOrEmpty(user.Avatar))
+                        {
+                            accountCirclePictureBox.Image = Image.FromFile(user.Avatar);
+                        }
+                        else
+                        {
+                            accountCirclePictureBox.Image = Properties.Resources.noAvatar;
+                        }
 
-                    nameLabel.Text = user.First_name;
-                    surnameLabel.Text = user.Last_name;
+                        nameLabel.Text = user.First_name;
+                        surnameLabel.Text = user.Last_name;
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void personalInformationBtn_Click(object sender, EventArgs e)
         {
             currentChildForm.Close();
-            OpenChildForm(new DataFillingForm(this));
+            OpenChildForm(new DataFillingForm(this, currentUserId));
             personalInformationBtn.Font = new Font(personalInformationBtn.Font.FontFamily, personalInformationBtn.Font.Size, FontStyle.Bold);
             preferencesBtn.Font = new Font(preferencesBtn.Font.FontFamily, preferencesBtn.Font.Size, FontStyle.Regular);
             addCarBtn.Font = new Font(addCarBtn.Font.FontFamily, addCarBtn.Font.Size, FontStyle.Regular);
+            changePasswordBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Regular);
         }
+
 
         private void preferencesBtn_Click(object sender, EventArgs e)
         {
@@ -76,6 +85,17 @@ namespace CarsAdviser.Forms
             personalInformationBtn.Font = new Font(personalInformationBtn.Font.FontFamily, personalInformationBtn.Font.Size, FontStyle.Regular);
             preferencesBtn.Font = new Font(preferencesBtn.Font.FontFamily, preferencesBtn.Font.Size, FontStyle.Bold);
             addCarBtn.Font = new Font(addCarBtn.Font.FontFamily, addCarBtn.Font.Size, FontStyle.Regular);
+            changePasswordBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Regular);
+        }
+
+        private void changePasswordBtn_Click(object sender, EventArgs e)
+        {
+            currentChildForm.Close();
+            OpenChildForm(new ChangePasswordForm(this, currentUserId));
+            personalInformationBtn.Font = new Font(personalInformationBtn.Font.FontFamily, personalInformationBtn.Font.Size, FontStyle.Regular);
+            preferencesBtn.Font = new Font(preferencesBtn.Font.FontFamily, preferencesBtn.Font.Size, FontStyle.Regular);
+            addCarBtn.Font = new Font(addCarBtn.Font.FontFamily, addCarBtn.Font.Size, FontStyle.Regular);
+            changePasswordBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Bold);
         }
 
         private void exitBtn_Click(object sender, EventArgs e)
@@ -90,6 +110,7 @@ namespace CarsAdviser.Forms
             personalInformationBtn.Font = new Font(personalInformationBtn.Font.FontFamily, personalInformationBtn.Font.Size, FontStyle.Regular);
             preferencesBtn.Font = new Font(preferencesBtn.Font.FontFamily, preferencesBtn.Font.Size, FontStyle.Regular);
             addCarBtn.Font = new Font(addCarBtn.Font.FontFamily, addCarBtn.Font.Size, FontStyle.Bold);
+            changePasswordBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Regular);
         }
     }
 }

@@ -29,6 +29,7 @@ namespace CarsAdviser
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AuthorizationForm));
             this.headerPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.appLogoPictureBox = new Guna.UI2.WinForms.Guna2PictureBox();
             this.appNameLabel = new System.Windows.Forms.Label();
@@ -86,10 +87,11 @@ namespace CarsAdviser
             this.ClientSize = new System.Drawing.Size(1424, 1024);
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.headerPanel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(1440, 1063);
             this.Name = "AuthorizationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AuthorizationForm";
+            this.Text = "Авторизация";
             this.Load += new System.EventHandler(this.AuthorizationForm_Load);
             this.headerPanel.ResumeLayout(false);
             this.headerPanel.PerformLayout();

@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AppContext = CarsAdviser.Database.AppContext;
 
 namespace CarsAdviser
 {
@@ -16,12 +17,12 @@ namespace CarsAdviser
     {
         private AuthorizationForm authorizationForm;
         public Form currentChildForm;
-        private int CurrentUserId;
-        public MainForm(AuthorizationForm authorizationForm, int CurrentUserId)
+        public int currentUserId;
+        public MainForm(AuthorizationForm authorizationForm, int currentUserId)
         {
             InitializeComponent();
             this.authorizationForm = authorizationForm;
-            this.CurrentUserId = CurrentUserId;
+            this.currentUserId = currentUserId;
         }
         public void OpenChildForm(Form childForm)
         {
@@ -49,6 +50,7 @@ namespace CarsAdviser
             announcementBottomLabel.Visible = true;
             ResetStyle(bookmarkersBtn, bookmarkersBottomLabel);
             ResetStyle(hiddenBtn, hiddenBottomLabel);
+            LoadAvatar();
         }
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -89,7 +91,7 @@ namespace CarsAdviser
         private void bookmarkersBtn_Click(object sender, EventArgs e)
         {
             currentChildForm.Close();
-            OpenChildForm(new BookmarkersForm(this));
+            OpenChildForm(new BookmarkersForm(this, currentUserId));
             bookmarkersBtn.Font = new Font(bookmarkersBtn.Font.FontFamily, bookmarkersBtn.Font.Size, FontStyle.Bold);
             bookmarkersBottomLabel.Visible = true;
             accountBtn.Font = new Font(accountBtn.Font.FontFamily, accountBtn.Font.Size, FontStyle.Regular);
@@ -99,7 +101,7 @@ namespace CarsAdviser
         private void hiddenBtn_Click(object sender, EventArgs e)
         {
             currentChildForm.Close();
-            OpenChildForm(new HiddenForm(this));
+            OpenChildForm(new HiddenForm(this, currentUserId));
             hiddenBtn.Font = new Font(hiddenBtn.Font.FontFamily, hiddenBtn.Font.Size, FontStyle.Bold);
             hiddenBottomLabel.Visible = true;
             accountBtn.Font = new Font(accountBtn.Font.FontFamily, accountBtn.Font.Size, FontStyle.Regular);
@@ -110,11 +112,36 @@ namespace CarsAdviser
         private void accountBtn_Click(object sender, EventArgs e)
         {
             currentChildForm.Close();
-            OpenChildForm(new AccountForm(this, CurrentUserId));
+            OpenChildForm(new AccountForm(this, currentUserId));
             accountBtn.Font = new Font(accountBtn.Font.FontFamily, accountBtn.Font.Size, FontStyle.Bold);
             ResetStyle(announcementBtn, announcementBottomLabel);
             ResetStyle(bookmarkersBtn, bookmarkersBottomLabel);
             ResetStyle(hiddenBtn, hiddenBottomLabel);
+        }
+        private void LoadAvatar()
+        {
+            try
+            {
+                using (var context = new AppContext())
+                {
+                    var user = context.Users.FirstOrDefault(u => u.ID == currentUserId);
+                    if (user != null)
+                    {
+                        if (!string.IsNullOrEmpty(user.Avatar))
+                        {
+                            accountCirclePictureBox.Image = Image.FromFile(user.Avatar);
+                        }
+                        else
+                        {
+                            accountCirclePictureBox.Image = Properties.Resources.noAvatar;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

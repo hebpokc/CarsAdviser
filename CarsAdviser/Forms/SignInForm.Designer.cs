@@ -87,6 +87,7 @@ namespace CarsAdviser.Forms
             this.loginTextBox.SelectedText = "";
             this.loginTextBox.Size = new System.Drawing.Size(288, 38);
             this.loginTextBox.TabIndex = 17;
+            this.loginTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.loginTextBox_KeyDown);
             // 
             // createAccountBtn
             // 
@@ -214,6 +215,7 @@ namespace CarsAdviser.Forms
             this.passwordTextBox.Size = new System.Drawing.Size(288, 38);
             this.passwordTextBox.TabIndex = 18;
             this.passwordTextBox.IconRightClick += new System.EventHandler(this.passwordTextBox_IconRightClick);
+            this.passwordTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.passwordTextBox_KeyDown);
             // 
             // showPassImageBtn
             // 
@@ -247,7 +249,6 @@ namespace CarsAdviser.Forms
             this.Controls.Add(this.signInLabel1);
             this.Name = "SignInForm";
             this.Text = "SignInForm";
-            this.Load += new System.EventHandler(this.SignInForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -34,8 +34,8 @@ namespace CarsAdviser.Forms
             this.carNameLabel1 = new System.Windows.Forms.Label();
             this.carBrandPictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.carPanel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.carPictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.preferCheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.carPictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.carYearLabel2 = new System.Windows.Forms.Label();
             this.carNameLabel2 = new System.Windows.Forms.Label();
             this.carBrandPictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -123,21 +123,9 @@ namespace CarsAdviser.Forms
             this.carPanel1.Size = new System.Drawing.Size(265, 222);
             this.carPanel1.TabIndex = 26;
             // 
-            // carPictureBox1
-            // 
-            this.carPictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.carPictureBox1.BorderRadius = 30;
-            this.carPictureBox1.CustomizableEdges.BottomLeft = false;
-            this.carPictureBox1.CustomizableEdges.BottomRight = false;
-            this.carPictureBox1.ImageRotate = 0F;
-            this.carPictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.carPictureBox1.Name = "carPictureBox1";
-            this.carPictureBox1.Size = new System.Drawing.Size(265, 168);
-            this.carPictureBox1.TabIndex = 0;
-            this.carPictureBox1.TabStop = false;
-            // 
             // preferCheckBox1
             // 
+            this.preferCheckBox1.Animated = true;
             this.preferCheckBox1.AutoSize = true;
             this.preferCheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.preferCheckBox1.CheckedState.BorderRadius = 2;
@@ -155,6 +143,19 @@ namespace CarsAdviser.Forms
             this.preferCheckBox1.UncheckedState.BorderRadius = 2;
             this.preferCheckBox1.UncheckedState.BorderThickness = 1;
             this.preferCheckBox1.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            // 
+            // carPictureBox1
+            // 
+            this.carPictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.carPictureBox1.BorderRadius = 30;
+            this.carPictureBox1.CustomizableEdges.BottomLeft = false;
+            this.carPictureBox1.CustomizableEdges.BottomRight = false;
+            this.carPictureBox1.ImageRotate = 0F;
+            this.carPictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.carPictureBox1.Name = "carPictureBox1";
+            this.carPictureBox1.Size = new System.Drawing.Size(265, 168);
+            this.carPictureBox1.TabIndex = 0;
+            this.carPictureBox1.TabStop = false;
             // 
             // carYearLabel2
             // 
@@ -201,6 +202,7 @@ namespace CarsAdviser.Forms
             // 
             // preferCheckBox2
             // 
+            this.preferCheckBox2.Animated = true;
             this.preferCheckBox2.AutoSize = true;
             this.preferCheckBox2.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.preferCheckBox2.CheckedState.BorderRadius = 2;
@@ -277,6 +279,7 @@ namespace CarsAdviser.Forms
             // 
             // preferCheckBox3
             // 
+            this.preferCheckBox3.Animated = true;
             this.preferCheckBox3.AutoSize = true;
             this.preferCheckBox3.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.preferCheckBox3.CheckedState.BorderRadius = 2;
@@ -353,6 +356,7 @@ namespace CarsAdviser.Forms
             // 
             // preferCheckBox4
             // 
+            this.preferCheckBox4.Animated = true;
             this.preferCheckBox4.AutoSize = true;
             this.preferCheckBox4.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.preferCheckBox4.CheckedState.BorderRadius = 2;
@@ -386,6 +390,7 @@ namespace CarsAdviser.Forms
             // 
             // saveBtn
             // 
+            this.saveBtn.Animated = true;
             this.saveBtn.BorderRadius = 15;
             this.saveBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.saveBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -402,6 +407,7 @@ namespace CarsAdviser.Forms
             // 
             // newListBtn
             // 
+            this.newListBtn.Animated = true;
             this.newListBtn.BorderRadius = 15;
             this.newListBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.newListBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;

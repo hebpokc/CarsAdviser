@@ -124,80 +124,80 @@ namespace CarsAdviser.Forms
             // 
             // qtyPlacesInfoLabel
             // 
-            this.qtyPlacesInfoLabel.AutoSize = true;
             this.qtyPlacesInfoLabel.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.qtyPlacesInfoLabel.ForeColor = System.Drawing.Color.Black;
-            this.qtyPlacesInfoLabel.Location = new System.Drawing.Point(305, 243);
+            this.qtyPlacesInfoLabel.Location = new System.Drawing.Point(249, 241);
             this.qtyPlacesInfoLabel.Name = "qtyPlacesInfoLabel";
-            this.qtyPlacesInfoLabel.Size = new System.Drawing.Size(17, 20);
+            this.qtyPlacesInfoLabel.Size = new System.Drawing.Size(160, 20);
             this.qtyPlacesInfoLabel.TabIndex = 15;
             this.qtyPlacesInfoLabel.Text = "5";
+            this.qtyPlacesInfoLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // enginePowerInfoLabel
             // 
-            this.enginePowerInfoLabel.AutoSize = true;
             this.enginePowerInfoLabel.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.enginePowerInfoLabel.ForeColor = System.Drawing.Color.Black;
-            this.enginePowerInfoLabel.Location = new System.Drawing.Point(305, 200);
+            this.enginePowerInfoLabel.Location = new System.Drawing.Point(249, 198);
             this.enginePowerInfoLabel.Name = "enginePowerInfoLabel";
-            this.enginePowerInfoLabel.Size = new System.Drawing.Size(33, 20);
+            this.enginePowerInfoLabel.Size = new System.Drawing.Size(160, 20);
             this.enginePowerInfoLabel.TabIndex = 14;
             this.enginePowerInfoLabel.Text = "109";
+            this.enginePowerInfoLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // driveTypeInfoLabel
             // 
-            this.driveTypeInfoLabel.AutoSize = true;
             this.driveTypeInfoLabel.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.driveTypeInfoLabel.ForeColor = System.Drawing.Color.Black;
-            this.driveTypeInfoLabel.Location = new System.Drawing.Point(305, 160);
+            this.driveTypeInfoLabel.Location = new System.Drawing.Point(249, 158);
             this.driveTypeInfoLabel.Name = "driveTypeInfoLabel";
-            this.driveTypeInfoLabel.Size = new System.Drawing.Size(76, 18);
+            this.driveTypeInfoLabel.Size = new System.Drawing.Size(160, 20);
             this.driveTypeInfoLabel.TabIndex = 13;
             this.driveTypeInfoLabel.Text = "XSE Hybrid";
+            this.driveTypeInfoLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // colorInfoLabel
             // 
-            this.colorInfoLabel.AutoSize = true;
             this.colorInfoLabel.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.colorInfoLabel.ForeColor = System.Drawing.Color.Black;
-            this.colorInfoLabel.Location = new System.Drawing.Point(305, 120);
+            this.colorInfoLabel.Location = new System.Drawing.Point(249, 118);
             this.colorInfoLabel.Name = "colorInfoLabel";
-            this.colorInfoLabel.Size = new System.Drawing.Size(59, 18);
+            this.colorInfoLabel.Size = new System.Drawing.Size(160, 20);
             this.colorInfoLabel.TabIndex = 12;
             this.colorInfoLabel.Text = "Черный";
+            this.colorInfoLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // yearInfoLabel
             // 
-            this.yearInfoLabel.AutoSize = true;
             this.yearInfoLabel.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.yearInfoLabel.ForeColor = System.Drawing.Color.Black;
-            this.yearInfoLabel.Location = new System.Drawing.Point(305, 79);
+            this.yearInfoLabel.Location = new System.Drawing.Point(249, 77);
             this.yearInfoLabel.Name = "yearInfoLabel";
-            this.yearInfoLabel.Size = new System.Drawing.Size(41, 20);
+            this.yearInfoLabel.Size = new System.Drawing.Size(160, 20);
             this.yearInfoLabel.TabIndex = 11;
             this.yearInfoLabel.Text = "2023";
+            this.yearInfoLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // modelInfoLabel
             // 
-            this.modelInfoLabel.AutoSize = true;
-            this.modelInfoLabel.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.modelInfoLabel.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.modelInfoLabel.ForeColor = System.Drawing.Color.Black;
-            this.modelInfoLabel.Location = new System.Drawing.Point(305, 41);
+            this.modelInfoLabel.Location = new System.Drawing.Point(249, 39);
             this.modelInfoLabel.Name = "modelInfoLabel";
-            this.modelInfoLabel.Size = new System.Drawing.Size(86, 18);
+            this.modelInfoLabel.Size = new System.Drawing.Size(160, 20);
             this.modelInfoLabel.TabIndex = 10;
             this.modelInfoLabel.Text = "Corolla Cross";
+            this.modelInfoLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // brandInfoLabel
             // 
-            this.brandInfoLabel.AutoSize = true;
             this.brandInfoLabel.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.brandInfoLabel.ForeColor = System.Drawing.Color.Black;
-            this.brandInfoLabel.Location = new System.Drawing.Point(305, 4);
+            this.brandInfoLabel.Location = new System.Drawing.Point(249, 2);
             this.brandInfoLabel.Name = "brandInfoLabel";
-            this.brandInfoLabel.Size = new System.Drawing.Size(50, 18);
+            this.brandInfoLabel.Size = new System.Drawing.Size(160, 20);
             this.brandInfoLabel.TabIndex = 9;
             this.brandInfoLabel.Text = "Toyota";
+            this.brandInfoLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // CharacteristicsForm
             // 

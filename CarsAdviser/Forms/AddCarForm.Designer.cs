@@ -86,22 +86,6 @@ namespace CarsAdviser.Forms
             this.carBrandComboBox.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.carBrandComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.carBrandComboBox.ItemHeight = 30;
-            this.carBrandComboBox.Items.AddRange(new object[] {
-            "Audi",
-            "BMW",
-            "Chevrolet",
-            "Ford",
-            "Honda",
-            "Hyundai",
-            "Jeep",
-            "Kia",
-            "Lexus",
-            "Mercedes-Benz",
-            "Nissan",
-            "Subaru",
-            "Tesla",
-            "Toyota",
-            "Volkswagen"});
             this.carBrandComboBox.Location = new System.Drawing.Point(256, 145);
             this.carBrandComboBox.Name = "carBrandComboBox";
             this.carBrandComboBox.Size = new System.Drawing.Size(210, 36);
@@ -142,7 +126,6 @@ namespace CarsAdviser.Forms
             this.carModelComboBox.Location = new System.Drawing.Point(608, 145);
             this.carModelComboBox.Name = "carModelComboBox";
             this.carModelComboBox.Size = new System.Drawing.Size(210, 36);
-            this.carModelComboBox.Sorted = true;
             this.carModelComboBox.TabIndex = 19;
             // 
             // carEngineLabel
@@ -393,6 +376,7 @@ namespace CarsAdviser.Forms
             this.carTrunkTextBox.SelectedText = "";
             this.carTrunkTextBox.Size = new System.Drawing.Size(210, 36);
             this.carTrunkTextBox.TabIndex = 36;
+            this.carTrunkTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.carTrunkTextBox_KeyPress);
             // 
             // carEnginePowerTextBox
             // 
@@ -413,6 +397,7 @@ namespace CarsAdviser.Forms
             this.carEnginePowerTextBox.SelectedText = "";
             this.carEnginePowerTextBox.Size = new System.Drawing.Size(210, 36);
             this.carEnginePowerTextBox.TabIndex = 38;
+            this.carEnginePowerTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.carEnginePowerTextBox_KeyPress);
             // 
             // carEnginePowerLabel
             // 
@@ -443,6 +428,7 @@ namespace CarsAdviser.Forms
             this.carQtyPlacesTextBox.SelectedText = "";
             this.carQtyPlacesTextBox.Size = new System.Drawing.Size(210, 36);
             this.carQtyPlacesTextBox.TabIndex = 42;
+            this.carQtyPlacesTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.carQtyPlacesTextBox_KeyPress);
             // 
             // carQtyPlacesLabel
             // 
@@ -473,6 +459,7 @@ namespace CarsAdviser.Forms
             this.carYearTextBox.SelectedText = "";
             this.carYearTextBox.Size = new System.Drawing.Size(210, 36);
             this.carYearTextBox.TabIndex = 40;
+            this.carYearTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.carYearTextBox_KeyPress);
             // 
             // carYearLabel
             // 
@@ -503,6 +490,7 @@ namespace CarsAdviser.Forms
             this.carPriceTextBox.SelectedText = "";
             this.carPriceTextBox.Size = new System.Drawing.Size(210, 36);
             this.carPriceTextBox.TabIndex = 46;
+            this.carPriceTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.carPriceTextBox_KeyPress);
             // 
             // carPriceLabel
             // 
@@ -533,6 +521,7 @@ namespace CarsAdviser.Forms
             this.carMileageTextBox.SelectedText = "";
             this.carMileageTextBox.Size = new System.Drawing.Size(210, 36);
             this.carMileageTextBox.TabIndex = 44;
+            this.carMileageTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.carMileageTextBox_KeyPress);
             // 
             // carMileageLabel
             // 
@@ -560,11 +549,9 @@ namespace CarsAdviser.Forms
             this.carDescriptionRichTextBox.Location = new System.Drawing.Point(256, 949);
             this.carDescriptionRichTextBox.Name = "carDescriptionRichTextBox";
             this.carDescriptionRichTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.carDescriptionRichTextBox.Size = new System.Drawing.Size(562, 37);
+            this.carDescriptionRichTextBox.Size = new System.Drawing.Size(562, 261);
             this.carDescriptionRichTextBox.TabIndex = 48;
             this.carDescriptionRichTextBox.Text = "";
-            this.carDescriptionRichTextBox.Enter += new System.EventHandler(this.carDescriptionRichTextBox_Enter);
-            this.carDescriptionRichTextBox.Leave += new System.EventHandler(this.carDescriptionRichTextBox_Leave);
             // 
             // addPhotoBtn
             // 
@@ -576,7 +563,7 @@ namespace CarsAdviser.Forms
             this.addPhotoBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.addPhotoBtn.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.addPhotoBtn.ForeColor = System.Drawing.Color.White;
-            this.addPhotoBtn.Location = new System.Drawing.Point(392, 1050);
+            this.addPhotoBtn.Location = new System.Drawing.Point(392, 1246);
             this.addPhotoBtn.Name = "addPhotoBtn";
             this.addPhotoBtn.Size = new System.Drawing.Size(311, 45);
             this.addPhotoBtn.TabIndex = 49;
@@ -593,18 +580,19 @@ namespace CarsAdviser.Forms
             this.addCarBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.addCarBtn.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.addCarBtn.ForeColor = System.Drawing.Color.White;
-            this.addCarBtn.Location = new System.Drawing.Point(392, 1120);
+            this.addCarBtn.Location = new System.Drawing.Point(392, 1316);
             this.addCarBtn.Name = "addCarBtn";
             this.addCarBtn.Size = new System.Drawing.Size(311, 45);
             this.addCarBtn.TabIndex = 50;
             this.addCarBtn.Text = "Добавить машину";
+            this.addCarBtn.Click += new System.EventHandler(this.addCarBtn_Click);
             // 
             // AddCarForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(981, 1411);
+            this.ClientSize = new System.Drawing.Size(981, 1421);
             this.Controls.Add(this.addCarBtn);
             this.Controls.Add(this.addPhotoBtn);
             this.Controls.Add(this.carDescriptionRichTextBox);
@@ -640,7 +628,7 @@ namespace CarsAdviser.Forms
             this.Controls.Add(this.carBrandLabel);
             this.Controls.Add(this.carBrandComboBox);
             this.Controls.Add(this.preferencesLabel);
-            this.MaximumSize = new System.Drawing.Size(997, 1450);
+            this.MaximumSize = new System.Drawing.Size(997, 1500);
             this.Name = "AddCarForm";
             this.Text = "AddCarForm";
             this.ResumeLayout(false);

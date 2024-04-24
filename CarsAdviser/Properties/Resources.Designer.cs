@@ -83,9 +83,29 @@ namespace CarsAdviser.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap noAuto {
+            get {
+                object obj = ResourceManager.GetObject("noAuto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap noAvatar {
             get {
                 object obj = ResourceManager.GetObject("noAvatar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sendcode {
+            get {
+                object obj = ResourceManager.GetObject("sendcode", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

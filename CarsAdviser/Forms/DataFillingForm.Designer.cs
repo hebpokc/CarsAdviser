@@ -38,11 +38,15 @@ namespace CarsAdviser.Forms
             this.nameTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.surnameTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.fillDataLabel = new System.Windows.Forms.Label();
-            this.guna2MessageDialog1 = new Guna.UI2.WinForms.Guna2MessageDialog();
+            this.mandatoryFillingLabel1 = new System.Windows.Forms.Label();
+            this.mandatoryFillingLabel2 = new System.Windows.Forms.Label();
+            this.mandatoryFillingLabel3 = new System.Windows.Forms.Label();
+            this.mandatoryFillingLabel4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // uploadAvatarBtn
             // 
+            this.uploadAvatarBtn.Animated = true;
             this.uploadAvatarBtn.BorderRadius = 15;
             this.uploadAvatarBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.uploadAvatarBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -60,6 +64,7 @@ namespace CarsAdviser.Forms
             // 
             // saveBtn
             // 
+            this.saveBtn.Animated = true;
             this.saveBtn.BorderRadius = 15;
             this.saveBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.saveBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -73,9 +78,11 @@ namespace CarsAdviser.Forms
             this.saveBtn.Size = new System.Drawing.Size(311, 45);
             this.saveBtn.TabIndex = 21;
             this.saveBtn.Text = "Готово";
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
             // cityTextBox
             // 
+            this.cityTextBox.Animated = true;
             this.cityTextBox.BorderRadius = 10;
             this.cityTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.cityTextBox.DefaultText = "";
@@ -98,6 +105,7 @@ namespace CarsAdviser.Forms
             // 
             // phoneTextBox
             // 
+            this.phoneTextBox.Animated = true;
             this.phoneTextBox.BorderRadius = 10;
             this.phoneTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.phoneTextBox.DefaultText = "";
@@ -117,9 +125,11 @@ namespace CarsAdviser.Forms
             this.phoneTextBox.SelectedText = "";
             this.phoneTextBox.Size = new System.Drawing.Size(311, 36);
             this.phoneTextBox.TabIndex = 19;
+            this.phoneTextBox.Leave += new System.EventHandler(this.phoneTextBox_Leave);
             // 
             // emailTextBox
             // 
+            this.emailTextBox.Animated = true;
             this.emailTextBox.BorderRadius = 10;
             this.emailTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.emailTextBox.DefaultText = "";
@@ -139,9 +149,11 @@ namespace CarsAdviser.Forms
             this.emailTextBox.SelectedText = "";
             this.emailTextBox.Size = new System.Drawing.Size(311, 36);
             this.emailTextBox.TabIndex = 18;
+            this.emailTextBox.Leave += new System.EventHandler(this.emailTextBox_Leave);
             // 
             // patronymicTextBox
             // 
+            this.patronymicTextBox.Animated = true;
             this.patronymicTextBox.BorderRadius = 10;
             this.patronymicTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.patronymicTextBox.DefaultText = "";
@@ -164,6 +176,7 @@ namespace CarsAdviser.Forms
             // 
             // nameTextBox
             // 
+            this.nameTextBox.Animated = true;
             this.nameTextBox.BorderRadius = 10;
             this.nameTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.nameTextBox.DefaultText = "";
@@ -186,6 +199,7 @@ namespace CarsAdviser.Forms
             // 
             // surnameTextBox
             // 
+            this.surnameTextBox.Animated = true;
             this.surnameTextBox.BorderRadius = 10;
             this.surnameTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.surnameTextBox.DefaultText = "";
@@ -216,20 +230,67 @@ namespace CarsAdviser.Forms
             this.fillDataLabel.TabIndex = 14;
             this.fillDataLabel.Text = "Заполните данные о себе";
             // 
-            // guna2MessageDialog1
+            // mandatoryFillingLabel1
             // 
-            this.guna2MessageDialog1.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
-            this.guna2MessageDialog1.Caption = null;
-            this.guna2MessageDialog1.Icon = Guna.UI2.WinForms.MessageDialogIcon.None;
-            this.guna2MessageDialog1.Parent = null;
-            this.guna2MessageDialog1.Style = Guna.UI2.WinForms.MessageDialogStyle.Default;
-            this.guna2MessageDialog1.Text = null;
+            this.mandatoryFillingLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.mandatoryFillingLabel1.AutoSize = true;
+            this.mandatoryFillingLabel1.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.mandatoryFillingLabel1.ForeColor = System.Drawing.Color.Red;
+            this.mandatoryFillingLabel1.Location = new System.Drawing.Point(632, 142);
+            this.mandatoryFillingLabel1.Name = "mandatoryFillingLabel1";
+            this.mandatoryFillingLabel1.Size = new System.Drawing.Size(261, 18);
+            this.mandatoryFillingLabel1.TabIndex = 32;
+            this.mandatoryFillingLabel1.Text = "Это поле обязательно для заполнения";
+            this.mandatoryFillingLabel1.Visible = false;
+            // 
+            // mandatoryFillingLabel2
+            // 
+            this.mandatoryFillingLabel2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.mandatoryFillingLabel2.AutoSize = true;
+            this.mandatoryFillingLabel2.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.mandatoryFillingLabel2.ForeColor = System.Drawing.Color.Red;
+            this.mandatoryFillingLabel2.Location = new System.Drawing.Point(632, 205);
+            this.mandatoryFillingLabel2.Name = "mandatoryFillingLabel2";
+            this.mandatoryFillingLabel2.Size = new System.Drawing.Size(261, 18);
+            this.mandatoryFillingLabel2.TabIndex = 33;
+            this.mandatoryFillingLabel2.Text = "Это поле обязательно для заполнения";
+            this.mandatoryFillingLabel2.Visible = false;
+            // 
+            // mandatoryFillingLabel3
+            // 
+            this.mandatoryFillingLabel3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.mandatoryFillingLabel3.AutoSize = true;
+            this.mandatoryFillingLabel3.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.mandatoryFillingLabel3.ForeColor = System.Drawing.Color.Red;
+            this.mandatoryFillingLabel3.Location = new System.Drawing.Point(632, 339);
+            this.mandatoryFillingLabel3.Name = "mandatoryFillingLabel3";
+            this.mandatoryFillingLabel3.Size = new System.Drawing.Size(261, 18);
+            this.mandatoryFillingLabel3.TabIndex = 34;
+            this.mandatoryFillingLabel3.Text = "Это поле обязательно для заполнения";
+            this.mandatoryFillingLabel3.Visible = false;
+            // 
+            // mandatoryFillingLabel4
+            // 
+            this.mandatoryFillingLabel4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.mandatoryFillingLabel4.AutoSize = true;
+            this.mandatoryFillingLabel4.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.mandatoryFillingLabel4.ForeColor = System.Drawing.Color.Red;
+            this.mandatoryFillingLabel4.Location = new System.Drawing.Point(632, 409);
+            this.mandatoryFillingLabel4.Name = "mandatoryFillingLabel4";
+            this.mandatoryFillingLabel4.Size = new System.Drawing.Size(261, 18);
+            this.mandatoryFillingLabel4.TabIndex = 35;
+            this.mandatoryFillingLabel4.Text = "Это поле обязательно для заполнения";
+            this.mandatoryFillingLabel4.Visible = false;
             // 
             // DataFillingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(981, 985);
+            this.Controls.Add(this.mandatoryFillingLabel4);
+            this.Controls.Add(this.mandatoryFillingLabel3);
+            this.Controls.Add(this.mandatoryFillingLabel2);
+            this.Controls.Add(this.mandatoryFillingLabel1);
             this.Controls.Add(this.uploadAvatarBtn);
             this.Controls.Add(this.saveBtn);
             this.Controls.Add(this.cityTextBox);
@@ -241,6 +302,7 @@ namespace CarsAdviser.Forms
             this.Controls.Add(this.fillDataLabel);
             this.Name = "DataFillingForm";
             this.Text = "DataFillingForm";
+            this.Load += new System.EventHandler(this.DataFillingForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -257,6 +319,9 @@ namespace CarsAdviser.Forms
         private Guna.UI2.WinForms.Guna2TextBox nameTextBox;
         private Guna.UI2.WinForms.Guna2TextBox surnameTextBox;
         private System.Windows.Forms.Label fillDataLabel;
-        private Guna.UI2.WinForms.Guna2MessageDialog guna2MessageDialog1;
+        private System.Windows.Forms.Label mandatoryFillingLabel1;
+        private System.Windows.Forms.Label mandatoryFillingLabel2;
+        private System.Windows.Forms.Label mandatoryFillingLabel3;
+        private System.Windows.Forms.Label mandatoryFillingLabel4;
     }
 }

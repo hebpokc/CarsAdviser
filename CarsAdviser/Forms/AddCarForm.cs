@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CarsAdviser.Database;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,134 +10,210 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AppContext = CarsAdviser.Database.AppContext;
 
 namespace CarsAdviser.Forms
 {
     public partial class AddCarForm : Form
     {
         private AccountForm parentForm;
+        private List<string> carPhotos = new List<string>();
         public AddCarForm(AccountForm parentForm)
         {
             InitializeComponent();
             this.parentForm = parentForm;
-        }
+            try
+            {
+                using (var context = new AppContext())
+                {
+                    carBrandComboBox.DataSource = context.Cars_stamp.ToList();
+                    carBrandComboBox.DisplayMember = "Stamp";
+                    carBrandComboBox.ValueMember = "ID";
 
-        private void carDescriptionRichTextBox_Enter(object sender, EventArgs e)
-        {
-            carDescriptionRichTextBox.Height = 190;
-            addPhotoBtn.Location = new Point(392, 1200);
-            addCarBtn.Location = new Point(392, 1270);
-        }
+                    carBodyComboBox.DataSource = context.Cars_body.ToList();
+                    carBodyComboBox.DisplayMember = "Body";
+                    carBodyComboBox.ValueMember = "ID";
 
-        private void carDescriptionRichTextBox_Leave(object sender, EventArgs e)
-        {
-            carDescriptionRichTextBox.Height = 36;
-            addPhotoBtn.Location = new Point(392, 1050);
-            addCarBtn.Location = new Point(392, 1120);
+                    carEngineComboBox.DataSource = context.Cars_engine.ToList();
+                    carEngineComboBox.DisplayMember = "Engine";
+                    carEngineComboBox.ValueMember = "ID";
+
+                    carFuelComboBox.DataSource = context.Cars_fuel.ToList();
+                    carFuelComboBox.DisplayMember = "Fuel";
+                    carFuelComboBox.ValueMember = "ID";
+
+                    carDriveComboBox.DataSource = context.Cars_drive.ToList();
+                    carDriveComboBox.DisplayMember = "Drive";
+                    carDriveComboBox.ValueMember = "ID";
+
+                    carTransmissionComboBox.DataSource = context.Cars_checkpoint.ToList();
+                    carTransmissionComboBox.DisplayMember = "Checkpoint";
+                    carTransmissionComboBox.ValueMember = "ID";
+
+                    carWheelComboBox.DataSource = context.Cars_wheel.ToList();
+                    carWheelComboBox.DisplayMember = "Wheel";
+                    carWheelComboBox.ValueMember = "ID";
+
+                    carColorComboBox.DataSource = context.Cars_colour.ToList();
+                    carColorComboBox.DisplayMember = "Colour";
+                    carColorComboBox.ValueMember = "ID";
+
+                    carBodyComboBox.SelectedItem = null;
+                    carEngineComboBox.SelectedItem = null;
+                    carFuelComboBox.SelectedItem = null;
+                    carDriveComboBox.SelectedItem = null;
+                    carTransmissionComboBox.SelectedItem = null;
+                    carWheelComboBox.SelectedItem = null;
+                    carColorComboBox.SelectedItem = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void addPhotoBtn_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.png)|*.jpg; *.jpeg; *.gif; *.png";
+            openFileDialog.Multiselect = true;
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
-                string imagePath = openFileDialog.FileName;
-                string destinationFolderPath = Path.Combine("../../", "Images", "CarImages");
-                string destinationPath = Path.Combine(destinationFolderPath, Path.GetFileName(imagePath));
-
-                if (!Directory.Exists(destinationFolderPath))
+                foreach (var file in openFileDialog.FileNames)
                 {
-                    Directory.CreateDirectory(destinationFolderPath);
-                }
+                    string imagePath = openFileDialog.FileName;
+                    string destinationFolderPath = Path.Combine("../../", "Images", "CarImages");
+                    string destinationPath = Path.Combine(destinationFolderPath, Path.GetFileName(imagePath));
 
-                File.Copy(imagePath, destinationPath, true);
+                    if (!Directory.Exists(destinationFolderPath))
+                    {
+                        Directory.CreateDirectory(destinationFolderPath);
+                    }
+
+                    File.Copy(imagePath, destinationPath, true);
+                    carPhotos.Add(destinationPath);
+                }
 
                 MessageBox.Show("Изображение загружено", "Инфомарция", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
-
         private void carBrandComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            carModelComboBox.Items.Clear();
-
-            switch (carBrandComboBox.SelectedItem.ToString())
+            try
             {
-                case "Audi":
-                    carModelComboBox.Items.Add("A4");
-                    carModelComboBox.Items.Add("Q5");
-                    carModelComboBox.Items.Add("A3");
-                    break;
-                case "BMW":
-                    carModelComboBox.Items.Add("3 Series");
-                    carModelComboBox.Items.Add("5 Series");
-                    carModelComboBox.Items.Add("X5");
-                    break;
-                case "Toyota":
-                    carModelComboBox.Items.Add("Corolla");
-                    carModelComboBox.Items.Add("Camry");
-                    carModelComboBox.Items.Add("RAV4");
-                    break;
-                case "Ford":
-                    carModelComboBox.Items.Add("F-150");
-                    carModelComboBox.Items.Add("Escape");
-                    carModelComboBox.Items.Add("Explorer");
-                    break;
-                case "Chevrolet":
-                    carModelComboBox.Items.Add("Silverado");
-                    carModelComboBox.Items.Add("Equinox");
-                    carModelComboBox.Items.Add("Malibu");
-                    break;
-                case "Honda":
-                    carModelComboBox.Items.Add("Civic");
-                    carModelComboBox.Items.Add("Accord");
-                    carModelComboBox.Items.Add("CR-V");
-                    break;
-                case "Volkswagen":
-                    carModelComboBox.Items.Add("Golf");
-                    carModelComboBox.Items.Add("Jetta");
-                    carModelComboBox.Items.Add("Tiguan");
-                    break;
-                case "Nissan":
-                    carModelComboBox.Items.Add("Altima");
-                    carModelComboBox.Items.Add("Rogue");
-                    carModelComboBox.Items.Add("Sentra");
-                    break;
-                case "Mercedes-Benz":
-                    carModelComboBox.Items.Add("C-Class");
-                    carModelComboBox.Items.Add("E-Class");
-                    carModelComboBox.Items.Add("GLC-Class");
-                    break;
-                case "Hyundai":
-                    carModelComboBox.Items.Add("Elantra");
-                    carModelComboBox.Items.Add("Tucson");
-                    carModelComboBox.Items.Add("Sonata");
-                    break;
-                case "Kia":
-                    carModelComboBox.Items.Add("Forte");
-                    carModelComboBox.Items.Add("Optima");
-                    carModelComboBox.Items.Add("Sportage");
-                    break;
-                case "Subaru":
-                    carModelComboBox.Items.Add("Outback");
-                    carModelComboBox.Items.Add("Forester");
-                    carModelComboBox.Items.Add("Crosstrek");
-                    break;
-                case "Jeep":
-                    carModelComboBox.Items.Add("Wrangler");
-                    carModelComboBox.Items.Add("Cherokee");
-                    carModelComboBox.Items.Add("Grand Cherokee");
-                    break;
-                case "Tesla":
-                    carModelComboBox.Items.Add("Model 3");
-                    carModelComboBox.Items.Add("Model S");
-                    carModelComboBox.Items.Add("Model X");
-                    break;
-                case "Lexus":
-                    carModelComboBox.Items.Add("RX");
-                    carModelComboBox.Items.Add("ES");
-                    carModelComboBox.Items.Add("NX");
-                    break;
+                using (var context = new AppContext())
+                {
+                    if (carBrandComboBox.SelectedItem != null)
+                    {
+                        var selectedBrand = carBrandComboBox.SelectedItem as Cars_stamp;
+                        var modelsForSelectedBrand = context.Cars_model
+                                                            .Where(s => s.Cars_stamp == selectedBrand.ID)
+                                                            .Select(s => s.Model)
+                                                            .ToList();
+
+                        carModelComboBox.DataSource = modelsForSelectedBrand;
+                    }
+                    else
+                    {
+                        carModelComboBox.DataSource = null;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void addCarBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (var context = new AppContext())
+                {
+                    Cars_model model = context.Cars_model.FirstOrDefault(cs => cs.Model == (string)carModelComboBox.SelectedItem);
+                    var car = new Cars
+                    {
+                        Cars_model = model.ID,
+                        Cars_stamp = (carBrandComboBox.SelectedItem as Cars_stamp).ID,
+                        Cars_body = (carBodyComboBox.SelectedItem as Cars_body).ID,
+                        Cars_engine = (carEngineComboBox.SelectedItem as Cars_engine).ID,
+                        Cars_fuel = (carFuelComboBox.SelectedItem as Cars_fuel).ID,
+                        Cars_drive = (carDriveComboBox.SelectedItem as Cars_drive).ID,
+                        Cars_checkpoint = (carTransmissionComboBox.SelectedItem as Cars_checkpoint).ID,
+                        Cars_wheel = (carWheelComboBox.SelectedItem as Cars_wheel).ID,
+                        Cars_colour = (carColorComboBox.SelectedItem as Cars_colour).ID,
+                        TrunkCapacity = int.Parse(carTrunkTextBox.Text),
+                        Engine_power = int.Parse(carEnginePowerTextBox.Text),
+                        Year = int.Parse(carYearTextBox.Text),
+                        Qty_places = int.Parse(carQtyPlacesTextBox.Text),
+                        Mileage = int.Parse(carMileageTextBox.Text),
+                        Price = long.Parse(carPriceTextBox.Text),
+                        Description = carDescriptionRichTextBox.Text,
+                        Photo_1 = carPhotos.Count > 0 ? carPhotos[0] : null,
+                        Photo_2 = carPhotos.Count > 1 ? carPhotos[1] : null,
+                        Photo_3 = carPhotos.Count > 2 ? carPhotos[2] : null,
+                        Photo_4 = carPhotos.Count > 3 ? carPhotos[3] : null,
+                        Photo_5 = carPhotos.Count > 4 ? carPhotos[4] : null,
+                    };
+                    context.Cars.Add(car);
+                    context.SaveChanges();
+
+                    MessageBox.Show("Машина успешно добавлена", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void carTrunkTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void carEnginePowerTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void carYearTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void carQtyPlacesTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void carMileageTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void carPriceTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
             }
         }
     }

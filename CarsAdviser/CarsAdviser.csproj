@@ -200,8 +200,8 @@
     <Compile Include="Database\Cars_drive.cs" />
     <Compile Include="Database\Cars_engine.cs" />
     <Compile Include="Database\Cars_fuel.cs" />
-    <Compile Include="Database\Cars_model.cs" />
     <Compile Include="Database\Cars_stamp.cs" />
+    <Compile Include="Database\Cars_model.cs" />
     <Compile Include="Database\Cars_wheel.cs" />
     <Compile Include="Database\Users.cs" />
     <Compile Include="Database\Users_bookmarks.cs" />
@@ -235,6 +235,12 @@
     </Compile>
     <Compile Include="Forms\CarInfoForm.Designer.cs">
       <DependentUpon>CarInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ChangePasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ChangePasswordForm.Designer.cs">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CharacteristicsForm.cs">
       <SubType>Form</SubType>
@@ -304,6 +310,9 @@
     <EmbeddedResource Include="Forms\CarInfoForm.resx">
       <DependentUpon>CarInfoForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\CharacteristicsForm.resx">
       <DependentUpon>CharacteristicsForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -355,7 +364,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Images\AccountAvatars\" />
-    <Folder Include="Images\CarsImages\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\showpass.png" />
@@ -380,6 +388,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\noAvatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sendcode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noAuto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\CarsBrands\audi_logo.png" />
+    <Content Include="Images\CarsBrands\bmw_logo.png" />
+    <Content Include="Images\CarsBrands\chevrolet_logo.png" />
+    <Content Include="Images\CarsBrands\ford_logo.png" />
+    <Content Include="Images\CarsBrands\honda_logo.png" />
+    <Content Include="Images\CarsBrands\hyundai_logo.png" />
+    <Content Include="Images\CarsBrands\jeep_logo.png" />
+    <Content Include="Images\CarsBrands\kia_logo.png" />
+    <Content Include="Images\CarsBrands\lexus_logo.png" />
+    <Content Include="Images\CarsBrands\mercedes_logo.png" />
+    <Content Include="Images\CarsBrands\nissan_logo.png" />
+    <Content Include="Images\CarsBrands\subaru_logo.png" />
+    <Content Include="Images\CarsBrands\tesla_logo.png" />
+    <Content Include="Images\CarsBrands\toyota_logo.png" />
+    <Content Include="Images\CarsBrands\volkswagen_logo.png" />
+    <Content Include="Images\CarsImages\mercedesBenz_Cclass.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

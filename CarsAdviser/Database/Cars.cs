@@ -19,7 +19,8 @@ namespace CarsAdviser.Database
         public int Cars_checkpoint { get; set; }
         public int Cars_wheel { get; set; }
         public int Cars_colour { get; set; }
-        public int Price { get; set; }
+        public long Price { get; set; }
+        public int TrunkCapacity { get; set; }
         public int? Mark { get; set; }
         public int Mileage { get; set; }
         public int Year { get; set; }

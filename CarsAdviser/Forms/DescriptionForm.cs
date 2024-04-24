@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CarsAdviser.Database;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,10 +14,27 @@ namespace CarsAdviser.Forms
     public partial class DescriptionForm : Form
     {
         private CarInfoForm parentForm;
-        public DescriptionForm(CarInfoForm parentForm)
+        private Cars car;
+        public DescriptionForm(CarInfoForm parentForm, Cars car)
         {
             InitializeComponent();
             this.parentForm = parentForm;
+            this.car = car;
+            LoadCarDetails();
+        }
+        private void LoadCarDetails()
+        {
+            try
+            {
+                if (car != null)
+                {
+                    descriptionRichTextBox.Text = car.Description;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
