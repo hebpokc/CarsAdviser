@@ -631,6 +631,7 @@ namespace CarsAdviser.Forms
             this.MaximumSize = new System.Drawing.Size(997, 1500);
             this.Name = "AddCarForm";
             this.Text = "AddCarForm";
+            this.Load += new System.EventHandler(this.AddCarForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

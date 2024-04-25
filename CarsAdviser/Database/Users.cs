@@ -21,5 +21,6 @@ namespace CarsAdviser.Database
         public string Avatar { get; set; }
         public virtual ICollection<Users_bookmarks> UserBookmarks { get; set; }
         public virtual ICollection<Users_hidden_auto> UserHiddenAutos { get; set; }
+        public virtual ICollection<Users_preferences> UserPreferences { get; set; }
     }
 }

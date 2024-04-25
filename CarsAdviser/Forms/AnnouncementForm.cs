@@ -1,4 +1,5 @@
-﻿using Guna.UI2.WinForms;
+﻿using CarsAdviser.Database;
+using Guna.UI2.WinForms;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -18,10 +19,14 @@ namespace CarsAdviser.Forms
     {
         private MainForm parentForm;
         private int carId;
-        public AnnouncementForm(MainForm parentFrom)
+        private bool isPreferred = false;
+        private List<Cars> similarToPreferences;
+        public AnnouncementForm(MainForm parentFrom, bool isPreferred, List<Cars> similarToPreferences)
         {
             InitializeComponent();
             this.parentForm = parentFrom;
+            this.isPreferred = isPreferred;
+            this.similarToPreferences = similarToPreferences;
             LoadCarDetails();
         }
         private void priceTextBox_KeyPress(object sender, KeyPressEventArgs e)
@@ -100,7 +105,7 @@ namespace CarsAdviser.Forms
                                             .Include(c => c.Cars_Checkpoint)
                                             .Include(c => c.Cars_Wheel)
                                             .Include(c => c.Cars_Colour)
-                                            .Take(3)
+                                            .Take(6)
                                             .ToList();
 
                     for (int i = 0; i < cars.Count; i++)

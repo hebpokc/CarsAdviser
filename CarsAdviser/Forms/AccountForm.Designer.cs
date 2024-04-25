@@ -30,6 +30,7 @@ namespace CarsAdviser.Forms
         private void InitializeComponent()
         {
             this.menuPanel = new System.Windows.Forms.Panel();
+            this.changePasswordBtn = new Guna.UI2.WinForms.Guna2Button();
             this.exitBtn = new Guna.UI2.WinForms.Guna2Button();
             this.addCarBtn = new Guna.UI2.WinForms.Guna2Button();
             this.preferencesBtn = new Guna.UI2.WinForms.Guna2Button();
@@ -39,7 +40,6 @@ namespace CarsAdviser.Forms
             this.nameLabel = new System.Windows.Forms.Label();
             this.accountCirclePictureBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.changePasswordBtn = new Guna.UI2.WinForms.Guna2Button();
             this.menuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.accountCirclePictureBox)).BeginInit();
             this.SuspendLayout();
@@ -60,6 +60,27 @@ namespace CarsAdviser.Forms
             this.menuPanel.Name = "menuPanel";
             this.menuPanel.Size = new System.Drawing.Size(427, 1024);
             this.menuPanel.TabIndex = 0;
+            // 
+            // changePasswordBtn
+            // 
+            this.changePasswordBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.changePasswordBtn.Animated = true;
+            this.changePasswordBtn.BackColor = System.Drawing.Color.Transparent;
+            this.changePasswordBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.changePasswordBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.changePasswordBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.changePasswordBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.changePasswordBtn.FillColor = System.Drawing.Color.Transparent;
+            this.changePasswordBtn.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.changePasswordBtn.ForeColor = System.Drawing.Color.Black;
+            this.changePasswordBtn.Location = new System.Drawing.Point(46, 318);
+            this.changePasswordBtn.Name = "changePasswordBtn";
+            this.changePasswordBtn.Size = new System.Drawing.Size(168, 34);
+            this.changePasswordBtn.TabIndex = 26;
+            this.changePasswordBtn.Text = "Сменить пароль";
+            this.changePasswordBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.changePasswordBtn.UseTransparentBackground = true;
+            this.changePasswordBtn.Click += new System.EventHandler(this.changePasswordBtn_Click);
             // 
             // exitBtn
             // 
@@ -194,27 +215,6 @@ namespace CarsAdviser.Forms
             this.mainPanel.Size = new System.Drawing.Size(997, 1024);
             this.mainPanel.TabIndex = 1;
             // 
-            // changePasswordBtn
-            // 
-            this.changePasswordBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.changePasswordBtn.Animated = true;
-            this.changePasswordBtn.BackColor = System.Drawing.Color.Transparent;
-            this.changePasswordBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.changePasswordBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.changePasswordBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.changePasswordBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.changePasswordBtn.FillColor = System.Drawing.Color.Transparent;
-            this.changePasswordBtn.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.changePasswordBtn.ForeColor = System.Drawing.Color.Black;
-            this.changePasswordBtn.Location = new System.Drawing.Point(46, 318);
-            this.changePasswordBtn.Name = "changePasswordBtn";
-            this.changePasswordBtn.Size = new System.Drawing.Size(168, 34);
-            this.changePasswordBtn.TabIndex = 26;
-            this.changePasswordBtn.Text = "Сменить пароль";
-            this.changePasswordBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.changePasswordBtn.UseTransparentBackground = true;
-            this.changePasswordBtn.Click += new System.EventHandler(this.changePasswordBtn_Click);
-            // 
             // AccountForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -224,6 +224,7 @@ namespace CarsAdviser.Forms
             this.Controls.Add(this.menuPanel);
             this.Name = "AccountForm";
             this.Text = "AccountForm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AccountForm_FormClosed);
             this.Load += new System.EventHandler(this.AccountForm_Load);
             this.menuPanel.ResumeLayout(false);
             this.menuPanel.PerformLayout();

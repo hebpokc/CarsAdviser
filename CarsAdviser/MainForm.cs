@@ -1,4 +1,5 @@
-﻿using CarsAdviser.Forms;
+﻿using CarsAdviser.Database;
+using CarsAdviser.Forms;
 using Guna.UI2.WinForms;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,9 @@ namespace CarsAdviser
         private AuthorizationForm authorizationForm;
         public Form currentChildForm;
         public int currentUserId;
+        public bool isPreferred = false;
+        public List<Cars> similarToPreferences;
+
         public MainForm(AuthorizationForm authorizationForm, int currentUserId)
         {
             InitializeComponent();
@@ -45,7 +49,7 @@ namespace CarsAdviser
         }
         private void MainForm_Load(object sender, EventArgs e)
         {
-            OpenChildForm(new AnnouncementForm(this));
+            OpenChildForm(new AnnouncementForm(this, isPreferred, similarToPreferences));
             announcementBtn.Font = new Font(announcementBtn.Font.FontFamily, announcementBtn.Font.Size, FontStyle.Bold);
             announcementBottomLabel.Visible = true;
             ResetStyle(bookmarkersBtn, bookmarkersBottomLabel);
@@ -80,7 +84,7 @@ namespace CarsAdviser
         private void announcementBtn_Click(object sender, EventArgs e)
         {
             currentChildForm.Close();
-            OpenChildForm(new AnnouncementForm(this));
+            OpenChildForm(new AnnouncementForm(this, isPreferred, similarToPreferences));
             announcementBtn.Font = new Font(announcementBtn.Font.FontFamily, announcementBtn.Font.Size, FontStyle.Bold);
             announcementBottomLabel.Visible = true;
             accountBtn.Font = new Font(accountBtn.Font.FontFamily, accountBtn.Font.Size, FontStyle.Regular);

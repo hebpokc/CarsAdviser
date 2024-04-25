@@ -27,6 +27,14 @@ namespace CarsAdviser.Forms
             this.userId = userId;
             LoadHidden();
         }
+        private void UpdateForm()
+        {
+            this.Invalidate();
+            this.Update();
+            notificationLabel.Text = $"{this.Controls.OfType<Guna2Panel>().Count(p => p.Visible == true)}";
+            parentForm.NotificationTextUpdate2(notificationLabel.Text);
+            LoadHidden();
+        }
         private void HiddenForm_ControlChanged(object sender, ControlEventArgs e)
         {
             notificationLabel.Text = $"{this.Controls.OfType<Guna2Panel>().Count(p => p.Visible == true)}";
@@ -67,7 +75,7 @@ namespace CarsAdviser.Forms
                                             .Include(u => u.Cars.Cars_Wheel)
                                             .Include(u => u.Cars.Cars_Colour)
                                             .Select(u => u.Cars)
-                                            .Take(3)
+                                            .Take(6)
                                             .ToList();
 
                     for (int i = 0; i < hiddens.Count; i++)
@@ -216,7 +224,8 @@ namespace CarsAdviser.Forms
                     context.Users_hidden_auto.Remove(hidden);
                     context.SaveChanges();
 
-                    MessageBox.Show("Машина удалена из скрытых\nОбновите страницу", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Машина удалена из скрытых", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    UpdateForm();
                 }
             }
         }

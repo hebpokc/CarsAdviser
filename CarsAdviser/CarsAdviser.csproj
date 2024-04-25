@@ -206,6 +206,7 @@
     <Compile Include="Database\Users.cs" />
     <Compile Include="Database\Users_bookmarks.cs" />
     <Compile Include="Database\Users_hidden_auto.cs" />
+    <Compile Include="Database\Users_preferences.cs" />
     <Compile Include="Forms\AccountForm.cs">
       <SubType>Form</SubType>
     </Compile>

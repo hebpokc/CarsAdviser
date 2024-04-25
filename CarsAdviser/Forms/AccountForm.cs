@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CarsAdviser.Database;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +17,8 @@ namespace CarsAdviser.Forms
         public MainForm parentForm;
         private Form currentChildForm;
         private int currentUserId;
+        public bool isPreferred = false;
+        public List<Cars> similarToPreferences;
         public AccountForm(MainForm parentForm, int CurrentUserId)
         {
             InitializeComponent();
@@ -81,7 +84,7 @@ namespace CarsAdviser.Forms
         private void preferencesBtn_Click(object sender, EventArgs e)
         {
             currentChildForm.Close();
-            OpenChildForm(new PreferencesForm(this));
+            OpenChildForm(new PreferencesForm(this, currentUserId));
             personalInformationBtn.Font = new Font(personalInformationBtn.Font.FontFamily, personalInformationBtn.Font.Size, FontStyle.Regular);
             preferencesBtn.Font = new Font(preferencesBtn.Font.FontFamily, preferencesBtn.Font.Size, FontStyle.Bold);
             addCarBtn.Font = new Font(addCarBtn.Font.FontFamily, addCarBtn.Font.Size, FontStyle.Regular);
@@ -111,6 +114,12 @@ namespace CarsAdviser.Forms
             preferencesBtn.Font = new Font(preferencesBtn.Font.FontFamily, preferencesBtn.Font.Size, FontStyle.Regular);
             addCarBtn.Font = new Font(addCarBtn.Font.FontFamily, addCarBtn.Font.Size, FontStyle.Bold);
             changePasswordBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Regular);
+        }
+
+        private void AccountForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            parentForm.isPreferred = isPreferred;
+            parentForm.similarToPreferences = similarToPreferences;
         }
     }
 }

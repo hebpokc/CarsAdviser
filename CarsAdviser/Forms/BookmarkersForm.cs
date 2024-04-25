@@ -27,7 +27,14 @@ namespace CarsAdviser.Forms
             this.userId = userId;
             LoadBookmarks();
         }
-
+        private void UpdateForm()
+        {
+            this.Invalidate();
+            this.Update();
+            notificationLabel.Text = $"{this.Controls.OfType<Guna2Panel>().Count(p => p.Visible == true)}";
+            parentForm.NotificationTextUpdate1(notificationLabel.Text);
+            LoadBookmarks();
+        }
         private void BookmarkersForm_ControlChanged(object sender, ControlEventArgs e)
         {
             notificationLabel.Text = $"{this.Controls.OfType<Guna2Panel>().Count(p => p.Visible == true)}";
@@ -68,7 +75,7 @@ namespace CarsAdviser.Forms
                                             .Include(u => u.Cars.Cars_Wheel)
                                             .Include(u => u.Cars.Cars_Colour)
                                             .Select(u => u.Cars)
-                                            .Take(3)
+                                            .Take(6)
                                             .ToList();
 
                     for (int i = 0; i < bookmarks.Count; i++)
@@ -217,7 +224,8 @@ namespace CarsAdviser.Forms
                     context.Users_bookmarks.Remove(bookmark);
                     context.SaveChanges();
 
-                    MessageBox.Show("Машина удалена из закладок\nОбновите страницу", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Машина удалена из закладок", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    UpdateForm();
                 }
             }
         }

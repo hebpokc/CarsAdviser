@@ -22,6 +22,10 @@ namespace CarsAdviser.Forms
         {
             InitializeComponent();
             this.parentForm = parentForm;
+        }
+
+        private void AddCarForm_Load(object sender, EventArgs e)
+        {
             try
             {
                 using (var context = new AppContext())
@@ -72,7 +76,6 @@ namespace CarsAdviser.Forms
                 MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
         private void addPhotoBtn_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -82,16 +85,15 @@ namespace CarsAdviser.Forms
             {
                 foreach (var file in openFileDialog.FileNames)
                 {
-                    string imagePath = openFileDialog.FileName;
                     string destinationFolderPath = Path.Combine("../../", "Images", "CarsImages");
-                    string destinationPath = Path.Combine(destinationFolderPath, Path.GetFileName(imagePath));
+                    string destinationPath = Path.Combine(destinationFolderPath, Path.GetFileName(file));
 
                     if (!Directory.Exists(destinationFolderPath))
                     {
                         Directory.CreateDirectory(destinationFolderPath);
                     }
 
-                    File.Copy(imagePath, destinationPath, true);
+                    File.Copy(file, destinationPath, true);
                     carPhotos.Add(destinationPath);
                 }
 
@@ -151,11 +153,11 @@ namespace CarsAdviser.Forms
                         Mileage = int.Parse(carMileageTextBox.Text),
                         Price = long.Parse(carPriceTextBox.Text),
                         Description = carDescriptionRichTextBox.Text,
-                        Photo_1 = carPhotos.Count > 0 ? carPhotos[0] : null,
-                        Photo_2 = carPhotos.Count > 1 ? carPhotos[1] : null,
-                        Photo_3 = carPhotos.Count > 2 ? carPhotos[2] : null,
-                        Photo_4 = carPhotos.Count > 3 ? carPhotos[3] : null,
-                        Photo_5 = carPhotos.Count > 4 ? carPhotos[4] : null,
+                        Photo_1 = carPhotos.Count > 0 ? carPhotos[5] : null,
+                        Photo_2 = carPhotos.Count > 1 ? carPhotos[4] : null,
+                        Photo_3 = carPhotos.Count > 2 ? carPhotos[3] : null,
+                        Photo_4 = carPhotos.Count > 3 ? carPhotos[2] : null,
+                        Photo_5 = carPhotos.Count > 4 ? carPhotos[1] : null,
                     };
                     context.Cars.Add(car);
                     context.SaveChanges();

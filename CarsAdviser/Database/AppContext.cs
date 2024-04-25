@@ -9,6 +9,7 @@ namespace CarsAdviser.Database
         public DbSet<Users> Users { get; set; }
         public DbSet<Users_bookmarks> Users_bookmarks { get; set; }
         public DbSet<Users_hidden_auto> Users_hidden_auto { get; set; }
+        public DbSet<Users_preferences> Users_preferences { get; set; }
         public DbSet<Cars> Cars { get; set; }
         public DbSet<Cars_model> Cars_model { get; set; }
         public DbSet<Cars_stamp> Cars_stamp { get; set; }
@@ -92,6 +93,21 @@ namespace CarsAdviser.Database
             .HasOne(uha => uha.Users)
             .WithMany(u => u.UserHiddenAutos)
             .HasForeignKey(uha => uha.Users_id);
+
+            modelBuilder.Entity<Users_hidden_auto>()
+                .HasOne(uha => uha.Cars)
+                .WithMany()
+                .HasForeignKey(uha => uha.Cars_id);
+
+            modelBuilder.Entity<Users_preferences>()
+            .HasOne(up => up.Users)
+            .WithMany(u => u.UserPreferences)
+            .HasForeignKey(up => up.Cars_id);
+
+            modelBuilder.Entity<Users_preferences>()
+            .HasOne(up => up.Cars)
+            .WithMany()
+            .HasForeignKey(up => up.Cars_id);
 
             base.OnModelCreating(modelBuilder);
         }
