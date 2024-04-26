@@ -19,13 +19,11 @@ namespace CarsAdviser.Forms
     {
         private MainForm parentForm;
         private int carId;
-        private bool isPreferred = false;
-        private List<Cars> similarToPreferences;
-        public AnnouncementForm(MainForm parentFrom, bool isPreferred, List<Cars> similarToPreferences)
+        private List<Cars> similarToPreferences = null;
+        public AnnouncementForm(MainForm parentFrom, List<Cars> similarToPreferences)
         {
             InitializeComponent();
             this.parentForm = parentFrom;
-            this.isPreferred = isPreferred;
             this.similarToPreferences = similarToPreferences;
             LoadCarDetails();
         }
@@ -89,6 +87,22 @@ namespace CarsAdviser.Forms
                     return "../../Resources/noAuto.png";
             }
         }
+        public bool IsPreferred()
+        {
+            try
+            {
+                using (var context = new AppContext())
+                {
+                    var hasPreferences = context.Users_preferences.Any(p => p.Users_id == parentForm.currentUserId);
+                    return hasPreferences;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+        }
         private void LoadCarDetails()
         {
             var culture = new CultureInfo("de-DE");
@@ -96,7 +110,22 @@ namespace CarsAdviser.Forms
             {
                 using (var context = new AppContext())
                 {
-                    var cars = context.Cars.Include(c => c.Cars_Model)
+                    bool isPreferred = IsPreferred();
+                    var cars = new List<Cars>();
+
+                    var hiddenCars = context.Users_hidden_auto.Where(uha => uha.Users_id == parentForm.currentUserId)
+                                                              .Select(uha => uha.Cars_id)
+                                                              .ToList() ?? new List<int>();
+
+                    if (isPreferred)
+                    {
+                        if (similarToPreferences != null)
+                        {
+                            cars = similarToPreferences.Where(c => !hiddenCars.Contains(c.ID)).Take(9).ToList();
+                        }
+                        else
+                        {
+                            cars = context.Cars.Include(c => c.Cars_Model)
                                             .Include(c => c.Cars_Stamp)
                                             .Include(c => c.Cars_Body)
                                             .Include(c => c.Cars_Engine)
@@ -105,8 +134,26 @@ namespace CarsAdviser.Forms
                                             .Include(c => c.Cars_Checkpoint)
                                             .Include(c => c.Cars_Wheel)
                                             .Include(c => c.Cars_Colour)
-                                            .Take(6)
+                                            .Where(c => !hiddenCars.Contains(c.ID))
+                                            .Take(9)
                                             .ToList();
+                        }
+                    }
+                    else
+                    {
+                        cars = context.Cars.Include(c => c.Cars_Model)
+                                            .Include(c => c.Cars_Stamp)
+                                            .Include(c => c.Cars_Body)
+                                            .Include(c => c.Cars_Engine)
+                                            .Include(c => c.Cars_Fuel)
+                                            .Include(c => c.Cars_Drive)
+                                            .Include(c => c.Cars_Checkpoint)
+                                            .Include(c => c.Cars_Wheel)
+                                            .Include(c => c.Cars_Colour)
+                                            .Where(c => !hiddenCars.Contains(c.ID))
+                                            .Take(9)
+                                            .ToList();
+                    }
 
                     for (int i = 0; i < cars.Count; i++)
                     {
@@ -179,7 +226,285 @@ namespace CarsAdviser.Forms
                         }
                     }
 
-                    for (int i = cars.Count; i < 6; i++)
+                    for (int i = cars.Count; i < 9; i++)
+                    {
+                        Panel carPanel = this.Controls.Find($"carPanel{i + 1}", true).FirstOrDefault() as Panel;
+                        if (carPanel != null)
+                        {
+                            carPanel.Visible = false;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void applyBtn_Click(object sender, EventArgs e)
+        {
+            var culture = new CultureInfo("de-DE");
+            try
+            {
+                using (var context = new AppContext())
+                {
+                    bool isPreferred = IsPreferred();
+                    var cars = new List<Cars>();
+
+                    int? priceFrom = string.IsNullOrWhiteSpace(priceFromTextBox.Text) ? (int?)null : int.Parse(priceFromTextBox.Text);
+                    int? priceTo = string.IsNullOrWhiteSpace(priceToTextBox.Text) ? (int?)null : int.Parse(priceToTextBox.Text);
+
+                    if (priceFrom > priceTo)
+                    {
+                        MessageBox.Show("Цена <от> должна быть меньше чем <до>", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        priceFromTextBox.Text = "";
+                        return;
+                    }
+
+                    if (string.IsNullOrWhiteSpace(searchTextBox.Text))
+                    {
+                        MessageBox.Show("Поле поиска пустое", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+
+                    if (isPreferred)
+                    {
+                        if (similarToPreferences != null)
+                        {
+                            if (priceFrom != null && priceTo != null)
+                            {
+                                cars = similarToPreferences.Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
+                                                           .Where(c => c.Price >= priceFrom)
+                                                           .Where(c => c.Price <= priceTo)
+                                                           .Take(9).ToList();
+                            }
+                            else if (priceFrom != null && priceTo == null)
+                            {
+                                cars = similarToPreferences.Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
+                                                           .Where(c => c.Price >= priceFrom)
+                                                           .Take(9).ToList();
+                            }
+                            else if (priceTo != null && priceFrom == null)
+                            {
+                                cars = similarToPreferences.Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
+                                                           .Where(c => c.Price <= priceTo)
+                                                           .Take(9).ToList();
+                            }
+                            else
+                            {
+                                cars = similarToPreferences.Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
+                                                           .Take(9).ToList();
+                            }
+                        }
+                        else
+                        {
+                            if (priceFrom != null && priceTo != null)
+                            {
+                                cars = context.Cars.Include(c => c.Cars_Model)
+                                            .Include(c => c.Cars_Stamp)
+                                            .Include(c => c.Cars_Body)
+                                            .Include(c => c.Cars_Engine)
+                                            .Include(c => c.Cars_Fuel)
+                                            .Include(c => c.Cars_Drive)
+                                            .Include(c => c.Cars_Checkpoint)
+                                            .Include(c => c.Cars_Wheel)
+                                            .Include(c => c.Cars_Colour)
+                                            .Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
+                                            .Where(c => c.Price >= priceFrom)
+                                            .Where(c => c.Price <= priceTo)
+                                            .Take(9)
+                                            .ToList();
+                            }
+                            else if (priceFrom != null && priceTo == null)
+                            {
+                                cars = context.Cars.Include(c => c.Cars_Model)
+                                            .Include(c => c.Cars_Stamp)
+                                            .Include(c => c.Cars_Body)
+                                            .Include(c => c.Cars_Engine)
+                                            .Include(c => c.Cars_Fuel)
+                                            .Include(c => c.Cars_Drive)
+                                            .Include(c => c.Cars_Checkpoint)
+                                            .Include(c => c.Cars_Wheel)
+                                            .Include(c => c.Cars_Colour)
+                                            .Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
+                                            .Where(c => c.Price >= priceFrom)
+                                            .Take(9)
+                                            .ToList();
+                            }
+                            else if (priceTo != null && priceFrom == null)
+                            {
+                                cars = context.Cars.Include(c => c.Cars_Model)
+                                            .Include(c => c.Cars_Stamp)
+                                            .Include(c => c.Cars_Body)
+                                            .Include(c => c.Cars_Engine)
+                                            .Include(c => c.Cars_Fuel)
+                                            .Include(c => c.Cars_Drive)
+                                            .Include(c => c.Cars_Checkpoint)
+                                            .Include(c => c.Cars_Wheel)
+                                            .Include(c => c.Cars_Colour)
+                                            .Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
+                                            .Where(c => c.Price <= priceTo)
+                                            .Take(9)
+                                            .ToList();
+                            }
+                            else
+                            {
+                                cars = context.Cars.Include(c => c.Cars_Model)
+                                            .Include(c => c.Cars_Stamp)
+                                            .Include(c => c.Cars_Body)
+                                            .Include(c => c.Cars_Engine)
+                                            .Include(c => c.Cars_Fuel)
+                                            .Include(c => c.Cars_Drive)
+                                            .Include(c => c.Cars_Checkpoint)
+                                            .Include(c => c.Cars_Wheel)
+                                            .Include(c => c.Cars_Colour)
+                                            .Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
+                                            .Take(9)
+                                            .ToList();
+                            }
+                        }
+                    }
+                    else
+                    {
+                        if (priceFrom != null && priceTo != null)
+                        {
+                            cars = context.Cars.Include(c => c.Cars_Model)
+                                        .Include(c => c.Cars_Stamp)
+                                        .Include(c => c.Cars_Body)
+                                        .Include(c => c.Cars_Engine)
+                                        .Include(c => c.Cars_Fuel)
+                                        .Include(c => c.Cars_Drive)
+                                        .Include(c => c.Cars_Checkpoint)
+                                        .Include(c => c.Cars_Wheel)
+                                        .Include(c => c.Cars_Colour)
+                                        .Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
+                                        .Where(c => c.Price >= priceFrom)
+                                        .Where(c => c.Price <= priceTo)
+                                        .Take(9)
+                                        .ToList();
+                        }
+                        else if (priceFrom != null && priceTo == null)
+                        {
+                            cars = context.Cars.Include(c => c.Cars_Model)
+                                        .Include(c => c.Cars_Stamp)
+                                        .Include(c => c.Cars_Body)
+                                        .Include(c => c.Cars_Engine)
+                                        .Include(c => c.Cars_Fuel)
+                                        .Include(c => c.Cars_Drive)
+                                        .Include(c => c.Cars_Checkpoint)
+                                        .Include(c => c.Cars_Wheel)
+                                        .Include(c => c.Cars_Colour)
+                                        .Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
+                                        .Where(c => c.Price >= priceFrom)
+                                        .Take(9)
+                                        .ToList();
+                        }
+                        else if (priceTo != null && priceFrom == null)
+                        {
+                            cars = context.Cars.Include(c => c.Cars_Model)
+                                        .Include(c => c.Cars_Stamp)
+                                        .Include(c => c.Cars_Body)
+                                        .Include(c => c.Cars_Engine)
+                                        .Include(c => c.Cars_Fuel)
+                                        .Include(c => c.Cars_Drive)
+                                        .Include(c => c.Cars_Checkpoint)
+                                        .Include(c => c.Cars_Wheel)
+                                        .Include(c => c.Cars_Colour)
+                                        .Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
+                                        .Where(c => c.Price <= priceTo)
+                                        .Take(9)
+                                        .ToList();
+                        }
+                        else
+                        {
+                            cars = context.Cars.Include(c => c.Cars_Model)
+                                        .Include(c => c.Cars_Stamp)
+                                        .Include(c => c.Cars_Body)
+                                        .Include(c => c.Cars_Engine)
+                                        .Include(c => c.Cars_Fuel)
+                                        .Include(c => c.Cars_Drive)
+                                        .Include(c => c.Cars_Checkpoint)
+                                        .Include(c => c.Cars_Wheel)
+                                        .Include(c => c.Cars_Colour)
+                                        .Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
+                                        .Take(9)
+                                        .ToList();
+                        }
+                    }
+
+                    for (int i = 0; i < cars.Count; i++)
+                    {
+                        var car = cars[i];
+                        Guna2Panel carPanel = this.Controls.Find($"carPanel{i + 1}", true).FirstOrDefault() as Guna2Panel;
+                        if (carPanel != null)
+                        {
+                            carPanel.Visible = true;
+
+                            Guna2PictureBox carPicture = carPanel.Controls.Find($"carPictureBox{i + 1}", true).FirstOrDefault() as Guna2PictureBox;
+                            if (carPicture != null)
+                            {
+                                if (car.Photo_1 != null)
+                                {
+                                    carPicture.Image = Image.FromFile(car.Photo_1);
+                                }
+                                else
+                                {
+                                    carPicture.Image = Properties.Resources.noAuto;
+                                }
+                            }
+
+                            Guna2PictureBox carBrandPicture = carPanel.Controls.Find($"carBrandPictureBox{i + 1}", true).FirstOrDefault() as Guna2PictureBox;
+                            if (carBrandPicture != null)
+                            {
+                                carBrandPicture.Image = Image.FromFile(GetStampImageLocation(car.Cars_Stamp.Stamp));
+                            }
+
+                            Label carName = carPanel.Controls.Find($"carNameLabel{i + 1}", true).FirstOrDefault() as Label;
+                            if (carName != null)
+                            {
+                                carName.Text = $"{car.Cars_Stamp.Stamp} {car.Cars_Model.Model}";
+                            }
+
+                            Label carYear = carPanel.Controls.Find($"carYearLabel{i + 1}", true).FirstOrDefault() as Label;
+                            if (carYear != null)
+                            {
+                                carYear.Text = $"{car.Year}";
+                            }
+
+                            Label carMileage = carPanel.Controls.Find($"mileageInfoLabel{i + 1}", true).FirstOrDefault() as Label;
+                            if (carMileage != null)
+                            {
+                                carMileage.Text = $"{car.Mileage} км";
+                            }
+
+                            Label carFuel = carPanel.Controls.Find($"carFuelInfoLabel{i + 1}", true).FirstOrDefault() as Label;
+                            if (carFuel != null)
+                            {
+                                carFuel.Text = $"{car.Cars_Fuel.Fuel}";
+                            }
+
+                            Label carEngine = carPanel.Controls.Find($"carEngineInfoLabel{i + 1}", true).FirstOrDefault() as Label;
+                            if (carEngine != null)
+                            {
+                                carEngine.Text = $"{car.Cars_Engine.Engine}";
+                            }
+
+                            Label carDrive = carPanel.Controls.Find($"carDriveInfoLabel{i + 1}", true).FirstOrDefault() as Label;
+                            if (carDrive != null)
+                            {
+                                carDrive.Text = $"{car.Cars_Drive.Drive}";
+                            }
+
+                            Label carPrice = carPanel.Controls.Find($"carPriceInfoLabel{i + 1}", true).FirstOrDefault() as Label;
+                            if (carPrice != null)
+                            {
+                                carPrice.Text = $"{car.Price.ToString("#,#", culture)} ₽";
+                            }
+                        }
+                    }
+
+                    for (int i = cars.Count; i < 9; i++)
                     {
                         Panel carPanel = this.Controls.Find($"carPanel{i + 1}", true).FirstOrDefault() as Panel;
                         if (carPanel != null)

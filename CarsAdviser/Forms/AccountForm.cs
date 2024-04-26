@@ -17,7 +17,6 @@ namespace CarsAdviser.Forms
         public MainForm parentForm;
         private Form currentChildForm;
         private int currentUserId;
-        public bool isPreferred = false;
         public List<Cars> similarToPreferences;
         public AccountForm(MainForm parentForm, int CurrentUserId)
         {
@@ -118,7 +117,6 @@ namespace CarsAdviser.Forms
 
         private void AccountForm_FormClosed(object sender, FormClosedEventArgs e)
         {
-            parentForm.isPreferred = isPreferred;
             parentForm.similarToPreferences = similarToPreferences;
         }
     }

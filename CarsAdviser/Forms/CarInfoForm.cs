@@ -165,23 +165,37 @@ namespace CarsAdviser.Forms
             var rating = (int)(carRatingStar.Value * 2);
             UpdateCarRating(carId, rating);
         }
-
         private void toBookmarksBtn_Click(object sender, EventArgs e)
         {
             try
             {
                 using (var context = new AppContext())
                 {
-                    Users_bookmarks newBookmark = new Users_bookmarks
+                    var hiddenAuto = context.Users_hidden_auto.FirstOrDefault(b => b.Users_id == parentForm.currentUserId && b.Cars_id == carId);
+                    if (hiddenAuto != null)
                     {
-                        Users_id = parentForm.currentUserId,
-                        Cars_id = carId
-                    };
+                        context.Users_hidden_auto.Remove(hiddenAuto);
+                        context.SaveChanges();
+                    }
 
-                    context.Users_bookmarks.Add(newBookmark);
-                    context.SaveChanges();
+                    var bookmark = context.Users_bookmarks.FirstOrDefault(b => b.Users_id == parentForm.currentUserId && b.Cars_id == carId);
+                    if (bookmark != null)
+                    {
+                        MessageBox.Show("Машина уже находится в закладках.", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        bookmark = new Users_bookmarks
+                        {
+                            Users_id = parentForm.currentUserId,
+                            Cars_id = carId
+                        };
 
-                    MessageBox.Show("Машина добавлена в закладки", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        context.Users_bookmarks.Add(bookmark);
+                        context.SaveChanges();
+
+                        MessageBox.Show("Машина добавлена в закладки", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
                 }
             }
             catch (Exception ex)
@@ -189,23 +203,38 @@ namespace CarsAdviser.Forms
                 MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
         private void hideBtn_Click(object sender, EventArgs e)
         {
             try
             {
                 using (var context = new AppContext())
                 {
-                    Users_hidden_auto newHidden = new Users_hidden_auto
+                    var bookmark = context.Users_bookmarks.FirstOrDefault(b => b.Users_id == parentForm.currentUserId && b.Cars_id == carId);
+                    if (bookmark != null)
                     {
-                        Users_id = parentForm.currentUserId,
-                        Cars_id = carId
-                    };
+                        context.Users_bookmarks.Remove(bookmark);
+                        context.SaveChanges();
+                    }
 
-                    context.Users_hidden_auto.Add(newHidden);
-                    context.SaveChanges();
+                    var hiddenAuto = context.Users_hidden_auto.FirstOrDefault(b => b.Users_id == parentForm.currentUserId && b.Cars_id == carId);
+                    if (hiddenAuto != null)
+                    {
+                        MessageBox.Show("Машина уже находится в списке скрытых авто.", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        hiddenAuto = new Users_hidden_auto
+                        {
+                            Users_id = parentForm.currentUserId,
+                            Cars_id = carId
+                        };
 
-                    MessageBox.Show("Машина добавлена в скрытые", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        context.Users_hidden_auto.Add(hiddenAuto);
+                        context.SaveChanges();
+
+                        MessageBox.Show("Машина добавлена в скрытые", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    
                 }
             }
             catch (Exception ex)

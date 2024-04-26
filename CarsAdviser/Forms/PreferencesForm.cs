@@ -18,7 +18,6 @@ namespace CarsAdviser.Forms
     {
         private AccountForm parentForm;
         private int userId;
-        public bool isPreferred;
         public List<Cars> similarToPreferences;
         private List<Cars> selectedPreferences = new List<Cars>();
         public PreferencesForm(AccountForm parentForm, int userId)
@@ -340,19 +339,6 @@ namespace CarsAdviser.Forms
                 return null;
             }
         }
-        private void CheckIsPreferred()
-        {
-            isPreferred = false;
-
-            foreach (Control control in Controls)
-            {
-                if (control is Guna2CheckBox checkBox && checkBox.Checked)
-                {
-                    isPreferred = true;
-                    break;
-                }
-            }
-        }
 
         private void saveBtn_Click(object sender, EventArgs e)
         {
@@ -364,9 +350,7 @@ namespace CarsAdviser.Forms
             selectedPreferences.Clear();
 
             similarToPreferences = AnalyzeUserPreferences();
-            CheckIsPreferred();
 
-            parentForm.isPreferred = isPreferred;
             parentForm.similarToPreferences = similarToPreferences;
             MessageBox.Show("Предпочтения учтены", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
