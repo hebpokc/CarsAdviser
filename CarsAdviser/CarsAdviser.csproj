@@ -419,6 +419,8 @@
     <Content Include="Images\CarsBrands\toyota_logo.png" />
     <Content Include="Images\CarsBrands\volkswagen_logo.png" />
     <Content Include="Images\CarsImages\mercedesBenz_Cclass.jpg" />
+    <None Include="Resources\united-states-flag.png" />
+    <None Include="Resources\russia-flag.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

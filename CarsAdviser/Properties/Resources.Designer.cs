@@ -103,6 +103,16 @@ namespace CarsAdviser.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap russia_flag {
+            get {
+                object obj = ResourceManager.GetObject("russia_flag", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sendcode {
             get {
                 object obj = ResourceManager.GetObject("sendcode", resourceCulture);
@@ -116,6 +126,16 @@ namespace CarsAdviser.Properties {
         internal static System.Drawing.Bitmap showpass {
             get {
                 object obj = ResourceManager.GetObject("showpass", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap united_states_flag {
+            get {
+                object obj = ResourceManager.GetObject("united_states_flag", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

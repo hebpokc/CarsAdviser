@@ -37,13 +37,13 @@ namespace CarsAdviser
             this.bookmarkersBottomLabel = new System.Windows.Forms.Label();
             this.announcementBottomLabel = new System.Windows.Forms.Label();
             this.accountBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.accountCirclePictureBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.hiddenBtn = new Guna.UI2.WinForms.Guna2Button();
             this.bookmarkersBtn = new Guna.UI2.WinForms.Guna2Button();
             this.announcementBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.appLogoPictureBox = new Guna.UI2.WinForms.Guna2PictureBox();
             this.appNameLabel = new System.Windows.Forms.Label();
             this.mainPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.accountCirclePictureBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.appLogoPictureBox = new Guna.UI2.WinForms.Guna2PictureBox();
             this.headerPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.accountCirclePictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.appLogoPictureBox)).BeginInit();
@@ -154,19 +154,6 @@ namespace CarsAdviser
             this.accountBtn.UseTransparentBackground = true;
             this.accountBtn.Click += new System.EventHandler(this.accountBtn_Click);
             // 
-            // accountCirclePictureBox
-            // 
-            this.accountCirclePictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.accountCirclePictureBox.BackColor = System.Drawing.Color.Transparent;
-            this.accountCirclePictureBox.ImageRotate = 0F;
-            this.accountCirclePictureBox.Location = new System.Drawing.Point(1335, 12);
-            this.accountCirclePictureBox.Name = "accountCirclePictureBox";
-            this.accountCirclePictureBox.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.accountCirclePictureBox.Size = new System.Drawing.Size(66, 51);
-            this.accountCirclePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.accountCirclePictureBox.TabIndex = 25;
-            this.accountCirclePictureBox.TabStop = false;
-            // 
             // hiddenBtn
             // 
             this.hiddenBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -227,18 +214,6 @@ namespace CarsAdviser
             this.announcementBtn.UseTransparentBackground = true;
             this.announcementBtn.Click += new System.EventHandler(this.announcementBtn_Click);
             // 
-            // appLogoPictureBox
-            // 
-            this.appLogoPictureBox.BackColor = System.Drawing.Color.Transparent;
-            this.appLogoPictureBox.Image = global::CarsAdviser.Properties.Resources.logo;
-            this.appLogoPictureBox.ImageRotate = 0F;
-            this.appLogoPictureBox.Location = new System.Drawing.Point(239, 12);
-            this.appLogoPictureBox.Name = "appLogoPictureBox";
-            this.appLogoPictureBox.Size = new System.Drawing.Size(115, 72);
-            this.appLogoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.appLogoPictureBox.TabIndex = 20;
-            this.appLogoPictureBox.TabStop = false;
-            // 
             // appNameLabel
             // 
             this.appNameLabel.AutoSize = true;
@@ -258,6 +233,31 @@ namespace CarsAdviser
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(1424, 922);
             this.mainPanel.TabIndex = 19;
+            // 
+            // accountCirclePictureBox
+            // 
+            this.accountCirclePictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.accountCirclePictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.accountCirclePictureBox.ImageRotate = 0F;
+            this.accountCirclePictureBox.Location = new System.Drawing.Point(1335, 12);
+            this.accountCirclePictureBox.Name = "accountCirclePictureBox";
+            this.accountCirclePictureBox.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.accountCirclePictureBox.Size = new System.Drawing.Size(66, 51);
+            this.accountCirclePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.accountCirclePictureBox.TabIndex = 25;
+            this.accountCirclePictureBox.TabStop = false;
+            // 
+            // appLogoPictureBox
+            // 
+            this.appLogoPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.appLogoPictureBox.Image = global::CarsAdviser.Properties.Resources.logo;
+            this.appLogoPictureBox.ImageRotate = 0F;
+            this.appLogoPictureBox.Location = new System.Drawing.Point(239, 12);
+            this.appLogoPictureBox.Name = "appLogoPictureBox";
+            this.appLogoPictureBox.Size = new System.Drawing.Size(115, 72);
+            this.appLogoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.appLogoPictureBox.TabIndex = 20;
+            this.appLogoPictureBox.TabStop = false;
             // 
             // MainForm
             // 
