@@ -6,8 +6,10 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using AppContext = CarsAdviser.Database.AppContext;
@@ -26,6 +28,7 @@ namespace CarsAdviser
             InitializeComponent();
             this.authorizationForm = authorizationForm;
             this.currentUserId = currentUserId;
+            Thread.CurrentThread.CurrentUICulture = authorizationForm.GetCurrentUICulture();
         }
         public void OpenChildForm(Form childForm)
         {
@@ -39,7 +42,7 @@ namespace CarsAdviser
         }
         public void Logout()
         {
-            DialogResult result = MessageBox.Show("Вы уверены что хотите выйти из аккаунта?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show(Local.AskLogOut, "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
                 authorizationForm.Show();
@@ -57,7 +60,7 @@ namespace CarsAdviser
         }
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            DialogResult result = MessageBox.Show("Вы уверены что хотите закрыть приложение?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show(Local.AskExit, "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.No)
             {
                 e.Cancel = true;
@@ -143,8 +146,12 @@ namespace CarsAdviser
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+        public CultureInfo GetCurrentUICulture()
+        {
+            return Thread.CurrentThread.CurrentUICulture;
         }
     }
 }

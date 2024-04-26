@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Threading;
 using System.Windows.Forms;
 using CarsAdviser.Database;
 
@@ -13,6 +14,8 @@ namespace CarsAdviser.Forms
             InitializeComponent();
             this.parentForm = parentForm;
             passwordTextBox.UseSystemPasswordChar = true;
+            Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
+            UpdateInterface();
         }
 
         private void uncorrectDataTextBox_KeyDown(object sender, KeyEventArgs e)
@@ -46,7 +49,7 @@ namespace CarsAdviser.Forms
                 else
                 {
                     mandatoryFillingLabel2.Visible = false;
-                    var auth = new Auth();
+                    var auth = new Auth(Thread.CurrentThread.CurrentUICulture);
                     var isAuth = auth.AuthenticateUser(loginTextBox.Text, passwordTextBox.Text);
                     if (isAuth)
                     {
@@ -93,6 +96,12 @@ namespace CarsAdviser.Forms
             {
                 signInBtn.PerformClick();
             }
+        }
+        private void UpdateInterface()
+        {
+            loginTextBox.PlaceholderText = Local.loginPlaceHolder;
+            passwordTextBox.PlaceholderText = Local.passwordPlaceHolder;
+            uncorrectDataTextBox.Text = Local.uncorrectData;
         }
     }
 }

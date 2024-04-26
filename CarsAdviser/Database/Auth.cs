@@ -1,8 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -10,6 +12,10 @@ namespace CarsAdviser.Database
 {
     public class Auth 
     {
+        public Auth(CultureInfo cultureInfo)
+        {
+            Thread.CurrentThread.CurrentUICulture = cultureInfo;
+        }
         public int CurrentUserId;
         public bool AuthenticateUser(string login, string password)
         {
@@ -33,7 +39,7 @@ namespace CarsAdviser.Database
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
@@ -54,7 +60,7 @@ namespace CarsAdviser.Database
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }

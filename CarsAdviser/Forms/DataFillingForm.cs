@@ -7,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using AppContext = CarsAdviser.Database.AppContext;
@@ -22,8 +23,17 @@ namespace CarsAdviser.Forms
             InitializeComponent();
             this.parentForm = parentForm;
             this.currentUserId = currentUserId;
+            Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
+            UpdateInterface();
         }
-
+        private void UpdateInterface()
+        {
+            surnameTextBox.PlaceholderText = Local.surnamePlaceHolder;
+            nameTextBox.PlaceholderText = Local.namePlaceHolder;
+            patronymicTextBox.PlaceholderText = Local.patronymicPlaceHolder;
+            phoneTextBox.PlaceholderText = Local.phonePlaceHolder;
+            cityTextBox.PlaceholderText = Local.cityPlaceHolder;
+        }
         private void uploadAvatarBtn_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -50,17 +60,17 @@ namespace CarsAdviser.Forms
                         {
                             user.Avatar = destinationPath;
                             context.SaveChanges();
-                            MessageBox.Show("Изображение загружено\nОбновите страницу или выйдите из аккаунта чтобы увидеть изменения", "Инфомарция", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MessageBox.Show(Local.ImageUploaded, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
                         else
                         {
-                            MessageBox.Show("Изображение не загружено", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show(Local.ImageNotLoaded, Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -85,7 +95,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         public bool IsValidEmail(string email)
@@ -105,7 +115,7 @@ namespace CarsAdviser.Forms
             string email = emailTextBox.Text;
             if (!IsValidEmail(email))
             {
-                MessageBox.Show("Введите корректный адрес электронной почты!");
+                MessageBox.Show(Local.EnterValidMail);
                 emailTextBox.Focus();
             }
         }
@@ -115,7 +125,7 @@ namespace CarsAdviser.Forms
             string phone = phoneTextBox.Text;
             if (!IsValidPhone(phone))
             {
-                MessageBox.Show("Введите корректный номер телефона!");
+                MessageBox.Show(Local.EnterValidPhone);
                 phoneTextBox.Focus();
             }
         }
@@ -166,7 +176,7 @@ namespace CarsAdviser.Forms
                                         user.City = cityTextBox.Text;
 
                                         context.Users.Update(user);
-                                        MessageBox.Show("Данные изменены", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                        MessageBox.Show(Local.DataChanged, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                                     }
                                 }
                             }
@@ -177,7 +187,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

@@ -4,8 +4,10 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using AppContext = CarsAdviser.Database.AppContext;
@@ -23,6 +25,7 @@ namespace CarsAdviser.Forms
             InitializeComponent();
             this.parentForm = parentForm;
             this.currentUserId = CurrentUserId;
+            Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
         }
 
         private void AccountForm_Load(object sender, EventArgs e)
@@ -66,7 +69,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void personalInformationBtn_Click(object sender, EventArgs e)
@@ -118,6 +121,10 @@ namespace CarsAdviser.Forms
         private void AccountForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             parentForm.similarToPreferences = similarToPreferences;
+        }
+        public CultureInfo GetCurrentUICulture()
+        {
+            return Thread.CurrentThread.CurrentUICulture;
         }
     }
 }

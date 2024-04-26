@@ -7,6 +7,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Mail;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using AppContext = CarsAdviser.Database.AppContext;
@@ -24,6 +25,14 @@ namespace CarsAdviser.Forms
             this.parentForm = parentForm;
             this.currentUserId = currentUserId;
             passwordTextBox.UseSystemPasswordChar = true;
+            Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
+            UpdateInterface();
+
+        }
+        private void UpdateInterface()
+        {
+            passwordTextBox.PlaceholderText = Local.newPasswordPlaceHolder;
+            codeTextBox.PlaceholderText = Local.codePlaceHolder;
         }
         private string GenerateRandomCode(int length)
         {
@@ -48,11 +57,11 @@ namespace CarsAdviser.Forms
                 SmtpServer.EnableSsl = true;
 
                 SmtpServer.Send(mail);
-                MessageBox.Show("Код подтверждения отправлен на вашу электронную почту.", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(Local.codeSended, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Произошла ошибка при отправке кода подтверждения: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.codeSendError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -72,7 +81,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             codeToVerify = code;
         }
@@ -98,20 +107,20 @@ namespace CarsAdviser.Forms
                                 var hashedPassword = BCrypt.Net.BCrypt.HashPassword(passwordTextBox.Text);
                                 user.Password = hashedPassword;
                                 context.Users.Update(user);
-                                MessageBox.Show("Пароль изменен", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                MessageBox.Show(Local.passwordChanged, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                             }
                             context.SaveChanges();
                         }
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     parentForm.parentForm.Logout();
                 }
                 else
                 {
-                    MessageBox.Show("Неверный или не сгенерированный код. Нажмите на кнопку генерации еще раз или проверьте правильность введенного кода", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(Local.codeUncorrect, Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }

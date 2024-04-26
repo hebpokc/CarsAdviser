@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CarsAdviser.Database;
 using System.Text.RegularExpressions;
+using System.Threading;
 
 namespace CarsAdviser.Forms
 {
@@ -20,6 +21,8 @@ namespace CarsAdviser.Forms
             InitializeComponent();
             this.parentForm = parentForm;
             passwordTextBox.UseSystemPasswordChar = true;
+            Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
+            UpdateInterface();
         }
 
         private void signInAccountBtn_Click(object sender, EventArgs e)
@@ -91,11 +94,11 @@ namespace CarsAdviser.Forms
                             else
                             {
                                 mandatoryFillingLabel5.Visible = false;
-                                Auth auth = new Auth();
+                                Auth auth = new Auth(Thread.CurrentThread.CurrentUICulture);
                                 var isReg = auth.RegisterUser(nameTextBox.Text, surnameTextBox.Text, emailTextBox.Text, phoneTextBox.Text, passwordTextBox.Text);
                                 if (isReg)
                                 {
-                                    MessageBox.Show("Аккаунт успешно создан", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                    MessageBox.Show(Local.RegisterAccountSuccess, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                                     parentForm.OpenChildForm(new SignInForm(parentForm));
                                     Close();
                                 }
@@ -111,7 +114,7 @@ namespace CarsAdviser.Forms
             string email = emailTextBox.Text;
             if (!IsValidEmail(email))
             {
-                MessageBox.Show("Введите корректный адрес электронной почты!");
+                MessageBox.Show(Local.EnterValidMail);
                 emailTextBox.Focus();
             }
         }
@@ -121,9 +124,16 @@ namespace CarsAdviser.Forms
             string phone = phoneTextBox.Text;
             if (!IsValidPhone(phone))
             {
-                MessageBox.Show("Введите корректный номер телефона!");
+                MessageBox.Show(Local.EnterValidPhone);
                 phoneTextBox.Focus();
             }
+        }
+        private void UpdateInterface()
+        {
+            nameTextBox.PlaceholderText = Local.namePlaceHolder;
+            surnameTextBox.PlaceholderText = Local.surnamePlaceHolder;
+            phoneTextBox.PlaceholderText = Local.phonePlaceHolder;
+            passwordTextBox.PlaceholderText = Local.passwordPlaceHolder;
         }
     }
 }

@@ -117,7 +117,303 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="signInBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="signInBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt, style=Bold</value>
+  </data>
+  <data name="signInBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 327</value>
+  </data>
+  <data name="signInBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 45</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="signInBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="signInBtn.Text" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="&gt;&gt;signInBtn.Name" xml:space="preserve">
+    <value>signInBtn</value>
+  </data>
+  <data name="&gt;&gt;signInBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;signInBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;signInBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="loginTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="loginTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="loginTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 195</value>
+  </data>
+  <data name="loginTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="loginTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 38</value>
+  </data>
+  <data name="loginTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox.Name" xml:space="preserve">
+    <value>loginTextBox</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="createAccountBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="createAccountBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="createAccountBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 159</value>
+  </data>
+  <data name="createAccountBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 19</value>
+  </data>
+  <data name="createAccountBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="createAccountBtn.Text" xml:space="preserve">
+    <value>создать  аккаунт</value>
+  </data>
+  <data name="&gt;&gt;createAccountBtn.Name" xml:space="preserve">
+    <value>createAccountBtn</value>
+  </data>
+  <data name="&gt;&gt;createAccountBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;createAccountBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;createAccountBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="signInLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="signInLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="signInLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="signInLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 160</value>
+  </data>
+  <data name="signInLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 18</value>
+  </data>
+  <data name="signInLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="signInLabel2.Text" xml:space="preserve">
+    <value>или</value>
+  </data>
+  <data name="&gt;&gt;signInLabel2.Name" xml:space="preserve">
+    <value>signInLabel2</value>
+  </data>
+  <data name="&gt;&gt;signInLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;signInLabel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;signInLabel2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="signInLabel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="signInLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="signInLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 14.25pt, style=Bold</value>
+  </data>
+  <data name="signInLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 128</value>
+  </data>
+  <data name="signInLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 23</value>
+  </data>
+  <data name="signInLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="signInLabel1.Text" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="&gt;&gt;signInLabel1.Name" xml:space="preserve">
+    <value>signInLabel1</value>
+  </data>
+  <data name="&gt;&gt;signInLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;signInLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;signInLabel1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="mandatoryFillingLabel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="mandatoryFillingLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mandatoryFillingLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="mandatoryFillingLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>730, 205</value>
+  </data>
+  <data name="mandatoryFillingLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 18</value>
+  </data>
+  <data name="mandatoryFillingLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="mandatoryFillingLabel1.Text" xml:space="preserve">
+    <value>Это поле обязательно для заполнения</value>
+  </data>
+  <data name="mandatoryFillingLabel1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;mandatoryFillingLabel1.Name" xml:space="preserve">
+    <value>mandatoryFillingLabel1</value>
+  </data>
+  <data name="&gt;&gt;mandatoryFillingLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mandatoryFillingLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mandatoryFillingLabel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mandatoryFillingLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="mandatoryFillingLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mandatoryFillingLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="mandatoryFillingLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>730, 263</value>
+  </data>
+  <data name="mandatoryFillingLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 18</value>
+  </data>
+  <data name="mandatoryFillingLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="mandatoryFillingLabel2.Text" xml:space="preserve">
+    <value>Это поле обязательно для заполнения</value>
+  </data>
+  <data name="mandatoryFillingLabel2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;mandatoryFillingLabel2.Name" xml:space="preserve">
+    <value>mandatoryFillingLabel2</value>
+  </data>
+  <data name="&gt;&gt;mandatoryFillingLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mandatoryFillingLabel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mandatoryFillingLabel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="uncorrectDataTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="uncorrectDataTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt, style=Bold</value>
+  </data>
+  <data name="uncorrectDataTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 401</value>
+  </data>
+  <data name="uncorrectDataTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="uncorrectDataTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 70</value>
+  </data>
+  <data name="uncorrectDataTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="uncorrectDataTextBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;uncorrectDataTextBox.Name" xml:space="preserve">
+    <value>uncorrectDataTextBox</value>
+  </data>
+  <data name="&gt;&gt;uncorrectDataTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;uncorrectDataTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;uncorrectDataTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="passwordTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="passwordTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="passwordTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 253</value>
+  </data>
+  <data name="passwordTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="passwordTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 38</value>
+  </data>
+  <data name="passwordTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.Name" xml:space="preserve">
+    <value>passwordTextBox</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="showPassImageBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="showPassImageBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAwhJREFUeF7t
@@ -136,5 +432,38 @@
         Y/AvNZ+Qs1mDrql8AHMPtuUnZzLnYFt+ciZzDrblJ2cy52BbQRAEQRAEQRAEYLH4C2BRAJZWJDQaAAAA
         AElFTkSuQmCC
 </value>
+  </data>
+  <data name="showPassImageBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>713, 259</value>
+  </data>
+  <data name="showPassImageBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="showPassImageBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;showPassImageBtn.Name" xml:space="preserve">
+    <value>showPassImageBtn</value>
+  </data>
+  <data name="&gt;&gt;showPassImageBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ImageButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1085, 643</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SignInForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SignInForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
