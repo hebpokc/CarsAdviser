@@ -315,14 +315,26 @@
     <EmbeddedResource Include="Forms\AccountForm.resx">
       <DependentUpon>AccountForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddCarForm.en-US.resx">
+      <DependentUpon>AddCarForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\AddCarForm.resx">
       <DependentUpon>AddCarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AnnouncementForm.en-US.resx">
+      <DependentUpon>AnnouncementForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AnnouncementForm.resx">
       <DependentUpon>AnnouncementForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BookmarkersForm.en-US.resx">
+      <DependentUpon>BookmarkersForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\BookmarkersForm.resx">
       <DependentUpon>BookmarkersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CarInfoForm.en-US.resx">
+      <DependentUpon>CarInfoForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CarInfoForm.resx">
       <DependentUpon>CarInfoForm.cs</DependentUpon>
@@ -332,6 +344,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ChangePasswordForm.resx">
       <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CharacteristicsForm.en-US.resx">
+      <DependentUpon>CharacteristicsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CharacteristicsForm.resx">
       <DependentUpon>CharacteristicsForm.cs</DependentUpon>
@@ -345,8 +360,14 @@
     <EmbeddedResource Include="Forms\DescriptionForm.resx">
       <DependentUpon>DescriptionForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HiddenForm.en-US.resx">
+      <DependentUpon>HiddenForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\HiddenForm.resx">
       <DependentUpon>HiddenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PreferencesForm.en-US.resx">
+      <DependentUpon>PreferencesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PreferencesForm.resx">
       <DependentUpon>PreferencesForm.cs</DependentUpon>

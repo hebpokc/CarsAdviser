@@ -123,6 +123,30 @@
   <data name="AskLogOut" xml:space="preserve">
     <value>Вы уверены что хотите выйти из аккаунта?</value>
   </data>
+  <data name="carAdded" xml:space="preserve">
+    <value>Машина успешно добавлена</value>
+  </data>
+  <data name="carAddedBookmarks" xml:space="preserve">
+    <value>Машина добавлена в закладки</value>
+  </data>
+  <data name="carAddedHidden" xml:space="preserve">
+    <value>Машина добавлена в скрытые</value>
+  </data>
+  <data name="carAlreadyBookmarks" xml:space="preserve">
+    <value>Машина уже находится в закладках</value>
+  </data>
+  <data name="carAlreadyHidden" xml:space="preserve">
+    <value>Машина уже находится в списке скрытых авто</value>
+  </data>
+  <data name="carImageUploaded" xml:space="preserve">
+    <value>Изображение загружено</value>
+  </data>
+  <data name="carRemovedFromBookmarks" xml:space="preserve">
+    <value>Машина удалена из закладок</value>
+  </data>
+  <data name="carRemovedFromHidden" xml:space="preserve">
+    <value>Машина удалена из скрытых</value>
+  </data>
   <data name="cityPlaceHolder" xml:space="preserve">
     <value>Город</value>
   </data>
@@ -186,8 +210,20 @@
   <data name="phonePlaceHolder" xml:space="preserve">
     <value>Телефон</value>
   </data>
+  <data name="preferencesDeleted" xml:space="preserve">
+    <value>Все предпочтения удалены</value>
+  </data>
+  <data name="preferencesTaken" xml:space="preserve">
+    <value>Предпочтения учтены</value>
+  </data>
+  <data name="ratingSaved" xml:space="preserve">
+    <value>Оценка сохранена</value>
+  </data>
   <data name="RegisterAccountSuccess" xml:space="preserve">
     <value>Аккаунт успешно создан</value>
+  </data>
+  <data name="searchFieldEmpty" xml:space="preserve">
+    <value>Поле поиска пустое</value>
   </data>
   <data name="selectLang" xml:space="preserve">
     <value>Выберите язык</value>
@@ -199,5 +235,8 @@
     <value>Вход не удался
 
 Неправильный логин или пароль</value>
+  </data>
+  <data name="wrongPrices" xml:space="preserve">
+    <value>Цена &lt;от&gt; должна быть меньше чем &lt;до&gt;</value>
   </data>
 </root>

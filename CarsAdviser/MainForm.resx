@@ -192,6 +192,9 @@
   <data name="&gt;&gt;announcementBottomLabel.Parent" xml:space="preserve">
     <value>headerPanel</value>
   </data>
+  <data name="&gt;&gt;hiddenBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
   <data name="accountCirclePictureBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
@@ -207,8 +210,8 @@
   <data name="appLogoPictureBox.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
-  <data name="announcementBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="accountBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1323, 66</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>CarPulse</value>
@@ -547,6 +550,9 @@
   <data name="announcementBtn.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
+  <data name="announcementBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
   <data name="&gt;&gt;mainPanel.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
@@ -573,6 +579,9 @@
   </data>
   <data name="&gt;&gt;bookmarkersBtn.Name" xml:space="preserve">
     <value>bookmarkersBtn</value>
+  </data>
+  <data name="bookmarkersBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 34</value>
   </data>
   <data name="announcementBottomLabel.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -646,14 +655,11 @@
   <data name="&gt;&gt;appLogoPictureBox.Name" xml:space="preserve">
     <value>appLogoPictureBox</value>
   </data>
-  <data name="&gt;&gt;hiddenBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
   <data name="accountBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
   </data>
   <data name="&gt;&gt;notificationLabel2.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -661,8 +667,8 @@
   <data name="hiddenBottomLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
-  <data name="bookmarkersBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 34</value>
+  <data name="announcementBtn.Text" xml:space="preserve">
+    <value>Объявления</value>
   </data>
   <data name="notificationLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -708,9 +714,6 @@
   </data>
   <data name="notificationLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
-  </data>
-  <data name="accountBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1323, 66</value>
   </data>
   <data name="announcementBottomLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt, style=Bold</value>
@@ -774,9 +777,6 @@
   </data>
   <data name="notificationLabel1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 8.25pt</value>
-  </data>
-  <data name="announcementBtn.Text" xml:space="preserve">
-    <value>Объявления</value>
   </data>
   <data name="&gt;&gt;announcementBtn.ZOrder" xml:space="preserve">
     <value>9</value>
@@ -855,8 +855,5 @@
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>en-US</value>
   </metadata>
 </root>

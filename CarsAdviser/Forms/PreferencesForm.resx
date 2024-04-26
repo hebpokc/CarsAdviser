@@ -117,4 +117,763 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;carYearLabel3.Parent" xml:space="preserve">
+    <value>carPanel3</value>
+  </data>
+  <data name="&gt;&gt;carPanel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="carNameLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 177</value>
+  </data>
+  <data name="&gt;&gt;preferCheckBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="carPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 270</value>
+  </data>
+  <data name="clearBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 45</value>
+  </data>
+  <data name="carPictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="carNameLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;carPictureBox4.Name" xml:space="preserve">
+    <value>carPictureBox4</value>
+  </data>
+  <data name="&gt;&gt;carNameLabel4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="carNameLabel2.Text" xml:space="preserve">
+    <value>Toyota Highlander XSE</value>
+  </data>
+  <data name="&gt;&gt;preferCheckBox4.Parent" xml:space="preserve">
+    <value>carPanel4</value>
+  </data>
+  <data name="carPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="carPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>588, 464</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="newListBtn.Text" xml:space="preserve">
+    <value>Новый список</value>
+  </data>
+  <data name="&gt;&gt;carNameLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carNameLabel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="carBrandPictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="saveBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="carNameLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;preferencesLabel.Name" xml:space="preserve">
+    <value>preferencesLabel</value>
+  </data>
+  <data name="&gt;&gt;carNameLabel1.Parent" xml:space="preserve">
+    <value>carPanel1</value>
+  </data>
+  <data name="&gt;&gt;carPictureBox1.Parent" xml:space="preserve">
+    <value>carPanel1</value>
+  </data>
+  <data name="carYearLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;carBrandPictureBox1.Name" xml:space="preserve">
+    <value>carBrandPictureBox1</value>
+  </data>
+  <data name="carPictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 154</value>
+  </data>
+  <data name="newListBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt, style=Bold</value>
+  </data>
+  <data name="carPictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 154</value>
+  </data>
+  <data name="preferencesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;carNameLabel2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;carPanel2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>PreferencesForm</value>
+  </data>
+  <data name="&gt;&gt;carPanel3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="saveBtn.Text" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="clearBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 910</value>
+  </data>
+  <data name="carBrandPictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 177</value>
+  </data>
+  <data name="carYearLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;carPanel2.Name" xml:space="preserve">
+    <value>carPanel2</value>
+  </data>
+  <data name="clearBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt, style=Bold</value>
+  </data>
+  <data name="preferCheckBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="carNameLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 19</value>
+  </data>
+  <data name="carPictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 154</value>
+  </data>
+  <data name="carYearLabel3.Text" xml:space="preserve">
+    <value>2021</value>
+  </data>
+  <data name="clearBtn.Text" xml:space="preserve">
+    <value>Очистить список</value>
+  </data>
+  <data name="carPictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;carNameLabel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;preferencesLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carNameLabel3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;carPictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="preferCheckBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;carBrandPictureBox1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="preferCheckBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 231</value>
+  </data>
+  <data name="&gt;&gt;carBrandPictureBox4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;carPictureBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;preferCheckBox1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2CheckBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="preferCheckBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="preferCheckBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="&gt;&gt;carNameLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carPictureBox2.Parent" xml:space="preserve">
+    <value>carPanel2</value>
+  </data>
+  <data name="&gt;&gt;preferCheckBox4.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2CheckBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;newListBtn.Name" xml:space="preserve">
+    <value>newListBtn</value>
+  </data>
+  <data name="carBrandPictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="&gt;&gt;preferCheckBox2.Parent" xml:space="preserve">
+    <value>carPanel2</value>
+  </data>
+  <data name="&gt;&gt;carPictureBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;carPanel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="carYearLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 196</value>
+  </data>
+  <data name="carNameLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="&gt;&gt;carPictureBox2.Name" xml:space="preserve">
+    <value>carPictureBox2</value>
+  </data>
+  <data name="&gt;&gt;carNameLabel2.Parent" xml:space="preserve">
+    <value>carPanel2</value>
+  </data>
+  <data name="preferCheckBox2.Text" xml:space="preserve">
+    <value>Выбрано</value>
+  </data>
+  <data name="saveBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 765</value>
+  </data>
+  <data name="carNameLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;carPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carPictureBox1.Name" xml:space="preserve">
+    <value>carPictureBox1</value>
+  </data>
+  <data name="carNameLabel4.Text" xml:space="preserve">
+    <value>Toyota Highlander XSE</value>
+  </data>
+  <data name="carPictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="carYearLabel1.Text" xml:space="preserve">
+    <value>2021</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;preferCheckBox1.Parent" xml:space="preserve">
+    <value>carPanel1</value>
+  </data>
+  <data name="&gt;&gt;carBrandPictureBox1.Parent" xml:space="preserve">
+    <value>carPanel1</value>
+  </data>
+  <data name="carNameLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="preferCheckBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;carNameLabel3.Parent" xml:space="preserve">
+    <value>carPanel3</value>
+  </data>
+  <data name="&gt;&gt;newListBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="carYearLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="saveBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PreferencesForm</value>
+  </data>
+  <data name="preferCheckBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 231</value>
+  </data>
+  <data name="preferencesLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 20.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel4.Name" xml:space="preserve">
+    <value>carYearLabel4</value>
+  </data>
+  <data name="&gt;&gt;preferCheckBox2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2CheckBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="preferCheckBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="carPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 270</value>
+  </data>
+  <data name="carPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 143</value>
+  </data>
+  <data name="carNameLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 177</value>
+  </data>
+  <data name="preferencesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="preferCheckBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 231</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel1.Name" xml:space="preserve">
+    <value>carYearLabel1</value>
+  </data>
+  <data name="&gt;&gt;carNameLabel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;carPanel4.Name" xml:space="preserve">
+    <value>carPanel4</value>
+  </data>
+  <data name="carNameLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 177</value>
+  </data>
+  <data name="carYearLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 17</value>
+  </data>
+  <data name="&gt;&gt;clearBtn.Name" xml:space="preserve">
+    <value>clearBtn</value>
+  </data>
+  <data name="&gt;&gt;newListBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;preferCheckBox3.Parent" xml:space="preserve">
+    <value>carPanel3</value>
+  </data>
+  <data name="carPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;carPanel1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;clearBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="carPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 270</value>
+  </data>
+  <data name="&gt;&gt;carPanel3.Name" xml:space="preserve">
+    <value>carPanel3</value>
+  </data>
+  <data name="carPictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="carPictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="carNameLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;carBrandPictureBox2.Name" xml:space="preserve">
+    <value>carBrandPictureBox2</value>
+  </data>
+  <data name="preferCheckBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 231</value>
+  </data>
+  <data name="&gt;&gt;clearBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;carBrandPictureBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel2.Parent" xml:space="preserve">
+    <value>carPanel2</value>
+  </data>
+  <data name="&gt;&gt;carPictureBox3.Name" xml:space="preserve">
+    <value>carPictureBox3</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel2.Name" xml:space="preserve">
+    <value>carYearLabel2</value>
+  </data>
+  <data name="&gt;&gt;saveBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="carYearLabel4.Text" xml:space="preserve">
+    <value>2021</value>
+  </data>
+  <data name="carPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 270</value>
+  </data>
+  <data name="&gt;&gt;preferencesLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;carPanel3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;carPictureBox4.Parent" xml:space="preserve">
+    <value>carPanel4</value>
+  </data>
+  <data name="preferCheckBox1.Text" xml:space="preserve">
+    <value>Выбрано</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel4.Parent" xml:space="preserve">
+    <value>carPanel4</value>
+  </data>
+  <data name="carNameLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="carBrandPictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;carPanel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="preferencesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 33</value>
+  </data>
+  <data name="&gt;&gt;carNameLabel2.Name" xml:space="preserve">
+    <value>carNameLabel2</value>
+  </data>
+  <data name="preferCheckBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="preferencesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 61</value>
+  </data>
+  <data name="carYearLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 17</value>
+  </data>
+  <data name="&gt;&gt;carBrandPictureBox3.Name" xml:space="preserve">
+    <value>carBrandPictureBox3</value>
+  </data>
+  <data name="&gt;&gt;preferCheckBox4.Name" xml:space="preserve">
+    <value>preferCheckBox4</value>
+  </data>
+  <data name="carYearLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;carBrandPictureBox2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="carBrandPictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="carPictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="carYearLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;carPictureBox4.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;saveBtn.Name" xml:space="preserve">
+    <value>saveBtn</value>
+  </data>
+  <data name="carPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="carPictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 154</value>
+  </data>
+  <data name="carNameLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="carPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>588, 143</value>
+  </data>
+  <data name="carYearLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;carPanel4.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;preferCheckBox3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2CheckBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="preferCheckBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="newListBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 838</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>981, 985</value>
+  </data>
+  <data name="&gt;&gt;carBrandPictureBox3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="carNameLabel1.Text" xml:space="preserve">
+    <value>Toyota Highlander XSE</value>
+  </data>
+  <data name="&gt;&gt;preferCheckBox3.Name" xml:space="preserve">
+    <value>preferCheckBox3</value>
+  </data>
+  <data name="carPictureBox4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="clearBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="carPictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel1.Parent" xml:space="preserve">
+    <value>carPanel1</value>
+  </data>
+  <data name="carNameLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="preferCheckBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="carNameLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 177</value>
+  </data>
+  <data name="preferCheckBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="carBrandPictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="carYearLabel2.Text" xml:space="preserve">
+    <value>2021</value>
+  </data>
+  <data name="&gt;&gt;saveBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carBrandPictureBox2.Parent" xml:space="preserve">
+    <value>carPanel2</value>
+  </data>
+  <data name="carNameLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;carNameLabel4.Parent" xml:space="preserve">
+    <value>carPanel4</value>
+  </data>
+  <data name="carBrandPictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 177</value>
+  </data>
+  <data name="&gt;&gt;carPictureBox3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="carPictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="carYearLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="carYearLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;carPanel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;preferCheckBox2.Name" xml:space="preserve">
+    <value>preferCheckBox2</value>
+  </data>
+  <data name="&gt;&gt;carBrandPictureBox4.Name" xml:space="preserve">
+    <value>carBrandPictureBox4</value>
+  </data>
+  <data name="carYearLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 196</value>
+  </data>
+  <data name="&gt;&gt;carPanel4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carNameLabel3.Name" xml:space="preserve">
+    <value>carNameLabel3</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="carYearLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 17</value>
+  </data>
+  <data name="&gt;&gt;preferCheckBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="carBrandPictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;carBrandPictureBox3.Parent" xml:space="preserve">
+    <value>carPanel3</value>
+  </data>
+  <data name="carNameLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 19</value>
+  </data>
+  <data name="&gt;&gt;carNameLabel4.Name" xml:space="preserve">
+    <value>carNameLabel4</value>
+  </data>
+  <data name="preferCheckBox4.Text" xml:space="preserve">
+    <value>Выбрано</value>
+  </data>
+  <data name="carYearLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carNameLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 19</value>
+  </data>
+  <data name="carYearLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;preferCheckBox1.Name" xml:space="preserve">
+    <value>preferCheckBox1</value>
+  </data>
+  <data name="carYearLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 196</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel3.Name" xml:space="preserve">
+    <value>carYearLabel3</value>
+  </data>
+  <data name="&gt;&gt;carPictureBox1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="carYearLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="carYearLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 196</value>
+  </data>
+  <data name="carPictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;carBrandPictureBox4.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="carNameLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 19</value>
+  </data>
+  <data name="&gt;&gt;preferCheckBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="preferCheckBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="&gt;&gt;newListBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="preferencesLabel.Text" xml:space="preserve">
+    <value>Предпочтения</value>
+  </data>
+  <data name="preferCheckBox3.Text" xml:space="preserve">
+    <value>Выбрано</value>
+  </data>
+  <data name="&gt;&gt;carPictureBox2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="carNameLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="preferCheckBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="&gt;&gt;carBrandPictureBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="carPictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="preferCheckBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carNameLabel3.Text" xml:space="preserve">
+    <value>Toyota Highlander XSE</value>
+  </data>
+  <data name="&gt;&gt;clearBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;preferencesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carPanel1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="carBrandPictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="saveBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 45</value>
+  </data>
+  <data name="carNameLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="&gt;&gt;preferCheckBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="preferCheckBox3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;carPictureBox3.Parent" xml:space="preserve">
+    <value>carPanel3</value>
+  </data>
+  <data name="carBrandPictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="preferCheckBox4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="newListBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;carNameLabel1.Name" xml:space="preserve">
+    <value>carNameLabel1</value>
+  </data>
+  <data name="carYearLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;carPictureBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="preferCheckBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="carBrandPictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 177</value>
+  </data>
+  <data name="carPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 464</value>
+  </data>
+  <data name="carYearLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 17</value>
+  </data>
+  <data name="&gt;&gt;saveBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="carPictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="&gt;&gt;carBrandPictureBox3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;carPanel1.Name" xml:space="preserve">
+    <value>carPanel1</value>
+  </data>
+  <data name="&gt;&gt;carBrandPictureBox4.Parent" xml:space="preserve">
+    <value>carPanel4</value>
+  </data>
+  <data name="carBrandPictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 177</value>
+  </data>
+  <data name="newListBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 45</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

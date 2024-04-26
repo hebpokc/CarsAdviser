@@ -79,6 +79,78 @@ namespace CarsAdviser {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Машина успешно добавлена.
+        /// </summary>
+        internal static string carAdded {
+            get {
+                return ResourceManager.GetString("carAdded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Машина добавлена в закладки.
+        /// </summary>
+        internal static string carAddedBookmarks {
+            get {
+                return ResourceManager.GetString("carAddedBookmarks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Машина добавлена в скрытые.
+        /// </summary>
+        internal static string carAddedHidden {
+            get {
+                return ResourceManager.GetString("carAddedHidden", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Машина уже находится в закладках.
+        /// </summary>
+        internal static string carAlreadyBookmarks {
+            get {
+                return ResourceManager.GetString("carAlreadyBookmarks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Машина уже находится в списке скрытых авто.
+        /// </summary>
+        internal static string carAlreadyHidden {
+            get {
+                return ResourceManager.GetString("carAlreadyHidden", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Изображение загружено.
+        /// </summary>
+        internal static string carImageUploaded {
+            get {
+                return ResourceManager.GetString("carImageUploaded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Машина удалена из закладок.
+        /// </summary>
+        internal static string carRemovedFromBookmarks {
+            get {
+                return ResourceManager.GetString("carRemovedFromBookmarks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Машина удалена из скрытых.
+        /// </summary>
+        internal static string carRemovedFromHidden {
+            get {
+                return ResourceManager.GetString("carRemovedFromHidden", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Город.
         /// </summary>
         internal static string cityPlaceHolder {
@@ -268,11 +340,47 @@ namespace CarsAdviser {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Все предпочтения удалены.
+        /// </summary>
+        internal static string preferencesDeleted {
+            get {
+                return ResourceManager.GetString("preferencesDeleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Предпочтения учтены.
+        /// </summary>
+        internal static string preferencesTaken {
+            get {
+                return ResourceManager.GetString("preferencesTaken", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Оценка сохранена.
+        /// </summary>
+        internal static string ratingSaved {
+            get {
+                return ResourceManager.GetString("ratingSaved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Аккаунт успешно создан.
         /// </summary>
         internal static string RegisterAccountSuccess {
             get {
                 return ResourceManager.GetString("RegisterAccountSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Поле поиска пустое.
+        /// </summary>
+        internal static string searchFieldEmpty {
+            get {
+                return ResourceManager.GetString("searchFieldEmpty", resourceCulture);
             }
         }
         
@@ -302,6 +410,15 @@ namespace CarsAdviser {
         internal static string uncorrectData {
             get {
                 return ResourceManager.GetString("uncorrectData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Цена &lt;от&gt; должна быть меньше чем &lt;до&gt;.
+        /// </summary>
+        internal static string wrongPrices {
+            get {
+                return ResourceManager.GetString("wrongPrices", resourceCulture);
             }
         }
     }

@@ -117,126 +117,92 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AskExit" xml:space="preserve">
-    <value>Are you sure you want to close the app?</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gradeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 19</value>
   </data>
-  <data name="AskLogOut" xml:space="preserve">
-    <value>Are you sure you want to log out of your account?</value>
+  <data name="gradeLabel.Text" xml:space="preserve">
+    <value>Rating</value>
   </data>
-  <data name="carAdded" xml:space="preserve">
-    <value>The car was successfully added</value>
+  <data name="mileageLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 19</value>
   </data>
-  <data name="carAddedBookmarks" xml:space="preserve">
-    <value>The car has been added to bookmarks</value>
+  <data name="mileageLabel.Text" xml:space="preserve">
+    <value>Mileage</value>
   </data>
-  <data name="carAddedHidden" xml:space="preserve">
-    <value>The car has been added to the hidden</value>
+  <data name="bodyLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 19</value>
   </data>
-  <data name="carAlreadyBookmarks" xml:space="preserve">
-    <value>The car is already in bookmarks</value>
+  <data name="bodyLabel.Text" xml:space="preserve">
+    <value>Body</value>
   </data>
-  <data name="carAlreadyHidden" xml:space="preserve">
-    <value>The car is already in hidden cars</value>
+  <data name="engineLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 19</value>
   </data>
-  <data name="carImageUploaded" xml:space="preserve">
-    <value>Image uploaded</value>
+  <data name="engineLabel.Text" xml:space="preserve">
+    <value>Engine</value>
   </data>
-  <data name="carRemovedFromBookmarks" xml:space="preserve">
-    <value>The car has been removed from bookmarks</value>
+  <data name="fuelLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 19</value>
   </data>
-  <data name="carRemovedFromHidden" xml:space="preserve">
-    <value>The car was removed from the hidden</value>
+  <data name="fuelLabel.Text" xml:space="preserve">
+    <value>Fuel</value>
   </data>
-  <data name="cityPlaceHolder" xml:space="preserve">
-    <value>City</value>
+  <data name="driveLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 19</value>
   </data>
-  <data name="codePlaceHolder" xml:space="preserve">
-    <value>Confirmation code</value>
+  <data name="driveLabel.Text" xml:space="preserve">
+    <value>Drive</value>
   </data>
-  <data name="codeSended" xml:space="preserve">
-    <value>The confirmation code has been sent to your email</value>
+  <data name="transmissionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 19</value>
   </data>
-  <data name="codeSendError" xml:space="preserve">
-    <value>An error occurred while sending the confirmation code</value>
+  <data name="transmissionLabel.Text" xml:space="preserve">
+    <value>Transmission</value>
   </data>
-  <data name="codeUncorrect" xml:space="preserve">
-    <value>Invalid or ungenerated code. Click on the generate button again or check the correctness of the entered code</value>
+  <data name="trunkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 19</value>
   </data>
-  <data name="databaseConnectionError" xml:space="preserve">
-    <value>Database connection error</value>
+  <data name="trunkLabel.Text" xml:space="preserve">
+    <value>Trunk</value>
   </data>
-  <data name="DataChanged" xml:space="preserve">
-    <value>Data changed</value>
+  <data name="wheelLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 19</value>
   </data>
-  <data name="EnterValidMail" xml:space="preserve">
-    <value>Please enter a valid email address!</value>
+  <data name="wheelLabel.Text" xml:space="preserve">
+    <value>Wheel</value>
   </data>
-  <data name="EnterValidPhone" xml:space="preserve">
-    <value>Please enter a correct phone number!</value>
+  <data name="colorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 19</value>
   </data>
-  <data name="formText" xml:space="preserve">
-    <value>Authorization</value>
+  <data name="colorLabel.Text" xml:space="preserve">
+    <value>Colour</value>
   </data>
-  <data name="ImageNotLoaded" xml:space="preserve">
-    <value>Image not loaded</value>
+  <data name="priceLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 26</value>
   </data>
-  <data name="ImageUploaded" xml:space="preserve">
-    <value>Image uploaded\Refresh the page or log out of your account to see the changes</value>
+  <data name="priceLabel1.Text" xml:space="preserve">
+    <value>Price</value>
   </data>
-  <data name="loginPlaceHolder" xml:space="preserve">
-    <value>E-mail or phone number</value>
+  <data name="characteristicsBottomLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 621</value>
   </data>
-  <data name="messageBoxError" xml:space="preserve">
-    <value>Error</value>
+  <data name="characteristicsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 587</value>
   </data>
-  <data name="messageBoxInfo" xml:space="preserve">
-    <value>Information</value>
+  <data name="characteristicsBtn.Text" xml:space="preserve">
+    <value>Characteristics</value>
   </data>
-  <data name="namePlaceHolder" xml:space="preserve">
-    <value>Name</value>
+  <data name="descriptionBtn.Text" xml:space="preserve">
+    <value>Description</value>
   </data>
-  <data name="newPasswordPlaceHolder" xml:space="preserve">
-    <value>New password</value>
+  <data name="toBookmarksBtn.Text" xml:space="preserve">
+    <value>To bookmarks</value>
   </data>
-  <data name="passwordChanged" xml:space="preserve">
-    <value>The password has been changed</value>
+  <data name="hideBtn.Text" xml:space="preserve">
+    <value>Hide</value>
   </data>
-  <data name="passwordPlaceHolder" xml:space="preserve">
-    <value>Password</value>
-  </data>
-  <data name="patronymicPlaceHolder" xml:space="preserve">
-    <value>Patronymic</value>
-  </data>
-  <data name="phonePlaceHolder" xml:space="preserve">
-    <value>Phone</value>
-  </data>
-  <data name="preferencesDeleted" xml:space="preserve">
-    <value>preferencesDeleted</value>
-  </data>
-  <data name="preferencesTaken" xml:space="preserve">
-    <value>Preferences are taken into account</value>
-  </data>
-  <data name="ratingSaved" xml:space="preserve">
-    <value>The rating is saved</value>
-  </data>
-  <data name="RegisterAccountSuccess" xml:space="preserve">
-    <value>Account created successfully</value>
-  </data>
-  <data name="searchFieldEmpty" xml:space="preserve">
-    <value>The search field is empty</value>
-  </data>
-  <data name="selectLang" xml:space="preserve">
-    <value>Select a language</value>
-  </data>
-  <data name="surnamePlaceHolder" xml:space="preserve">
-    <value>Surname</value>
-  </data>
-  <data name="uncorrectData" xml:space="preserve">
-    <value>Login failed
-
-Incorrect username or password</value>
-  </data>
-  <data name="wrongPrices" xml:space="preserve">
-    <value>The price &lt;from&gt; should be less than &lt;to&gt;</value>
+  <data name="saveMarkBtn.Text" xml:space="preserve">
+    <value>Save the rating</value>
   </data>
 </root>

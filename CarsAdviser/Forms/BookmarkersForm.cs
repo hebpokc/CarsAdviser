@@ -9,6 +9,7 @@ using System.Drawing;
 using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using AppContext = CarsAdviser.Database.AppContext;
@@ -25,6 +26,7 @@ namespace CarsAdviser.Forms
             InitializeComponent();
             this.parentForm = parentForm;
             this.userId = userId;
+            Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
             LoadBookmarks();
         }
         private void UpdateForm()
@@ -173,7 +175,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private string GetStampImageLocation(string stamp)
@@ -224,7 +226,7 @@ namespace CarsAdviser.Forms
                     context.Users_bookmarks.Remove(bookmark);
                     context.SaveChanges();
 
-                    MessageBox.Show("Машина удалена из закладок", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show(Local.carRemovedFromBookmarks, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     UpdateForm();
                 }
             }

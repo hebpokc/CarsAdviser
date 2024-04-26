@@ -8,6 +8,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using AppContext = CarsAdviser.Database.AppContext;
@@ -22,6 +23,7 @@ namespace CarsAdviser.Forms
         {
             InitializeComponent();
             this.parentForm = parentForm;
+            Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
         }
 
         private void AddCarForm_Load(object sender, EventArgs e)
@@ -73,7 +75,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void addPhotoBtn_Click(object sender, EventArgs e)
@@ -97,7 +99,7 @@ namespace CarsAdviser.Forms
                     carPhotos.Add(destinationPath);
                 }
 
-                MessageBox.Show("Изображение загружено", "Инфомарция", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(Local.carImageUploaded, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
         private void carBrandComboBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -124,7 +126,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -162,12 +164,12 @@ namespace CarsAdviser.Forms
                     context.Cars.Add(car);
                     context.SaveChanges();
 
-                    MessageBox.Show("Машина успешно добавлена", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show(Local.carAdded, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

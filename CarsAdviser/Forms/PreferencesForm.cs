@@ -8,6 +8,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using AppContext = CarsAdviser.Database.AppContext;
@@ -25,6 +26,7 @@ namespace CarsAdviser.Forms
             InitializeComponent();
             this.parentForm = parentForm;
             this.userId = userId;
+            Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
             LoadRandomCars();
         }
         private void LoadRandomCars()
@@ -126,7 +128,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private string GetStampImageLocation(string stamp)
@@ -184,7 +186,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null;
             }
         }
@@ -226,7 +228,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void RemovePreferences()
@@ -245,7 +247,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}",Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private List<Cars> GetUserPreferences()
@@ -275,7 +277,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             return userPreferences;
@@ -335,7 +337,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null;
             }
         }
@@ -352,13 +354,13 @@ namespace CarsAdviser.Forms
             similarToPreferences = AnalyzeUserPreferences();
 
             parentForm.similarToPreferences = similarToPreferences;
-            MessageBox.Show("Предпочтения учтены", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(Local.preferencesTaken, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void clearBtn_Click(object sender, EventArgs e)
         {
             RemovePreferences();
-            MessageBox.Show("Все предпочтения удалены", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(Local.preferencesDeleted, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

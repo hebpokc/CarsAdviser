@@ -8,6 +8,7 @@ using System.Drawing;
 using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using AppContext = CarsAdviser.Database.AppContext;
@@ -25,6 +26,7 @@ namespace CarsAdviser.Forms
             InitializeComponent();
             this.parentForm = parentForm;
             this.carId = carId;
+            Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
             LoadCarDetails();
         }
         public void OpenChildForm(Form childForm)
@@ -137,7 +139,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void UpdateCarRating(int carId, int rating)
@@ -151,13 +153,13 @@ namespace CarsAdviser.Forms
                     {
                         car.Mark = rating;
                         context.SaveChanges();
-                        MessageBox.Show("Оценка сохранена", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(Local.ratingSaved, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void saveMarkBtn_Click(object sender, EventArgs e)
@@ -181,7 +183,7 @@ namespace CarsAdviser.Forms
                     var bookmark = context.Users_bookmarks.FirstOrDefault(b => b.Users_id == parentForm.currentUserId && b.Cars_id == carId);
                     if (bookmark != null)
                     {
-                        MessageBox.Show("Машина уже находится в закладках.", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(Local.carAlreadyBookmarks, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
@@ -194,13 +196,13 @@ namespace CarsAdviser.Forms
                         context.Users_bookmarks.Add(bookmark);
                         context.SaveChanges();
 
-                        MessageBox.Show("Машина добавлена в закладки", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(Local.carAddedBookmarks, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void hideBtn_Click(object sender, EventArgs e)
@@ -219,7 +221,7 @@ namespace CarsAdviser.Forms
                     var hiddenAuto = context.Users_hidden_auto.FirstOrDefault(b => b.Users_id == parentForm.currentUserId && b.Cars_id == carId);
                     if (hiddenAuto != null)
                     {
-                        MessageBox.Show("Машина уже находится в списке скрытых авто.", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(Local.carAlreadyHidden, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
@@ -232,15 +234,19 @@ namespace CarsAdviser.Forms
                         context.Users_hidden_auto.Add(hiddenAuto);
                         context.SaveChanges();
 
-                        MessageBox.Show("Машина добавлена в скрытые", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(Local.carAddedHidden, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+        public CultureInfo GetCurrentUICulture()
+        {
+            return Thread.CurrentThread.CurrentUICulture;
         }
     }
 }

@@ -29,6 +29,7 @@ namespace CarsAdviser.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddCarForm));
             this.preferencesLabel = new System.Windows.Forms.Label();
             this.carBrandComboBox = new Guna.UI2.WinForms.Guna2ComboBox();
             this.carBrandLabel = new System.Windows.Forms.Label();
@@ -68,297 +69,207 @@ namespace CarsAdviser.Forms
             // 
             // preferencesLabel
             // 
-            this.preferencesLabel.AutoSize = true;
-            this.preferencesLabel.Font = new System.Drawing.Font("Candara", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.preferencesLabel.Location = new System.Drawing.Point(250, 61);
+            resources.ApplyResources(this.preferencesLabel, "preferencesLabel");
             this.preferencesLabel.Name = "preferencesLabel";
-            this.preferencesLabel.Size = new System.Drawing.Size(190, 33);
-            this.preferencesLabel.TabIndex = 16;
-            this.preferencesLabel.Text = "Добавить авто";
             // 
             // carBrandComboBox
             // 
+            resources.ApplyResources(this.carBrandComboBox, "carBrandComboBox");
             this.carBrandComboBox.BackColor = System.Drawing.Color.Transparent;
             this.carBrandComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.carBrandComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.carBrandComboBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.carBrandComboBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carBrandComboBox.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.carBrandComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.carBrandComboBox.ItemHeight = 30;
-            this.carBrandComboBox.Location = new System.Drawing.Point(256, 145);
             this.carBrandComboBox.Name = "carBrandComboBox";
-            this.carBrandComboBox.Size = new System.Drawing.Size(210, 36);
             this.carBrandComboBox.Sorted = true;
-            this.carBrandComboBox.TabIndex = 17;
             this.carBrandComboBox.SelectedIndexChanged += new System.EventHandler(this.carBrandComboBox_SelectedIndexChanged);
             // 
             // carBrandLabel
             // 
-            this.carBrandLabel.AutoSize = true;
-            this.carBrandLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.carBrandLabel.Location = new System.Drawing.Point(252, 123);
+            resources.ApplyResources(this.carBrandLabel, "carBrandLabel");
             this.carBrandLabel.Name = "carBrandLabel";
-            this.carBrandLabel.Size = new System.Drawing.Size(91, 19);
-            this.carBrandLabel.TabIndex = 18;
-            this.carBrandLabel.Text = "Марка авто";
             // 
             // carModelLabel
             // 
-            this.carModelLabel.AutoSize = true;
-            this.carModelLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.carModelLabel.Location = new System.Drawing.Point(604, 123);
+            resources.ApplyResources(this.carModelLabel, "carModelLabel");
             this.carModelLabel.Name = "carModelLabel";
-            this.carModelLabel.Size = new System.Drawing.Size(99, 19);
-            this.carModelLabel.TabIndex = 20;
-            this.carModelLabel.Text = "Модель авто";
             // 
             // carModelComboBox
             // 
+            resources.ApplyResources(this.carModelComboBox, "carModelComboBox");
             this.carModelComboBox.BackColor = System.Drawing.Color.Transparent;
             this.carModelComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.carModelComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.carModelComboBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.carModelComboBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carModelComboBox.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.carModelComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.carModelComboBox.ItemHeight = 30;
-            this.carModelComboBox.Location = new System.Drawing.Point(608, 145);
             this.carModelComboBox.Name = "carModelComboBox";
-            this.carModelComboBox.Size = new System.Drawing.Size(210, 36);
-            this.carModelComboBox.TabIndex = 19;
             // 
             // carEngineLabel
             // 
-            this.carEngineLabel.AutoSize = true;
-            this.carEngineLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.carEngineLabel.Location = new System.Drawing.Point(604, 225);
+            resources.ApplyResources(this.carEngineLabel, "carEngineLabel");
             this.carEngineLabel.Name = "carEngineLabel";
-            this.carEngineLabel.Size = new System.Drawing.Size(106, 19);
-            this.carEngineLabel.TabIndex = 24;
-            this.carEngineLabel.Text = "Тип двигателя";
             // 
             // carEngineComboBox
             // 
+            resources.ApplyResources(this.carEngineComboBox, "carEngineComboBox");
             this.carEngineComboBox.BackColor = System.Drawing.Color.Transparent;
             this.carEngineComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.carEngineComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.carEngineComboBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.carEngineComboBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carEngineComboBox.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.carEngineComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.carEngineComboBox.ItemHeight = 30;
             this.carEngineComboBox.Items.AddRange(new object[] {
-            "Бензиновый",
-            "Дизельный",
-            "Гибридный",
-            "Электрический",
-            "Водородный"});
-            this.carEngineComboBox.Location = new System.Drawing.Point(608, 247);
+            resources.GetString("carEngineComboBox.Items"),
+            resources.GetString("carEngineComboBox.Items1"),
+            resources.GetString("carEngineComboBox.Items2"),
+            resources.GetString("carEngineComboBox.Items3"),
+            resources.GetString("carEngineComboBox.Items4")});
             this.carEngineComboBox.Name = "carEngineComboBox";
-            this.carEngineComboBox.Size = new System.Drawing.Size(210, 36);
-            this.carEngineComboBox.TabIndex = 23;
             // 
             // carBodyLabel
             // 
-            this.carBodyLabel.AutoSize = true;
-            this.carBodyLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.carBodyLabel.Location = new System.Drawing.Point(252, 225);
+            resources.ApplyResources(this.carBodyLabel, "carBodyLabel");
             this.carBodyLabel.Name = "carBodyLabel";
-            this.carBodyLabel.Size = new System.Drawing.Size(83, 19);
-            this.carBodyLabel.TabIndex = 22;
-            this.carBodyLabel.Text = "Тип кузова";
             // 
             // carBodyComboBox
             // 
+            resources.ApplyResources(this.carBodyComboBox, "carBodyComboBox");
             this.carBodyComboBox.BackColor = System.Drawing.Color.Transparent;
             this.carBodyComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.carBodyComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.carBodyComboBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.carBodyComboBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carBodyComboBox.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.carBodyComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.carBodyComboBox.ItemHeight = 30;
             this.carBodyComboBox.Items.AddRange(new object[] {
-            "Седан",
-            "Хэтчбек",
-            "Универсал",
-            "Внедорожник",
-            "Кроссовер",
-            "Купе",
-            "Пикап",
-            "Минивэн"});
-            this.carBodyComboBox.Location = new System.Drawing.Point(256, 247);
+            resources.GetString("carBodyComboBox.Items"),
+            resources.GetString("carBodyComboBox.Items1"),
+            resources.GetString("carBodyComboBox.Items2"),
+            resources.GetString("carBodyComboBox.Items3"),
+            resources.GetString("carBodyComboBox.Items4"),
+            resources.GetString("carBodyComboBox.Items5"),
+            resources.GetString("carBodyComboBox.Items6"),
+            resources.GetString("carBodyComboBox.Items7")});
             this.carBodyComboBox.Name = "carBodyComboBox";
-            this.carBodyComboBox.Size = new System.Drawing.Size(210, 36);
-            this.carBodyComboBox.TabIndex = 21;
             // 
             // carDriveLabel
             // 
-            this.carDriveLabel.AutoSize = true;
-            this.carDriveLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.carDriveLabel.Location = new System.Drawing.Point(604, 326);
+            resources.ApplyResources(this.carDriveLabel, "carDriveLabel");
             this.carDriveLabel.Name = "carDriveLabel";
-            this.carDriveLabel.Size = new System.Drawing.Size(62, 19);
-            this.carDriveLabel.TabIndex = 28;
-            this.carDriveLabel.Text = "Привод";
             // 
             // carDriveComboBox
             // 
+            resources.ApplyResources(this.carDriveComboBox, "carDriveComboBox");
             this.carDriveComboBox.BackColor = System.Drawing.Color.Transparent;
             this.carDriveComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.carDriveComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.carDriveComboBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.carDriveComboBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carDriveComboBox.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.carDriveComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.carDriveComboBox.ItemHeight = 30;
             this.carDriveComboBox.Items.AddRange(new object[] {
-            "Передний",
-            "Задний",
-            "Полный"});
-            this.carDriveComboBox.Location = new System.Drawing.Point(608, 348);
+            resources.GetString("carDriveComboBox.Items"),
+            resources.GetString("carDriveComboBox.Items1"),
+            resources.GetString("carDriveComboBox.Items2")});
             this.carDriveComboBox.Name = "carDriveComboBox";
-            this.carDriveComboBox.Size = new System.Drawing.Size(210, 36);
-            this.carDriveComboBox.TabIndex = 27;
             // 
             // carFuelLabel
             // 
-            this.carFuelLabel.AutoSize = true;
-            this.carFuelLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.carFuelLabel.Location = new System.Drawing.Point(252, 326);
+            resources.ApplyResources(this.carFuelLabel, "carFuelLabel");
             this.carFuelLabel.Name = "carFuelLabel";
-            this.carFuelLabel.Size = new System.Drawing.Size(67, 19);
-            this.carFuelLabel.TabIndex = 26;
-            this.carFuelLabel.Text = "Топливо";
             // 
             // carFuelComboBox
             // 
+            resources.ApplyResources(this.carFuelComboBox, "carFuelComboBox");
             this.carFuelComboBox.BackColor = System.Drawing.Color.Transparent;
             this.carFuelComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.carFuelComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.carFuelComboBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.carFuelComboBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carFuelComboBox.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.carFuelComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.carFuelComboBox.ItemHeight = 30;
             this.carFuelComboBox.Items.AddRange(new object[] {
-            "Бензин",
-            "Дизельное топливо",
-            "Электричество",
-            "Гибридное топливо",
-            "Водород"});
-            this.carFuelComboBox.Location = new System.Drawing.Point(256, 348);
+            resources.GetString("carFuelComboBox.Items"),
+            resources.GetString("carFuelComboBox.Items1"),
+            resources.GetString("carFuelComboBox.Items2"),
+            resources.GetString("carFuelComboBox.Items3"),
+            resources.GetString("carFuelComboBox.Items4")});
             this.carFuelComboBox.Name = "carFuelComboBox";
-            this.carFuelComboBox.Size = new System.Drawing.Size(210, 36);
-            this.carFuelComboBox.TabIndex = 25;
             // 
             // carWheelLabel
             // 
-            this.carWheelLabel.AutoSize = true;
-            this.carWheelLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.carWheelLabel.Location = new System.Drawing.Point(604, 425);
+            resources.ApplyResources(this.carWheelLabel, "carWheelLabel");
             this.carWheelLabel.Name = "carWheelLabel";
-            this.carWheelLabel.Size = new System.Drawing.Size(40, 19);
-            this.carWheelLabel.TabIndex = 32;
-            this.carWheelLabel.Text = "Руль";
             // 
             // carWheelComboBox
             // 
+            resources.ApplyResources(this.carWheelComboBox, "carWheelComboBox");
             this.carWheelComboBox.BackColor = System.Drawing.Color.Transparent;
             this.carWheelComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.carWheelComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.carWheelComboBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.carWheelComboBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carWheelComboBox.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.carWheelComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.carWheelComboBox.ItemHeight = 30;
             this.carWheelComboBox.Items.AddRange(new object[] {
-            "Левый",
-            "Правый"});
-            this.carWheelComboBox.Location = new System.Drawing.Point(608, 447);
+            resources.GetString("carWheelComboBox.Items"),
+            resources.GetString("carWheelComboBox.Items1")});
             this.carWheelComboBox.Name = "carWheelComboBox";
-            this.carWheelComboBox.Size = new System.Drawing.Size(210, 36);
-            this.carWheelComboBox.TabIndex = 31;
             // 
             // carTransmissionLabel
             // 
-            this.carTransmissionLabel.AutoSize = true;
-            this.carTransmissionLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.carTransmissionLabel.Location = new System.Drawing.Point(252, 425);
+            resources.ApplyResources(this.carTransmissionLabel, "carTransmissionLabel");
             this.carTransmissionLabel.Name = "carTransmissionLabel";
-            this.carTransmissionLabel.Size = new System.Drawing.Size(39, 19);
-            this.carTransmissionLabel.TabIndex = 30;
-            this.carTransmissionLabel.Text = "КПП";
             // 
             // carTransmissionComboBox
             // 
+            resources.ApplyResources(this.carTransmissionComboBox, "carTransmissionComboBox");
             this.carTransmissionComboBox.BackColor = System.Drawing.Color.Transparent;
             this.carTransmissionComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.carTransmissionComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.carTransmissionComboBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.carTransmissionComboBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carTransmissionComboBox.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.carTransmissionComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.carTransmissionComboBox.ItemHeight = 30;
             this.carTransmissionComboBox.Items.AddRange(new object[] {
-            "Механическая",
-            "Автоматическая"});
-            this.carTransmissionComboBox.Location = new System.Drawing.Point(256, 447);
+            resources.GetString("carTransmissionComboBox.Items"),
+            resources.GetString("carTransmissionComboBox.Items1")});
             this.carTransmissionComboBox.Name = "carTransmissionComboBox";
-            this.carTransmissionComboBox.Size = new System.Drawing.Size(210, 36);
-            this.carTransmissionComboBox.TabIndex = 29;
             // 
             // carColorLabel
             // 
-            this.carColorLabel.AutoSize = true;
-            this.carColorLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.carColorLabel.Location = new System.Drawing.Point(252, 524);
+            resources.ApplyResources(this.carColorLabel, "carColorLabel");
             this.carColorLabel.Name = "carColorLabel";
-            this.carColorLabel.Size = new System.Drawing.Size(42, 19);
-            this.carColorLabel.TabIndex = 34;
-            this.carColorLabel.Text = "Цвет";
             // 
             // carColorComboBox
             // 
+            resources.ApplyResources(this.carColorComboBox, "carColorComboBox");
             this.carColorComboBox.BackColor = System.Drawing.Color.Transparent;
             this.carColorComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.carColorComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.carColorComboBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.carColorComboBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carColorComboBox.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.carColorComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.carColorComboBox.ItemHeight = 30;
             this.carColorComboBox.Items.AddRange(new object[] {
-            "Черный",
-            "Белый",
-            "Серебристый",
-            "Серый",
-            "Синий",
-            "Красный",
-            "Зеленый",
-            "Коричневый",
-            "Бежевый",
-            "Золотистый",
-            "Оранжевый",
-            "Желтый"});
-            this.carColorComboBox.Location = new System.Drawing.Point(256, 546);
+            resources.GetString("carColorComboBox.Items"),
+            resources.GetString("carColorComboBox.Items1"),
+            resources.GetString("carColorComboBox.Items2"),
+            resources.GetString("carColorComboBox.Items3"),
+            resources.GetString("carColorComboBox.Items4"),
+            resources.GetString("carColorComboBox.Items5"),
+            resources.GetString("carColorComboBox.Items6"),
+            resources.GetString("carColorComboBox.Items7"),
+            resources.GetString("carColorComboBox.Items8"),
+            resources.GetString("carColorComboBox.Items9"),
+            resources.GetString("carColorComboBox.Items10"),
+            resources.GetString("carColorComboBox.Items11")});
             this.carColorComboBox.Name = "carColorComboBox";
-            this.carColorComboBox.Size = new System.Drawing.Size(210, 36);
-            this.carColorComboBox.TabIndex = 33;
             // 
             // carTrunkLabel
             // 
-            this.carTrunkLabel.AutoSize = true;
-            this.carTrunkLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.carTrunkLabel.Location = new System.Drawing.Point(252, 613);
+            resources.ApplyResources(this.carTrunkLabel, "carTrunkLabel");
             this.carTrunkLabel.Name = "carTrunkLabel";
-            this.carTrunkLabel.Size = new System.Drawing.Size(192, 19);
-            this.carTrunkLabel.TabIndex = 35;
-            this.carTrunkLabel.Text = "Вместимость багажника, л";
             // 
             // carTrunkTextBox
             // 
+            resources.ApplyResources(this.carTrunkTextBox, "carTrunkTextBox");
             this.carTrunkTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.carTrunkTextBox.DefaultText = "";
             this.carTrunkTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -366,20 +277,16 @@ namespace CarsAdviser.Forms
             this.carTrunkTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.carTrunkTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.carTrunkTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carTrunkTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.carTrunkTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carTrunkTextBox.Location = new System.Drawing.Point(256, 648);
-            this.carTrunkTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.carTrunkTextBox.Name = "carTrunkTextBox";
             this.carTrunkTextBox.PasswordChar = '\0';
             this.carTrunkTextBox.PlaceholderText = "";
             this.carTrunkTextBox.SelectedText = "";
-            this.carTrunkTextBox.Size = new System.Drawing.Size(210, 36);
-            this.carTrunkTextBox.TabIndex = 36;
             this.carTrunkTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.carTrunkTextBox_KeyPress);
             // 
             // carEnginePowerTextBox
             // 
+            resources.ApplyResources(this.carEnginePowerTextBox, "carEnginePowerTextBox");
             this.carEnginePowerTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.carEnginePowerTextBox.DefaultText = "";
             this.carEnginePowerTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -387,30 +294,21 @@ namespace CarsAdviser.Forms
             this.carEnginePowerTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.carEnginePowerTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.carEnginePowerTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carEnginePowerTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.carEnginePowerTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carEnginePowerTextBox.Location = new System.Drawing.Point(608, 648);
-            this.carEnginePowerTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.carEnginePowerTextBox.Name = "carEnginePowerTextBox";
             this.carEnginePowerTextBox.PasswordChar = '\0';
             this.carEnginePowerTextBox.PlaceholderText = "";
             this.carEnginePowerTextBox.SelectedText = "";
-            this.carEnginePowerTextBox.Size = new System.Drawing.Size(210, 36);
-            this.carEnginePowerTextBox.TabIndex = 38;
             this.carEnginePowerTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.carEnginePowerTextBox_KeyPress);
             // 
             // carEnginePowerLabel
             // 
-            this.carEnginePowerLabel.AutoSize = true;
-            this.carEnginePowerLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.carEnginePowerLabel.Location = new System.Drawing.Point(604, 613);
+            resources.ApplyResources(this.carEnginePowerLabel, "carEnginePowerLabel");
             this.carEnginePowerLabel.Name = "carEnginePowerLabel";
-            this.carEnginePowerLabel.Size = new System.Drawing.Size(182, 19);
-            this.carEnginePowerLabel.TabIndex = 37;
-            this.carEnginePowerLabel.Text = "Мощность двигателя, л.с";
             // 
             // carQtyPlacesTextBox
             // 
+            resources.ApplyResources(this.carQtyPlacesTextBox, "carQtyPlacesTextBox");
             this.carQtyPlacesTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.carQtyPlacesTextBox.DefaultText = "";
             this.carQtyPlacesTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -418,30 +316,21 @@ namespace CarsAdviser.Forms
             this.carQtyPlacesTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.carQtyPlacesTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.carQtyPlacesTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carQtyPlacesTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.carQtyPlacesTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carQtyPlacesTextBox.Location = new System.Drawing.Point(608, 748);
-            this.carQtyPlacesTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.carQtyPlacesTextBox.Name = "carQtyPlacesTextBox";
             this.carQtyPlacesTextBox.PasswordChar = '\0';
             this.carQtyPlacesTextBox.PlaceholderText = "";
             this.carQtyPlacesTextBox.SelectedText = "";
-            this.carQtyPlacesTextBox.Size = new System.Drawing.Size(210, 36);
-            this.carQtyPlacesTextBox.TabIndex = 42;
             this.carQtyPlacesTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.carQtyPlacesTextBox_KeyPress);
             // 
             // carQtyPlacesLabel
             // 
-            this.carQtyPlacesLabel.AutoSize = true;
-            this.carQtyPlacesLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.carQtyPlacesLabel.Location = new System.Drawing.Point(604, 713);
+            resources.ApplyResources(this.carQtyPlacesLabel, "carQtyPlacesLabel");
             this.carQtyPlacesLabel.Name = "carQtyPlacesLabel";
-            this.carQtyPlacesLabel.Size = new System.Drawing.Size(127, 19);
-            this.carQtyPlacesLabel.TabIndex = 41;
-            this.carQtyPlacesLabel.Text = "Количество мест";
             // 
             // carYearTextBox
             // 
+            resources.ApplyResources(this.carYearTextBox, "carYearTextBox");
             this.carYearTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.carYearTextBox.DefaultText = "";
             this.carYearTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -449,30 +338,21 @@ namespace CarsAdviser.Forms
             this.carYearTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.carYearTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.carYearTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carYearTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.carYearTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carYearTextBox.Location = new System.Drawing.Point(256, 748);
-            this.carYearTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.carYearTextBox.Name = "carYearTextBox";
             this.carYearTextBox.PasswordChar = '\0';
             this.carYearTextBox.PlaceholderText = "";
             this.carYearTextBox.SelectedText = "";
-            this.carYearTextBox.Size = new System.Drawing.Size(210, 36);
-            this.carYearTextBox.TabIndex = 40;
             this.carYearTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.carYearTextBox_KeyPress);
             // 
             // carYearLabel
             // 
-            this.carYearLabel.AutoSize = true;
-            this.carYearLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.carYearLabel.Location = new System.Drawing.Point(252, 713);
+            resources.ApplyResources(this.carYearLabel, "carYearLabel");
             this.carYearLabel.Name = "carYearLabel";
-            this.carYearLabel.Size = new System.Drawing.Size(35, 19);
-            this.carYearLabel.TabIndex = 39;
-            this.carYearLabel.Text = "Год";
             // 
             // carPriceTextBox
             // 
+            resources.ApplyResources(this.carPriceTextBox, "carPriceTextBox");
             this.carPriceTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.carPriceTextBox.DefaultText = "";
             this.carPriceTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -480,30 +360,21 @@ namespace CarsAdviser.Forms
             this.carPriceTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.carPriceTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.carPriceTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carPriceTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.carPriceTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carPriceTextBox.Location = new System.Drawing.Point(608, 847);
-            this.carPriceTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.carPriceTextBox.Name = "carPriceTextBox";
             this.carPriceTextBox.PasswordChar = '\0';
             this.carPriceTextBox.PlaceholderText = "";
             this.carPriceTextBox.SelectedText = "";
-            this.carPriceTextBox.Size = new System.Drawing.Size(210, 36);
-            this.carPriceTextBox.TabIndex = 46;
             this.carPriceTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.carPriceTextBox_KeyPress);
             // 
             // carPriceLabel
             // 
-            this.carPriceLabel.AutoSize = true;
-            this.carPriceLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.carPriceLabel.Location = new System.Drawing.Point(604, 812);
+            resources.ApplyResources(this.carPriceLabel, "carPriceLabel");
             this.carPriceLabel.Name = "carPriceLabel";
-            this.carPriceLabel.Size = new System.Drawing.Size(119, 19);
-            this.carPriceLabel.TabIndex = 45;
-            this.carPriceLabel.Text = "Стоимость, руб.";
             // 
             // carMileageTextBox
             // 
+            resources.ApplyResources(this.carMileageTextBox, "carMileageTextBox");
             this.carMileageTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.carMileageTextBox.DefaultText = "";
             this.carMileageTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -511,88 +382,58 @@ namespace CarsAdviser.Forms
             this.carMileageTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.carMileageTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.carMileageTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carMileageTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.carMileageTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.carMileageTextBox.Location = new System.Drawing.Point(256, 847);
-            this.carMileageTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.carMileageTextBox.Name = "carMileageTextBox";
             this.carMileageTextBox.PasswordChar = '\0';
             this.carMileageTextBox.PlaceholderText = "";
             this.carMileageTextBox.SelectedText = "";
-            this.carMileageTextBox.Size = new System.Drawing.Size(210, 36);
-            this.carMileageTextBox.TabIndex = 44;
             this.carMileageTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.carMileageTextBox_KeyPress);
             // 
             // carMileageLabel
             // 
-            this.carMileageLabel.AutoSize = true;
-            this.carMileageLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.carMileageLabel.Location = new System.Drawing.Point(252, 812);
+            resources.ApplyResources(this.carMileageLabel, "carMileageLabel");
             this.carMileageLabel.Name = "carMileageLabel";
-            this.carMileageLabel.Size = new System.Drawing.Size(86, 19);
-            this.carMileageLabel.TabIndex = 43;
-            this.carMileageLabel.Text = "Пробег, км";
             // 
             // carDescriptionLabel
             // 
-            this.carDescriptionLabel.AutoSize = true;
-            this.carDescriptionLabel.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.carDescriptionLabel.Location = new System.Drawing.Point(257, 927);
+            resources.ApplyResources(this.carDescriptionLabel, "carDescriptionLabel");
             this.carDescriptionLabel.Name = "carDescriptionLabel";
-            this.carDescriptionLabel.Size = new System.Drawing.Size(75, 19);
-            this.carDescriptionLabel.TabIndex = 47;
-            this.carDescriptionLabel.Text = "Описание";
             // 
             // carDescriptionRichTextBox
             // 
-            this.carDescriptionRichTextBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.carDescriptionRichTextBox.Location = new System.Drawing.Point(256, 949);
+            resources.ApplyResources(this.carDescriptionRichTextBox, "carDescriptionRichTextBox");
             this.carDescriptionRichTextBox.Name = "carDescriptionRichTextBox";
-            this.carDescriptionRichTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.carDescriptionRichTextBox.Size = new System.Drawing.Size(562, 261);
-            this.carDescriptionRichTextBox.TabIndex = 48;
-            this.carDescriptionRichTextBox.Text = "";
             // 
             // addPhotoBtn
             // 
+            resources.ApplyResources(this.addPhotoBtn, "addPhotoBtn");
             this.addPhotoBtn.BorderRadius = 15;
             this.addPhotoBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.addPhotoBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.addPhotoBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.addPhotoBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.addPhotoBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.addPhotoBtn.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.addPhotoBtn.ForeColor = System.Drawing.Color.White;
-            this.addPhotoBtn.Location = new System.Drawing.Point(392, 1246);
             this.addPhotoBtn.Name = "addPhotoBtn";
-            this.addPhotoBtn.Size = new System.Drawing.Size(311, 45);
-            this.addPhotoBtn.TabIndex = 49;
-            this.addPhotoBtn.Text = "Добавить фото";
             this.addPhotoBtn.Click += new System.EventHandler(this.addPhotoBtn_Click);
             // 
             // addCarBtn
             // 
+            resources.ApplyResources(this.addCarBtn, "addCarBtn");
             this.addCarBtn.BorderRadius = 15;
             this.addCarBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.addCarBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.addCarBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.addCarBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.addCarBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.addCarBtn.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.addCarBtn.ForeColor = System.Drawing.Color.White;
-            this.addCarBtn.Location = new System.Drawing.Point(392, 1316);
             this.addCarBtn.Name = "addCarBtn";
-            this.addCarBtn.Size = new System.Drawing.Size(311, 45);
-            this.addCarBtn.TabIndex = 50;
-            this.addCarBtn.Text = "Добавить машину";
             this.addCarBtn.Click += new System.EventHandler(this.addCarBtn_Click);
             // 
             // AddCarForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(981, 1421);
             this.Controls.Add(this.addCarBtn);
             this.Controls.Add(this.addPhotoBtn);
             this.Controls.Add(this.carDescriptionRichTextBox);
@@ -628,9 +469,7 @@ namespace CarsAdviser.Forms
             this.Controls.Add(this.carBrandLabel);
             this.Controls.Add(this.carBrandComboBox);
             this.Controls.Add(this.preferencesLabel);
-            this.MaximumSize = new System.Drawing.Size(997, 1500);
             this.Name = "AddCarForm";
-            this.Text = "AddCarForm";
             this.Load += new System.EventHandler(this.AddCarForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -9,6 +9,7 @@ using System.Drawing;
 using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using AppContext = CarsAdviser.Database.AppContext;
@@ -25,6 +26,7 @@ namespace CarsAdviser.Forms
             InitializeComponent();
             this.parentForm = parentFrom;
             this.similarToPreferences = similarToPreferences;
+            Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
             LoadCarDetails();
         }
         private void priceTextBox_KeyPress(object sender, KeyPressEventArgs e)
@@ -99,7 +101,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
@@ -238,7 +240,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -257,14 +259,14 @@ namespace CarsAdviser.Forms
 
                     if (priceFrom > priceTo)
                     {
-                        MessageBox.Show("Цена <от> должна быть меньше чем <до>", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(Local.wrongPrices, Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                         priceFromTextBox.Text = "";
                         return;
                     }
 
                     if (string.IsNullOrWhiteSpace(searchTextBox.Text))
                     {
-                        MessageBox.Show("Поле поиска пустое", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(Local.searchFieldEmpty, Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
                     }
 
@@ -516,7 +518,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
