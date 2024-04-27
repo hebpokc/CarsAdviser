@@ -1,6 +1,7 @@
 ﻿using CarsAdviser.Database;
 using Guna.UI2.WinForms;
 using Microsoft.EntityFrameworkCore;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,6 +22,7 @@ namespace CarsAdviser.Forms
         private int userId;
         public List<Cars> similarToPreferences;
         private List<Cars> selectedPreferences = new List<Cars>();
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         public PreferencesForm(AccountForm parentForm, int userId)
         {
             InitializeComponent();
@@ -28,11 +30,13 @@ namespace CarsAdviser.Forms
             this.userId = userId;
             Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
             LoadRandomCars();
+            logger.Info("Загрузка формы PreferencesForm");
         }
         private void LoadRandomCars()
         {
             try
             {
+                logger.Info("Загрузка случайных автомобилей");
                 var randomCars = new List<Cars>();
 
                 using (var context = new AppContext())
@@ -128,6 +132,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
+                logger.Error($"Ошибка при загрузке случайных машин: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -181,11 +186,13 @@ namespace CarsAdviser.Forms
                 using (var context = new AppContext())
                 {
                     var car = context.Cars.FirstOrDefault(c => c.ID == id);
+                    logger.Info($"Получена машина с ID: {car.ID}");
                     return car;
                 }
             }
             catch (Exception ex)
             {
+                logger.Error($"Ошибка при получении ID машины: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null;
             }
@@ -224,10 +231,12 @@ namespace CarsAdviser.Forms
 
                     context.Users_preferences.Add(userPreferences);
                     context.SaveChanges();
+                    logger.Info($"Сохранение предпочтений пользователя для автомобиля с ID: {car.ID}");
                 } 
             }
             catch (Exception ex)
             {
+                logger.Error($"Ошибка при сохранение предпочтений пользователя: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -242,11 +251,13 @@ namespace CarsAdviser.Forms
                     {
                         context.Users_preferences.RemoveRange(userPreferences);
                         context.SaveChanges();
+                        logger.Info("Удаление всех предпочтений пользователя");
                     }
                 }
             }
             catch (Exception ex)
             {
+                logger.Error($"Ошибка при удаление всех предпочтений пользователя: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}",Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -255,6 +266,7 @@ namespace CarsAdviser.Forms
             List<Cars> userPreferences = new List<Cars>();
             try
             {
+                logger.Info("Получение предпочтений пользователя");
                 using (var context = new AppContext())
                 {
                     var userPreference = context.Users_preferences
@@ -277,6 +289,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
+                logger.Error($"Ошибка при получение предпочтений пользователя");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
@@ -284,6 +297,7 @@ namespace CarsAdviser.Forms
         }
         private List<Cars> AnalyzeUserPreferences()
         {
+            logger.Info("Анализ предпочтений пользователя");
             var userPreferences = GetUserPreferences();
             var similarToPreferences = new List<Cars>();
 
@@ -303,6 +317,7 @@ namespace CarsAdviser.Forms
         {
             try
             {
+                logger.Info("Поиск похожих авто");
                 using (var context = new AppContext())
                 {
                     var allCars = context.Cars.Include(c => c.Cars_Model)
@@ -337,6 +352,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
+                logger.Error($"Ошибка при поиске похожих авто: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null;
             }

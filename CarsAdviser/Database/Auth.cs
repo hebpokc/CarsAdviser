@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -12,6 +13,7 @@ namespace CarsAdviser.Database
 {
     public class Auth 
     {
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         public Auth(CultureInfo cultureInfo)
         {
             Thread.CurrentThread.CurrentUICulture = cultureInfo;
@@ -33,12 +35,14 @@ namespace CarsAdviser.Database
                     }
                     else
                     {
+                        logger.Warn($"Не удалось выполнить проверку подлинности при входе в систему: {login}");
                         return false;
                     }
                 }
             }
             catch (Exception ex)
             {
+                logger.Error($"Ошибка при проверке подлинности пользователя: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
@@ -60,6 +64,7 @@ namespace CarsAdviser.Database
             }
             catch (Exception ex)
             {
+                logger.Error($"Ошибка при регистрации пользователя: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }

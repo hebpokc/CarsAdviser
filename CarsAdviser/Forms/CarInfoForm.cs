@@ -1,5 +1,6 @@
 ﻿using CarsAdviser.Database;
 using Microsoft.EntityFrameworkCore;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,6 +22,7 @@ namespace CarsAdviser.Forms
         private Form currentChildForm;
         private int carId;
         private Cars car;
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         public CarInfoForm(MainForm parentForm, int carId)
         {
             InitializeComponent();
@@ -38,12 +40,14 @@ namespace CarsAdviser.Forms
             InfoPanel.Controls.Add(childForm);
             childForm.BringToFront();
             childForm.Show();
+            logger.Info($"Открытие дочерней формы: {childForm.GetType().Name}");
         }
 
         private void CarInfoForm_Load(object sender, EventArgs e)
         {
             OpenChildForm(new CharacteristicsForm(this, car));
             descriptionBottomLabel.ForeColor = Color.Silver;
+            logger.Info("Загрузка формы CarInfoForm");
         }
 
         private void characteristicsBtn_Click(object sender, EventArgs e)
@@ -66,6 +70,7 @@ namespace CarsAdviser.Forms
             var culture = new CultureInfo("de-DE");
             try
             {
+                logger.Info("Загрузка машин");
                 using (var context = new AppContext())
                 {
                     var car = context.Cars.Include(c => c.Cars_Model)
@@ -139,6 +144,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
+                logger.Error($"Не удалось загрузить машины: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -154,11 +160,13 @@ namespace CarsAdviser.Forms
                         car.Mark = rating;
                         context.SaveChanges();
                         MessageBox.Show(Local.ratingSaved, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        logger.Info($"Обновление рейтинга автомобиля с ID: {carId} на: {rating}");
                     }
                 }
             }
             catch (Exception ex)
             {
+                logger.Error($"Не удалось обновить рейтинг: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -196,12 +204,14 @@ namespace CarsAdviser.Forms
                         context.Users_bookmarks.Add(bookmark);
                         context.SaveChanges();
 
+                        logger.Info($"Пользователь добавил автомобиль с ID: {carId} в закладки.");
                         MessageBox.Show(Local.carAddedBookmarks, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
             }
             catch (Exception ex)
             {
+                logger.Error($"Не удалось добавить машину в закладки: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -234,6 +244,7 @@ namespace CarsAdviser.Forms
                         context.Users_hidden_auto.Add(hiddenAuto);
                         context.SaveChanges();
 
+                        logger.Info($"Пользователь скрыл автомобиль с ID: {carId}.");
                         MessageBox.Show(Local.carAddedHidden, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     
@@ -241,6 +252,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
+                logger.Error($"Не удалось сркыть машину: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }

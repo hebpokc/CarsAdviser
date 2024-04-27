@@ -1,4 +1,5 @@
 ﻿using CarsAdviser.Database;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,12 +16,14 @@ namespace CarsAdviser.Forms
     {
         private CarInfoForm parentForm;
         private Cars car;
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         public DescriptionForm(CarInfoForm parentForm, Cars car)
         {
             InitializeComponent();
             this.parentForm = parentForm;
             this.car = car;
             LoadCarDetails();
+            logger.Info("Загрузка формы DescriptionForm");
         }
         private void LoadCarDetails()
         {
@@ -28,11 +31,13 @@ namespace CarsAdviser.Forms
             {
                 if (car != null)
                 {
+                    logger.Debug($"Описание автомобиля загружено: {car.Description}");
                     descriptionRichTextBox.Text = car.Description;
                 }
             }
             catch (Exception ex)
             {
+                logger.Error($"Ошибка при загрузке описания автомобиля: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }

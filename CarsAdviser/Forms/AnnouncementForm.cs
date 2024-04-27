@@ -1,6 +1,7 @@
 ﻿using CarsAdviser.Database;
 using Guna.UI2.WinForms;
 using Microsoft.EntityFrameworkCore;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,6 +22,7 @@ namespace CarsAdviser.Forms
         private MainForm parentForm;
         private int carId;
         private List<Cars> similarToPreferences = null;
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         public AnnouncementForm(MainForm parentFrom, List<Cars> similarToPreferences)
         {
             InitializeComponent();
@@ -28,6 +30,7 @@ namespace CarsAdviser.Forms
             this.similarToPreferences = similarToPreferences;
             Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
             LoadCarDetails();
+            logger.Info("Загрузка формы AnnouncementForm");
         }
         private void priceTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -110,6 +113,7 @@ namespace CarsAdviser.Forms
             var culture = new CultureInfo("de-DE");
             try
             {
+                logger.Info("Загрузка машин");
                 using (var context = new AppContext())
                 {
                     bool isPreferred = IsPreferred();
@@ -240,6 +244,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
+                logger.Error($"Не удалось загрузить машины: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -249,6 +254,7 @@ namespace CarsAdviser.Forms
             var culture = new CultureInfo("de-DE");
             try
             {
+                logger.Info("Загрузка машин");
                 using (var context = new AppContext())
                 {
                     bool isPreferred = IsPreferred();
@@ -518,6 +524,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
+                logger.Error($"Не удалось загрузить машины: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }

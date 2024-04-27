@@ -1,6 +1,7 @@
 ﻿using CarsAdviser.Database;
 using Guna.UI2.WinForms;
 using Microsoft.EntityFrameworkCore;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,6 +22,7 @@ namespace CarsAdviser.Forms
         private MainForm parentForm;
         private int carId;
         private int userId;
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         public BookmarkersForm(MainForm parentForm, int userId)
         {
             InitializeComponent();
@@ -47,6 +49,7 @@ namespace CarsAdviser.Forms
         {
             notificationLabel.Text = $"{this.Controls.OfType<Guna2Panel>().Count(p => p.Visible == true)}";
             parentForm.NotificationTextUpdate1(notificationLabel.Text);
+            logger.Info("Загрузка формы BookmarksForm");
         }
         private void detailsBtn_Click(object sender, EventArgs e)
         {
@@ -63,6 +66,7 @@ namespace CarsAdviser.Forms
             var culture = new CultureInfo("de-DE");
             try
             {
+                logger.Info("Загрузка машин");
                 using (var context = new AppContext())
                 {
                     var bookmarks = context.Users_bookmarks
@@ -175,6 +179,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
+                logger.Error($"Не удалось загрузить машины: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -225,6 +230,7 @@ namespace CarsAdviser.Forms
                 {
                     context.Users_bookmarks.Remove(bookmark);
                     context.SaveChanges();
+                    logger.Info($"Удаление закладки с ID: {bookmarkId}");
 
                     MessageBox.Show(Local.carRemovedFromBookmarks, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     UpdateForm();

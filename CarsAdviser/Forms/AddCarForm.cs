@@ -1,5 +1,6 @@
 ﻿using CarsAdviser.Database;
 using Microsoft.EntityFrameworkCore;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,6 +20,7 @@ namespace CarsAdviser.Forms
     {
         private AccountForm parentForm;
         private List<string> carPhotos = new List<string>();
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         public AddCarForm(AccountForm parentForm)
         {
             InitializeComponent();
@@ -28,6 +30,7 @@ namespace CarsAdviser.Forms
 
         private void AddCarForm_Load(object sender, EventArgs e)
         {
+            logger.Info("Загрузка формы AddCarForm");
             try
             {
                 using (var context = new AppContext())
@@ -75,6 +78,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
+                logger.Error($"Ошибка при загрузке данных формы AddCarForm: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -97,6 +101,7 @@ namespace CarsAdviser.Forms
 
                     File.Copy(file, destinationPath, true);
                     carPhotos.Add(destinationPath);
+                    logger.Info($"Фото добавлено: {destinationPath}");
                 }
 
                 MessageBox.Show(Local.carImageUploaded, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -126,6 +131,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
+                logger.Error($"Ошибка при обновлении моделей автомобилей: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -163,12 +169,14 @@ namespace CarsAdviser.Forms
                     };
                     context.Cars.Add(car);
                     context.SaveChanges();
+                    logger.Info($"Машина {car.ID} успешно добавлена");
 
                     MessageBox.Show(Local.carAdded, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch (Exception ex)
             {
+                logger.Error($"Ошибка при добавлении машины: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }

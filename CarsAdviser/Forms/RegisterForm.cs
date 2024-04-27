@@ -10,12 +10,14 @@ using System.Windows.Forms;
 using CarsAdviser.Database;
 using System.Text.RegularExpressions;
 using System.Threading;
+using NLog;
 
 namespace CarsAdviser.Forms
 {
     public partial class RegisterForm : Form
     {
         AuthorizationForm parentForm;
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         public RegisterForm(AuthorizationForm parentForm)
         {
             InitializeComponent();
@@ -23,6 +25,7 @@ namespace CarsAdviser.Forms
             passwordTextBox.UseSystemPasswordChar = true;
             Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
             UpdateInterface();
+            logger.Info("Загрузка формы RegisterForm");
         }
 
         private void signInAccountBtn_Click(object sender, EventArgs e)
@@ -62,6 +65,7 @@ namespace CarsAdviser.Forms
             if (string.IsNullOrWhiteSpace(nameTextBox.Text))
             {
                 mandatoryFillingLabel1.Visible = true;
+                logger.Warn("Поле имя пустое");
             }
             else
             {
@@ -69,6 +73,7 @@ namespace CarsAdviser.Forms
                 if (string.IsNullOrWhiteSpace(surnameTextBox.Text))
                 {
                     mandatoryFillingLabel2.Visible = true;
+                    logger.Warn("Поле фамилия пустое");
                 }
                 else
                 {
@@ -76,6 +81,7 @@ namespace CarsAdviser.Forms
                     if (string.IsNullOrWhiteSpace(emailTextBox.Text))
                     {
                         mandatoryFillingLabel3.Visible = true;
+                        logger.Warn("Поле email пустое");
                     }
                     else
                     {
@@ -83,6 +89,7 @@ namespace CarsAdviser.Forms
                         if (string.IsNullOrWhiteSpace(phoneTextBox.Text))
                         {
                             mandatoryFillingLabel4.Visible = true;
+                            logger.Warn("Поле телефон пустое");
                         }
                         else
                         {
@@ -90,6 +97,7 @@ namespace CarsAdviser.Forms
                             if (string.IsNullOrWhiteSpace(passwordTextBox.Text))
                             {
                                 mandatoryFillingLabel5.Visible = true;
+                                logger.Warn("Поле пароль пустое");
                             }
                             else
                             {
@@ -99,6 +107,7 @@ namespace CarsAdviser.Forms
                                 if (isReg)
                                 {
                                     MessageBox.Show(Local.RegisterAccountSuccess, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                    logger.Info($"Пользователь {nameTextBox.Text} {surnameTextBox.Text} успешно зарегистрирован");
                                     parentForm.OpenChildForm(new SignInForm(parentForm));
                                     Close();
                                 }

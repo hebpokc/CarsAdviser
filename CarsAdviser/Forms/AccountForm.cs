@@ -1,4 +1,5 @@
 ﻿using CarsAdviser.Database;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,6 +21,7 @@ namespace CarsAdviser.Forms
         private Form currentChildForm;
         private int currentUserId;
         public List<Cars> similarToPreferences;
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         public AccountForm(MainForm parentForm, int CurrentUserId)
         {
             InitializeComponent();
@@ -33,6 +35,7 @@ namespace CarsAdviser.Forms
             OpenChildForm(new DataFillingForm(this, currentUserId));
             personalInformationBtn.Font = new Font(personalInformationBtn.Font.FontFamily, personalInformationBtn.Font.Size, FontStyle.Bold);
             LoadUserData(currentUserId);
+            logger.Info("Загрузка формы AccountForm");
         }
         public void OpenChildForm(Form childForm)
         {
@@ -43,9 +46,11 @@ namespace CarsAdviser.Forms
             mainPanel.Controls.Add(childForm);
             childForm.BringToFront();
             childForm.Show();
+            logger.Info($"Открытие дочерней формы: {childForm.GetType().Name}");
         }
         private void LoadUserData(int userId)
         {
+            logger.Info($"Загрузка личных данных для пользователя: {userId}");
             try
             {
                 using (var context = new AppContext())
@@ -69,6 +74,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
+                logger.Error($"Ошибка при загрузке пользовательских данных: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -105,6 +111,7 @@ namespace CarsAdviser.Forms
 
         private void exitBtn_Click(object sender, EventArgs e)
         {
+            logger.Info($"Пользователь: {currentUserId} вышел из аккаунта");
             parentForm.Logout();
         }
 

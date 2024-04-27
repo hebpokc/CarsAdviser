@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,6 +19,7 @@ namespace CarsAdviser.Forms
     {
         private AccountForm parentForm;
         private int currentUserId;
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         public DataFillingForm(AccountForm parentForm, int currentUserId)
         {
             InitializeComponent();
@@ -77,6 +79,7 @@ namespace CarsAdviser.Forms
 
         private void DataFillingForm_Load(object sender, EventArgs e)
         {
+            logger.Info("Загрузка формы DataFillingForm");
             try
             {
                 using (var context = new AppContext())
@@ -84,6 +87,7 @@ namespace CarsAdviser.Forms
                     var user = context.Users.FirstOrDefault(u => u.ID == currentUserId);
                     if (user != null)
                     {
+                        logger.Info("Загрузка данных пользователя.");
                         surnameTextBox.Text = user.Last_name;
                         nameTextBox.Text = user.First_name;
                         patronymicTextBox.Text = user.Patronymic;
@@ -95,6 +99,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
+                logger.Error($"Не удалось загрузить данные пользователя: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -175,6 +180,7 @@ namespace CarsAdviser.Forms
                                         user.Phone_number = phoneTextBox.Text;
                                         user.City = cityTextBox.Text;
 
+                                        logger.Info($"Пользователь {currentUserId} сохранил данные");
                                         context.Users.Update(user);
                                         MessageBox.Show(Local.DataChanged, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                                     }
@@ -187,6 +193,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
+                logger.Error($"Ошибка при сохранении данных пользователя: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }

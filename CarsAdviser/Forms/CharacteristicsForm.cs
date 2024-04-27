@@ -1,4 +1,5 @@
 ﻿using CarsAdviser.Database;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,6 +17,7 @@ namespace CarsAdviser.Forms
     {
         private CarInfoForm parentForm;
         private Cars car;
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         public CharacteristicsForm(CarInfoForm parentForm, Cars car)
         {
             InitializeComponent();
@@ -23,11 +25,13 @@ namespace CarsAdviser.Forms
             this.car = car;
             Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
             LoadCarDetails();
+            logger.Info("Загрузка формы CharacteristicsForm");
         }
         private void LoadCarDetails()
         {
             try
             {
+                logger.Info("Загрузка данных автомобиля");
                 if (car != null)
                 {
                     brandInfoLabel.Text = $"{car.Cars_Stamp.Stamp}";
@@ -41,6 +45,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
+                logger.Error($"Ошибка при загрузке данных автомобиля: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }

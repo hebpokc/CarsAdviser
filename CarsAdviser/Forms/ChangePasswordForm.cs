@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,6 +20,7 @@ namespace CarsAdviser.Forms
         private AccountForm parentForm;
         private string codeToVerify;
         private int currentUserId;
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         public ChangePasswordForm(AccountForm parentForm, int currentUserId)
         {
             InitializeComponent();
@@ -27,7 +29,7 @@ namespace CarsAdviser.Forms
             passwordTextBox.UseSystemPasswordChar = true;
             Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
             UpdateInterface();
-
+            logger.Info("Загрузка формы ChangePasswordForm");
         }
         private void UpdateInterface()
         {
@@ -36,6 +38,7 @@ namespace CarsAdviser.Forms
         }
         private string GenerateRandomCode(int length)
         {
+            logger.Debug($"Генерация случайного кода длиной {length} символов.");
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
             Random random = new Random();
             return new string(Enumerable.Repeat(chars, length).Select(s => s[random.Next(s.Length)]).ToArray());
@@ -57,10 +60,12 @@ namespace CarsAdviser.Forms
                 SmtpServer.EnableSsl = true;
 
                 SmtpServer.Send(mail);
+                logger.Info($"Отправка кода подтверждения на адрес: {emailAddress}");
                 MessageBox.Show(Local.codeSended, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
+                logger.Error($"Не удалось отправить код: {ex.Message}");
                 MessageBox.Show($"{Local.codeSendError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -81,6 +86,7 @@ namespace CarsAdviser.Forms
             }
             catch (Exception ex)
             {
+                logger.Error($"Не удалось отправить код: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             codeToVerify = code;
@@ -108,18 +114,21 @@ namespace CarsAdviser.Forms
                                 user.Password = hashedPassword;
                                 context.Users.Update(user);
                                 MessageBox.Show(Local.passwordChanged, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                logger.Info($"Пользователь {currentUserId} сменил пароль");
                             }
                             context.SaveChanges();
                         }
                     }
                     catch (Exception ex)
                     {
+                        logger.Error($"Ошибка при смене пароля: {ex.Message}");
                         MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     parentForm.parentForm.Logout();
                 }
                 else
                 {
+                    logger.Warn("Пользователь ввел неверный код");
                     MessageBox.Show(Local.codeUncorrect, Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }

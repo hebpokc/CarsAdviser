@@ -1,6 +1,7 @@
 ﻿using CarsAdviser.Database;
 using CarsAdviser.Forms;
 using Guna.UI2.WinForms;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,6 +23,7 @@ namespace CarsAdviser
         public Form currentChildForm;
         public int currentUserId;
         public List<Cars> similarToPreferences;
+        private static Logger logger = LogManager.GetCurrentClassLogger();
 
         public MainForm(AuthorizationForm authorizationForm, int currentUserId)
         {
@@ -39,6 +41,7 @@ namespace CarsAdviser
             mainPanel.Controls.Add(childForm);
             childForm.BringToFront();
             childForm.Show();
+            logger.Info($"Открытие дочерней формы: {childForm.GetType().Name}");
         }
         public void Logout()
         {
@@ -47,6 +50,7 @@ namespace CarsAdviser
             {
                 authorizationForm.Show();
                 Hide();
+                logger.Info($"Пользователь {currentUserId} вышел из аккаунта");
             }
         }
         private void MainForm_Load(object sender, EventArgs e)
@@ -57,6 +61,7 @@ namespace CarsAdviser
             ResetStyle(bookmarkersBtn, bookmarkersBottomLabel);
             ResetStyle(hiddenBtn, hiddenBottomLabel);
             LoadAvatar();
+            logger.Info("Загрузка формы MainForm");
         }
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -147,6 +152,7 @@ namespace CarsAdviser
             catch (Exception ex)
             {
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                logger.Error($"Ошибка при загрузке аватара для пользователя {currentUserId}: {ex.Message}");
             }
         }
         public CultureInfo GetCurrentUICulture()

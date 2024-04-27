@@ -3,12 +3,14 @@ using System.Linq;
 using System.Threading;
 using System.Windows.Forms;
 using CarsAdviser.Database;
+using NLog;
 
 namespace CarsAdviser.Forms
 {
     public partial class SignInForm : Form
     {
         private AuthorizationForm parentForm;
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         public SignInForm(AuthorizationForm parentForm)
         {
             InitializeComponent();
@@ -16,6 +18,7 @@ namespace CarsAdviser.Forms
             passwordTextBox.UseSystemPasswordChar = true;
             Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
             UpdateInterface();
+            logger.Info("Загрузка формы SignInForm");
         }
 
         private void uncorrectDataTextBox_KeyDown(object sender, KeyEventArgs e)
@@ -38,6 +41,7 @@ namespace CarsAdviser.Forms
             if (string.IsNullOrWhiteSpace(loginTextBox.Text))
             {
                 mandatoryFillingLabel1.Visible = true;
+                logger.Warn("Поле логин пустое");
             }
             else
             {
@@ -45,6 +49,7 @@ namespace CarsAdviser.Forms
                 if (string.IsNullOrWhiteSpace(passwordTextBox.Text))
                 {
                     mandatoryFillingLabel2.Visible = true;
+                    logger.Warn("Поле пароль пустое");
                 }
                 else
                 {
@@ -54,6 +59,7 @@ namespace CarsAdviser.Forms
                     if (isAuth)
                     {
                         uncorrectDataTextBox.Visible = false;
+                        logger.Info($"Пользователь с логином {loginTextBox.Text} успешно авторизован");
                         loginTextBox.Clear();
                         passwordTextBox.Clear();
                         MainForm mainForm = new MainForm(parentForm, auth.CurrentUserId);
