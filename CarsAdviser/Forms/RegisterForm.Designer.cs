@@ -70,6 +70,7 @@ namespace CarsAdviser.Forms
             this.createAccountBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.createAccountBtn.ForeColor = System.Drawing.Color.White;
             this.createAccountBtn.Name = "createAccountBtn";
+            this.createAccountBtn.TabStop = false;
             this.createAccountBtn.Click += new System.EventHandler(this.createAccountBtn_Click);
             // 
             // passwordTextBox
@@ -127,6 +128,7 @@ namespace CarsAdviser.Forms
             this.signInAccountBtn.FillColor = System.Drawing.Color.Transparent;
             this.signInAccountBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.signInAccountBtn.Name = "signInAccountBtn";
+            this.signInAccountBtn.TabStop = false;
             this.signInAccountBtn.Click += new System.EventHandler(this.signInAccountBtn_Click);
             // 
             // createAccountLabel2

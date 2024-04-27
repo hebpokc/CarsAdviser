@@ -260,7 +260,7 @@ namespace CarsAdviser.Forms
                     if (priceFrom > priceTo)
                     {
                         MessageBox.Show(Local.wrongPrices, Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        priceFromTextBox.Text = "";
+                        priceFromTextBox.Clear();
                         return;
                     }
 

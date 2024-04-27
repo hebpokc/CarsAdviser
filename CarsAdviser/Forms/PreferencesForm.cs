@@ -33,7 +33,7 @@ namespace CarsAdviser.Forms
         {
             try
             {
-                List<Cars> randomCars = new List<Cars>();
+                var randomCars = new List<Cars>();
 
                 using (var context = new AppContext())
                 {
@@ -63,7 +63,7 @@ namespace CarsAdviser.Forms
                         randomCars.AddRange(remainingCars);
                     }
 
-                    if (randomCars.Count == 0)
+                    if (!randomCars.Any())
                     {
                         var allCars = context.Cars.Include(c => c.Cars_Model)
                                                    .Include(c => c.Cars_Stamp)
@@ -284,15 +284,15 @@ namespace CarsAdviser.Forms
         }
         private List<Cars> AnalyzeUserPreferences()
         {
-            List<Cars> userPreferences = GetUserPreferences();
-            List<Cars> similarToPreferences = new List<Cars>();
+            var userPreferences = GetUserPreferences();
+            var similarToPreferences = new List<Cars>();
 
             foreach (var userPreference in userPreferences)
             {
                 var similarCars = FindSimilarCars(userPreference);
                 similarToPreferences.AddRange(similarCars);
             }
-            List<Cars> uniqueSimilarToPreferences = similarToPreferences
+            var uniqueSimilarToPreferences = similarToPreferences
                                                     .GroupBy(car => car.ID)
                                                     .Select(group => group.First())
                                                     .ToList();
@@ -316,7 +316,7 @@ namespace CarsAdviser.Forms
                                             .Include(c => c.Cars_Colour)
                                             .ToList();
 
-                    List<Cars> similarCars = new List<Cars>();
+                    var similarCars = new List<Cars>();
                     var groupedCars = allCars.GroupBy(c => c.Mark);
 
                     foreach (var group in groupedCars.OrderByDescending(g => g.Key))

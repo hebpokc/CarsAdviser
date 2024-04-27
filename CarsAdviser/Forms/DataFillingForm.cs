@@ -106,7 +106,7 @@ namespace CarsAdviser.Forms
         }
         public bool IsValidPhone(string phone)
         {
-            string pattern = @"^\d{11}$";
+            string pattern = @"^(\+7\d{10}|[8]\d{10})$";
             Regex regex = new Regex(pattern);
             return regex.IsMatch(phone);
         }
