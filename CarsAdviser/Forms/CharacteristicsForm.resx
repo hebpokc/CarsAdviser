@@ -117,444 +117,490 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;modelInfoLabel.Name" xml:space="preserve">
-    <value>modelInfoLabel</value>
-  </data>
-  <data name="&gt;&gt;brandInfoLabel.Name" xml:space="preserve">
-    <value>brandInfoLabel</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="qtyPlacesLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt</value>
-  </data>
-  <data name="&gt;&gt;brandLabel.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="brandInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 2</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="driveTypeLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;colorInfoLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="enginePowerInfoLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="&gt;&gt;modelLabel.Name" xml:space="preserve">
-    <value>modelLabel</value>
-  </data>
   <data name="brandLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="colorInfoLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;driveTypeLabel.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="modelLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 18</value>
-  </data>
-  <data name="driveTypeInfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopRight</value>
-  </data>
-  <data name="&gt;&gt;modelInfoLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="yearLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 79</value>
-  </data>
-  <data name="&gt;&gt;colorLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;brandInfoLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="modelInfoLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="modelInfoLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="&gt;&gt;yearInfoLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="yearLabel.Text" xml:space="preserve">
-    <value>Год</value>
-  </data>
-  <data name="enginePowerLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="enginePowerInfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopRight</value>
-  </data>
-  <data name="colorLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="modelLabel.Text" xml:space="preserve">
-    <value>Модель</value>
-  </data>
-  <data name="driveTypeInfoLabel.Text" xml:space="preserve">
-    <value>XSE Hybrid</value>
-  </data>
-  <data name="enginePowerInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 198</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>CharacteristicsForm</value>
-  </data>
-  <data name="brandLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 18</value>
-  </data>
-  <data name="&gt;&gt;yearLabel.Name" xml:space="preserve">
-    <value>yearLabel</value>
-  </data>
-  <data name="&gt;&gt;brandLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;driveTypeLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="qtyPlacesLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="enginePowerInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 20</value>
-  </data>
-  <data name="&gt;&gt;brandInfoLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="brandInfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopRight</value>
-  </data>
-  <data name="&gt;&gt;modelLabel.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="colorLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 18</value>
-  </data>
-  <data name="colorInfoLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt</value>
-  </data>
-  <data name="&gt;&gt;enginePowerInfoLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="modelLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="modelInfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopRight</value>
-  </data>
-  <data name="&gt;&gt;driveTypeInfoLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="brandInfoLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;driveTypeLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;qtyPlacesInfoLabel.Name" xml:space="preserve">
-    <value>qtyPlacesInfoLabel</value>
-  </data>
-  <data name="driveTypeInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 20</value>
-  </data>
-  <data name="brandLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 4</value>
-  </data>
-  <data name="enginePowerLabel.Text" xml:space="preserve">
-    <value>Мощность двигателя, л.с</value>
-  </data>
-  <data name="enginePowerLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt</value>
-  </data>
-  <data name="&gt;&gt;driveTypeLabel.Name" xml:space="preserve">
-    <value>driveTypeLabel</value>
-  </data>
-  <data name="enginePowerInfoLabel.Text" xml:space="preserve">
-    <value>109</value>
-  </data>
-  <data name="&gt;&gt;qtyPlacesInfoLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;modelInfoLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="colorLabel.Text" xml:space="preserve">
-    <value>Цвет</value>
-  </data>
-  <data name="&gt;&gt;driveTypeInfoLabel.Name" xml:space="preserve">
-    <value>driveTypeInfoLabel</value>
-  </data>
-  <data name="&gt;&gt;modelInfoLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;colorLabel.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;qtyPlacesLabel.Name" xml:space="preserve">
-    <value>qtyPlacesLabel</value>
-  </data>
-  <data name="&gt;&gt;qtyPlacesInfoLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="enginePowerInfoLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;brandLabel.Name" xml:space="preserve">
-    <value>brandLabel</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>CharacteristicsForm</value>
-  </data>
-  <data name="qtyPlacesLabel.Text" xml:space="preserve">
-    <value>Количество мест</value>
-  </data>
-  <data name="enginePowerLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 200</value>
-  </data>
-  <data name="&gt;&gt;driveTypeInfoLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="yearLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;colorInfoLabel.Name" xml:space="preserve">
-    <value>colorInfoLabel</value>
-  </data>
-  <data name="&gt;&gt;modelLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;enginePowerLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="qtyPlacesInfoLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="colorLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 120</value>
-  </data>
-  <data name="qtyPlacesInfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopRight</value>
-  </data>
-  <data name="brandInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 20</value>
-  </data>
-  <data name="&gt;&gt;modelLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;enginePowerInfoLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;yearInfoLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;qtyPlacesLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="driveTypeLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 18</value>
-  </data>
-  <data name="qtyPlacesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 243</value>
-  </data>
-  <data name="enginePowerLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="driveTypeLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 160</value>
-  </data>
-  <data name="qtyPlacesInfoLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;qtyPlacesLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="driveTypeLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt</value>
-  </data>
-  <data name="brandInfoLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt</value>
-  </data>
-  <data name="&gt;&gt;colorLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;brandInfoLabel.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;yearInfoLabel.Name" xml:space="preserve">
-    <value>yearInfoLabel</value>
-  </data>
-  <data name="yearInfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopRight</value>
-  </data>
-  <data name="&gt;&gt;colorInfoLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;enginePowerLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;yearLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;enginePowerInfoLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="modelLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 41</value>
-  </data>
-  <data name="yearInfoLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="colorInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 20</value>
-  </data>
-  <data name="modelInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 39</value>
-  </data>
-  <data name="driveTypeInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 158</value>
-  </data>
-  <data name="&gt;&gt;yearLabel.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="brandLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt</value>
   </data>
-  <data name="&gt;&gt;enginePowerLabel.Name" xml:space="preserve">
-    <value>enginePowerLabel</value>
+  <data name="brandLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 9</value>
   </data>
-  <data name="&gt;&gt;driveTypeInfoLabel.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="brandLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
   </data>
-  <data name="enginePowerLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 18</value>
-  </data>
-  <data name="modelInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 20</value>
-  </data>
-  <data name="&gt;&gt;qtyPlacesLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="yearInfoLabel.Text" xml:space="preserve">
-    <value>2023</value>
-  </data>
-  <data name="driveTypeLabel.Text" xml:space="preserve">
-    <value>Тип привода</value>
-  </data>
-  <data name="brandLabel.Text" xml:space="preserve">
-    <value>Марка</value>
-  </data>
-  <data name="yearLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="modelLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="colorLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt</value>
-  </data>
-  <data name="&gt;&gt;yearInfoLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="qtyPlacesInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 20</value>
-  </data>
-  <data name="driveTypeLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="qtyPlacesInfoLabel.Text" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="qtyPlacesLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;enginePowerInfoLabel.Name" xml:space="preserve">
-    <value>enginePowerInfoLabel</value>
-  </data>
-  <data name="&gt;&gt;qtyPlacesInfoLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="yearInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 20</value>
-  </data>
-  <data name="yearLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt</value>
-  </data>
-  <data name="colorInfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopRight</value>
-  </data>
-  <data name="&gt;&gt;brandLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="yearInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 77</value>
-  </data>
-  <data name="qtyPlacesLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 18</value>
+  <data name="brandLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 41</value>
   </data>
   <data name="brandLabel.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>521, 307</value>
+  <data name="brandLabel.Text" xml:space="preserve">
+    <value>Марка</value>
   </data>
-  <data name="modelInfoLabel.Text" xml:space="preserve">
-    <value>Corolla Cross</value>
+  <data name="&gt;&gt;brandLabel.Name" xml:space="preserve">
+    <value>brandLabel</value>
   </data>
-  <data name="qtyPlacesInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 241</value>
-  </data>
-  <data name="&gt;&gt;colorInfoLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;enginePowerLabel.Type" xml:space="preserve">
+  <data name="&gt;&gt;brandLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="brandInfoLabel.Text" xml:space="preserve">
-    <value>Toyota</value>
+  <data name="&gt;&gt;brandLabel.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="yearInfoLabel.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;brandLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="modelLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="modelLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="modelLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 91</value>
+  </data>
+  <data name="modelLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
+  </data>
+  <data name="modelLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 41</value>
+  </data>
+  <data name="modelLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="modelLabel.Text" xml:space="preserve">
+    <value>Модель</value>
+  </data>
+  <data name="&gt;&gt;modelLabel.Name" xml:space="preserve">
+    <value>modelLabel</value>
+  </data>
+  <data name="&gt;&gt;modelLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;modelLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;modelLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="yearLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="yearLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="yearLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 176</value>
+  </data>
+  <data name="yearLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
+  </data>
+  <data name="yearLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 41</value>
+  </data>
+  <data name="yearLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="yearLabel.Text" xml:space="preserve">
+    <value>Год</value>
+  </data>
+  <data name="&gt;&gt;yearLabel.Name" xml:space="preserve">
+    <value>yearLabel</value>
+  </data>
+  <data name="&gt;&gt;yearLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;yearLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;yearLabel.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
   <data name="colorLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="driveTypeInfoLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="colorLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
   </data>
-  <data name="modelLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="colorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 268</value>
   </data>
-  <data name="&gt;&gt;yearLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="colorLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
+  </data>
+  <data name="colorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 41</value>
+  </data>
+  <data name="colorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="colorLabel.Text" xml:space="preserve">
+    <value>Цвет</value>
   </data>
   <data name="&gt;&gt;colorLabel.Name" xml:space="preserve">
     <value>colorLabel</value>
   </data>
-  <data name="colorInfoLabel.Text" xml:space="preserve">
-    <value>Черный</value>
+  <data name="&gt;&gt;colorLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="yearLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 18</value>
+  <data name="&gt;&gt;colorLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colorLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="driveTypeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="driveTypeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="driveTypeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 357</value>
+  </data>
+  <data name="driveTypeLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
+  </data>
+  <data name="driveTypeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 41</value>
+  </data>
+  <data name="driveTypeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="driveTypeLabel.Text" xml:space="preserve">
+    <value>Тип привода</value>
+  </data>
+  <data name="&gt;&gt;driveTypeLabel.Name" xml:space="preserve">
+    <value>driveTypeLabel</value>
+  </data>
+  <data name="&gt;&gt;driveTypeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;driveTypeLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;driveTypeLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="enginePowerLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="enginePowerLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="enginePowerLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 446</value>
+  </data>
+  <data name="enginePowerLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
+  </data>
+  <data name="enginePowerLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 41</value>
+  </data>
+  <data name="enginePowerLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="enginePowerLabel.Text" xml:space="preserve">
+    <value>Мощность двигателя, л.с</value>
+  </data>
+  <data name="&gt;&gt;enginePowerLabel.Name" xml:space="preserve">
+    <value>enginePowerLabel</value>
+  </data>
+  <data name="&gt;&gt;enginePowerLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enginePowerLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;enginePowerLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="qtyPlacesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="qtyPlacesLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="qtyPlacesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 542</value>
+  </data>
+  <data name="qtyPlacesLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
+  </data>
+  <data name="qtyPlacesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 41</value>
+  </data>
+  <data name="qtyPlacesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="qtyPlacesLabel.Text" xml:space="preserve">
+    <value>Количество мест</value>
+  </data>
+  <data name="&gt;&gt;qtyPlacesLabel.Name" xml:space="preserve">
+    <value>qtyPlacesLabel</value>
+  </data>
+  <data name="&gt;&gt;qtyPlacesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;qtyPlacesLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;qtyPlacesLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="qtyPlacesInfoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="qtyPlacesInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>581, 538</value>
+  </data>
+  <data name="qtyPlacesInfoLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
+  </data>
+  <data name="qtyPlacesInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 45</value>
+  </data>
+  <data name="qtyPlacesInfoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="qtyPlacesInfoLabel.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="qtyPlacesInfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;qtyPlacesInfoLabel.Name" xml:space="preserve">
+    <value>qtyPlacesInfoLabel</value>
+  </data>
+  <data name="&gt;&gt;qtyPlacesInfoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;qtyPlacesInfoLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;qtyPlacesInfoLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="enginePowerInfoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="enginePowerInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>581, 442</value>
+  </data>
+  <data name="enginePowerInfoLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
+  </data>
+  <data name="enginePowerInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 45</value>
+  </data>
+  <data name="enginePowerInfoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="enginePowerInfoLabel.Text" xml:space="preserve">
+    <value>109</value>
+  </data>
+  <data name="enginePowerInfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;enginePowerInfoLabel.Name" xml:space="preserve">
+    <value>enginePowerInfoLabel</value>
+  </data>
+  <data name="&gt;&gt;enginePowerInfoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enginePowerInfoLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;enginePowerInfoLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="driveTypeInfoLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt</value>
   </data>
+  <data name="driveTypeInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>581, 352</value>
+  </data>
+  <data name="driveTypeInfoLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
+  </data>
+  <data name="driveTypeInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 45</value>
+  </data>
+  <data name="driveTypeInfoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="driveTypeInfoLabel.Text" xml:space="preserve">
+    <value>XSE Hybrid</value>
+  </data>
+  <data name="driveTypeInfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;driveTypeInfoLabel.Name" xml:space="preserve">
+    <value>driveTypeInfoLabel</value>
+  </data>
+  <data name="&gt;&gt;driveTypeInfoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;driveTypeInfoLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;driveTypeInfoLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="colorInfoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
   <data name="colorInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 118</value>
+    <value>581, 263</value>
+  </data>
+  <data name="colorInfoLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
+  </data>
+  <data name="colorInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 45</value>
+  </data>
+  <data name="colorInfoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="colorInfoLabel.Text" xml:space="preserve">
+    <value>Черный</value>
+  </data>
+  <data name="colorInfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;colorInfoLabel.Name" xml:space="preserve">
+    <value>colorInfoLabel</value>
+  </data>
+  <data name="&gt;&gt;colorInfoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorInfoLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colorInfoLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="yearInfoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="yearInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>581, 172</value>
+  </data>
+  <data name="yearInfoLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
+  </data>
+  <data name="yearInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 45</value>
+  </data>
+  <data name="yearInfoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="yearInfoLabel.Text" xml:space="preserve">
+    <value>2023</value>
+  </data>
+  <data name="yearInfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;yearInfoLabel.Name" xml:space="preserve">
+    <value>yearInfoLabel</value>
+  </data>
+  <data name="&gt;&gt;yearInfoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;yearInfoLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;yearInfoLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="modelInfoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="modelInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>581, 87</value>
+  </data>
+  <data name="modelInfoLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
+  </data>
+  <data name="modelInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 45</value>
+  </data>
+  <data name="modelInfoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="modelInfoLabel.Text" xml:space="preserve">
+    <value>Corolla Cross</value>
+  </data>
+  <data name="modelInfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;modelInfoLabel.Name" xml:space="preserve">
+    <value>modelInfoLabel</value>
+  </data>
+  <data name="&gt;&gt;modelInfoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;modelInfoLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;modelInfoLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="brandInfoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="brandInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>581, 4</value>
+  </data>
+  <data name="brandInfoLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
+  </data>
+  <data name="brandInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 45</value>
+  </data>
+  <data name="brandInfoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="brandInfoLabel.Text" xml:space="preserve">
+    <value>Toyota</value>
+  </data>
+  <data name="brandInfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;brandInfoLabel.Name" xml:space="preserve">
+    <value>brandInfoLabel</value>
+  </data>
+  <data name="&gt;&gt;brandInfoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;brandInfoLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;brandInfoLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>14, 29</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1216, 685</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CharacteristicsForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CharacteristicsForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
