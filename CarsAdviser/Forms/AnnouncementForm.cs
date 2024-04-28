@@ -4,14 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using NLog;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Globalization;
 using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using AppContext = CarsAdviser.Database.AppContext;
 
@@ -32,7 +29,7 @@ namespace CarsAdviser.Forms
             LoadCarDetails();
             logger.Info("Загрузка формы AnnouncementForm");
         }
-        private void priceTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        public void priceTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
             {
@@ -54,7 +51,7 @@ namespace CarsAdviser.Forms
                 parentForm.OpenChildForm(new CarInfoForm(parentForm, carId));
             }
         }
-        private string GetStampImageLocation(string stamp)
+        public string GetStampImageLocation(string stamp)
         {
             switch(stamp)
             {

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using CarsAdviser.Database;
 using System.Text.RegularExpressions;
@@ -143,6 +136,11 @@ namespace CarsAdviser.Forms
             surnameTextBox.PlaceholderText = Local.surnamePlaceHolder;
             phoneTextBox.PlaceholderText = Local.phonePlaceHolder;
             passwordTextBox.PlaceholderText = Local.passwordPlaceHolder;
+        }
+
+        private void RegisterForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

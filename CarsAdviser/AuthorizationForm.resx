@@ -122,10 +122,14 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="enLangBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1352, 46</value>
+    <value>3155, 103</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="enLangBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="enLangBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 28</value>
+    <value>110, 62</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="enLangBtn.TabIndex" type="System.Int32, mscorlib">
@@ -147,10 +151,13 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="ruLangBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1285, 46</value>
+    <value>2998, 103</value>
+  </data>
+  <data name="ruLangBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="ruLangBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 28</value>
+    <value>110, 62</value>
   </data>
   <data name="ruLangBtn.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -173,15 +180,17 @@
   <data name="chooseLangLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 14.25pt, style=Bold</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="chooseLangLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="chooseLangLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1272, 9</value>
+    <value>2968, 20</value>
+  </data>
+  <data name="chooseLangLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
   </data>
   <data name="chooseLangLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 23</value>
+    <value>313, 53</value>
   </data>
   <data name="chooseLangLabel.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -205,10 +214,13 @@
     <value>NoControl</value>
   </data>
   <data name="appLogoPictureBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>239, 12</value>
+    <value>558, 27</value>
+  </data>
+  <data name="appLogoPictureBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="appLogoPictureBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 72</value>
+    <value>268, 161</value>
   </data>
   <data name="appLogoPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -238,10 +250,13 @@
     <value>NoControl</value>
   </data>
   <data name="appNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>108, 37</value>
+    <value>252, 83</value>
+  </data>
+  <data name="appNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
   </data>
   <data name="appNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 26</value>
+    <value>285, 59</value>
   </data>
   <data name="appNameLabel.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -267,8 +282,11 @@
   <data name="headerPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="headerPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
   <data name="headerPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1424, 97</value>
+    <value>3204, 216</value>
   </data>
   <data name="headerPanel.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -289,10 +307,13 @@
     <value>Fill</value>
   </data>
   <data name="mainPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 97</value>
+    <value>0, 216</value>
+  </data>
+  <data name="mainPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="mainPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1424, 927</value>
+    <value>3204, 1737</value>
   </data>
   <data name="mainPanel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -313,10 +334,10 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>14, 29</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1424, 1024</value>
+    <value>3204, 1953</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -728,11 +749,11 @@
         AElFTkSuQmCC
 </value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1440, 1063</value>
+    <value>3198, 1908</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

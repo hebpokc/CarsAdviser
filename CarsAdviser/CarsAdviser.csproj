@@ -436,6 +436,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Images\AccountAvatars\" />
+    <Folder Include="Unit TESTS\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\showpass.png" />

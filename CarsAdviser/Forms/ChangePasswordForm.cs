@@ -36,7 +36,7 @@ namespace CarsAdviser.Forms
             passwordTextBox.PlaceholderText = Local.newPasswordPlaceHolder;
             codeTextBox.PlaceholderText = Local.codePlaceHolder;
         }
-        private string GenerateRandomCode(int length)
+        public string GenerateRandomCode(int length)
         {
             logger.Debug($"Генерация случайного кода длиной {length} символов.");
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";

@@ -130,10 +130,13 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mandatoryFillingLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>731, 404</value>
+    <value>1706, 901</value>
+  </data>
+  <data name="mandatoryFillingLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
   </data>
   <data name="mandatoryFillingLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 18</value>
+    <value>584, 41</value>
   </data>
   <data name="mandatoryFillingLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
@@ -166,10 +169,13 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mandatoryFillingLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>731, 151</value>
+    <value>1706, 337</value>
+  </data>
+  <data name="mandatoryFillingLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
   </data>
   <data name="mandatoryFillingLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 18</value>
+    <value>584, 41</value>
   </data>
   <data name="mandatoryFillingLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -199,10 +205,13 @@
     <value>Candara, 12pt, style=Bold</value>
   </data>
   <data name="createAccountBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>420, 462</value>
+    <value>980, 1031</value>
+  </data>
+  <data name="createAccountBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="createAccountBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 45</value>
+    <value>672, 100</value>
   </data>
   <data name="createAccountBtn.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -229,13 +238,13 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="passwordTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>420, 395</value>
+    <value>980, 881</value>
   </data>
   <data name="passwordTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>7, 9, 7, 9</value>
   </data>
   <data name="passwordTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 38</value>
+    <value>672, 85</value>
   </data>
   <data name="passwordTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -259,13 +268,13 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="nameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>420, 141</value>
+    <value>980, 315</value>
   </data>
   <data name="nameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>7, 9, 7, 9</value>
   </data>
   <data name="nameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 38</value>
+    <value>672, 85</value>
   </data>
   <data name="nameTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -289,10 +298,13 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="signInAccountBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>446, 106</value>
+    <value>1041, 236</value>
+  </data>
+  <data name="signInAccountBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="signInAccountBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 18</value>
+    <value>420, 40</value>
   </data>
   <data name="signInAccountBtn.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -322,10 +334,13 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="createAccountLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>417, 106</value>
+    <value>973, 236</value>
+  </data>
+  <data name="createAccountLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
   </data>
   <data name="createAccountLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 18</value>
+    <value>71, 41</value>
   </data>
   <data name="createAccountLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -355,10 +370,13 @@
     <value>Candara, 14.25pt, style=Bold</value>
   </data>
   <data name="createAccountLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>416, 74</value>
+    <value>971, 165</value>
+  </data>
+  <data name="createAccountLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
   </data>
   <data name="createAccountLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 23</value>
+    <value>334, 53</value>
   </data>
   <data name="createAccountLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -388,10 +406,13 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mandatoryFillingLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>731, 212</value>
+    <value>1706, 473</value>
+  </data>
+  <data name="mandatoryFillingLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
   </data>
   <data name="mandatoryFillingLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 18</value>
+    <value>584, 41</value>
   </data>
   <data name="mandatoryFillingLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -421,13 +442,13 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="surnameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>420, 202</value>
+    <value>980, 451</value>
   </data>
   <data name="surnameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>7, 9, 7, 9</value>
   </data>
   <data name="surnameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 38</value>
+    <value>672, 85</value>
   </data>
   <data name="surnameTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -454,10 +475,13 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mandatoryFillingLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>731, 274</value>
+    <value>1706, 611</value>
+  </data>
+  <data name="mandatoryFillingLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
   </data>
   <data name="mandatoryFillingLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 18</value>
+    <value>584, 41</value>
   </data>
   <data name="mandatoryFillingLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -487,13 +511,13 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="emailTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>420, 264</value>
+    <value>980, 589</value>
   </data>
   <data name="emailTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>7, 9, 7, 9</value>
   </data>
   <data name="emailTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 38</value>
+    <value>672, 85</value>
   </data>
   <data name="emailTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -520,10 +544,13 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mandatoryFillingLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>731, 340</value>
+    <value>1706, 758</value>
+  </data>
+  <data name="mandatoryFillingLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
   </data>
   <data name="mandatoryFillingLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 18</value>
+    <value>584, 41</value>
   </data>
   <data name="mandatoryFillingLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -553,13 +580,13 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="phoneTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>420, 330</value>
+    <value>980, 736</value>
   </data>
   <data name="phoneTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>7, 9, 7, 9</value>
   </data>
   <data name="phoneTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 38</value>
+    <value>672, 85</value>
   </data>
   <data name="phoneTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -580,10 +607,13 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>14, 29</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1085, 643</value>
+    <value>2532, 1434</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>RegisterForm</value>
