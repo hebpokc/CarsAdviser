@@ -430,13 +430,15 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="ТЗ, Баг-репорт, Тест-план\Project WA.xlsx" />
+    <None Include="ТЗ, Баг-репорт, Тест-план\Тест план.docx" />
+    <None Include="ТЗ, Баг-репорт, Тест-план\ТЗ_команда_3.docx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Images\AccountAvatars\" />
-    <Folder Include="Unit TESTS\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\showpass.png" />
