@@ -242,6 +242,7 @@ namespace CarsAdviser.Forms
             this.Controls.Add(this.createAccountLabel2);
             this.Controls.Add(this.createAccountLabel1);
             this.Name = "RegisterForm";
+            this.Load += new System.EventHandler(this.RegisterForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -11,6 +11,8 @@ namespace CarsAdviser.Forms
     {
         private AuthorizationForm parentForm;
         private static Logger logger = LogManager.GetCurrentClassLogger();
+
+        public SignInForm() { }
         public SignInForm(AuthorizationForm parentForm)
         {
             InitializeComponent();
@@ -74,7 +76,7 @@ namespace CarsAdviser.Forms
             }
         }
 
-        private void passwordTextBox_IconRightClick(object sender, EventArgs e)
+        public void passwordTextBox_IconRightClick(object sender, EventArgs e)
         {
             if (passwordTextBox.UseSystemPasswordChar)
             {
@@ -109,5 +111,7 @@ namespace CarsAdviser.Forms
             passwordTextBox.PlaceholderText = Local.passwordPlaceHolder;
             uncorrectDataTextBox.Text = Local.uncorrectData;
         }
+
+        
     }
 }
