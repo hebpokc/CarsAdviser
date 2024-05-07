@@ -19,7 +19,7 @@ namespace CarsAdviser.Forms
     public partial class AddCarForm : Form
     {
         private AccountForm parentForm;
-        private List<string> carPhotos = new List<string>();
+        private List<string> carPhotos;
         private static Logger logger = LogManager.GetCurrentClassLogger();
         public AddCarForm(AccountForm parentForm)
         {
@@ -84,6 +84,7 @@ namespace CarsAdviser.Forms
         }
         private void addPhotoBtn_Click(object sender, EventArgs e)
         {
+            carPhotos = new List<string>();
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.png)|*.jpg; *.jpeg; *.gif; *.png";
             openFileDialog.Multiselect = true;
@@ -161,11 +162,11 @@ namespace CarsAdviser.Forms
                         Mileage = int.Parse(carMileageTextBox.Text),
                         Price = long.Parse(carPriceTextBox.Text),
                         Description = carDescriptionRichTextBox.Text,
-                        Photo_1 = carPhotos.Count > 0 ? carPhotos[5] : null,
-                        Photo_2 = carPhotos.Count > 1 ? carPhotos[4] : null,
-                        Photo_3 = carPhotos.Count > 2 ? carPhotos[3] : null,
-                        Photo_4 = carPhotos.Count > 3 ? carPhotos[2] : null,
-                        Photo_5 = carPhotos.Count > 4 ? carPhotos[1] : null,
+                        Photo_1 = carPhotos.Count > 0 ? carPhotos[0] : null,
+                        Photo_2 = carPhotos.Count > 1 ? carPhotos[1] : null,
+                        Photo_3 = carPhotos.Count > 2 ? carPhotos[2] : null,
+                        Photo_4 = carPhotos.Count > 3 ? carPhotos[3] : null,
+                        Photo_5 = carPhotos.Count > 4 ? carPhotos[4] : null,
                     };
                     context.Cars.Add(car);
                     context.SaveChanges();
