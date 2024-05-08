@@ -122,14 +122,10 @@
     <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="carYearLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>285, 428</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="carYearLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>122, 192</value>
   </data>
   <data name="carYearLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 38</value>
+    <value>36, 17</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="carYearLabel1.TabIndex" type="System.Int32, mscorlib">
@@ -157,13 +153,10 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="carNameLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 386</value>
-  </data>
-  <data name="carNameLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>73, 173</value>
   </data>
   <data name="carNameLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>392, 42</value>
+    <value>168, 19</value>
   </data>
   <data name="carNameLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -190,13 +183,10 @@
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="detailsBtn1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 953</value>
-  </data>
-  <data name="detailsBtn1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>74, 427</value>
   </data>
   <data name="detailsBtn1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 76</value>
+    <value>126, 34</value>
   </data>
   <data name="detailsBtn1.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -220,13 +210,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carPriceInfoLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>320, 850</value>
-  </data>
-  <data name="carPriceInfoLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>137, 381</value>
   </data>
   <data name="carPriceInfoLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>273, 45</value>
+    <value>117, 20</value>
   </data>
   <data name="carPriceInfoLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -256,13 +243,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carPriceLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 854</value>
-  </data>
-  <data name="carPriceLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 383</value>
   </data>
   <data name="carPriceLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 41</value>
+    <value>107, 18</value>
   </data>
   <data name="carPriceLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -286,13 +270,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carDriveInfoLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>329, 765</value>
-  </data>
-  <data name="carDriveInfoLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>141, 343</value>
   </data>
   <data name="carDriveInfoLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 45</value>
+    <value>113, 20</value>
   </data>
   <data name="carDriveInfoLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -322,13 +303,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carDriveLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 770</value>
-  </data>
-  <data name="carDriveLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 345</value>
   </data>
   <data name="carDriveLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 41</value>
+    <value>60, 18</value>
   </data>
   <data name="carDriveLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -352,13 +330,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carEngineInfoLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>310, 680</value>
-  </data>
-  <data name="carEngineInfoLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>133, 305</value>
   </data>
   <data name="carEngineInfoLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 45</value>
+    <value>121, 20</value>
   </data>
   <data name="carEngineInfoLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -388,13 +363,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carEngineLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 685</value>
-  </data>
-  <data name="carEngineLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 307</value>
   </data>
   <data name="carEngineLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 41</value>
+    <value>80, 18</value>
   </data>
   <data name="carEngineLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -418,13 +390,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carFuelInfoLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>320, 598</value>
-  </data>
-  <data name="carFuelInfoLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>137, 268</value>
   </data>
   <data name="carFuelInfoLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>273, 45</value>
+    <value>117, 20</value>
   </data>
   <data name="carFuelInfoLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -454,13 +423,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carFuelLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 602</value>
-  </data>
-  <data name="carFuelLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 270</value>
   </data>
   <data name="carFuelLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 41</value>
+    <value>67, 18</value>
   </data>
   <data name="carFuelLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -481,13 +447,10 @@
     <value>9</value>
   </data>
   <data name="carBrandPictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 384</value>
-  </data>
-  <data name="carBrandPictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>35, 172</value>
   </data>
   <data name="carBrandPictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 71</value>
+    <value>32, 32</value>
   </data>
   <data name="carBrandPictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -508,13 +471,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="mileageInfoLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>320, 518</value>
-  </data>
-  <data name="mileageInfoLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>137, 232</value>
   </data>
   <data name="mileageInfoLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 45</value>
+    <value>119, 20</value>
   </data>
   <data name="mileageInfoLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -544,13 +504,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mileageLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 522</value>
-  </data>
-  <data name="mileageLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 234</value>
   </data>
   <data name="mileageLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 41</value>
+    <value>59, 18</value>
   </data>
   <data name="mileageLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -571,14 +528,12 @@
     <value>13</value>
   </data>
   <data name="carPictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 0</value>
-  </data>
-  <data name="carPictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>3, 0</value>
   </data>
   <data name="carPictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>611, 341</value>
+    <value>262, 153</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="carPictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
   </data>
@@ -598,13 +553,10 @@
     <value>14</value>
   </data>
   <data name="carPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1113, 196</value>
-  </data>
-  <data name="carPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>477, 88</value>
   </data>
   <data name="carPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 1069</value>
+    <value>265, 479</value>
   </data>
   <data name="carPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -619,19 +571,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;carPanel1.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="applyBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 12pt, style=Bold</value>
   </data>
   <data name="applyBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 607</value>
-  </data>
-  <data name="applyBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>15, 272</value>
   </data>
   <data name="applyBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>744, 100</value>
+    <value>319, 45</value>
   </data>
   <data name="applyBtn.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -652,13 +601,10 @@
     <value>0</value>
   </data>
   <data name="priceTrackBar2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>392, 366</value>
-  </data>
-  <data name="priceTrackBar2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>168, 164</value>
   </data>
   <data name="priceTrackBar2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>359, 51</value>
+    <value>154, 23</value>
   </data>
   <data name="priceTrackBar2.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -676,13 +622,10 @@
     <value>1</value>
   </data>
   <data name="priceTrackBar1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 366</value>
-  </data>
-  <data name="priceTrackBar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>15, 164</value>
   </data>
   <data name="priceTrackBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>359, 51</value>
+    <value>154, 23</value>
   </data>
   <data name="priceTrackBar1.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -706,13 +649,10 @@
     <value>Candara, 9.75pt, style=Bold</value>
   </data>
   <data name="priceToLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>483, 170</value>
-  </data>
-  <data name="priceToLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>207, 76</value>
   </data>
   <data name="priceToLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 37</value>
+    <value>23, 15</value>
   </data>
   <data name="priceToLabel.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -739,13 +679,10 @@
     <value>Candara, 9.75pt, style=Bold</value>
   </data>
   <data name="priceFromLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>61, 170</value>
-  </data>
-  <data name="priceFromLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>26, 76</value>
   </data>
   <data name="priceFromLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 37</value>
+    <value>22, 15</value>
   </data>
   <data name="priceFromLabel.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -772,13 +709,10 @@
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="rubleLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>765, 230</value>
-  </data>
-  <data name="rubleLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>328, 103</value>
   </data>
   <data name="rubleLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 41</value>
+    <value>17, 18</value>
   </data>
   <data name="rubleLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -802,13 +736,13 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="priceToTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>446, 210</value>
+    <value>191, 94</value>
   </data>
   <data name="priceToTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 9, 7, 9</value>
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="priceToTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 80</value>
+    <value>131, 36</value>
   </data>
   <data name="priceToTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -832,13 +766,10 @@
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="rubleLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>355, 230</value>
-  </data>
-  <data name="rubleLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>152, 103</value>
   </data>
   <data name="rubleLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 41</value>
+    <value>33, 18</value>
   </data>
   <data name="rubleLabel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -862,13 +793,13 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="priceFromTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 210</value>
+    <value>15, 94</value>
   </data>
   <data name="priceFromTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 9, 7, 9</value>
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="priceFromTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 80</value>
+    <value>131, 36</value>
   </data>
   <data name="priceFromTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -889,13 +820,10 @@
     <value>Candara, 12pt, style=Bold</value>
   </data>
   <data name="priceGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 473</value>
-  </data>
-  <data name="priceGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>76, 212</value>
   </data>
   <data name="priceGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>826, 792</value>
+    <value>354, 355</value>
   </data>
   <data name="priceGroupBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -913,19 +841,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;priceGroupBox.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="searchTextBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="searchTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 312</value>
+    <value>76, 140</value>
   </data>
   <data name="searchTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>9, 9, 9, 9</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="searchTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>826, 74</value>
+    <value>354, 33</value>
   </data>
   <data name="searchTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -940,7 +868,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;searchTextBox.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="searchLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -949,13 +877,10 @@
     <value>Candara, 12pt, style=Bold</value>
   </data>
   <data name="searchLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>168, 239</value>
-  </data>
-  <data name="searchLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>72, 107</value>
   </data>
   <data name="searchLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 44</value>
+    <value>52, 19</value>
   </data>
   <data name="searchLabel.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -973,7 +898,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;searchLabel.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="announcementLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -982,13 +907,10 @@
     <value>Candara, 30pt</value>
   </data>
   <data name="announcementLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 78</value>
-  </data>
-  <data name="announcementLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>67, 35</value>
   </data>
   <data name="announcementLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>531, 110</value>
+    <value>238, 49</value>
   </data>
   <data name="announcementLabel.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -1006,19 +928,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;announcementLabel.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="detailsBtn2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="detailsBtn2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 953</value>
-  </data>
-  <data name="detailsBtn2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>74, 427</value>
   </data>
   <data name="detailsBtn2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 76</value>
+    <value>126, 34</value>
   </data>
   <data name="detailsBtn2.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -1042,13 +961,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carPriceInfoLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>313, 850</value>
-  </data>
-  <data name="carPriceInfoLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>134, 381</value>
   </data>
   <data name="carPriceInfoLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>285, 45</value>
+    <value>122, 20</value>
   </data>
   <data name="carPriceInfoLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1078,13 +994,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carPriceLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 854</value>
-  </data>
-  <data name="carPriceLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 383</value>
   </data>
   <data name="carPriceLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 41</value>
+    <value>107, 18</value>
   </data>
   <data name="carPriceLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -1108,13 +1021,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carDriveInfoLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 765</value>
-  </data>
-  <data name="carDriveInfoLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>138, 343</value>
   </data>
   <data name="carDriveInfoLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 45</value>
+    <value>118, 20</value>
   </data>
   <data name="carDriveInfoLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -1144,13 +1054,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carDriveLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 770</value>
-  </data>
-  <data name="carDriveLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 345</value>
   </data>
   <data name="carDriveLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 41</value>
+    <value>60, 18</value>
   </data>
   <data name="carDriveLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1174,13 +1081,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carEngineInfoLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>303, 680</value>
-  </data>
-  <data name="carEngineInfoLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>130, 305</value>
   </data>
   <data name="carEngineInfoLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 45</value>
+    <value>126, 20</value>
   </data>
   <data name="carEngineInfoLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -1210,13 +1114,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carEngineLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 685</value>
-  </data>
-  <data name="carEngineLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 307</value>
   </data>
   <data name="carEngineLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 41</value>
+    <value>80, 18</value>
   </data>
   <data name="carEngineLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1240,13 +1141,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carFuelInfoLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>313, 598</value>
-  </data>
-  <data name="carFuelInfoLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>134, 268</value>
   </data>
   <data name="carFuelInfoLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>285, 45</value>
+    <value>122, 20</value>
   </data>
   <data name="carFuelInfoLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1273,13 +1171,10 @@
     <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="carYearLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 428</value>
-  </data>
-  <data name="carYearLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>119, 192</value>
   </data>
   <data name="carYearLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 38</value>
+    <value>36, 17</value>
   </data>
   <data name="carYearLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -1309,13 +1204,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carFuelLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 602</value>
-  </data>
-  <data name="carFuelLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 270</value>
   </data>
   <data name="carFuelLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 41</value>
+    <value>67, 18</value>
   </data>
   <data name="carFuelLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1339,13 +1231,10 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="carNameLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>163, 386</value>
-  </data>
-  <data name="carNameLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>70, 173</value>
   </data>
   <data name="carNameLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>376, 42</value>
+    <value>161, 19</value>
   </data>
   <data name="carNameLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -1369,13 +1258,10 @@
     <value>10</value>
   </data>
   <data name="carBrandPictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 384</value>
-  </data>
-  <data name="carBrandPictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>35, 172</value>
   </data>
   <data name="carBrandPictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 71</value>
+    <value>32, 32</value>
   </data>
   <data name="carBrandPictureBox2.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -1396,13 +1282,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="mileageInfoLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>313, 518</value>
-  </data>
-  <data name="mileageInfoLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>134, 232</value>
   </data>
   <data name="mileageInfoLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>285, 45</value>
+    <value>122, 20</value>
   </data>
   <data name="mileageInfoLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1432,13 +1315,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mileageLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 522</value>
-  </data>
-  <data name="mileageLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 234</value>
   </data>
   <data name="mileageLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 41</value>
+    <value>59, 18</value>
   </data>
   <data name="mileageLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1461,11 +1341,8 @@
   <data name="carPictureBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="carPictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
   <data name="carPictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 341</value>
+    <value>265, 153</value>
   </data>
   <data name="carPictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -1486,13 +1363,10 @@
     <value>14</value>
   </data>
   <data name="carPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1867, 196</value>
-  </data>
-  <data name="carPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>800, 88</value>
   </data>
   <data name="carPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 1069</value>
+    <value>265, 479</value>
   </data>
   <data name="carPanel2.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -1507,19 +1381,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;carPanel2.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="detailsBtn3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="detailsBtn3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 953</value>
-  </data>
-  <data name="detailsBtn3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>74, 427</value>
   </data>
   <data name="detailsBtn3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 76</value>
+    <value>126, 34</value>
   </data>
   <data name="detailsBtn3.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -1543,13 +1414,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carPriceInfoLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>331, 850</value>
-  </data>
-  <data name="carPriceInfoLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>142, 381</value>
   </data>
   <data name="carPriceInfoLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 45</value>
+    <value>114, 20</value>
   </data>
   <data name="carPriceInfoLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1579,13 +1447,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carPriceLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 854</value>
-  </data>
-  <data name="carPriceLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 383</value>
   </data>
   <data name="carPriceLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 41</value>
+    <value>107, 18</value>
   </data>
   <data name="carPriceLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -1609,13 +1474,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carDriveInfoLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>331, 765</value>
-  </data>
-  <data name="carDriveInfoLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>142, 343</value>
   </data>
   <data name="carDriveInfoLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 45</value>
+    <value>114, 20</value>
   </data>
   <data name="carDriveInfoLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -1645,13 +1507,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carDriveLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 770</value>
-  </data>
-  <data name="carDriveLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 345</value>
   </data>
   <data name="carDriveLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 41</value>
+    <value>60, 18</value>
   </data>
   <data name="carDriveLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1675,13 +1534,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carEngineInfoLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 680</value>
-  </data>
-  <data name="carEngineInfoLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>138, 305</value>
   </data>
   <data name="carEngineInfoLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 45</value>
+    <value>118, 20</value>
   </data>
   <data name="carEngineInfoLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -1711,13 +1567,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carEngineLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 685</value>
-  </data>
-  <data name="carEngineLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 307</value>
   </data>
   <data name="carEngineLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 41</value>
+    <value>80, 18</value>
   </data>
   <data name="carEngineLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1741,13 +1594,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carFuelInfoLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 598</value>
-  </data>
-  <data name="carFuelInfoLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>138, 268</value>
   </data>
   <data name="carFuelInfoLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 45</value>
+    <value>118, 20</value>
   </data>
   <data name="carFuelInfoLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1774,13 +1624,10 @@
     <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="carYearLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 428</value>
-  </data>
-  <data name="carYearLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>119, 192</value>
   </data>
   <data name="carYearLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 38</value>
+    <value>36, 17</value>
   </data>
   <data name="carYearLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -1810,13 +1657,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carFuelLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 602</value>
-  </data>
-  <data name="carFuelLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 270</value>
   </data>
   <data name="carFuelLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 41</value>
+    <value>67, 18</value>
   </data>
   <data name="carFuelLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1840,13 +1684,10 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="carNameLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>163, 386</value>
-  </data>
-  <data name="carNameLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>70, 173</value>
   </data>
   <data name="carNameLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>376, 42</value>
+    <value>161, 19</value>
   </data>
   <data name="carNameLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -1870,13 +1711,10 @@
     <value>10</value>
   </data>
   <data name="carBrandPictureBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 384</value>
-  </data>
-  <data name="carBrandPictureBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>35, 172</value>
   </data>
   <data name="carBrandPictureBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 71</value>
+    <value>32, 32</value>
   </data>
   <data name="carBrandPictureBox3.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -1897,13 +1735,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="mileageInfoLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>331, 518</value>
-  </data>
-  <data name="mileageInfoLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>142, 232</value>
   </data>
   <data name="mileageInfoLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 45</value>
+    <value>114, 20</value>
   </data>
   <data name="mileageInfoLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1933,13 +1768,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mileageLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 522</value>
-  </data>
-  <data name="mileageLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 234</value>
   </data>
   <data name="mileageLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 41</value>
+    <value>59, 18</value>
   </data>
   <data name="mileageLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1962,11 +1794,8 @@
   <data name="carPictureBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="carPictureBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
   <data name="carPictureBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 341</value>
+    <value>265, 153</value>
   </data>
   <data name="carPictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -1987,13 +1816,10 @@
     <value>14</value>
   </data>
   <data name="carPanel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2606, 196</value>
-  </data>
-  <data name="carPanel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>1117, 88</value>
   </data>
   <data name="carPanel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 1069</value>
+    <value>265, 479</value>
   </data>
   <data name="carPanel3.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -2008,19 +1834,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;carPanel3.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="detailsBtn6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="detailsBtn6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 953</value>
-  </data>
-  <data name="detailsBtn6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>74, 427</value>
   </data>
   <data name="detailsBtn6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 76</value>
+    <value>126, 34</value>
   </data>
   <data name="detailsBtn6.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -2044,13 +1867,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carPriceInfoLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>331, 850</value>
-  </data>
-  <data name="carPriceInfoLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>142, 381</value>
   </data>
   <data name="carPriceInfoLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 45</value>
+    <value>114, 20</value>
   </data>
   <data name="carPriceInfoLabel6.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -2080,13 +1900,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carPriceLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 854</value>
-  </data>
-  <data name="carPriceLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 383</value>
   </data>
   <data name="carPriceLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 41</value>
+    <value>107, 18</value>
   </data>
   <data name="carPriceLabel6.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -2110,13 +1927,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carDriveInfoLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 765</value>
-  </data>
-  <data name="carDriveInfoLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>138, 343</value>
   </data>
   <data name="carDriveInfoLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 45</value>
+    <value>118, 20</value>
   </data>
   <data name="carDriveInfoLabel6.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -2146,13 +1960,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carDriveLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 770</value>
-  </data>
-  <data name="carDriveLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 345</value>
   </data>
   <data name="carDriveLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 41</value>
+    <value>60, 18</value>
   </data>
   <data name="carDriveLabel6.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -2176,13 +1987,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carEngineInfoLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>313, 680</value>
-  </data>
-  <data name="carEngineInfoLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>134, 305</value>
   </data>
   <data name="carEngineInfoLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>285, 45</value>
+    <value>122, 20</value>
   </data>
   <data name="carEngineInfoLabel6.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -2212,13 +2020,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carEngineLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 685</value>
-  </data>
-  <data name="carEngineLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 307</value>
   </data>
   <data name="carEngineLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 41</value>
+    <value>80, 18</value>
   </data>
   <data name="carEngineLabel6.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -2242,13 +2047,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carFuelInfoLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 598</value>
-  </data>
-  <data name="carFuelInfoLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>138, 268</value>
   </data>
   <data name="carFuelInfoLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 45</value>
+    <value>118, 20</value>
   </data>
   <data name="carFuelInfoLabel6.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -2275,13 +2077,10 @@
     <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="carYearLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 428</value>
-  </data>
-  <data name="carYearLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>119, 192</value>
   </data>
   <data name="carYearLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 38</value>
+    <value>36, 17</value>
   </data>
   <data name="carYearLabel6.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -2311,13 +2110,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carFuelLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 602</value>
-  </data>
-  <data name="carFuelLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 270</value>
   </data>
   <data name="carFuelLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 41</value>
+    <value>67, 18</value>
   </data>
   <data name="carFuelLabel6.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -2341,13 +2137,10 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="carNameLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>163, 386</value>
-  </data>
-  <data name="carNameLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>70, 173</value>
   </data>
   <data name="carNameLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>376, 42</value>
+    <value>161, 19</value>
   </data>
   <data name="carNameLabel6.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -2371,13 +2164,10 @@
     <value>10</value>
   </data>
   <data name="carBrandPictureBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 384</value>
-  </data>
-  <data name="carBrandPictureBox6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>35, 172</value>
   </data>
   <data name="carBrandPictureBox6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 71</value>
+    <value>32, 32</value>
   </data>
   <data name="carBrandPictureBox6.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -2398,13 +2188,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="mileageInfoLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>331, 518</value>
-  </data>
-  <data name="mileageInfoLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>142, 232</value>
   </data>
   <data name="mileageInfoLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 45</value>
+    <value>114, 20</value>
   </data>
   <data name="mileageInfoLabel6.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -2434,13 +2221,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mileageLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 522</value>
-  </data>
-  <data name="mileageLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 234</value>
   </data>
   <data name="mileageLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 41</value>
+    <value>59, 18</value>
   </data>
   <data name="mileageLabel6.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2463,11 +2247,8 @@
   <data name="carPictureBox6.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="carPictureBox6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
   <data name="carPictureBox6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 341</value>
+    <value>265, 153</value>
   </data>
   <data name="carPictureBox6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -2488,13 +2269,10 @@
     <value>14</value>
   </data>
   <data name="carPanel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2606, 1367</value>
-  </data>
-  <data name="carPanel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>1117, 613</value>
   </data>
   <data name="carPanel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 1069</value>
+    <value>265, 479</value>
   </data>
   <data name="carPanel6.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -2509,19 +2287,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;carPanel6.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="detailsBtn5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="detailsBtn5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 953</value>
-  </data>
-  <data name="detailsBtn5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>74, 427</value>
   </data>
   <data name="detailsBtn5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 76</value>
+    <value>126, 34</value>
   </data>
   <data name="detailsBtn5.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -2545,13 +2320,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carPriceInfoLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>350, 850</value>
-  </data>
-  <data name="carPriceInfoLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>150, 381</value>
   </data>
   <data name="carPriceInfoLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 45</value>
+    <value>106, 20</value>
   </data>
   <data name="carPriceInfoLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -2581,13 +2353,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carPriceLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 854</value>
-  </data>
-  <data name="carPriceLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 383</value>
   </data>
   <data name="carPriceLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 41</value>
+    <value>107, 18</value>
   </data>
   <data name="carPriceLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -2611,13 +2380,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carDriveInfoLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>341, 765</value>
-  </data>
-  <data name="carDriveInfoLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>146, 343</value>
   </data>
   <data name="carDriveInfoLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>257, 45</value>
+    <value>110, 20</value>
   </data>
   <data name="carDriveInfoLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -2647,13 +2413,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carDriveLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 770</value>
-  </data>
-  <data name="carDriveLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 345</value>
   </data>
   <data name="carDriveLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 41</value>
+    <value>60, 18</value>
   </data>
   <data name="carDriveLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -2677,13 +2440,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carEngineInfoLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>331, 685</value>
-  </data>
-  <data name="carEngineInfoLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>142, 307</value>
   </data>
   <data name="carEngineInfoLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 45</value>
+    <value>114, 20</value>
   </data>
   <data name="carEngineInfoLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -2713,13 +2473,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carEngineLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 685</value>
-  </data>
-  <data name="carEngineLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 307</value>
   </data>
   <data name="carEngineLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 41</value>
+    <value>80, 18</value>
   </data>
   <data name="carEngineLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -2743,13 +2500,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carFuelInfoLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>350, 598</value>
-  </data>
-  <data name="carFuelInfoLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>150, 268</value>
   </data>
   <data name="carFuelInfoLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 45</value>
+    <value>106, 20</value>
   </data>
   <data name="carFuelInfoLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -2776,13 +2530,10 @@
     <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="carYearLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 428</value>
-  </data>
-  <data name="carYearLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>119, 192</value>
   </data>
   <data name="carYearLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 38</value>
+    <value>36, 17</value>
   </data>
   <data name="carYearLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -2812,13 +2563,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carFuelLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 602</value>
-  </data>
-  <data name="carFuelLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 270</value>
   </data>
   <data name="carFuelLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 41</value>
+    <value>67, 18</value>
   </data>
   <data name="carFuelLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -2842,13 +2590,10 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="carNameLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>163, 386</value>
-  </data>
-  <data name="carNameLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>70, 173</value>
   </data>
   <data name="carNameLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>376, 42</value>
+    <value>161, 19</value>
   </data>
   <data name="carNameLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -2872,13 +2617,10 @@
     <value>10</value>
   </data>
   <data name="carBrandPictureBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 384</value>
-  </data>
-  <data name="carBrandPictureBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>35, 172</value>
   </data>
   <data name="carBrandPictureBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 71</value>
+    <value>32, 32</value>
   </data>
   <data name="carBrandPictureBox5.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -2899,13 +2641,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="mileageInfoLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>350, 518</value>
-  </data>
-  <data name="mileageInfoLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>150, 232</value>
   </data>
   <data name="mileageInfoLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 45</value>
+    <value>106, 20</value>
   </data>
   <data name="mileageInfoLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -2935,13 +2674,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mileageLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 522</value>
-  </data>
-  <data name="mileageLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 234</value>
   </data>
   <data name="mileageLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 41</value>
+    <value>59, 18</value>
   </data>
   <data name="mileageLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2964,11 +2700,8 @@
   <data name="carPictureBox5.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="carPictureBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
   <data name="carPictureBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 341</value>
+    <value>265, 153</value>
   </data>
   <data name="carPictureBox5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -2989,13 +2722,10 @@
     <value>14</value>
   </data>
   <data name="carPanel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1867, 1367</value>
-  </data>
-  <data name="carPanel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>800, 613</value>
   </data>
   <data name="carPanel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 1069</value>
+    <value>265, 479</value>
   </data>
   <data name="carPanel5.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -3010,19 +2740,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;carPanel5.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="detailsBtn4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="detailsBtn4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 953</value>
-  </data>
-  <data name="detailsBtn4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>74, 427</value>
   </data>
   <data name="detailsBtn4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 76</value>
+    <value>126, 34</value>
   </data>
   <data name="detailsBtn4.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -3046,13 +2773,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carPriceInfoLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>329, 850</value>
-  </data>
-  <data name="carPriceInfoLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>141, 381</value>
   </data>
   <data name="carPriceInfoLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 45</value>
+    <value>115, 20</value>
   </data>
   <data name="carPriceInfoLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -3082,13 +2806,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carPriceLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 854</value>
-  </data>
-  <data name="carPriceLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 383</value>
   </data>
   <data name="carPriceLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 41</value>
+    <value>107, 18</value>
   </data>
   <data name="carPriceLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -3112,13 +2833,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carDriveInfoLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>338, 765</value>
-  </data>
-  <data name="carDriveInfoLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>145, 343</value>
   </data>
   <data name="carDriveInfoLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>259, 45</value>
+    <value>111, 20</value>
   </data>
   <data name="carDriveInfoLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -3148,13 +2866,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carDriveLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 770</value>
-  </data>
-  <data name="carDriveLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 345</value>
   </data>
   <data name="carDriveLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 41</value>
+    <value>60, 18</value>
   </data>
   <data name="carDriveLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -3178,13 +2893,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carEngineInfoLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>320, 680</value>
-  </data>
-  <data name="carEngineInfoLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>137, 305</value>
   </data>
   <data name="carEngineInfoLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 45</value>
+    <value>119, 20</value>
   </data>
   <data name="carEngineInfoLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -3214,13 +2926,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carEngineLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 685</value>
-  </data>
-  <data name="carEngineLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 307</value>
   </data>
   <data name="carEngineLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 41</value>
+    <value>80, 18</value>
   </data>
   <data name="carEngineLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -3244,13 +2953,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carFuelInfoLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>357, 598</value>
-  </data>
-  <data name="carFuelInfoLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>153, 268</value>
   </data>
   <data name="carFuelInfoLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 45</value>
+    <value>103, 20</value>
   </data>
   <data name="carFuelInfoLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -3277,13 +2983,10 @@
     <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="carYearLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 428</value>
-  </data>
-  <data name="carYearLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>119, 192</value>
   </data>
   <data name="carYearLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 38</value>
+    <value>36, 17</value>
   </data>
   <data name="carYearLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -3313,13 +3016,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carFuelLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 602</value>
-  </data>
-  <data name="carFuelLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 270</value>
   </data>
   <data name="carFuelLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 41</value>
+    <value>67, 18</value>
   </data>
   <data name="carFuelLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -3343,13 +3043,10 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="carNameLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>163, 386</value>
-  </data>
-  <data name="carNameLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>70, 173</value>
   </data>
   <data name="carNameLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>376, 42</value>
+    <value>161, 19</value>
   </data>
   <data name="carNameLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -3373,13 +3070,10 @@
     <value>10</value>
   </data>
   <data name="carBrandPictureBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 384</value>
-  </data>
-  <data name="carBrandPictureBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>35, 172</value>
   </data>
   <data name="carBrandPictureBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 71</value>
+    <value>32, 32</value>
   </data>
   <data name="carBrandPictureBox4.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -3400,13 +3094,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="mileageInfoLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>366, 518</value>
-  </data>
-  <data name="mileageInfoLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>157, 232</value>
   </data>
   <data name="mileageInfoLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 45</value>
+    <value>99, 20</value>
   </data>
   <data name="mileageInfoLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -3436,13 +3127,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mileageLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 522</value>
-  </data>
-  <data name="mileageLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 234</value>
   </data>
   <data name="mileageLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 41</value>
+    <value>59, 18</value>
   </data>
   <data name="mileageLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -3465,11 +3153,8 @@
   <data name="carPictureBox4.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="carPictureBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
   <data name="carPictureBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 341</value>
+    <value>265, 153</value>
   </data>
   <data name="carPictureBox4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -3490,13 +3175,10 @@
     <value>14</value>
   </data>
   <data name="carPanel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1113, 1367</value>
-  </data>
-  <data name="carPanel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>477, 613</value>
   </data>
   <data name="carPanel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 1069</value>
+    <value>265, 479</value>
   </data>
   <data name="carPanel4.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -3511,19 +3193,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;carPanel4.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="detailsBtn9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="detailsBtn9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 953</value>
-  </data>
-  <data name="detailsBtn9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>74, 427</value>
   </data>
   <data name="detailsBtn9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 76</value>
+    <value>126, 34</value>
   </data>
   <data name="detailsBtn9.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -3547,13 +3226,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carPriceInfoLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>331, 850</value>
-  </data>
-  <data name="carPriceInfoLabel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>142, 381</value>
   </data>
   <data name="carPriceInfoLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 45</value>
+    <value>114, 20</value>
   </data>
   <data name="carPriceInfoLabel9.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -3583,13 +3259,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carPriceLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 854</value>
-  </data>
-  <data name="carPriceLabel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 383</value>
   </data>
   <data name="carPriceLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 41</value>
+    <value>107, 18</value>
   </data>
   <data name="carPriceLabel9.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -3613,13 +3286,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carDriveInfoLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 765</value>
-  </data>
-  <data name="carDriveInfoLabel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>138, 343</value>
   </data>
   <data name="carDriveInfoLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 45</value>
+    <value>118, 20</value>
   </data>
   <data name="carDriveInfoLabel9.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -3649,13 +3319,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carDriveLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 770</value>
-  </data>
-  <data name="carDriveLabel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 345</value>
   </data>
   <data name="carDriveLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 41</value>
+    <value>60, 18</value>
   </data>
   <data name="carDriveLabel9.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -3679,13 +3346,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carEngineInfoLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>313, 680</value>
-  </data>
-  <data name="carEngineInfoLabel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>134, 305</value>
   </data>
   <data name="carEngineInfoLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>285, 45</value>
+    <value>122, 20</value>
   </data>
   <data name="carEngineInfoLabel9.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -3715,13 +3379,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carEngineLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 685</value>
-  </data>
-  <data name="carEngineLabel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 307</value>
   </data>
   <data name="carEngineLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 41</value>
+    <value>80, 18</value>
   </data>
   <data name="carEngineLabel9.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -3745,13 +3406,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carFuelInfoLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 598</value>
-  </data>
-  <data name="carFuelInfoLabel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>138, 268</value>
   </data>
   <data name="carFuelInfoLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 45</value>
+    <value>118, 20</value>
   </data>
   <data name="carFuelInfoLabel9.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -3778,13 +3436,10 @@
     <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="carYearLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 428</value>
-  </data>
-  <data name="carYearLabel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>119, 192</value>
   </data>
   <data name="carYearLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 38</value>
+    <value>36, 17</value>
   </data>
   <data name="carYearLabel9.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -3814,13 +3469,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carFuelLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 602</value>
-  </data>
-  <data name="carFuelLabel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 270</value>
   </data>
   <data name="carFuelLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 41</value>
+    <value>67, 18</value>
   </data>
   <data name="carFuelLabel9.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -3844,13 +3496,10 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="carNameLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>163, 386</value>
-  </data>
-  <data name="carNameLabel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>70, 173</value>
   </data>
   <data name="carNameLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>376, 42</value>
+    <value>161, 19</value>
   </data>
   <data name="carNameLabel9.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -3874,13 +3523,10 @@
     <value>10</value>
   </data>
   <data name="carBrandPictureBox9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 384</value>
-  </data>
-  <data name="carBrandPictureBox9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>35, 172</value>
   </data>
   <data name="carBrandPictureBox9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 71</value>
+    <value>32, 32</value>
   </data>
   <data name="carBrandPictureBox9.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -3901,13 +3547,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="mileageInfoLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>331, 518</value>
-  </data>
-  <data name="mileageInfoLabel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>142, 232</value>
   </data>
   <data name="mileageInfoLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 45</value>
+    <value>114, 20</value>
   </data>
   <data name="mileageInfoLabel9.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -3937,13 +3580,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mileageLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 522</value>
-  </data>
-  <data name="mileageLabel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 234</value>
   </data>
   <data name="mileageLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 41</value>
+    <value>59, 18</value>
   </data>
   <data name="mileageLabel9.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -3966,11 +3606,8 @@
   <data name="carPictureBox9.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="carPictureBox9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
   <data name="carPictureBox9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 341</value>
+    <value>265, 153</value>
   </data>
   <data name="carPictureBox9.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -3991,13 +3628,10 @@
     <value>14</value>
   </data>
   <data name="carPanel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2606, 2563</value>
-  </data>
-  <data name="carPanel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>1117, 1149</value>
   </data>
   <data name="carPanel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 1069</value>
+    <value>265, 479</value>
   </data>
   <data name="carPanel9.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -4012,19 +3646,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;carPanel9.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="detailsBtn8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="detailsBtn8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 953</value>
-  </data>
-  <data name="detailsBtn8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>74, 427</value>
   </data>
   <data name="detailsBtn8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 76</value>
+    <value>126, 34</value>
   </data>
   <data name="detailsBtn8.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -4048,13 +3679,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carPriceInfoLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>350, 850</value>
-  </data>
-  <data name="carPriceInfoLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>150, 381</value>
   </data>
   <data name="carPriceInfoLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 45</value>
+    <value>106, 20</value>
   </data>
   <data name="carPriceInfoLabel8.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -4084,13 +3712,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carPriceLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 854</value>
-  </data>
-  <data name="carPriceLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 383</value>
   </data>
   <data name="carPriceLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 41</value>
+    <value>107, 18</value>
   </data>
   <data name="carPriceLabel8.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -4114,13 +3739,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carDriveInfoLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>341, 765</value>
-  </data>
-  <data name="carDriveInfoLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>146, 343</value>
   </data>
   <data name="carDriveInfoLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>257, 45</value>
+    <value>110, 20</value>
   </data>
   <data name="carDriveInfoLabel8.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -4150,13 +3772,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carDriveLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 770</value>
-  </data>
-  <data name="carDriveLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 345</value>
   </data>
   <data name="carDriveLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 41</value>
+    <value>60, 18</value>
   </data>
   <data name="carDriveLabel8.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -4180,13 +3799,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carEngineInfoLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>331, 685</value>
-  </data>
-  <data name="carEngineInfoLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>142, 307</value>
   </data>
   <data name="carEngineInfoLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 45</value>
+    <value>114, 20</value>
   </data>
   <data name="carEngineInfoLabel8.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -4216,13 +3832,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carEngineLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 685</value>
-  </data>
-  <data name="carEngineLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 307</value>
   </data>
   <data name="carEngineLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 41</value>
+    <value>80, 18</value>
   </data>
   <data name="carEngineLabel8.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -4246,13 +3859,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carFuelInfoLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>350, 598</value>
-  </data>
-  <data name="carFuelInfoLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>150, 268</value>
   </data>
   <data name="carFuelInfoLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 45</value>
+    <value>106, 20</value>
   </data>
   <data name="carFuelInfoLabel8.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -4279,13 +3889,10 @@
     <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="carYearLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 428</value>
-  </data>
-  <data name="carYearLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>119, 192</value>
   </data>
   <data name="carYearLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 38</value>
+    <value>36, 17</value>
   </data>
   <data name="carYearLabel8.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -4315,13 +3922,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carFuelLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 602</value>
-  </data>
-  <data name="carFuelLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 270</value>
   </data>
   <data name="carFuelLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 41</value>
+    <value>67, 18</value>
   </data>
   <data name="carFuelLabel8.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -4345,13 +3949,10 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="carNameLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>163, 386</value>
-  </data>
-  <data name="carNameLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>70, 173</value>
   </data>
   <data name="carNameLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>376, 42</value>
+    <value>161, 19</value>
   </data>
   <data name="carNameLabel8.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -4375,13 +3976,10 @@
     <value>10</value>
   </data>
   <data name="carBrandPictureBox8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 384</value>
-  </data>
-  <data name="carBrandPictureBox8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>35, 172</value>
   </data>
   <data name="carBrandPictureBox8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 71</value>
+    <value>32, 32</value>
   </data>
   <data name="carBrandPictureBox8.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -4402,13 +4000,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="mileageInfoLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>350, 518</value>
-  </data>
-  <data name="mileageInfoLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>150, 232</value>
   </data>
   <data name="mileageInfoLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 45</value>
+    <value>106, 20</value>
   </data>
   <data name="mileageInfoLabel8.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -4438,13 +4033,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mileageLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 522</value>
-  </data>
-  <data name="mileageLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 234</value>
   </data>
   <data name="mileageLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 41</value>
+    <value>59, 18</value>
   </data>
   <data name="mileageLabel8.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -4467,11 +4059,8 @@
   <data name="carPictureBox8.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="carPictureBox8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
   <data name="carPictureBox8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 341</value>
+    <value>265, 153</value>
   </data>
   <data name="carPictureBox8.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -4492,13 +4081,10 @@
     <value>14</value>
   </data>
   <data name="carPanel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1867, 2563</value>
-  </data>
-  <data name="carPanel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>800, 1149</value>
   </data>
   <data name="carPanel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 1069</value>
+    <value>265, 479</value>
   </data>
   <data name="carPanel8.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -4513,19 +4099,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;carPanel8.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="detailsBtn7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="detailsBtn7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 953</value>
-  </data>
-  <data name="detailsBtn7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>74, 427</value>
   </data>
   <data name="detailsBtn7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 76</value>
+    <value>126, 34</value>
   </data>
   <data name="detailsBtn7.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -4549,13 +4132,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carPriceInfoLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>329, 850</value>
-  </data>
-  <data name="carPriceInfoLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>141, 381</value>
   </data>
   <data name="carPriceInfoLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 45</value>
+    <value>115, 20</value>
   </data>
   <data name="carPriceInfoLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -4585,13 +4165,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carPriceLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 854</value>
-  </data>
-  <data name="carPriceLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 383</value>
   </data>
   <data name="carPriceLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 41</value>
+    <value>107, 18</value>
   </data>
   <data name="carPriceLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -4615,13 +4192,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carDriveInfoLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>338, 765</value>
-  </data>
-  <data name="carDriveInfoLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>145, 343</value>
   </data>
   <data name="carDriveInfoLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>259, 45</value>
+    <value>111, 20</value>
   </data>
   <data name="carDriveInfoLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -4651,13 +4225,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carDriveLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 770</value>
-  </data>
-  <data name="carDriveLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 345</value>
   </data>
   <data name="carDriveLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 41</value>
+    <value>60, 18</value>
   </data>
   <data name="carDriveLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -4681,13 +4252,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carEngineInfoLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>320, 680</value>
-  </data>
-  <data name="carEngineInfoLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>137, 305</value>
   </data>
   <data name="carEngineInfoLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 45</value>
+    <value>119, 20</value>
   </data>
   <data name="carEngineInfoLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -4717,13 +4285,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carEngineLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 685</value>
-  </data>
-  <data name="carEngineLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 307</value>
   </data>
   <data name="carEngineLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 41</value>
+    <value>80, 18</value>
   </data>
   <data name="carEngineLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -4747,13 +4312,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="carFuelInfoLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>357, 598</value>
-  </data>
-  <data name="carFuelInfoLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>153, 268</value>
   </data>
   <data name="carFuelInfoLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 45</value>
+    <value>103, 20</value>
   </data>
   <data name="carFuelInfoLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -4780,13 +4342,10 @@
     <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="carYearLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 428</value>
-  </data>
-  <data name="carYearLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>119, 192</value>
   </data>
   <data name="carYearLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 38</value>
+    <value>36, 17</value>
   </data>
   <data name="carYearLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -4816,13 +4375,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="carFuelLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 602</value>
-  </data>
-  <data name="carFuelLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 270</value>
   </data>
   <data name="carFuelLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 41</value>
+    <value>67, 18</value>
   </data>
   <data name="carFuelLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -4846,13 +4402,10 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="carNameLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>163, 386</value>
-  </data>
-  <data name="carNameLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>70, 173</value>
   </data>
   <data name="carNameLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>376, 42</value>
+    <value>161, 19</value>
   </data>
   <data name="carNameLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -4876,13 +4429,10 @@
     <value>10</value>
   </data>
   <data name="carBrandPictureBox7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 384</value>
-  </data>
-  <data name="carBrandPictureBox7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>35, 172</value>
   </data>
   <data name="carBrandPictureBox7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 71</value>
+    <value>32, 32</value>
   </data>
   <data name="carBrandPictureBox7.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -4903,13 +4453,10 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="mileageInfoLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>366, 518</value>
-  </data>
-  <data name="mileageInfoLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>157, 232</value>
   </data>
   <data name="mileageInfoLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 45</value>
+    <value>99, 20</value>
   </data>
   <data name="mileageInfoLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -4939,13 +4486,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mileageLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 522</value>
-  </data>
-  <data name="mileageLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>15, 234</value>
   </data>
   <data name="mileageLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 41</value>
+    <value>59, 18</value>
   </data>
   <data name="mileageLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -4968,11 +4512,8 @@
   <data name="carPictureBox7.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="carPictureBox7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
   <data name="carPictureBox7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 341</value>
+    <value>265, 153</value>
   </data>
   <data name="carPictureBox7.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -4993,13 +4534,10 @@
     <value>14</value>
   </data>
   <data name="carPanel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1113, 2563</value>
-  </data>
-  <data name="carPanel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>477, 1149</value>
   </data>
   <data name="carPanel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 1069</value>
+    <value>265, 479</value>
   </data>
   <data name="carPanel7.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -5014,22 +4552,46 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;carPanel7.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
+  </data>
+  <data name="MailSendBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt, style=Bold</value>
+  </data>
+  <data name="MailSendBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 599</value>
+  </data>
+  <data name="MailSendBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 45</value>
+  </data>
+  <data name="MailSendBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="MailSendBtn.Text" xml:space="preserve">
+    <value>Отправить подборку на почту</value>
+  </data>
+  <data name="&gt;&gt;MailSendBtn.Name" xml:space="preserve">
+    <value>MailSendBtn</value>
+  </data>
+  <data name="&gt;&gt;MailSendBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;MailSendBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MailSendBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>14, 29</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>3204, 1953</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>1904, 1041</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>AnnouncementForm</value>

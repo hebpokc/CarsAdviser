@@ -51,7 +51,7 @@ namespace CarsAdviser
         }
         private void MainForm_Load(object sender, EventArgs e)
         {
-            OpenChildForm(new AnnouncementForm(this, similarToPreferences));
+            OpenChildForm(new AnnouncementForm(this, similarToPreferences, currentUserId));
             announcementBtn.Font = new Font(announcementBtn.Font.FontFamily, announcementBtn.Font.Size, FontStyle.Bold);
             announcementBottomLabel.Visible = true;
             ResetStyle(bookmarkersBtn, bookmarkersBottomLabel);
@@ -87,7 +87,7 @@ namespace CarsAdviser
         private void announcementBtn_Click(object sender, EventArgs e)
         {
             currentChildForm.Close();
-            OpenChildForm(new AnnouncementForm(this, similarToPreferences));
+            OpenChildForm(new AnnouncementForm(this, similarToPreferences, currentUserId));
             announcementBtn.Font = new Font(announcementBtn.Font.FontFamily, announcementBtn.Font.Size, FontStyle.Bold);
             announcementBottomLabel.Visible = true;
             accountBtn.Font = new Font(accountBtn.Font.FontFamily, accountBtn.Font.Size, FontStyle.Regular);

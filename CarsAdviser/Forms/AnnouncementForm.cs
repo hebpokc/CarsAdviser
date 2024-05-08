@@ -8,9 +8,12 @@ using System.Data;
 using System.Drawing;
 using System.Globalization;
 using System.Linq;
+using System.Net.Mail;
+using System.Net;
 using System.Threading;
 using System.Windows.Forms;
 using AppContext = CarsAdviser.Database.AppContext;
+using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 
 namespace CarsAdviser.Forms
 {
@@ -18,9 +21,11 @@ namespace CarsAdviser.Forms
     {
         private MainForm parentForm;
         private int carId;
+        private int currentUserId;
         private List<Cars> similarToPreferences = null;
+        private List<Attachment> attachments = new List<Attachment>();
         private static Logger logger = LogManager.GetCurrentClassLogger();
-        public AnnouncementForm(MainForm parentFrom, List<Cars> similarToPreferences)
+        public AnnouncementForm(MainForm parentFrom, List<Cars> similarToPreferences, int currentUserId)
         {
             InitializeComponent();
             this.parentForm = parentFrom;
@@ -28,6 +33,7 @@ namespace CarsAdviser.Forms
             Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
             LoadCarDetails();
             logger.Info("Загрузка формы AnnouncementForm");
+            this.currentUserId = currentUserId;
         }
         public void priceTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -105,6 +111,7 @@ namespace CarsAdviser.Forms
                 return false;
             }
         }
+        private List<Cars> cars = new List<Cars>();
         private void LoadCarDetails()
         {
             var culture = new CultureInfo("de-DE");
@@ -114,7 +121,6 @@ namespace CarsAdviser.Forms
                 using (var context = new AppContext())
                 {
                     bool isPreferred = IsPreferred();
-                    var cars = new List<Cars>();
 
                     var hiddenCars = context.Users_hidden_auto.Where(uha => uha.Users_id == parentForm.currentUserId)
                                                               .Select(uha => uha.Cars_id)
@@ -525,5 +531,76 @@ namespace CarsAdviser.Forms
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void MailSendBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (var context = new AppContext())
+                {
+                    var user = context.Users.FirstOrDefault(u => u.ID == currentUserId);
+                    if (user != null)
+                    {
+                        string userEmail = user.Email;
+                        if (!string.IsNullOrEmpty(userEmail))
+                        {
+                            MailMessage mail = new MailMessage();
+                            mail.From = new MailAddress("carpulses@mail.ru");
+                            mail.To.Add(userEmail);
+                            mail.Subject = "Ваша подборка.";
+                            mail.Body = GetAutos();
+
+                            //// Добавляем вложения
+                            //foreach (var someCar in cars)
+                            //{
+                            //    if (someCar.Photo_1 != null)
+                            //        mail.Attachments.Add(new Attachment(someCar.Photo_1));
+                            //}
+
+                            SendEmailWithAttachments(mail);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                logger.Error($"Не удалось отправить код: {ex.Message}");
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        private void SendEmailWithAttachments(MailMessage mail)
+        {
+            try
+            {
+                SmtpClient smtpServer = new SmtpClient("smtp.mail.ru");
+                smtpServer.Port = 2525;
+                smtpServer.Credentials = new NetworkCredential("carpulses@mail.ru", "2zx1Mayx911DeAbE5bdR");
+                smtpServer.EnableSsl = true;
+                smtpServer.Send(mail);
+
+                MessageBox.Show("Письмо успешно отправлено на указанный адрес.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка при отправке письма: " + ex.Message);
+            }
+        }
+
+        private string GetAutos()
+        {
+            string allCars = null;
+            foreach (var someCar in cars)
+            {
+                string someInfo = $"Марка: {someCar.Cars_Stamp.Stamp} " +
+                    $"Модель: {someCar.Cars_Model.Model} " +
+                    $"Кузов: {someCar.Cars_Body.Body} " +
+                    $"Год: {someCar.Year} " +
+                    $"Цена: {someCar.Price} руб.";
+
+                allCars += someInfo + "\n\n";
+            }
+            return allCars;
+        }
+
     }
 }
