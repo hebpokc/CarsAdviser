@@ -44,6 +44,8 @@ namespace CarsAdviser.Forms
             this.emailTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.mandatoryFillingLabel4 = new System.Windows.Forms.Label();
             this.phoneTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.YandexRegBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.webBrowser = new System.Windows.Forms.WebBrowser();
             this.SuspendLayout();
             // 
             // mandatoryFillingLabel5
@@ -223,10 +225,33 @@ namespace CarsAdviser.Forms
             this.phoneTextBox.SelectedText = "";
             this.phoneTextBox.Leave += new System.EventHandler(this.phoneTextBox_Leave);
             // 
+            // YandexRegBtn
+            // 
+            resources.ApplyResources(this.YandexRegBtn, "YandexRegBtn");
+            this.YandexRegBtn.Animated = true;
+            this.YandexRegBtn.BorderRadius = 10;
+            this.YandexRegBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.YandexRegBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.YandexRegBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.YandexRegBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.YandexRegBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.YandexRegBtn.ForeColor = System.Drawing.Color.White;
+            this.YandexRegBtn.Name = "YandexRegBtn";
+            this.YandexRegBtn.TabStop = false;
+            this.YandexRegBtn.Click += new System.EventHandler(this.YandexRegBtn_Click);
+            // 
+            // webBrowser
+            // 
+            resources.ApplyResources(this.webBrowser, "webBrowser");
+            this.webBrowser.Name = "webBrowser";
+            this.webBrowser.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.webBrowser_Navigated);
+            // 
             // RegisterForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.webBrowser);
+            this.Controls.Add(this.YandexRegBtn);
             this.Controls.Add(this.mandatoryFillingLabel4);
             this.Controls.Add(this.phoneTextBox);
             this.Controls.Add(this.mandatoryFillingLabel3);
@@ -264,5 +289,7 @@ namespace CarsAdviser.Forms
         private Guna.UI2.WinForms.Guna2TextBox emailTextBox;
         private System.Windows.Forms.Label mandatoryFillingLabel4;
         private Guna.UI2.WinForms.Guna2TextBox phoneTextBox;
+        private Guna.UI2.WinForms.Guna2Button YandexRegBtn;
+        private System.Windows.Forms.WebBrowser webBrowser;
     }
 }

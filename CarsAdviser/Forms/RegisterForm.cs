@@ -4,6 +4,13 @@ using CarsAdviser.Database;
 using System.Text.RegularExpressions;
 using System.Threading;
 using NLog;
+using Newtonsoft.Json.Linq;
+using System.Net.Http;
+using System.Threading.Tasks;
+using System.Collections.Generic;
+using System.Net.Http.Headers;
+using System.Net.Http.Json;
+using Newtonsoft.Json;
 
 namespace CarsAdviser.Forms
 {
@@ -11,6 +18,12 @@ namespace CarsAdviser.Forms
     {
         AuthorizationForm parentForm;
         private static Logger logger = LogManager.GetCurrentClassLogger();
+
+        private const string ClientId = "a4eafaed8ce24ccfa608401fdb825ed7";
+        private const string RedirectUri = "https://oauth.yandex.ru/verification_code";
+        private const string AuthEndpoint = "https://oauth.yandex.ru/authorize";
+
+        private const string CustomUriScheme = "myapp://";
         public RegisterForm(AuthorizationForm parentForm)
         {
             InitializeComponent();
@@ -142,5 +155,38 @@ namespace CarsAdviser.Forms
         {
 
         }
+        private void YandexRegBtn_Click(object sender, EventArgs e)
+        {
+            var authUrl = $"{AuthEndpoint}?response_type=code&client_id={ClientId}&redirect_uri={RedirectUri}";
+
+            webBrowser.Visible = true;
+            webBrowser.Navigate(authUrl);
+        }
+
+        private async void webBrowser_Navigated(object sender, WebBrowserNavigatedEventArgs e)
+        {
+            if (e.Url.AbsoluteUri.StartsWith(RedirectUri))
+            {
+                YandexHelper yandexHelper = new YandexHelper();
+                var code = e.Url.Query.Substring(e.Url.Query.IndexOf("code=") + 5).Split('&')[0];
+                var accessToken = await yandexHelper.ExchangeCodeForTokenAsync(code);
+                webBrowser.Visible = false;
+
+                var userInfo = await yandexHelper.GetUserInfoAsync(accessToken);
+                if (userInfo != null)
+                {
+                    Auth auth = new Auth(Thread.CurrentThread.CurrentUICulture);
+                    var isReg = auth.RegisterUser(userInfo.First_name, userInfo.Last_name, userInfo.Email, userInfo.Phone_number, "YandexPass");
+                    if (isReg)
+                    {
+                        MessageBox.Show(Local.RegisterAccountSuccess, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        logger.Info($"Пользователь {userInfo.First_name} {userInfo.Last_name} успешно зарегистрирован");
+                        parentForm.OpenChildForm(new SignInForm(parentForm));
+                        Close();
+                    }
+                }
+            }
+        }
+
     }
 }

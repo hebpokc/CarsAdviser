@@ -130,13 +130,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mandatoryFillingLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1706, 901</value>
-  </data>
-  <data name="mandatoryFillingLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>1271, 686</value>
   </data>
   <data name="mandatoryFillingLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 41</value>
+    <value>261, 18</value>
   </data>
   <data name="mandatoryFillingLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
@@ -157,7 +154,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;mandatoryFillingLabel5.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="mandatoryFillingLabel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -169,13 +166,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mandatoryFillingLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1706, 337</value>
-  </data>
-  <data name="mandatoryFillingLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>1271, 433</value>
   </data>
   <data name="mandatoryFillingLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 41</value>
+    <value>261, 18</value>
   </data>
   <data name="mandatoryFillingLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -196,7 +190,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;mandatoryFillingLabel1.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="createAccountBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -205,13 +199,10 @@
     <value>Candara, 12pt, style=Bold</value>
   </data>
   <data name="createAccountBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>980, 1031</value>
-  </data>
-  <data name="createAccountBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>960, 744</value>
   </data>
   <data name="createAccountBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>672, 100</value>
+    <value>288, 45</value>
   </data>
   <data name="createAccountBtn.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -229,7 +220,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;createAccountBtn.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="passwordTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -238,13 +229,13 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="passwordTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>980, 881</value>
+    <value>960, 677</value>
   </data>
   <data name="passwordTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 9, 7, 9</value>
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="passwordTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>672, 85</value>
+    <value>288, 38</value>
   </data>
   <data name="passwordTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -259,7 +250,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;passwordTextBox.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="nameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -268,13 +259,13 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="nameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>980, 315</value>
+    <value>960, 423</value>
   </data>
   <data name="nameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 9, 7, 9</value>
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="nameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>672, 85</value>
+    <value>288, 38</value>
   </data>
   <data name="nameTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -289,7 +280,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;nameTextBox.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
   <data name="signInAccountBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -298,13 +289,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="signInAccountBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1041, 236</value>
-  </data>
-  <data name="signInAccountBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>986, 388</value>
   </data>
   <data name="signInAccountBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>420, 40</value>
+    <value>180, 18</value>
   </data>
   <data name="signInAccountBtn.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -322,7 +310,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;signInAccountBtn.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>13</value>
   </data>
   <data name="createAccountLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -334,13 +322,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="createAccountLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>973, 236</value>
-  </data>
-  <data name="createAccountLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>957, 388</value>
   </data>
   <data name="createAccountLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 41</value>
+    <value>32, 18</value>
   </data>
   <data name="createAccountLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -358,7 +343,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;createAccountLabel2.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>14</value>
   </data>
   <data name="createAccountLabel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -370,13 +355,10 @@
     <value>Candara, 14.25pt, style=Bold</value>
   </data>
   <data name="createAccountLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>971, 165</value>
-  </data>
-  <data name="createAccountLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>956, 356</value>
   </data>
   <data name="createAccountLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 53</value>
+    <value>147, 23</value>
   </data>
   <data name="createAccountLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -394,7 +376,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;createAccountLabel1.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>15</value>
   </data>
   <data name="mandatoryFillingLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -406,13 +388,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mandatoryFillingLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1706, 473</value>
-  </data>
-  <data name="mandatoryFillingLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>1271, 494</value>
   </data>
   <data name="mandatoryFillingLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 41</value>
+    <value>261, 18</value>
   </data>
   <data name="mandatoryFillingLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -433,7 +412,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;mandatoryFillingLabel2.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="surnameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -442,13 +421,13 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="surnameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>980, 451</value>
+    <value>960, 484</value>
   </data>
   <data name="surnameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 9, 7, 9</value>
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="surnameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>672, 85</value>
+    <value>288, 38</value>
   </data>
   <data name="surnameTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -463,7 +442,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;surnameTextBox.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="mandatoryFillingLabel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -475,13 +454,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mandatoryFillingLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1706, 611</value>
-  </data>
-  <data name="mandatoryFillingLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>1271, 556</value>
   </data>
   <data name="mandatoryFillingLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 41</value>
+    <value>261, 18</value>
   </data>
   <data name="mandatoryFillingLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -502,7 +478,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;mandatoryFillingLabel3.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="emailTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -511,13 +487,13 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="emailTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>980, 589</value>
+    <value>960, 546</value>
   </data>
   <data name="emailTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 9, 7, 9</value>
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="emailTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>672, 85</value>
+    <value>288, 38</value>
   </data>
   <data name="emailTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -532,7 +508,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;emailTextBox.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="mandatoryFillingLabel4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -544,13 +520,10 @@
     <value>Candara, 11.25pt</value>
   </data>
   <data name="mandatoryFillingLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1706, 758</value>
-  </data>
-  <data name="mandatoryFillingLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>1271, 622</value>
   </data>
   <data name="mandatoryFillingLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 41</value>
+    <value>261, 18</value>
   </data>
   <data name="mandatoryFillingLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -571,7 +544,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;mandatoryFillingLabel4.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="phoneTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -580,13 +553,13 @@
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="phoneTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>980, 736</value>
+    <value>960, 612</value>
   </data>
   <data name="phoneTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 9, 7, 9</value>
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="phoneTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>672, 85</value>
+    <value>288, 38</value>
   </data>
   <data name="phoneTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -601,19 +574,76 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;phoneTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="YandexRegBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="YandexRegBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt, style=Bold</value>
+  </data>
+  <data name="YandexRegBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>960, 814</value>
+  </data>
+  <data name="YandexRegBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 45</value>
+  </data>
+  <data name="YandexRegBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="YandexRegBtn.Text" xml:space="preserve">
+    <value>Яндекс</value>
+  </data>
+  <data name="&gt;&gt;YandexRegBtn.Name" xml:space="preserve">
+    <value>YandexRegBtn</value>
+  </data>
+  <data name="&gt;&gt;YandexRegBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;YandexRegBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;YandexRegBtn.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="webBrowser.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="webBrowser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="webBrowser.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="webBrowser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1904, 1041</value>
+  </data>
+  <data name="webBrowser.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="webBrowser.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;webBrowser.Name" xml:space="preserve">
+    <value>webBrowser</value>
+  </data>
+  <data name="&gt;&gt;webBrowser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;webBrowser.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;webBrowser.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>14, 29</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>2532, 1434</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>1904, 1041</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>RegisterForm</value>
