@@ -249,7 +249,6 @@
     <Compile Include="Database\Cars_stamp.cs" />
     <Compile Include="Database\Cars_model.cs" />
     <Compile Include="Database\Cars_wheel.cs" />
-    <Compile Include="Database\DeleteCookies.cs" />
     <Compile Include="Database\Users.cs" />
     <Compile Include="Database\Users_bookmarks.cs" />
     <Compile Include="Database\Users_hidden_auto.cs" />
