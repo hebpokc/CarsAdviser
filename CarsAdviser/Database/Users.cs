@@ -14,6 +14,7 @@ namespace CarsAdviser.Database
         public string Password { get; set; }
         public string City { get; set; }
         public string Avatar { get; set; }
+        public int IsYandex { get; set; }
         public virtual ICollection<Users_bookmarks> UserBookmarks { get; set; }
         public virtual ICollection<Users_hidden_auto> UserHiddenAutos { get; set; }
         public virtual ICollection<Users_preferences> UserPreferences { get; set; }

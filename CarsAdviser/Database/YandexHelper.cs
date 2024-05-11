@@ -32,6 +32,7 @@ namespace CarsAdviser.Database
                         Last_name = userInfoResponse.Last_name,
                         Email = userInfoResponse.Default_Email,
                         Phone_number = userInfoResponse.Default_phone.Number,
+                        IsYandex = 1,
                     };
                     return user;
                 }

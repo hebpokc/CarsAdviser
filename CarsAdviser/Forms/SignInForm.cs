@@ -19,7 +19,6 @@ namespace CarsAdviser.Forms
 
         private const string ClientId = "a4eafaed8ce24ccfa608401fdb825ed7";
         private const string RedirectUri = "https://oauth.yandex.ru/verification_code";
-        private const string AuthEndpoint = "https://oauth.yandex.ru/authorize";
 
         public SignInForm() { }
         public SignInForm(AuthorizationForm parentForm)
@@ -124,13 +123,14 @@ namespace CarsAdviser.Forms
 
         private void YandexAuthBtn_Click(object sender, EventArgs e)
         {
-            var authUrl = $"{AuthEndpoint}?response_type=code&client_id={ClientId}&redirect_uri={RedirectUri}";
+            var authUrl = "https://passport.yandex.ru/auth/list?retpath=" + Uri.EscapeDataString($"https://oauth.yandex.ru/authorize?response_type=code&client_id={ClientId}&redirect_uri={RedirectUri}&prompt=select_account");
 
             webBrowser.Visible = true;
             webBrowser.Navigate(authUrl);
         }
         private async void webBrowser_Navigated(object sender, WebBrowserNavigatedEventArgs e)
         {
+            webBrowser.ScriptErrorsSuppressed = true;
             if (e.Url.AbsoluteUri.StartsWith(RedirectUri))
             {
                 YandexHelper yandexHelper = new YandexHelper();
@@ -142,7 +142,7 @@ namespace CarsAdviser.Forms
                 if (userInfo != null)
                 {
                     var auth = new Auth(Thread.CurrentThread.CurrentUICulture);
-                    var isAuth = auth.AuthenticateUser(userInfo.Email, "YandexPass");
+                    var isAuth = auth.AuthenticateUser(userInfo.Email, userInfo.IsYandex == 1);
                     if (isAuth)
                     {
                         uncorrectDataTextBox.Visible = false;
