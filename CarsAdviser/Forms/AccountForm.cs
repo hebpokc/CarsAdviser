@@ -31,6 +31,14 @@ namespace CarsAdviser.Forms
             OpenChildForm(new DataFillingForm(this, currentUserId));
             personalInformationBtn.Font = new Font(personalInformationBtn.Font.FontFamily, personalInformationBtn.Font.Size, FontStyle.Bold);
             LoadUserData(currentUserId);
+            using (var context = new AppContext())
+            {
+                var user = context.Users.Where(u => u.ID == currentUserId).FirstOrDefault();
+                if (user.IsYandex == 1)
+                {
+                    yandexImg.Visible = true;
+                }
+            }
             logger.Info("Загрузка формы AccountForm");
         }
         public void OpenChildForm(Form childForm)

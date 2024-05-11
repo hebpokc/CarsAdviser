@@ -126,14 +126,10 @@
     <value>Candara, 20.25pt, style=Bold</value>
   </data>
   <data name="preferencesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>653, 136</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="preferencesLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>280, 61</value>
   </data>
   <data name="preferencesLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>422, 74</value>
+    <value>187, 33</value>
   </data>
   <data name="preferencesLabel.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -151,7 +147,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;preferencesLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="carYearLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -160,13 +156,10 @@
     <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="carYearLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 437</value>
-  </data>
-  <data name="carYearLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>120, 196</value>
   </data>
   <data name="carYearLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 41</value>
+    <value>36, 17</value>
   </data>
   <data name="carYearLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -193,13 +186,10 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="carNameLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 395</value>
-  </data>
-  <data name="carNameLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>71, 177</value>
   </data>
   <data name="carNameLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>363, 44</value>
+    <value>161, 19</value>
   </data>
   <data name="carNameLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -220,13 +210,10 @@
     <value>4</value>
   </data>
   <data name="carBrandPictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>77, 395</value>
-  </data>
-  <data name="carBrandPictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>33, 177</value>
   </data>
   <data name="carBrandPictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 71</value>
+    <value>32, 32</value>
   </data>
   <data name="carBrandPictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -250,13 +237,10 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="preferCheckBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 515</value>
-  </data>
-  <data name="preferCheckBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>92, 231</value>
   </data>
   <data name="preferCheckBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 48</value>
+    <value>90, 23</value>
   </data>
   <data name="preferCheckBox1.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -279,12 +263,10 @@
   <data name="carPictureBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="carPictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
   <data name="carPictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 344</value>
+    <value>265, 154</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="carPictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
   </data>
@@ -304,13 +286,10 @@
     <value>1</value>
   </data>
   <data name="carPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>607, 319</value>
-  </data>
-  <data name="carPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>260, 143</value>
   </data>
   <data name="carPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 602</value>
+    <value>265, 270</value>
   </data>
   <data name="carPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -325,25 +304,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;carPanel1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="saveBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 12pt, style=Bold</value>
   </data>
   <data name="saveBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>940, 1707</value>
-  </data>
-  <data name="saveBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>260, 772</value>
   </data>
   <data name="saveBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>726, 100</value>
+    <value>265, 45</value>
   </data>
   <data name="saveBtn.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
   </data>
   <data name="saveBtn.Text" xml:space="preserve">
-    <value>Готово</value>
+    <value>Выбрать предпочтения</value>
   </data>
   <data name="&gt;&gt;saveBtn.Name" xml:space="preserve">
     <value>saveBtn</value>
@@ -355,19 +331,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;saveBtn.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="newListBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 12pt, style=Bold</value>
   </data>
   <data name="newListBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>940, 1869</value>
-  </data>
-  <data name="newListBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>260, 842</value>
   </data>
   <data name="newListBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>726, 100</value>
+    <value>265, 45</value>
   </data>
   <data name="newListBtn.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
@@ -385,7 +358,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;newListBtn.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="preferCheckBox2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -394,13 +367,10 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="preferCheckBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 515</value>
-  </data>
-  <data name="preferCheckBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>92, 231</value>
   </data>
   <data name="preferCheckBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 48</value>
+    <value>90, 23</value>
   </data>
   <data name="preferCheckBox2.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -423,11 +393,8 @@
   <data name="carPictureBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="carPictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
   <data name="carPictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 344</value>
+    <value>265, 154</value>
   </data>
   <data name="carPictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -454,13 +421,10 @@
     <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="carYearLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 437</value>
-  </data>
-  <data name="carYearLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>120, 196</value>
   </data>
   <data name="carYearLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 41</value>
+    <value>36, 17</value>
   </data>
   <data name="carYearLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -481,13 +445,10 @@
     <value>2</value>
   </data>
   <data name="carBrandPictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>77, 395</value>
-  </data>
-  <data name="carBrandPictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>33, 177</value>
   </data>
   <data name="carBrandPictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 71</value>
+    <value>32, 32</value>
   </data>
   <data name="carBrandPictureBox2.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -511,13 +472,10 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="carNameLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 395</value>
-  </data>
-  <data name="carNameLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>71, 177</value>
   </data>
   <data name="carNameLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>363, 44</value>
+    <value>161, 19</value>
   </data>
   <data name="carNameLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -538,13 +496,10 @@
     <value>4</value>
   </data>
   <data name="carPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1372, 319</value>
-  </data>
-  <data name="carPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>588, 143</value>
   </data>
   <data name="carPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 602</value>
+    <value>265, 270</value>
   </data>
   <data name="carPanel2.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
@@ -559,7 +514,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;carPanel2.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="preferCheckBox4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -568,13 +523,10 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="preferCheckBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 515</value>
-  </data>
-  <data name="preferCheckBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>92, 231</value>
   </data>
   <data name="preferCheckBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 48</value>
+    <value>90, 23</value>
   </data>
   <data name="preferCheckBox4.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -597,11 +549,8 @@
   <data name="carPictureBox4.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="carPictureBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
   <data name="carPictureBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 344</value>
+    <value>265, 154</value>
   </data>
   <data name="carPictureBox4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -628,13 +577,10 @@
     <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="carYearLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 437</value>
-  </data>
-  <data name="carYearLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>120, 196</value>
   </data>
   <data name="carYearLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 41</value>
+    <value>36, 17</value>
   </data>
   <data name="carYearLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -655,13 +601,10 @@
     <value>2</value>
   </data>
   <data name="carBrandPictureBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>77, 395</value>
-  </data>
-  <data name="carBrandPictureBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>33, 177</value>
   </data>
   <data name="carBrandPictureBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 71</value>
+    <value>32, 32</value>
   </data>
   <data name="carBrandPictureBox4.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -685,13 +628,10 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="carNameLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 395</value>
-  </data>
-  <data name="carNameLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>71, 177</value>
   </data>
   <data name="carNameLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>363, 44</value>
+    <value>161, 19</value>
   </data>
   <data name="carNameLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -712,13 +652,10 @@
     <value>4</value>
   </data>
   <data name="carPanel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1372, 1035</value>
-  </data>
-  <data name="carPanel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>588, 464</value>
   </data>
   <data name="carPanel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 602</value>
+    <value>265, 270</value>
   </data>
   <data name="carPanel4.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
@@ -733,7 +670,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;carPanel4.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="preferCheckBox3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -742,13 +679,10 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="preferCheckBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 515</value>
-  </data>
-  <data name="preferCheckBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>92, 231</value>
   </data>
   <data name="preferCheckBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 48</value>
+    <value>90, 23</value>
   </data>
   <data name="preferCheckBox3.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -771,11 +705,8 @@
   <data name="carPictureBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="carPictureBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
   <data name="carPictureBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 344</value>
+    <value>265, 154</value>
   </data>
   <data name="carPictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -802,13 +733,10 @@
     <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="carYearLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 437</value>
-  </data>
-  <data name="carYearLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>120, 196</value>
   </data>
   <data name="carYearLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 41</value>
+    <value>36, 17</value>
   </data>
   <data name="carYearLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -829,13 +757,10 @@
     <value>2</value>
   </data>
   <data name="carBrandPictureBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>77, 395</value>
-  </data>
-  <data name="carBrandPictureBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>33, 177</value>
   </data>
   <data name="carBrandPictureBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 71</value>
+    <value>32, 32</value>
   </data>
   <data name="carBrandPictureBox3.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -859,13 +784,10 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="carNameLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 395</value>
-  </data>
-  <data name="carNameLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+    <value>71, 177</value>
   </data>
   <data name="carNameLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>363, 44</value>
+    <value>161, 19</value>
   </data>
   <data name="carNameLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -886,13 +808,10 @@
     <value>4</value>
   </data>
   <data name="carPanel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>607, 1035</value>
-  </data>
-  <data name="carPanel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>260, 464</value>
   </data>
   <data name="carPanel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 602</value>
+    <value>265, 270</value>
   </data>
   <data name="carPanel3.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
@@ -907,19 +826,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;carPanel3.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="clearBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 12pt, style=Bold</value>
   </data>
   <data name="clearBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>940, 2030</value>
-  </data>
-  <data name="clearBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>588, 842</value>
   </data>
   <data name="clearBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>726, 100</value>
+    <value>265, 45</value>
   </data>
   <data name="clearBtn.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
@@ -937,22 +853,46 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;clearBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="addPlaylist.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt, style=Bold</value>
+  </data>
+  <data name="addPlaylist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>588, 772</value>
+  </data>
+  <data name="addPlaylist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 45</value>
+  </data>
+  <data name="addPlaylist.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="addPlaylist.Text" xml:space="preserve">
+    <value>Добавить в общие подборки</value>
+  </data>
+  <data name="&gt;&gt;addPlaylist.Name" xml:space="preserve">
+    <value>addPlaylist</value>
+  </data>
+  <data name="&gt;&gt;addPlaylist.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;addPlaylist.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addPlaylist.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>14, 29</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>2289, 1953</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+    <value>1904, 1041</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>PreferencesForm</value>

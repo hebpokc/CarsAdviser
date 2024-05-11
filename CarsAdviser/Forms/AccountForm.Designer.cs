@@ -41,13 +41,15 @@ namespace CarsAdviser.Forms
             this.nameLabel = new System.Windows.Forms.Label();
             this.accountCirclePictureBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.yandexImg = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.menuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.accountCirclePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.yandexImg)).BeginInit();
             this.SuspendLayout();
             // 
             // menuPanel
             // 
-            resources.ApplyResources(this.menuPanel, "menuPanel");
+            this.menuPanel.Controls.Add(this.yandexImg);
             this.menuPanel.Controls.Add(this.changePasswordBtn);
             this.menuPanel.Controls.Add(this.exitBtn);
             this.menuPanel.Controls.Add(this.addCarBtn);
@@ -57,6 +59,7 @@ namespace CarsAdviser.Forms
             this.menuPanel.Controls.Add(this.surnameLabel);
             this.menuPanel.Controls.Add(this.nameLabel);
             this.menuPanel.Controls.Add(this.accountCirclePictureBox);
+            resources.ApplyResources(this.menuPanel, "menuPanel");
             this.menuPanel.Name = "menuPanel";
             // 
             // changePasswordBtn
@@ -156,8 +159,8 @@ namespace CarsAdviser.Forms
             // 
             // accountCirclePictureBox
             // 
-            resources.ApplyResources(this.accountCirclePictureBox, "accountCirclePictureBox");
             this.accountCirclePictureBox.ImageRotate = 0F;
+            resources.ApplyResources(this.accountCirclePictureBox, "accountCirclePictureBox");
             this.accountCirclePictureBox.Name = "accountCirclePictureBox";
             this.accountCirclePictureBox.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.accountCirclePictureBox.TabStop = false;
@@ -166,6 +169,17 @@ namespace CarsAdviser.Forms
             // 
             resources.ApplyResources(this.mainPanel, "mainPanel");
             this.mainPanel.Name = "mainPanel";
+            // 
+            // yandexImg
+            // 
+            this.yandexImg.BackColor = System.Drawing.SystemColors.Control;
+            this.yandexImg.Image = global::CarsAdviser.Properties.Resources.yandex;
+            this.yandexImg.ImageRotate = 0F;
+            this.yandexImg.InitialImage = global::CarsAdviser.Properties.Resources.yandex;
+            resources.ApplyResources(this.yandexImg, "yandexImg");
+            this.yandexImg.Name = "yandexImg";
+            this.yandexImg.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.yandexImg.TabStop = false;
             // 
             // AccountForm
             // 
@@ -179,6 +193,7 @@ namespace CarsAdviser.Forms
             this.menuPanel.ResumeLayout(false);
             this.menuPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.accountCirclePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.yandexImg)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -196,5 +211,6 @@ namespace CarsAdviser.Forms
         private Guna.UI2.WinForms.Guna2Button preferencesBtn;
         private Guna.UI2.WinForms.Guna2Button personalInformationBtn;
         private Guna.UI2.WinForms.Guna2Button changePasswordBtn;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox yandexImg;
     }
 }

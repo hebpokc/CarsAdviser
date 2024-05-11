@@ -58,6 +58,7 @@ namespace CarsAdviser.Forms
             this.carBrandPictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.carNameLabel3 = new System.Windows.Forms.Label();
             this.clearBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.addPlaylist = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox1)).BeginInit();
             this.carPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox1)).BeginInit();
@@ -91,14 +92,13 @@ namespace CarsAdviser.Forms
             // 
             // carBrandPictureBox1
             // 
-            resources.ApplyResources(this.carBrandPictureBox1, "carBrandPictureBox1");
             this.carBrandPictureBox1.ImageRotate = 0F;
+            resources.ApplyResources(this.carBrandPictureBox1, "carBrandPictureBox1");
             this.carBrandPictureBox1.Name = "carBrandPictureBox1";
             this.carBrandPictureBox1.TabStop = false;
             // 
             // carPanel1
             // 
-            resources.ApplyResources(this.carPanel1, "carPanel1");
             this.carPanel1.BorderColor = System.Drawing.Color.Black;
             this.carPanel1.BorderRadius = 30;
             this.carPanel1.BorderThickness = 1;
@@ -107,12 +107,13 @@ namespace CarsAdviser.Forms
             this.carPanel1.Controls.Add(this.carYearLabel1);
             this.carPanel1.Controls.Add(this.carBrandPictureBox1);
             this.carPanel1.Controls.Add(this.carNameLabel1);
+            resources.ApplyResources(this.carPanel1, "carPanel1");
             this.carPanel1.Name = "carPanel1";
             // 
             // preferCheckBox1
             // 
-            resources.ApplyResources(this.preferCheckBox1, "preferCheckBox1");
             this.preferCheckBox1.Animated = true;
+            resources.ApplyResources(this.preferCheckBox1, "preferCheckBox1");
             this.preferCheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.preferCheckBox1.CheckedState.BorderRadius = 2;
             this.preferCheckBox1.CheckedState.BorderThickness = 1;
@@ -128,18 +129,17 @@ namespace CarsAdviser.Forms
             // 
             // carPictureBox1
             // 
-            resources.ApplyResources(this.carPictureBox1, "carPictureBox1");
             this.carPictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.carPictureBox1.BorderRadius = 30;
             this.carPictureBox1.CustomizableEdges.BottomLeft = false;
             this.carPictureBox1.CustomizableEdges.BottomRight = false;
             this.carPictureBox1.ImageRotate = 0F;
+            resources.ApplyResources(this.carPictureBox1, "carPictureBox1");
             this.carPictureBox1.Name = "carPictureBox1";
             this.carPictureBox1.TabStop = false;
             // 
             // saveBtn
             // 
-            resources.ApplyResources(this.saveBtn, "saveBtn");
             this.saveBtn.Animated = true;
             this.saveBtn.BorderRadius = 15;
             this.saveBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -147,13 +147,13 @@ namespace CarsAdviser.Forms
             this.saveBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.saveBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.saveBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            resources.ApplyResources(this.saveBtn, "saveBtn");
             this.saveBtn.ForeColor = System.Drawing.Color.White;
             this.saveBtn.Name = "saveBtn";
             this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
             // newListBtn
             // 
-            resources.ApplyResources(this.newListBtn, "newListBtn");
             this.newListBtn.Animated = true;
             this.newListBtn.BorderRadius = 15;
             this.newListBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -161,13 +161,13 @@ namespace CarsAdviser.Forms
             this.newListBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.newListBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.newListBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            resources.ApplyResources(this.newListBtn, "newListBtn");
             this.newListBtn.ForeColor = System.Drawing.Color.White;
             this.newListBtn.Name = "newListBtn";
             this.newListBtn.Click += new System.EventHandler(this.newListBtn_Click);
             // 
             // carPanel2
             // 
-            resources.ApplyResources(this.carPanel2, "carPanel2");
             this.carPanel2.BorderColor = System.Drawing.Color.Black;
             this.carPanel2.BorderRadius = 30;
             this.carPanel2.BorderThickness = 1;
@@ -176,12 +176,13 @@ namespace CarsAdviser.Forms
             this.carPanel2.Controls.Add(this.carYearLabel2);
             this.carPanel2.Controls.Add(this.carBrandPictureBox2);
             this.carPanel2.Controls.Add(this.carNameLabel2);
+            resources.ApplyResources(this.carPanel2, "carPanel2");
             this.carPanel2.Name = "carPanel2";
             // 
             // preferCheckBox2
             // 
-            resources.ApplyResources(this.preferCheckBox2, "preferCheckBox2");
             this.preferCheckBox2.Animated = true;
+            resources.ApplyResources(this.preferCheckBox2, "preferCheckBox2");
             this.preferCheckBox2.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.preferCheckBox2.CheckedState.BorderRadius = 2;
             this.preferCheckBox2.CheckedState.BorderThickness = 1;
@@ -196,12 +197,12 @@ namespace CarsAdviser.Forms
             // 
             // carPictureBox2
             // 
-            resources.ApplyResources(this.carPictureBox2, "carPictureBox2");
             this.carPictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.carPictureBox2.BorderRadius = 30;
             this.carPictureBox2.CustomizableEdges.BottomLeft = false;
             this.carPictureBox2.CustomizableEdges.BottomRight = false;
             this.carPictureBox2.ImageRotate = 0F;
+            resources.ApplyResources(this.carPictureBox2, "carPictureBox2");
             this.carPictureBox2.Name = "carPictureBox2";
             this.carPictureBox2.TabStop = false;
             // 
@@ -213,8 +214,8 @@ namespace CarsAdviser.Forms
             // 
             // carBrandPictureBox2
             // 
-            resources.ApplyResources(this.carBrandPictureBox2, "carBrandPictureBox2");
             this.carBrandPictureBox2.ImageRotate = 0F;
+            resources.ApplyResources(this.carBrandPictureBox2, "carBrandPictureBox2");
             this.carBrandPictureBox2.Name = "carBrandPictureBox2";
             this.carBrandPictureBox2.TabStop = false;
             // 
@@ -226,7 +227,6 @@ namespace CarsAdviser.Forms
             // 
             // carPanel4
             // 
-            resources.ApplyResources(this.carPanel4, "carPanel4");
             this.carPanel4.BorderColor = System.Drawing.Color.Black;
             this.carPanel4.BorderRadius = 30;
             this.carPanel4.BorderThickness = 1;
@@ -235,12 +235,13 @@ namespace CarsAdviser.Forms
             this.carPanel4.Controls.Add(this.carYearLabel4);
             this.carPanel4.Controls.Add(this.carBrandPictureBox4);
             this.carPanel4.Controls.Add(this.carNameLabel4);
+            resources.ApplyResources(this.carPanel4, "carPanel4");
             this.carPanel4.Name = "carPanel4";
             // 
             // preferCheckBox4
             // 
-            resources.ApplyResources(this.preferCheckBox4, "preferCheckBox4");
             this.preferCheckBox4.Animated = true;
+            resources.ApplyResources(this.preferCheckBox4, "preferCheckBox4");
             this.preferCheckBox4.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.preferCheckBox4.CheckedState.BorderRadius = 2;
             this.preferCheckBox4.CheckedState.BorderThickness = 1;
@@ -255,12 +256,12 @@ namespace CarsAdviser.Forms
             // 
             // carPictureBox4
             // 
-            resources.ApplyResources(this.carPictureBox4, "carPictureBox4");
             this.carPictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.carPictureBox4.BorderRadius = 30;
             this.carPictureBox4.CustomizableEdges.BottomLeft = false;
             this.carPictureBox4.CustomizableEdges.BottomRight = false;
             this.carPictureBox4.ImageRotate = 0F;
+            resources.ApplyResources(this.carPictureBox4, "carPictureBox4");
             this.carPictureBox4.Name = "carPictureBox4";
             this.carPictureBox4.TabStop = false;
             // 
@@ -272,8 +273,8 @@ namespace CarsAdviser.Forms
             // 
             // carBrandPictureBox4
             // 
-            resources.ApplyResources(this.carBrandPictureBox4, "carBrandPictureBox4");
             this.carBrandPictureBox4.ImageRotate = 0F;
+            resources.ApplyResources(this.carBrandPictureBox4, "carBrandPictureBox4");
             this.carBrandPictureBox4.Name = "carBrandPictureBox4";
             this.carBrandPictureBox4.TabStop = false;
             // 
@@ -285,7 +286,6 @@ namespace CarsAdviser.Forms
             // 
             // carPanel3
             // 
-            resources.ApplyResources(this.carPanel3, "carPanel3");
             this.carPanel3.BorderColor = System.Drawing.Color.Black;
             this.carPanel3.BorderRadius = 30;
             this.carPanel3.BorderThickness = 1;
@@ -294,12 +294,13 @@ namespace CarsAdviser.Forms
             this.carPanel3.Controls.Add(this.carYearLabel3);
             this.carPanel3.Controls.Add(this.carBrandPictureBox3);
             this.carPanel3.Controls.Add(this.carNameLabel3);
+            resources.ApplyResources(this.carPanel3, "carPanel3");
             this.carPanel3.Name = "carPanel3";
             // 
             // preferCheckBox3
             // 
-            resources.ApplyResources(this.preferCheckBox3, "preferCheckBox3");
             this.preferCheckBox3.Animated = true;
+            resources.ApplyResources(this.preferCheckBox3, "preferCheckBox3");
             this.preferCheckBox3.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.preferCheckBox3.CheckedState.BorderRadius = 2;
             this.preferCheckBox3.CheckedState.BorderThickness = 1;
@@ -314,12 +315,12 @@ namespace CarsAdviser.Forms
             // 
             // carPictureBox3
             // 
-            resources.ApplyResources(this.carPictureBox3, "carPictureBox3");
             this.carPictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.carPictureBox3.BorderRadius = 30;
             this.carPictureBox3.CustomizableEdges.BottomLeft = false;
             this.carPictureBox3.CustomizableEdges.BottomRight = false;
             this.carPictureBox3.ImageRotate = 0F;
+            resources.ApplyResources(this.carPictureBox3, "carPictureBox3");
             this.carPictureBox3.Name = "carPictureBox3";
             this.carPictureBox3.TabStop = false;
             // 
@@ -331,8 +332,8 @@ namespace CarsAdviser.Forms
             // 
             // carBrandPictureBox3
             // 
-            resources.ApplyResources(this.carBrandPictureBox3, "carBrandPictureBox3");
             this.carBrandPictureBox3.ImageRotate = 0F;
+            resources.ApplyResources(this.carBrandPictureBox3, "carBrandPictureBox3");
             this.carBrandPictureBox3.Name = "carBrandPictureBox3";
             this.carBrandPictureBox3.TabStop = false;
             // 
@@ -344,7 +345,6 @@ namespace CarsAdviser.Forms
             // 
             // clearBtn
             // 
-            resources.ApplyResources(this.clearBtn, "clearBtn");
             this.clearBtn.Animated = true;
             this.clearBtn.BorderRadius = 15;
             this.clearBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -352,14 +352,29 @@ namespace CarsAdviser.Forms
             this.clearBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.clearBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.clearBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            resources.ApplyResources(this.clearBtn, "clearBtn");
             this.clearBtn.ForeColor = System.Drawing.Color.White;
             this.clearBtn.Name = "clearBtn";
             this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
+            // 
+            // addPlaylist
+            // 
+            this.addPlaylist.Animated = true;
+            this.addPlaylist.BorderRadius = 15;
+            this.addPlaylist.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.addPlaylist.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.addPlaylist.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.addPlaylist.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.addPlaylist.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            resources.ApplyResources(this.addPlaylist, "addPlaylist");
+            this.addPlaylist.ForeColor = System.Drawing.Color.White;
+            this.addPlaylist.Name = "addPlaylist";
             // 
             // PreferencesForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.addPlaylist);
             this.Controls.Add(this.clearBtn);
             this.Controls.Add(this.carPanel4);
             this.Controls.Add(this.carPanel3);
@@ -420,5 +435,6 @@ namespace CarsAdviser.Forms
         private Guna.UI2.WinForms.Guna2PictureBox carBrandPictureBox3;
         private System.Windows.Forms.Label carNameLabel3;
         private Guna.UI2.WinForms.Guna2Button clearBtn;
+        private Guna.UI2.WinForms.Guna2Button addPlaylist;
     }
 }

@@ -44,7 +44,7 @@ namespace CarsAdviser.Forms
             this.emailTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.mandatoryFillingLabel4 = new System.Windows.Forms.Label();
             this.phoneTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.YandexRegBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.YandexAuthBtn = new Guna.UI2.WinForms.Guna2Button();
             this.webBrowser = new System.Windows.Forms.WebBrowser();
             this.SuspendLayout();
             // 
@@ -225,20 +225,23 @@ namespace CarsAdviser.Forms
             this.phoneTextBox.SelectedText = "";
             this.phoneTextBox.Leave += new System.EventHandler(this.phoneTextBox_Leave);
             // 
-            // YandexRegBtn
+            // YandexAuthBtn
             // 
-            resources.ApplyResources(this.YandexRegBtn, "YandexRegBtn");
-            this.YandexRegBtn.Animated = true;
-            this.YandexRegBtn.BorderRadius = 10;
-            this.YandexRegBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.YandexRegBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.YandexRegBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.YandexRegBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.YandexRegBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.YandexRegBtn.ForeColor = System.Drawing.Color.White;
-            this.YandexRegBtn.Name = "YandexRegBtn";
-            this.YandexRegBtn.TabStop = false;
-            this.YandexRegBtn.Click += new System.EventHandler(this.YandexRegBtn_Click);
+            resources.ApplyResources(this.YandexAuthBtn, "YandexAuthBtn");
+            this.YandexAuthBtn.Animated = true;
+            this.YandexAuthBtn.BorderRadius = 10;
+            this.YandexAuthBtn.BorderThickness = 1;
+            this.YandexAuthBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.YandexAuthBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.YandexAuthBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.YandexAuthBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.YandexAuthBtn.FillColor = System.Drawing.Color.White;
+            this.YandexAuthBtn.ForeColor = System.Drawing.Color.Black;
+            this.YandexAuthBtn.Image = global::CarsAdviser.Properties.Resources.yandex;
+            this.YandexAuthBtn.ImageOffset = new System.Drawing.Point(-4, 0);
+            this.YandexAuthBtn.ImageSize = new System.Drawing.Size(25, 25);
+            this.YandexAuthBtn.Name = "YandexAuthBtn";
+            this.YandexAuthBtn.TabStop = false;
             // 
             // webBrowser
             // 
@@ -251,7 +254,7 @@ namespace CarsAdviser.Forms
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.webBrowser);
-            this.Controls.Add(this.YandexRegBtn);
+            this.Controls.Add(this.YandexAuthBtn);
             this.Controls.Add(this.mandatoryFillingLabel4);
             this.Controls.Add(this.phoneTextBox);
             this.Controls.Add(this.mandatoryFillingLabel3);
@@ -289,7 +292,7 @@ namespace CarsAdviser.Forms
         private Guna.UI2.WinForms.Guna2TextBox emailTextBox;
         private System.Windows.Forms.Label mandatoryFillingLabel4;
         private Guna.UI2.WinForms.Guna2TextBox phoneTextBox;
-        private Guna.UI2.WinForms.Guna2Button YandexRegBtn;
+        private Guna.UI2.WinForms.Guna2Button YandexAuthBtn;
         private System.Windows.Forms.WebBrowser webBrowser;
     }
 }

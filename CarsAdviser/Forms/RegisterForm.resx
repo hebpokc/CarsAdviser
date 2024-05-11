@@ -576,34 +576,34 @@
   <data name="&gt;&gt;phoneTextBox.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="YandexRegBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="YandexAuthBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="YandexRegBtn.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="YandexAuthBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 12pt, style=Bold</value>
   </data>
-  <data name="YandexRegBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>960, 814</value>
+  <data name="YandexAuthBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>960, 795</value>
   </data>
-  <data name="YandexRegBtn.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="YandexAuthBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>288, 45</value>
   </data>
-  <data name="YandexRegBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
+  <data name="YandexAuthBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
   </data>
-  <data name="YandexRegBtn.Text" xml:space="preserve">
-    <value>Яндекс</value>
+  <data name="YandexAuthBtn.Text" xml:space="preserve">
+    <value>Войти с Яндекс ID</value>
   </data>
-  <data name="&gt;&gt;YandexRegBtn.Name" xml:space="preserve">
-    <value>YandexRegBtn</value>
+  <data name="&gt;&gt;YandexAuthBtn.Name" xml:space="preserve">
+    <value>YandexAuthBtn</value>
   </data>
-  <data name="&gt;&gt;YandexRegBtn.Type" xml:space="preserve">
+  <data name="&gt;&gt;YandexAuthBtn.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
-  <data name="&gt;&gt;YandexRegBtn.Parent" xml:space="preserve">
+  <data name="&gt;&gt;YandexAuthBtn.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;YandexRegBtn.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;YandexAuthBtn.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="webBrowser.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
@@ -619,10 +619,7 @@
     <value>1904, 1041</value>
   </data>
   <data name="webBrowser.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="webBrowser.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+    <value>40</value>
   </data>
   <data name="&gt;&gt;webBrowser.Name" xml:space="preserve">
     <value>webBrowser</value>

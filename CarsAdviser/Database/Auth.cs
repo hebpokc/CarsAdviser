@@ -81,10 +81,10 @@ namespace CarsAdviser.Database
                     context.Database.EnsureCreated();
                     context.Users.Load();
 
-                    var existingUser = context.Users.FirstOrDefault(u => u.Email == email);
+                    var existingUser = context.Users.FirstOrDefault(u => u.Email == email || u.Phone_number == phone);
                     if (existingUser != null)
                     {
-                        MessageBox.Show("Пользователь с таким email уже существует.");
+                        MessageBox.Show("Пользователь с таким email(номером) уже существует.");
                         return false; 
                     }
                     string hashedPassword = BCrypt.Net.BCrypt.HashPassword(password);
@@ -120,7 +120,7 @@ namespace CarsAdviser.Database
                     context.Database.EnsureCreated();
                     context.Users.Load();
 
-                    var existingUser = context.Users.FirstOrDefault(u => u.Email == email);
+                    var existingUser = context.Users.FirstOrDefault(u => u.Email == email || u.Phone_number == phone);
                     if (existingUser != null)
                     {
                         MessageBox.Show("Пользователь с таким email уже существует.");

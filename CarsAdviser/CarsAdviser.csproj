@@ -249,6 +249,7 @@
     <Compile Include="Database\Cars_stamp.cs" />
     <Compile Include="Database\Cars_model.cs" />
     <Compile Include="Database\Cars_wheel.cs" />
+    <Compile Include="Database\Playlists.cs" />
     <Compile Include="Database\Users.cs" />
     <Compile Include="Database\Users_bookmarks.cs" />
     <Compile Include="Database\Users_hidden_auto.cs" />
@@ -266,6 +267,12 @@
     </Compile>
     <Compile Include="Forms\AddCarForm.Designer.cs">
       <DependentUpon>AddCarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AllPlaylistForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AllPlaylistForm.Designer.cs">
+      <DependentUpon>AllPlaylistForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\AnnouncementForm.cs">
       <SubType>Form</SubType>
@@ -297,6 +304,12 @@
     <Compile Include="Forms\CharacteristicsForm.Designer.cs">
       <DependentUpon>CharacteristicsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\CurrentPlaylist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CurrentPlaylist.Designer.cs">
+      <DependentUpon>CurrentPlaylist.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\DataFillingForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -314,6 +327,18 @@
     </Compile>
     <Compile Include="Forms\HiddenForm.Designer.cs">
       <DependentUpon>HiddenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MyPlaylistForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MyPlaylistForm.Designer.cs">
+      <DependentUpon>MyPlaylistForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlaylistForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlaylistForm.Designer.cs">
+      <DependentUpon>PlaylistForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\PreferencesForm.cs">
       <SubType>Form</SubType>
@@ -351,6 +376,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Resources\yandex.png" />
     <EmbeddedResource Include="AuthorizationForm.en-US.resx">
       <DependentUpon>AuthorizationForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -368,6 +394,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AddCarForm.resx">
       <DependentUpon>AddCarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AllPlaylistForm.resx">
+      <DependentUpon>AllPlaylistForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AnnouncementForm.en-US.resx">
       <DependentUpon>AnnouncementForm.cs</DependentUpon>
@@ -399,6 +428,9 @@
     <EmbeddedResource Include="Forms\CharacteristicsForm.resx">
       <DependentUpon>CharacteristicsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CurrentPlaylist.resx">
+      <DependentUpon>CurrentPlaylist.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\DataFillingForm.en-US.resx">
       <DependentUpon>DataFillingForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -413,6 +445,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\HiddenForm.resx">
       <DependentUpon>HiddenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MyPlaylistForm.resx">
+      <DependentUpon>MyPlaylistForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlaylistForm.resx">
+      <DependentUpon>PlaylistForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PreferencesForm.en-US.resx">
       <DependentUpon>PreferencesForm.cs</DependentUpon>

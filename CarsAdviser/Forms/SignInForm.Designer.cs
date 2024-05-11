@@ -40,10 +40,10 @@ namespace CarsAdviser.Forms
             this.mandatoryFillingLabel1 = new System.Windows.Forms.Label();
             this.mandatoryFillingLabel2 = new System.Windows.Forms.Label();
             this.uncorrectDataTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.webBrowser = new System.Windows.Forms.WebBrowser();
+            this.YandexAuthBtn = new Guna.UI2.WinForms.Guna2Button();
             this.passwordTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.showPassImageBtn = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.YandexAuthBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.webBrowser = new System.Windows.Forms.WebBrowser();
             this.SuspendLayout();
             // 
             // signInBtn
@@ -146,6 +146,31 @@ namespace CarsAdviser.Forms
             this.uncorrectDataTextBox.TabStop = false;
             this.uncorrectDataTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uncorrectDataTextBox_KeyDown);
             // 
+            // webBrowser
+            // 
+            resources.ApplyResources(this.webBrowser, "webBrowser");
+            this.webBrowser.Name = "webBrowser";
+            this.webBrowser.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.webBrowser_Navigated);
+            // 
+            // YandexAuthBtn
+            // 
+            resources.ApplyResources(this.YandexAuthBtn, "YandexAuthBtn");
+            this.YandexAuthBtn.Animated = true;
+            this.YandexAuthBtn.BorderRadius = 10;
+            this.YandexAuthBtn.BorderThickness = 1;
+            this.YandexAuthBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.YandexAuthBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.YandexAuthBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.YandexAuthBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.YandexAuthBtn.FillColor = System.Drawing.Color.White;
+            this.YandexAuthBtn.ForeColor = System.Drawing.Color.Black;
+            this.YandexAuthBtn.Image = global::CarsAdviser.Properties.Resources.yandex;
+            this.YandexAuthBtn.ImageOffset = new System.Drawing.Point(-4, 0);
+            this.YandexAuthBtn.ImageSize = new System.Drawing.Size(25, 25);
+            this.YandexAuthBtn.Name = "YandexAuthBtn";
+            this.YandexAuthBtn.TabStop = false;
+            this.YandexAuthBtn.Click += new System.EventHandler(this.YandexAuthBtn_Click);
+            // 
             // passwordTextBox
             // 
             resources.ApplyResources(this.passwordTextBox, "passwordTextBox");
@@ -182,27 +207,6 @@ namespace CarsAdviser.Forms
             this.showPassImageBtn.ImageSize = new System.Drawing.Size(32, 32);
             this.showPassImageBtn.Name = "showPassImageBtn";
             this.showPassImageBtn.PressedState.ImageSize = new System.Drawing.Size(32, 32);
-            // 
-            // YandexAuthBtn
-            // 
-            resources.ApplyResources(this.YandexAuthBtn, "YandexAuthBtn");
-            this.YandexAuthBtn.Animated = true;
-            this.YandexAuthBtn.BorderRadius = 10;
-            this.YandexAuthBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.YandexAuthBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.YandexAuthBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.YandexAuthBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.YandexAuthBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.YandexAuthBtn.ForeColor = System.Drawing.Color.White;
-            this.YandexAuthBtn.Name = "YandexAuthBtn";
-            this.YandexAuthBtn.TabStop = false;
-            this.YandexAuthBtn.Click += new System.EventHandler(this.YandexAuthBtn_Click);
-            // 
-            // webBrowser
-            // 
-            resources.ApplyResources(this.webBrowser, "webBrowser");
-            this.webBrowser.Name = "webBrowser";
-            this.webBrowser.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.webBrowser_Navigated);
             // 
             // SignInForm
             // 

@@ -219,6 +219,9 @@
   <data name="signInLabel2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt</value>
   </data>
+  <data name="signInLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="signInLabel2.Location" type="System.Drawing.Point, System.Drawing">
     <value>956, 442</value>
   </data>
@@ -252,6 +255,9 @@
   <data name="signInLabel1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 14.25pt, style=Bold</value>
   </data>
+  <data name="signInLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="signInLabel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>955, 410</value>
   </data>
@@ -284,6 +290,9 @@
   </data>
   <data name="mandatoryFillingLabel1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt</value>
+  </data>
+  <data name="mandatoryFillingLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="mandatoryFillingLabel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>1270, 487</value>
@@ -320,6 +329,9 @@
   </data>
   <data name="mandatoryFillingLabel2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt</value>
+  </data>
+  <data name="mandatoryFillingLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="mandatoryFillingLabel2.Location" type="System.Drawing.Point, System.Drawing">
     <value>1270, 545</value>
@@ -380,6 +392,66 @@
   </data>
   <data name="&gt;&gt;uncorrectDataTextBox.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="webBrowser.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="webBrowser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="webBrowser.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="webBrowser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1904, 1041</value>
+  </data>
+  <data name="webBrowser.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="webBrowser.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;webBrowser.Name" xml:space="preserve">
+    <value>webBrowser</value>
+  </data>
+  <data name="&gt;&gt;webBrowser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;webBrowser.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;webBrowser.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="YandexAuthBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="YandexAuthBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt, style=Bold</value>
+  </data>
+  <data name="YandexAuthBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>959, 660</value>
+  </data>
+  <data name="YandexAuthBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 45</value>
+  </data>
+  <data name="YandexAuthBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="YandexAuthBtn.Text" xml:space="preserve">
+    <value>Войти с Яндекс ID</value>
+  </data>
+  <data name="&gt;&gt;YandexAuthBtn.Name" xml:space="preserve">
+    <value>YandexAuthBtn</value>
+  </data>
+  <data name="&gt;&gt;YandexAuthBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;YandexAuthBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;YandexAuthBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="passwordTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -448,66 +520,6 @@
   <data name="&gt;&gt;showPassImageBtn.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2ImageButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
-  <data name="YandexAuthBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="YandexAuthBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt, style=Bold</value>
-  </data>
-  <data name="YandexAuthBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>959, 660</value>
-  </data>
-  <data name="YandexAuthBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 45</value>
-  </data>
-  <data name="YandexAuthBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="YandexAuthBtn.Text" xml:space="preserve">
-    <value>Яндекс</value>
-  </data>
-  <data name="&gt;&gt;YandexAuthBtn.Name" xml:space="preserve">
-    <value>YandexAuthBtn</value>
-  </data>
-  <data name="&gt;&gt;YandexAuthBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;YandexAuthBtn.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;YandexAuthBtn.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="webBrowser.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="webBrowser.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="webBrowser.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>20, 20</value>
-  </data>
-  <data name="webBrowser.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1904, 1041</value>
-  </data>
-  <data name="webBrowser.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="webBrowser.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;webBrowser.Name" xml:space="preserve">
-    <value>webBrowser</value>
-  </data>
-  <data name="&gt;&gt;webBrowser.Type" xml:space="preserve">
-    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;webBrowser.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;webBrowser.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -516,6 +528,9 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1904, 1041</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>SignInForm</value>

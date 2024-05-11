@@ -36,10 +36,9 @@ namespace CarsAdviser
             this.chooseLangLabel = new System.Windows.Forms.Label();
             this.appNameLabel = new System.Windows.Forms.Label();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.headerPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             ((System.ComponentModel.ISupportInitialize)(this.appLogoPictureBox)).BeginInit();
-            this.headerPanel.SuspendLayout();
+            this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // appLogoPictureBox
@@ -101,34 +100,27 @@ namespace CarsAdviser
             resources.ApplyResources(this.mainPanel, "mainPanel");
             this.mainPanel.Name = "mainPanel";
             // 
-            // headerPanel
+            // guna2Panel1
             // 
-            this.headerPanel.Controls.Add(this.appNameLabel);
-            this.headerPanel.Controls.Add(this.appLogoPictureBox);
-            this.headerPanel.Controls.Add(this.chooseLangLabel);
-            this.headerPanel.Controls.Add(this.ruLangBtn);
-            this.headerPanel.Controls.Add(this.enLangBtn);
-            this.headerPanel.Controls.Add(this.flowLayoutPanel1);
-            resources.ApplyResources(this.headerPanel, "headerPanel");
-            this.headerPanel.Name = "headerPanel";
-            // 
-            // flowLayoutPanel1
-            // 
-            resources.ApplyResources(this.flowLayoutPanel1, "flowLayoutPanel1");
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.guna2Panel1.Controls.Add(this.ruLangBtn);
+            this.guna2Panel1.Controls.Add(this.enLangBtn);
+            this.guna2Panel1.Controls.Add(this.appNameLabel);
+            this.guna2Panel1.Controls.Add(this.appLogoPictureBox);
+            this.guna2Panel1.Controls.Add(this.chooseLangLabel);
+            resources.ApplyResources(this.guna2Panel1, "guna2Panel1");
+            this.guna2Panel1.Name = "guna2Panel1";
             // 
             // AuthorizationForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.headerPanel);
+            this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.mainPanel);
             this.Name = "AuthorizationForm";
             this.Load += new System.EventHandler(this.AuthorizationForm_Load);
             this.Resize += new System.EventHandler(this.MainForm_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.appLogoPictureBox)).EndInit();
-            this.headerPanel.ResumeLayout(false);
-            this.headerPanel.PerformLayout();
+            this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -136,11 +128,10 @@ namespace CarsAdviser
         #endregion
         private Guna.UI2.WinForms.Guna2PictureBox appLogoPictureBox;
         private System.Windows.Forms.Label appNameLabel;
-        private System.Windows.Forms.Panel mainPanel;
         private Guna.UI2.WinForms.Guna2Button ruLangBtn;
         private System.Windows.Forms.Label chooseLangLabel;
         private Guna.UI2.WinForms.Guna2Button enLangBtn;
-        private System.Windows.Forms.FlowLayoutPanel headerPanel;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Panel mainPanel;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
     }
 }

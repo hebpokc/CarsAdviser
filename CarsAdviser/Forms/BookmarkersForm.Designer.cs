@@ -169,7 +169,6 @@ namespace CarsAdviser.Forms
             // 
             // carPanel1
             // 
-            resources.ApplyResources(this.carPanel1, "carPanel1");
             this.carPanel1.BorderColor = System.Drawing.Color.Black;
             this.carPanel1.BorderRadius = 30;
             this.carPanel1.BorderThickness = 1;
@@ -189,11 +188,11 @@ namespace CarsAdviser.Forms
             this.carPanel1.Controls.Add(this.mileageInfoLabel1);
             this.carPanel1.Controls.Add(this.mileageLabel1);
             this.carPanel1.Controls.Add(this.carPictureBox1);
+            resources.ApplyResources(this.carPanel1, "carPanel1");
             this.carPanel1.Name = "carPanel1";
             // 
             // hideBtn1
             // 
-            resources.ApplyResources(this.hideBtn1, "hideBtn1");
             this.hideBtn1.BorderRadius = 30;
             this.hideBtn1.BorderThickness = 1;
             this.hideBtn1.CustomizableEdges.BottomLeft = false;
@@ -204,6 +203,7 @@ namespace CarsAdviser.Forms
             this.hideBtn1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.hideBtn1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.hideBtn1.FillColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.hideBtn1, "hideBtn1");
             this.hideBtn1.ForeColor = System.Drawing.Color.Black;
             this.hideBtn1.Name = "hideBtn1";
             this.hideBtn1.Tag = "";
@@ -211,13 +211,13 @@ namespace CarsAdviser.Forms
             // 
             // detailsBtn1
             // 
-            resources.ApplyResources(this.detailsBtn1, "detailsBtn1");
             this.detailsBtn1.Animated = true;
             this.detailsBtn1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.detailsBtn1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.detailsBtn1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.detailsBtn1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.detailsBtn1.FillColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.detailsBtn1, "detailsBtn1");
             this.detailsBtn1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.detailsBtn1.Name = "detailsBtn1";
             this.detailsBtn1.Tag = "";
@@ -285,8 +285,8 @@ namespace CarsAdviser.Forms
             // 
             // carBrandPictureBox1
             // 
-            resources.ApplyResources(this.carBrandPictureBox1, "carBrandPictureBox1");
             this.carBrandPictureBox1.ImageRotate = 0F;
+            resources.ApplyResources(this.carBrandPictureBox1, "carBrandPictureBox1");
             this.carBrandPictureBox1.Name = "carBrandPictureBox1";
             this.carBrandPictureBox1.TabStop = false;
             // 
@@ -304,18 +304,17 @@ namespace CarsAdviser.Forms
             // 
             // carPictureBox1
             // 
-            resources.ApplyResources(this.carPictureBox1, "carPictureBox1");
             this.carPictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.carPictureBox1.BorderRadius = 30;
             this.carPictureBox1.CustomizableEdges.BottomLeft = false;
             this.carPictureBox1.CustomizableEdges.BottomRight = false;
             this.carPictureBox1.ImageRotate = 0F;
+            resources.ApplyResources(this.carPictureBox1, "carPictureBox1");
             this.carPictureBox1.Name = "carPictureBox1";
             this.carPictureBox1.TabStop = false;
             // 
             // carPanel2
             // 
-            resources.ApplyResources(this.carPanel2, "carPanel2");
             this.carPanel2.BorderColor = System.Drawing.Color.Black;
             this.carPanel2.BorderRadius = 30;
             this.carPanel2.BorderThickness = 1;
@@ -335,11 +334,11 @@ namespace CarsAdviser.Forms
             this.carPanel2.Controls.Add(this.mileageInfoLabel2);
             this.carPanel2.Controls.Add(this.mileageLabel2);
             this.carPanel2.Controls.Add(this.carPictureBox2);
+            resources.ApplyResources(this.carPanel2, "carPanel2");
             this.carPanel2.Name = "carPanel2";
             // 
             // hideBtn2
             // 
-            resources.ApplyResources(this.hideBtn2, "hideBtn2");
             this.hideBtn2.BorderRadius = 30;
             this.hideBtn2.BorderThickness = 1;
             this.hideBtn2.CustomizableEdges.BottomLeft = false;
@@ -350,6 +349,7 @@ namespace CarsAdviser.Forms
             this.hideBtn2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.hideBtn2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.hideBtn2.FillColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.hideBtn2, "hideBtn2");
             this.hideBtn2.ForeColor = System.Drawing.Color.Black;
             this.hideBtn2.Name = "hideBtn2";
             this.hideBtn2.Tag = "";
@@ -357,13 +357,13 @@ namespace CarsAdviser.Forms
             // 
             // detailsBtn2
             // 
-            resources.ApplyResources(this.detailsBtn2, "detailsBtn2");
             this.detailsBtn2.Animated = true;
             this.detailsBtn2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.detailsBtn2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.detailsBtn2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.detailsBtn2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.detailsBtn2.FillColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.detailsBtn2, "detailsBtn2");
             this.detailsBtn2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.detailsBtn2.Name = "detailsBtn2";
             this.detailsBtn2.Tag = "";
@@ -431,8 +431,8 @@ namespace CarsAdviser.Forms
             // 
             // carBrandPictureBox2
             // 
-            resources.ApplyResources(this.carBrandPictureBox2, "carBrandPictureBox2");
             this.carBrandPictureBox2.ImageRotate = 0F;
+            resources.ApplyResources(this.carBrandPictureBox2, "carBrandPictureBox2");
             this.carBrandPictureBox2.Name = "carBrandPictureBox2";
             this.carBrandPictureBox2.TabStop = false;
             // 
@@ -450,18 +450,17 @@ namespace CarsAdviser.Forms
             // 
             // carPictureBox2
             // 
-            resources.ApplyResources(this.carPictureBox2, "carPictureBox2");
             this.carPictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.carPictureBox2.BorderRadius = 30;
             this.carPictureBox2.CustomizableEdges.BottomLeft = false;
             this.carPictureBox2.CustomizableEdges.BottomRight = false;
             this.carPictureBox2.ImageRotate = 0F;
+            resources.ApplyResources(this.carPictureBox2, "carPictureBox2");
             this.carPictureBox2.Name = "carPictureBox2";
             this.carPictureBox2.TabStop = false;
             // 
             // carPanel3
             // 
-            resources.ApplyResources(this.carPanel3, "carPanel3");
             this.carPanel3.BorderColor = System.Drawing.Color.Black;
             this.carPanel3.BorderRadius = 30;
             this.carPanel3.BorderThickness = 1;
@@ -481,11 +480,11 @@ namespace CarsAdviser.Forms
             this.carPanel3.Controls.Add(this.mileageInfoLabel3);
             this.carPanel3.Controls.Add(this.mileageLabel3);
             this.carPanel3.Controls.Add(this.carPictureBox3);
+            resources.ApplyResources(this.carPanel3, "carPanel3");
             this.carPanel3.Name = "carPanel3";
             // 
             // hideBtn3
             // 
-            resources.ApplyResources(this.hideBtn3, "hideBtn3");
             this.hideBtn3.BorderRadius = 30;
             this.hideBtn3.BorderThickness = 1;
             this.hideBtn3.CustomizableEdges.BottomLeft = false;
@@ -496,6 +495,7 @@ namespace CarsAdviser.Forms
             this.hideBtn3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.hideBtn3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.hideBtn3.FillColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.hideBtn3, "hideBtn3");
             this.hideBtn3.ForeColor = System.Drawing.Color.Black;
             this.hideBtn3.Name = "hideBtn3";
             this.hideBtn3.Tag = "";
@@ -503,13 +503,13 @@ namespace CarsAdviser.Forms
             // 
             // detailsBtn3
             // 
-            resources.ApplyResources(this.detailsBtn3, "detailsBtn3");
             this.detailsBtn3.Animated = true;
             this.detailsBtn3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.detailsBtn3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.detailsBtn3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.detailsBtn3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.detailsBtn3.FillColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.detailsBtn3, "detailsBtn3");
             this.detailsBtn3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.detailsBtn3.Name = "detailsBtn3";
             this.detailsBtn3.Tag = "";
@@ -577,8 +577,8 @@ namespace CarsAdviser.Forms
             // 
             // carBrandPictureBox3
             // 
-            resources.ApplyResources(this.carBrandPictureBox3, "carBrandPictureBox3");
             this.carBrandPictureBox3.ImageRotate = 0F;
+            resources.ApplyResources(this.carBrandPictureBox3, "carBrandPictureBox3");
             this.carBrandPictureBox3.Name = "carBrandPictureBox3";
             this.carBrandPictureBox3.TabStop = false;
             // 
@@ -596,18 +596,17 @@ namespace CarsAdviser.Forms
             // 
             // carPictureBox3
             // 
-            resources.ApplyResources(this.carPictureBox3, "carPictureBox3");
             this.carPictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.carPictureBox3.BorderRadius = 30;
             this.carPictureBox3.CustomizableEdges.BottomLeft = false;
             this.carPictureBox3.CustomizableEdges.BottomRight = false;
             this.carPictureBox3.ImageRotate = 0F;
+            resources.ApplyResources(this.carPictureBox3, "carPictureBox3");
             this.carPictureBox3.Name = "carPictureBox3";
             this.carPictureBox3.TabStop = false;
             // 
             // carPanel4
             // 
-            resources.ApplyResources(this.carPanel4, "carPanel4");
             this.carPanel4.BorderColor = System.Drawing.Color.Black;
             this.carPanel4.BorderRadius = 30;
             this.carPanel4.BorderThickness = 1;
@@ -627,11 +626,11 @@ namespace CarsAdviser.Forms
             this.carPanel4.Controls.Add(this.mileageInfoLabel4);
             this.carPanel4.Controls.Add(this.mileageLabel4);
             this.carPanel4.Controls.Add(this.carPictureBox4);
+            resources.ApplyResources(this.carPanel4, "carPanel4");
             this.carPanel4.Name = "carPanel4";
             // 
             // hideBtn4
             // 
-            resources.ApplyResources(this.hideBtn4, "hideBtn4");
             this.hideBtn4.BorderRadius = 30;
             this.hideBtn4.BorderThickness = 1;
             this.hideBtn4.CustomizableEdges.BottomLeft = false;
@@ -642,6 +641,7 @@ namespace CarsAdviser.Forms
             this.hideBtn4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.hideBtn4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.hideBtn4.FillColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.hideBtn4, "hideBtn4");
             this.hideBtn4.ForeColor = System.Drawing.Color.Black;
             this.hideBtn4.Name = "hideBtn4";
             this.hideBtn4.Tag = "";
@@ -649,13 +649,13 @@ namespace CarsAdviser.Forms
             // 
             // detailsBtn4
             // 
-            resources.ApplyResources(this.detailsBtn4, "detailsBtn4");
             this.detailsBtn4.Animated = true;
             this.detailsBtn4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.detailsBtn4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.detailsBtn4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.detailsBtn4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.detailsBtn4.FillColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.detailsBtn4, "detailsBtn4");
             this.detailsBtn4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.detailsBtn4.Name = "detailsBtn4";
             this.detailsBtn4.Tag = "";
@@ -723,8 +723,8 @@ namespace CarsAdviser.Forms
             // 
             // carBrandPictureBox4
             // 
-            resources.ApplyResources(this.carBrandPictureBox4, "carBrandPictureBox4");
             this.carBrandPictureBox4.ImageRotate = 0F;
+            resources.ApplyResources(this.carBrandPictureBox4, "carBrandPictureBox4");
             this.carBrandPictureBox4.Name = "carBrandPictureBox4";
             this.carBrandPictureBox4.TabStop = false;
             // 
@@ -742,18 +742,17 @@ namespace CarsAdviser.Forms
             // 
             // carPictureBox4
             // 
-            resources.ApplyResources(this.carPictureBox4, "carPictureBox4");
             this.carPictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.carPictureBox4.BorderRadius = 30;
             this.carPictureBox4.CustomizableEdges.BottomLeft = false;
             this.carPictureBox4.CustomizableEdges.BottomRight = false;
             this.carPictureBox4.ImageRotate = 0F;
+            resources.ApplyResources(this.carPictureBox4, "carPictureBox4");
             this.carPictureBox4.Name = "carPictureBox4";
             this.carPictureBox4.TabStop = false;
             // 
             // carPanel5
             // 
-            resources.ApplyResources(this.carPanel5, "carPanel5");
             this.carPanel5.BorderColor = System.Drawing.Color.Black;
             this.carPanel5.BorderRadius = 30;
             this.carPanel5.BorderThickness = 1;
@@ -773,11 +772,11 @@ namespace CarsAdviser.Forms
             this.carPanel5.Controls.Add(this.mileageInfoLabel5);
             this.carPanel5.Controls.Add(this.mileageLabel5);
             this.carPanel5.Controls.Add(this.carPictureBox5);
+            resources.ApplyResources(this.carPanel5, "carPanel5");
             this.carPanel5.Name = "carPanel5";
             // 
             // hideBtn5
             // 
-            resources.ApplyResources(this.hideBtn5, "hideBtn5");
             this.hideBtn5.BorderRadius = 30;
             this.hideBtn5.BorderThickness = 1;
             this.hideBtn5.CustomizableEdges.BottomLeft = false;
@@ -788,6 +787,7 @@ namespace CarsAdviser.Forms
             this.hideBtn5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.hideBtn5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.hideBtn5.FillColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.hideBtn5, "hideBtn5");
             this.hideBtn5.ForeColor = System.Drawing.Color.Black;
             this.hideBtn5.Name = "hideBtn5";
             this.hideBtn5.Tag = "";
@@ -795,13 +795,13 @@ namespace CarsAdviser.Forms
             // 
             // detailsBtn5
             // 
-            resources.ApplyResources(this.detailsBtn5, "detailsBtn5");
             this.detailsBtn5.Animated = true;
             this.detailsBtn5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.detailsBtn5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.detailsBtn5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.detailsBtn5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.detailsBtn5.FillColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.detailsBtn5, "detailsBtn5");
             this.detailsBtn5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.detailsBtn5.Name = "detailsBtn5";
             this.detailsBtn5.Tag = "";
@@ -869,8 +869,8 @@ namespace CarsAdviser.Forms
             // 
             // carBrandPictureBox5
             // 
-            resources.ApplyResources(this.carBrandPictureBox5, "carBrandPictureBox5");
             this.carBrandPictureBox5.ImageRotate = 0F;
+            resources.ApplyResources(this.carBrandPictureBox5, "carBrandPictureBox5");
             this.carBrandPictureBox5.Name = "carBrandPictureBox5";
             this.carBrandPictureBox5.TabStop = false;
             // 
@@ -888,18 +888,17 @@ namespace CarsAdviser.Forms
             // 
             // carPictureBox5
             // 
-            resources.ApplyResources(this.carPictureBox5, "carPictureBox5");
             this.carPictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.carPictureBox5.BorderRadius = 30;
             this.carPictureBox5.CustomizableEdges.BottomLeft = false;
             this.carPictureBox5.CustomizableEdges.BottomRight = false;
             this.carPictureBox5.ImageRotate = 0F;
+            resources.ApplyResources(this.carPictureBox5, "carPictureBox5");
             this.carPictureBox5.Name = "carPictureBox5";
             this.carPictureBox5.TabStop = false;
             // 
             // carPanel6
             // 
-            resources.ApplyResources(this.carPanel6, "carPanel6");
             this.carPanel6.BorderColor = System.Drawing.Color.Black;
             this.carPanel6.BorderRadius = 30;
             this.carPanel6.BorderThickness = 1;
@@ -919,11 +918,11 @@ namespace CarsAdviser.Forms
             this.carPanel6.Controls.Add(this.mileageInfoLabel6);
             this.carPanel6.Controls.Add(this.mileageLabel6);
             this.carPanel6.Controls.Add(this.carPictureBox6);
+            resources.ApplyResources(this.carPanel6, "carPanel6");
             this.carPanel6.Name = "carPanel6";
             // 
             // hideBtn6
             // 
-            resources.ApplyResources(this.hideBtn6, "hideBtn6");
             this.hideBtn6.BorderRadius = 30;
             this.hideBtn6.BorderThickness = 1;
             this.hideBtn6.CustomizableEdges.BottomLeft = false;
@@ -934,6 +933,7 @@ namespace CarsAdviser.Forms
             this.hideBtn6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.hideBtn6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.hideBtn6.FillColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.hideBtn6, "hideBtn6");
             this.hideBtn6.ForeColor = System.Drawing.Color.Black;
             this.hideBtn6.Name = "hideBtn6";
             this.hideBtn6.Tag = "";
@@ -941,13 +941,13 @@ namespace CarsAdviser.Forms
             // 
             // detailsBtn6
             // 
-            resources.ApplyResources(this.detailsBtn6, "detailsBtn6");
             this.detailsBtn6.Animated = true;
             this.detailsBtn6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.detailsBtn6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.detailsBtn6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.detailsBtn6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.detailsBtn6.FillColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.detailsBtn6, "detailsBtn6");
             this.detailsBtn6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.detailsBtn6.Name = "detailsBtn6";
             this.detailsBtn6.Tag = "";
@@ -1015,8 +1015,8 @@ namespace CarsAdviser.Forms
             // 
             // carBrandPictureBox6
             // 
-            resources.ApplyResources(this.carBrandPictureBox6, "carBrandPictureBox6");
             this.carBrandPictureBox6.ImageRotate = 0F;
+            resources.ApplyResources(this.carBrandPictureBox6, "carBrandPictureBox6");
             this.carBrandPictureBox6.Name = "carBrandPictureBox6";
             this.carBrandPictureBox6.TabStop = false;
             // 
@@ -1034,12 +1034,12 @@ namespace CarsAdviser.Forms
             // 
             // carPictureBox6
             // 
-            resources.ApplyResources(this.carPictureBox6, "carPictureBox6");
             this.carPictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.carPictureBox6.BorderRadius = 30;
             this.carPictureBox6.CustomizableEdges.BottomLeft = false;
             this.carPictureBox6.CustomizableEdges.BottomRight = false;
             this.carPictureBox6.ImageRotate = 0F;
+            resources.ApplyResources(this.carPictureBox6, "carPictureBox6");
             this.carPictureBox6.Name = "carPictureBox6";
             this.carPictureBox6.TabStop = false;
             // 

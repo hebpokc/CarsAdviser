@@ -142,16 +142,16 @@
     <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="&gt;&gt;appLogoPictureBox.Parent" xml:space="preserve">
-    <value>headerPanel</value>
+    <value>guna2Panel1</value>
   </data>
   <data name="&gt;&gt;appLogoPictureBox.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="enLangBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="enLangBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1672, 3</value>
+    <value>1483, 3</value>
   </data>
   <data name="enLangBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 97</value>
@@ -166,16 +166,16 @@
     <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="&gt;&gt;enLangBtn.Parent" xml:space="preserve">
-    <value>headerPanel</value>
+    <value>guna2Panel1</value>
   </data>
   <data name="&gt;&gt;enLangBtn.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>1</value>
   </data>
   <data name="ruLangBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="ruLangBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1613, 3</value>
+    <value>1424, 3</value>
   </data>
   <data name="ruLangBtn.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 58, 0, 0</value>
@@ -193,10 +193,10 @@
     <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="&gt;&gt;ruLangBtn.Parent" xml:space="preserve">
-    <value>headerPanel</value>
+    <value>guna2Panel1</value>
   </data>
   <data name="&gt;&gt;ruLangBtn.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>0</value>
   </data>
   <data name="chooseLangLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 14.25pt, style=Bold</value>
@@ -205,7 +205,7 @@
     <value>NoControl</value>
   </data>
   <data name="chooseLangLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1467, 0</value>
+    <value>1278, 2</value>
   </data>
   <data name="chooseLangLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1100, 0, 3, 0</value>
@@ -229,10 +229,10 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chooseLangLabel.Parent" xml:space="preserve">
-    <value>headerPanel</value>
+    <value>guna2Panel1</value>
   </data>
   <data name="&gt;&gt;chooseLangLabel.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="appNameLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 15.75pt, style=Bold</value>
@@ -262,16 +262,22 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;appNameLabel.Parent" xml:space="preserve">
-    <value>headerPanel</value>
+    <value>guna2Panel1</value>
   </data>
   <data name="&gt;&gt;appNameLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="mainPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
   <data name="mainPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
+  </data>
+  <data name="mainPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="mainPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 100, 0, 0</value>
   </data>
   <data name="mainPanel.Size" type="System.Drawing.Size, System.Drawing">
     <value>1904, 1041</value>
@@ -291,52 +297,28 @@
   <data name="&gt;&gt;mainPanel.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="flowLayoutPanel1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1731, 3</value>
-  </data>
-  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
-    <value>headerPanel</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="headerPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="guna2Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="headerPanel.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="guna2Panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="headerPanel.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="guna2Panel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1904, 100</value>
   </data>
-  <data name="headerPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="guna2Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;headerPanel.Name" xml:space="preserve">
-    <value>headerPanel</value>
+  <data name="&gt;&gt;guna2Panel1.Name" xml:space="preserve">
+    <value>guna2Panel1</value>
   </data>
-  <data name="&gt;&gt;headerPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;guna2Panel1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
-  <data name="&gt;&gt;headerPanel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;guna2Panel1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;headerPanel.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;guna2Panel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
