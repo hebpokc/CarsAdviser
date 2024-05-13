@@ -93,7 +93,6 @@ namespace CarsAdviser
             accountBtn.Font = new Font(accountBtn.Font.FontFamily, accountBtn.Font.Size, FontStyle.Regular);
             ResetStyle(bookmarkersBtn, bookmarkersBottomLabel);
             ResetStyle(hiddenBtn, hiddenBottomLabel);
-            ResetStyle(playlistBtn, playlistBottomLabel);
         }
 
         private void bookmarkersBtn_Click(object sender, EventArgs e)
@@ -105,7 +104,6 @@ namespace CarsAdviser
             accountBtn.Font = new Font(accountBtn.Font.FontFamily, accountBtn.Font.Size, FontStyle.Regular);
             ResetStyle(announcementBtn, announcementBottomLabel);
             ResetStyle(hiddenBtn, hiddenBottomLabel);
-            ResetStyle(playlistBtn, playlistBottomLabel);
         }
         private void hiddenBtn_Click(object sender, EventArgs e)
         {
@@ -115,7 +113,6 @@ namespace CarsAdviser
             hiddenBottomLabel.Visible = true;
             accountBtn.Font = new Font(accountBtn.Font.FontFamily, accountBtn.Font.Size, FontStyle.Regular);
             ResetStyle(announcementBtn, announcementBottomLabel);
-            ResetStyle(playlistBtn, playlistBottomLabel);
             ResetStyle(bookmarkersBtn, bookmarkersBottomLabel);
         }
 
@@ -126,7 +123,6 @@ namespace CarsAdviser
             accountBtn.Font = new Font(accountBtn.Font.FontFamily, accountBtn.Font.Size, FontStyle.Bold);
             ResetStyle(announcementBtn, announcementBottomLabel);
             ResetStyle(bookmarkersBtn, bookmarkersBottomLabel);
-            ResetStyle(playlistBtn, playlistBottomLabel);
             ResetStyle(hiddenBtn, hiddenBottomLabel);
         }
         private void LoadAvatar()
@@ -160,14 +156,5 @@ namespace CarsAdviser
             return Thread.CurrentThread.CurrentUICulture;
         }
 
-        private void playlistBtn_Click(object sender, EventArgs e)
-        {
-            currentChildForm.Close();
-            OpenChildForm(new PlaylistForm(this, currentUserId));
-            ResetStyle(announcementBtn, announcementBottomLabel);
-            ResetStyle(bookmarkersBtn, bookmarkersBottomLabel);
-            ResetStyle(hiddenBtn, hiddenBottomLabel);
-            playlistBottomLabel.Visible = true;
-        }
     }
 }

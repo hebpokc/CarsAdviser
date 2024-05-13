@@ -242,6 +242,7 @@ namespace CarsAdviser.Forms
             this.YandexAuthBtn.ImageSize = new System.Drawing.Size(25, 25);
             this.YandexAuthBtn.Name = "YandexAuthBtn";
             this.YandexAuthBtn.TabStop = false;
+            this.YandexAuthBtn.Click += new System.EventHandler(this.YandexRegBtn_Click);
             // 
             // webBrowser
             // 

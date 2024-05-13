@@ -118,88 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="playlistBottomLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="playlistBottomLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="playlistBottomLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt, style=Bold</value>
-  </data>
-  <data name="playlistBottomLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="playlistBottomLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1151, 63</value>
-  </data>
-  <data name="playlistBottomLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 20</value>
-  </data>
-  <data name="playlistBottomLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>57</value>
-  </data>
-  <data name="playlistBottomLabel.Text" xml:space="preserve">
-    <value>‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</value>
-  </data>
-  <data name="playlistBottomLabel.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;playlistBottomLabel.Name" xml:space="preserve">
-    <value>playlistBottomLabel</value>
-  </data>
-  <data name="&gt;&gt;playlistBottomLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;playlistBottomLabel.Parent" xml:space="preserve">
-    <value>headerPanel</value>
-  </data>
-  <data name="&gt;&gt;playlistBottomLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="playlistBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="playlistBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="playlistBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1134, 29</value>
-  </data>
-  <data name="playlistBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 34</value>
-  </data>
-  <data name="playlistBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>56</value>
-  </data>
-  <data name="playlistBtn.Text" xml:space="preserve">
-    <value>Общие подборки</value>
-  </data>
-  <data name="&gt;&gt;playlistBtn.Name" xml:space="preserve">
-    <value>playlistBtn</value>
-  </data>
-  <data name="&gt;&gt;playlistBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;playlistBtn.Parent" xml:space="preserve">
-    <value>headerPanel</value>
-  </data>
-  <data name="&gt;&gt;playlistBtn.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="notificationLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="notificationLabel2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="notificationLabel2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 8.25pt</value>
   </data>
   <data name="notificationLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1100, 29</value>
+    <value>1278, 29</value>
   </data>
   <data name="notificationLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>2, 15</value>
@@ -217,7 +148,7 @@
     <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;notificationLabel2.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>0</value>
   </data>
   <data name="notificationLabel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -229,7 +160,7 @@
     <value>Segoe UI, 8.25pt</value>
   </data>
   <data name="notificationLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>975, 29</value>
+    <value>1153, 29</value>
   </data>
   <data name="notificationLabel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>2, 15</value>
@@ -247,7 +178,7 @@
     <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;notificationLabel1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>1</value>
   </data>
   <data name="hiddenBottomLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -259,7 +190,7 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="hiddenBottomLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1035, 63</value>
+    <value>1213, 63</value>
   </data>
   <data name="hiddenBottomLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 20</value>
@@ -280,7 +211,7 @@
     <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;hiddenBottomLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>2</value>
   </data>
   <data name="bookmarkersBottomLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -292,7 +223,7 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="bookmarkersBottomLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>906, 63</value>
+    <value>1084, 63</value>
   </data>
   <data name="bookmarkersBottomLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 20</value>
@@ -313,7 +244,7 @@
     <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;bookmarkersBottomLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>3</value>
   </data>
   <data name="announcementBottomLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -325,7 +256,7 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="announcementBottomLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>757, 63</value>
+    <value>935, 63</value>
   </data>
   <data name="announcementBottomLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 20</value>
@@ -346,7 +277,7 @@
     <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;announcementBottomLabel.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>4</value>
   </data>
   <data name="accountBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -376,7 +307,7 @@
     <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;accountBtn.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>5</value>
   </data>
   <data name="accountCirclePictureBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -403,7 +334,7 @@
     <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;accountCirclePictureBox.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>6</value>
   </data>
   <data name="hiddenBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -412,7 +343,7 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="hiddenBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1007, 29</value>
+    <value>1185, 29</value>
   </data>
   <data name="hiddenBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 34</value>
@@ -433,7 +364,7 @@
     <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;hiddenBtn.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>7</value>
   </data>
   <data name="bookmarkersBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -442,7 +373,7 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="bookmarkersBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>880, 29</value>
+    <value>1058, 29</value>
   </data>
   <data name="bookmarkersBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 34</value>
@@ -463,7 +394,7 @@
     <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;bookmarkersBtn.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>8</value>
   </data>
   <data name="announcementBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -472,7 +403,7 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="announcementBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>740, 29</value>
+    <value>918, 29</value>
   </data>
   <data name="announcementBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 34</value>
@@ -493,7 +424,7 @@
     <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;announcementBtn.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>9</value>
   </data>
   <data name="appLogoPictureBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>239, 12</value>
@@ -517,7 +448,7 @@
     <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;appLogoPictureBox.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>10</value>
   </data>
   <data name="appNameLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -547,7 +478,7 @@
     <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;appNameLabel.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>11</value>
   </data>
   <data name="headerPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>

@@ -31,8 +31,6 @@ namespace CarsAdviser
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.headerPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.playlistBottomLabel = new System.Windows.Forms.Label();
-            this.playlistBtn = new Guna.UI2.WinForms.Guna2Button();
             this.notificationLabel2 = new System.Windows.Forms.Label();
             this.notificationLabel1 = new System.Windows.Forms.Label();
             this.hiddenBottomLabel = new System.Windows.Forms.Label();
@@ -53,8 +51,6 @@ namespace CarsAdviser
             // 
             // headerPanel
             // 
-            this.headerPanel.Controls.Add(this.playlistBottomLabel);
-            this.headerPanel.Controls.Add(this.playlistBtn);
             this.headerPanel.Controls.Add(this.notificationLabel2);
             this.headerPanel.Controls.Add(this.notificationLabel1);
             this.headerPanel.Controls.Add(this.hiddenBottomLabel);
@@ -69,28 +65,6 @@ namespace CarsAdviser
             this.headerPanel.Controls.Add(this.appNameLabel);
             resources.ApplyResources(this.headerPanel, "headerPanel");
             this.headerPanel.Name = "headerPanel";
-            // 
-            // playlistBottomLabel
-            // 
-            resources.ApplyResources(this.playlistBottomLabel, "playlistBottomLabel");
-            this.playlistBottomLabel.BackColor = System.Drawing.Color.Transparent;
-            this.playlistBottomLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.playlistBottomLabel.Name = "playlistBottomLabel";
-            // 
-            // playlistBtn
-            // 
-            resources.ApplyResources(this.playlistBtn, "playlistBtn");
-            this.playlistBtn.Animated = true;
-            this.playlistBtn.BackColor = System.Drawing.Color.Transparent;
-            this.playlistBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.playlistBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.playlistBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.playlistBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.playlistBtn.FillColor = System.Drawing.Color.Transparent;
-            this.playlistBtn.ForeColor = System.Drawing.Color.Black;
-            this.playlistBtn.Name = "playlistBtn";
-            this.playlistBtn.UseTransparentBackground = true;
-            this.playlistBtn.Click += new System.EventHandler(this.playlistBtn_Click);
             // 
             // notificationLabel2
             // 
@@ -249,8 +223,6 @@ namespace CarsAdviser
         private System.Windows.Forms.Label hiddenBottomLabel;
         private System.Windows.Forms.Label notificationLabel2;
         private System.Windows.Forms.Label notificationLabel1;
-        private System.Windows.Forms.Label playlistBottomLabel;
-        private Guna.UI2.WinForms.Guna2Button playlistBtn;
         public Guna.UI2.WinForms.Guna2Panel mainPanel;
     }
 }

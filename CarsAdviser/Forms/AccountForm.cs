@@ -90,6 +90,7 @@ namespace CarsAdviser.Forms
             preferencesBtn.Font = new Font(preferencesBtn.Font.FontFamily, preferencesBtn.Font.Size, FontStyle.Regular);
             addCarBtn.Font = new Font(addCarBtn.Font.FontFamily, addCarBtn.Font.Size, FontStyle.Regular);
             changePasswordBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Regular);
+            AllPlaylistBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Regular);
         }
 
 
@@ -101,6 +102,7 @@ namespace CarsAdviser.Forms
             preferencesBtn.Font = new Font(preferencesBtn.Font.FontFamily, preferencesBtn.Font.Size, FontStyle.Bold);
             addCarBtn.Font = new Font(addCarBtn.Font.FontFamily, addCarBtn.Font.Size, FontStyle.Regular);
             changePasswordBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Regular);
+            AllPlaylistBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Regular);
         }
 
         private void changePasswordBtn_Click(object sender, EventArgs e)
@@ -110,6 +112,7 @@ namespace CarsAdviser.Forms
             personalInformationBtn.Font = new Font(personalInformationBtn.Font.FontFamily, personalInformationBtn.Font.Size, FontStyle.Regular);
             preferencesBtn.Font = new Font(preferencesBtn.Font.FontFamily, preferencesBtn.Font.Size, FontStyle.Regular);
             addCarBtn.Font = new Font(addCarBtn.Font.FontFamily, addCarBtn.Font.Size, FontStyle.Regular);
+            AllPlaylistBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Regular);
             changePasswordBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Bold);
         }
 
@@ -127,6 +130,7 @@ namespace CarsAdviser.Forms
             preferencesBtn.Font = new Font(preferencesBtn.Font.FontFamily, preferencesBtn.Font.Size, FontStyle.Regular);
             addCarBtn.Font = new Font(addCarBtn.Font.FontFamily, addCarBtn.Font.Size, FontStyle.Bold);
             changePasswordBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Regular);
+            AllPlaylistBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Regular);
         }
 
         private void AccountForm_FormClosed(object sender, FormClosedEventArgs e)
@@ -136,6 +140,17 @@ namespace CarsAdviser.Forms
         public CultureInfo GetCurrentUICulture()
         {
             return Thread.CurrentThread.CurrentUICulture;
+        }
+
+        private void AllPlaylistBtn_Click(object sender, EventArgs e)
+        {
+            currentChildForm.Close();
+            OpenChildForm(new AllRecomendation(this, currentUserId));
+            personalInformationBtn.Font = new Font(personalInformationBtn.Font.FontFamily, personalInformationBtn.Font.Size, FontStyle.Regular);
+            preferencesBtn.Font = new Font(preferencesBtn.Font.FontFamily, preferencesBtn.Font.Size, FontStyle.Regular);
+            addCarBtn.Font = new Font(addCarBtn.Font.FontFamily, addCarBtn.Font.Size, FontStyle.Regular);
+            changePasswordBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Regular);
+            AllPlaylistBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Bold);
         }
     }
 }

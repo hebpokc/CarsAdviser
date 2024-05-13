@@ -249,7 +249,6 @@
     <Compile Include="Database\Cars_stamp.cs" />
     <Compile Include="Database\Cars_model.cs" />
     <Compile Include="Database\Cars_wheel.cs" />
-    <Compile Include="Database\Playlists.cs" />
     <Compile Include="Database\Users.cs" />
     <Compile Include="Database\Users_bookmarks.cs" />
     <Compile Include="Database\Users_hidden_auto.cs" />
@@ -268,11 +267,11 @@
     <Compile Include="Forms\AddCarForm.Designer.cs">
       <DependentUpon>AddCarForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\AllPlaylistForm.cs">
+    <Compile Include="Forms\AllRecomendation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\AllPlaylistForm.Designer.cs">
-      <DependentUpon>AllPlaylistForm.cs</DependentUpon>
+    <Compile Include="Forms\AllRecomendation.Designer.cs">
+      <DependentUpon>AllRecomendation.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\AnnouncementForm.cs">
       <SubType>Form</SubType>
@@ -304,12 +303,6 @@
     <Compile Include="Forms\CharacteristicsForm.Designer.cs">
       <DependentUpon>CharacteristicsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\CurrentPlaylist.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CurrentPlaylist.Designer.cs">
-      <DependentUpon>CurrentPlaylist.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\DataFillingForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -328,18 +321,6 @@
     <Compile Include="Forms\HiddenForm.Designer.cs">
       <DependentUpon>HiddenForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\MyPlaylistForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\MyPlaylistForm.Designer.cs">
-      <DependentUpon>MyPlaylistForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\PlaylistForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\PlaylistForm.Designer.cs">
-      <DependentUpon>PlaylistForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\PreferencesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -357,6 +338,12 @@
     </Compile>
     <Compile Include="Forms\SignInForm.Designer.cs">
       <DependentUpon>SignInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UsersPlaylist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UsersPlaylist.Designer.cs">
+      <DependentUpon>UsersPlaylist.cs</DependentUpon>
     </Compile>
     <Compile Include="Local.en-US.Designer.cs">
       <DependentUpon>Local.en-US.resx</DependentUpon>
@@ -395,8 +382,8 @@
     <EmbeddedResource Include="Forms\AddCarForm.resx">
       <DependentUpon>AddCarForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AllPlaylistForm.resx">
-      <DependentUpon>AllPlaylistForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\AllRecomendation.resx">
+      <DependentUpon>AllRecomendation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AnnouncementForm.en-US.resx">
       <DependentUpon>AnnouncementForm.cs</DependentUpon>
@@ -428,9 +415,6 @@
     <EmbeddedResource Include="Forms\CharacteristicsForm.resx">
       <DependentUpon>CharacteristicsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CurrentPlaylist.resx">
-      <DependentUpon>CurrentPlaylist.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\DataFillingForm.en-US.resx">
       <DependentUpon>DataFillingForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -445,12 +429,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\HiddenForm.resx">
       <DependentUpon>HiddenForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\MyPlaylistForm.resx">
-      <DependentUpon>MyPlaylistForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\PlaylistForm.resx">
-      <DependentUpon>PlaylistForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PreferencesForm.en-US.resx">
       <DependentUpon>PreferencesForm.cs</DependentUpon>
@@ -469,6 +447,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SignInForm.resx">
       <DependentUpon>SignInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UsersPlaylist.resx">
+      <DependentUpon>UsersPlaylist.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Local.en-US.resx">
       <Generator>ResXFileCodeGenerator</Generator>

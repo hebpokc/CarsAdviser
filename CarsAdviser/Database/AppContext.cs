@@ -7,7 +7,6 @@ namespace CarsAdviser.Database
     public class AppContext : DbContext
     {
         public DbSet<Users> Users { get; set; }
-        public DbSet<Playlists> Playlists { get; set; }
         public DbSet<Users_bookmarks> Users_bookmarks { get; set; }
         public DbSet<Users_hidden_auto> Users_hidden_auto { get; set; }
         public DbSet<Users_preferences> Users_preferences { get; set; }

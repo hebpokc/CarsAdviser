@@ -31,6 +31,7 @@ namespace CarsAdviser.Forms
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AccountForm));
             this.menuPanel = new System.Windows.Forms.Panel();
+            this.yandexImg = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.changePasswordBtn = new Guna.UI2.WinForms.Guna2Button();
             this.exitBtn = new Guna.UI2.WinForms.Guna2Button();
             this.addCarBtn = new Guna.UI2.WinForms.Guna2Button();
@@ -41,14 +42,15 @@ namespace CarsAdviser.Forms
             this.nameLabel = new System.Windows.Forms.Label();
             this.accountCirclePictureBox = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.yandexImg = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.AllPlaylistBtn = new Guna.UI2.WinForms.Guna2Button();
             this.menuPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.accountCirclePictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yandexImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountCirclePictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // menuPanel
             // 
+            this.menuPanel.Controls.Add(this.AllPlaylistBtn);
             this.menuPanel.Controls.Add(this.yandexImg);
             this.menuPanel.Controls.Add(this.changePasswordBtn);
             this.menuPanel.Controls.Add(this.exitBtn);
@@ -61,6 +63,17 @@ namespace CarsAdviser.Forms
             this.menuPanel.Controls.Add(this.accountCirclePictureBox);
             resources.ApplyResources(this.menuPanel, "menuPanel");
             this.menuPanel.Name = "menuPanel";
+            // 
+            // yandexImg
+            // 
+            this.yandexImg.BackColor = System.Drawing.SystemColors.Control;
+            this.yandexImg.Image = global::CarsAdviser.Properties.Resources.yandex;
+            this.yandexImg.ImageRotate = 0F;
+            this.yandexImg.InitialImage = global::CarsAdviser.Properties.Resources.yandex;
+            resources.ApplyResources(this.yandexImg, "yandexImg");
+            this.yandexImg.Name = "yandexImg";
+            this.yandexImg.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.yandexImg.TabStop = false;
             // 
             // changePasswordBtn
             // 
@@ -170,16 +183,21 @@ namespace CarsAdviser.Forms
             resources.ApplyResources(this.mainPanel, "mainPanel");
             this.mainPanel.Name = "mainPanel";
             // 
-            // yandexImg
+            // AllPlaylistBtn
             // 
-            this.yandexImg.BackColor = System.Drawing.SystemColors.Control;
-            this.yandexImg.Image = global::CarsAdviser.Properties.Resources.yandex;
-            this.yandexImg.ImageRotate = 0F;
-            this.yandexImg.InitialImage = global::CarsAdviser.Properties.Resources.yandex;
-            resources.ApplyResources(this.yandexImg, "yandexImg");
-            this.yandexImg.Name = "yandexImg";
-            this.yandexImg.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.yandexImg.TabStop = false;
+            resources.ApplyResources(this.AllPlaylistBtn, "AllPlaylistBtn");
+            this.AllPlaylistBtn.Animated = true;
+            this.AllPlaylistBtn.BackColor = System.Drawing.Color.Transparent;
+            this.AllPlaylistBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.AllPlaylistBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.AllPlaylistBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.AllPlaylistBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.AllPlaylistBtn.FillColor = System.Drawing.Color.Transparent;
+            this.AllPlaylistBtn.ForeColor = System.Drawing.Color.Black;
+            this.AllPlaylistBtn.Name = "AllPlaylistBtn";
+            this.AllPlaylistBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.AllPlaylistBtn.UseTransparentBackground = true;
+            this.AllPlaylistBtn.Click += new System.EventHandler(this.AllPlaylistBtn_Click);
             // 
             // AccountForm
             // 
@@ -192,8 +210,8 @@ namespace CarsAdviser.Forms
             this.Load += new System.EventHandler(this.AccountForm_Load);
             this.menuPanel.ResumeLayout(false);
             this.menuPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.accountCirclePictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yandexImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.accountCirclePictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -212,5 +230,6 @@ namespace CarsAdviser.Forms
         private Guna.UI2.WinForms.Guna2Button personalInformationBtn;
         private Guna.UI2.WinForms.Guna2Button changePasswordBtn;
         private Guna.UI2.WinForms.Guna2CirclePictureBox yandexImg;
+        private Guna.UI2.WinForms.Guna2Button AllPlaylistBtn;
     }
 }

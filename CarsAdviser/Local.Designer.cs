@@ -19,7 +19,7 @@ namespace CarsAdviser {
     // с помощью такого средства, как ResGen или Visual Studio.
     // Чтобы добавить или удалить член, измените файл .ResX и снова запустите ResGen
     // с параметром /str или перестройте свой проект VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Local {
@@ -250,7 +250,7 @@ namespace CarsAdviser {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Изображение загружено\nОбновите страницу или выйдите из аккаунта чтобы увидеть изменения.
+        ///   Ищет локализованную строку, похожую на Изображение загружено. Обновите страницу или выйдите из аккаунта чтобы увидеть изменения.
         /// </summary>
         internal static string ImageUploaded {
             get {

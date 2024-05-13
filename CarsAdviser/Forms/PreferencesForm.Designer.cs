@@ -58,7 +58,6 @@ namespace CarsAdviser.Forms
             this.carBrandPictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.carNameLabel3 = new System.Windows.Forms.Label();
             this.clearBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.addPlaylist = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox1)).BeginInit();
             this.carPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox1)).BeginInit();
@@ -121,6 +120,7 @@ namespace CarsAdviser.Forms
             this.preferCheckBox1.CheckMarkColor = System.Drawing.Color.Red;
             this.preferCheckBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.preferCheckBox1.Name = "preferCheckBox1";
+            this.preferCheckBox1.Tag = "";
             this.preferCheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.preferCheckBox1.UncheckedState.BorderRadius = 2;
             this.preferCheckBox1.UncheckedState.BorderThickness = 1;
@@ -190,10 +190,12 @@ namespace CarsAdviser.Forms
             this.preferCheckBox2.CheckMarkColor = System.Drawing.Color.Red;
             this.preferCheckBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.preferCheckBox2.Name = "preferCheckBox2";
+            this.preferCheckBox2.Tag = "";
             this.preferCheckBox2.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.preferCheckBox2.UncheckedState.BorderRadius = 2;
             this.preferCheckBox2.UncheckedState.BorderThickness = 1;
             this.preferCheckBox2.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.preferCheckBox2.CheckedChanged += new System.EventHandler(this.preferCheckBox_CheckedChanged);
             // 
             // carPictureBox2
             // 
@@ -249,10 +251,12 @@ namespace CarsAdviser.Forms
             this.preferCheckBox4.CheckMarkColor = System.Drawing.Color.Red;
             this.preferCheckBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.preferCheckBox4.Name = "preferCheckBox4";
+            this.preferCheckBox4.Tag = "";
             this.preferCheckBox4.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.preferCheckBox4.UncheckedState.BorderRadius = 2;
             this.preferCheckBox4.UncheckedState.BorderThickness = 1;
             this.preferCheckBox4.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.preferCheckBox4.CheckedChanged += new System.EventHandler(this.preferCheckBox_CheckedChanged);
             // 
             // carPictureBox4
             // 
@@ -308,10 +312,12 @@ namespace CarsAdviser.Forms
             this.preferCheckBox3.CheckMarkColor = System.Drawing.Color.Red;
             this.preferCheckBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.preferCheckBox3.Name = "preferCheckBox3";
+            this.preferCheckBox3.Tag = "";
             this.preferCheckBox3.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.preferCheckBox3.UncheckedState.BorderRadius = 2;
             this.preferCheckBox3.UncheckedState.BorderThickness = 1;
             this.preferCheckBox3.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.preferCheckBox3.CheckedChanged += new System.EventHandler(this.preferCheckBox_CheckedChanged);
             // 
             // carPictureBox3
             // 
@@ -357,24 +363,10 @@ namespace CarsAdviser.Forms
             this.clearBtn.Name = "clearBtn";
             this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
             // 
-            // addPlaylist
-            // 
-            this.addPlaylist.Animated = true;
-            this.addPlaylist.BorderRadius = 15;
-            this.addPlaylist.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.addPlaylist.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.addPlaylist.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.addPlaylist.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.addPlaylist.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.addPlaylist, "addPlaylist");
-            this.addPlaylist.ForeColor = System.Drawing.Color.White;
-            this.addPlaylist.Name = "addPlaylist";
-            // 
             // PreferencesForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.addPlaylist);
             this.Controls.Add(this.clearBtn);
             this.Controls.Add(this.carPanel4);
             this.Controls.Add(this.carPanel3);
@@ -435,6 +427,5 @@ namespace CarsAdviser.Forms
         private Guna.UI2.WinForms.Guna2PictureBox carBrandPictureBox3;
         private System.Windows.Forms.Label carNameLabel3;
         private Guna.UI2.WinForms.Guna2Button clearBtn;
-        private Guna.UI2.WinForms.Guna2Button addPlaylist;
     }
 }
