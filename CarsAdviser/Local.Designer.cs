@@ -421,5 +421,23 @@ namespace CarsAdviser {
                 return ResourceManager.GetString("wrongPrices", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Войти с Yandex ID.
+        /// </summary>
+        internal static string yandexAuth {
+            get {
+                return ResourceManager.GetString("yandexAuth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Зарегистрироваться через Yandex ID.
+        /// </summary>
+        internal static string yandexReg {
+            get {
+                return ResourceManager.GetString("yandexReg", resourceCulture);
+            }
+        }
     }
 }

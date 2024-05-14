@@ -46,6 +46,7 @@ namespace CarsAdviser.Forms
             this.phoneTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.YandexAuthBtn = new Guna.UI2.WinForms.Guna2Button();
             this.webBrowser = new System.Windows.Forms.WebBrowser();
+            this.backBtn = new Guna.UI2.WinForms.Guna2Button();
             this.SuspendLayout();
             // 
             // mandatoryFillingLabel5
@@ -250,10 +251,22 @@ namespace CarsAdviser.Forms
             this.webBrowser.Name = "webBrowser";
             this.webBrowser.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.webBrowser_Navigated);
             // 
+            // backBtn
+            // 
+            this.backBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.backBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.backBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.backBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            resources.ApplyResources(this.backBtn, "backBtn");
+            this.backBtn.ForeColor = System.Drawing.Color.White;
+            this.backBtn.Name = "backBtn";
+            this.backBtn.Click += new System.EventHandler(this.backBtn_Click);
+            // 
             // RegisterForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.backBtn);
             this.Controls.Add(this.webBrowser);
             this.Controls.Add(this.YandexAuthBtn);
             this.Controls.Add(this.mandatoryFillingLabel4);
@@ -295,5 +308,6 @@ namespace CarsAdviser.Forms
         private Guna.UI2.WinForms.Guna2TextBox phoneTextBox;
         private Guna.UI2.WinForms.Guna2Button YandexAuthBtn;
         private System.Windows.Forms.WebBrowser webBrowser;
+        private Guna.UI2.WinForms.Guna2Button backBtn;
     }
 }

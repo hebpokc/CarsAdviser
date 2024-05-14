@@ -239,4 +239,10 @@
   <data name="wrongPrices" xml:space="preserve">
     <value>Цена &lt;от&gt; должна быть меньше чем &lt;до&gt;</value>
   </data>
+  <data name="yandexAuth" xml:space="preserve">
+    <value>Войти с Yandex ID</value>
+  </data>
+  <data name="yandexReg" xml:space="preserve">
+    <value>Зарегистрироваться через Yandex ID</value>
+  </data>
 </root>

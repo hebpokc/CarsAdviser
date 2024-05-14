@@ -220,6 +220,7 @@ namespace CarsAdviser.Forms
             this.hideBtn1.ForeColor = System.Drawing.Color.Black;
             this.hideBtn1.Name = "hideBtn1";
             this.hideBtn1.Tag = "";
+            this.hideBtn1.Click += new System.EventHandler(this.hideBtn_Click);
             // 
             // detailsBtn1
             // 
@@ -364,6 +365,7 @@ namespace CarsAdviser.Forms
             this.hideBtn2.ForeColor = System.Drawing.Color.Black;
             this.hideBtn2.Name = "hideBtn2";
             this.hideBtn2.Tag = "";
+            this.hideBtn2.Click += new System.EventHandler(this.hideBtn_Click);
             // 
             // detailsBtn2
             // 
@@ -508,6 +510,7 @@ namespace CarsAdviser.Forms
             this.hideBtn3.ForeColor = System.Drawing.Color.Black;
             this.hideBtn3.Name = "hideBtn3";
             this.hideBtn3.Tag = "";
+            this.hideBtn3.Click += new System.EventHandler(this.hideBtn_Click);
             // 
             // detailsBtn3
             // 
@@ -652,6 +655,7 @@ namespace CarsAdviser.Forms
             this.hideBtn4.ForeColor = System.Drawing.Color.Black;
             this.hideBtn4.Name = "hideBtn4";
             this.hideBtn4.Tag = "";
+            this.hideBtn4.Click += new System.EventHandler(this.hideBtn_Click);
             // 
             // detailsBtn4
             // 
@@ -796,6 +800,7 @@ namespace CarsAdviser.Forms
             this.hideBtn6.ForeColor = System.Drawing.Color.Black;
             this.hideBtn6.Name = "hideBtn6";
             this.hideBtn6.Tag = "";
+            this.hideBtn6.Click += new System.EventHandler(this.hideBtn_Click);
             // 
             // detailsBtn6
             // 
@@ -940,6 +945,7 @@ namespace CarsAdviser.Forms
             this.hideBtn5.ForeColor = System.Drawing.Color.Black;
             this.hideBtn5.Name = "hideBtn5";
             this.hideBtn5.Tag = "";
+            this.hideBtn5.Click += new System.EventHandler(this.hideBtn_Click);
             // 
             // detailsBtn5
             // 

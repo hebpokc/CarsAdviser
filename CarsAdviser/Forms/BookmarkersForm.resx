@@ -1044,6 +1044,21 @@
   <data name="&gt;&gt;carPanel4.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="hideBtn6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9.75pt, style=Bold</value>
+  </data>
+  <data name="hideBtn6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 0</value>
+  </data>
+  <data name="hideBtn6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 25</value>
+  </data>
+  <data name="hideBtn6.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="hideBtn6.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
   <data name="&gt;&gt;hideBtn6.Name" xml:space="preserve">
     <value>hideBtn6</value>
   </data>
@@ -1055,6 +1070,21 @@
   </data>
   <data name="&gt;&gt;hideBtn6.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="detailsBtn6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt, style=Bold</value>
+  </data>
+  <data name="detailsBtn6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 427</value>
+  </data>
+  <data name="detailsBtn6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 34</value>
+  </data>
+  <data name="detailsBtn6.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="detailsBtn6.Text" xml:space="preserve">
+    <value>ПОДРОБНЕЕ 🡽</value>
   </data>
   <data name="&gt;&gt;detailsBtn6.Name" xml:space="preserve">
     <value>detailsBtn6</value>
@@ -1068,6 +1098,27 @@
   <data name="&gt;&gt;detailsBtn6.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="carPriceInfoLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="carPriceInfoLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carPriceInfoLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 381</value>
+  </data>
+  <data name="carPriceInfoLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="carPriceInfoLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="carPriceInfoLabel6.Text" xml:space="preserve">
+    <value>3.500.000 ₽</value>
+  </data>
+  <data name="carPriceInfoLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
   <data name="&gt;&gt;carPriceInfoLabel6.Name" xml:space="preserve">
     <value>carPriceInfoLabel6</value>
   </data>
@@ -1079,6 +1130,27 @@
   </data>
   <data name="&gt;&gt;carPriceInfoLabel6.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="carPriceLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carPriceLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="carPriceLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carPriceLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 383</value>
+  </data>
+  <data name="carPriceLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 18</value>
+  </data>
+  <data name="carPriceLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="carPriceLabel6.Text" xml:space="preserve">
+    <value>Итоговая цена:</value>
   </data>
   <data name="&gt;&gt;carPriceLabel6.Name" xml:space="preserve">
     <value>carPriceLabel6</value>
@@ -1092,6 +1164,27 @@
   <data name="&gt;&gt;carPriceLabel6.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="carDriveInfoLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="carDriveInfoLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carDriveInfoLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 343</value>
+  </data>
+  <data name="carDriveInfoLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="carDriveInfoLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="carDriveInfoLabel6.Text" xml:space="preserve">
+    <value>Полный</value>
+  </data>
+  <data name="carDriveInfoLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
   <data name="&gt;&gt;carDriveInfoLabel6.Name" xml:space="preserve">
     <value>carDriveInfoLabel6</value>
   </data>
@@ -1103,6 +1196,27 @@
   </data>
   <data name="&gt;&gt;carDriveInfoLabel6.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="carDriveLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carDriveLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="carDriveLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carDriveLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 345</value>
+  </data>
+  <data name="carDriveLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 18</value>
+  </data>
+  <data name="carDriveLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="carDriveLabel6.Text" xml:space="preserve">
+    <value>Привод:</value>
   </data>
   <data name="&gt;&gt;carDriveLabel6.Name" xml:space="preserve">
     <value>carDriveLabel6</value>
@@ -1116,6 +1230,27 @@
   <data name="&gt;&gt;carDriveLabel6.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="carEngineInfoLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="carEngineInfoLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carEngineInfoLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 305</value>
+  </data>
+  <data name="carEngineInfoLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="carEngineInfoLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="carEngineInfoLabel6.Text" xml:space="preserve">
+    <value>Электрический</value>
+  </data>
+  <data name="carEngineInfoLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
   <data name="&gt;&gt;carEngineInfoLabel6.Name" xml:space="preserve">
     <value>carEngineInfoLabel6</value>
   </data>
@@ -1127,6 +1262,27 @@
   </data>
   <data name="&gt;&gt;carEngineInfoLabel6.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="carEngineLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carEngineLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="carEngineLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carEngineLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 307</value>
+  </data>
+  <data name="carEngineLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 18</value>
+  </data>
+  <data name="carEngineLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="carEngineLabel6.Text" xml:space="preserve">
+    <value>Двигатель:</value>
   </data>
   <data name="&gt;&gt;carEngineLabel6.Name" xml:space="preserve">
     <value>carEngineLabel6</value>
@@ -1140,6 +1296,27 @@
   <data name="&gt;&gt;carEngineLabel6.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="carFuelInfoLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="carFuelInfoLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carFuelInfoLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 268</value>
+  </data>
+  <data name="carFuelInfoLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="carFuelInfoLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="carFuelInfoLabel6.Text" xml:space="preserve">
+    <value>Электричество</value>
+  </data>
+  <data name="carFuelInfoLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
   <data name="&gt;&gt;carFuelInfoLabel6.Name" xml:space="preserve">
     <value>carFuelInfoLabel6</value>
   </data>
@@ -1151,6 +1328,27 @@
   </data>
   <data name="&gt;&gt;carFuelInfoLabel6.ZOrder" xml:space="preserve">
     <value>8</value>
+  </data>
+  <data name="carYearLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="carYearLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carYearLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 192</value>
+  </data>
+  <data name="carYearLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 17</value>
+  </data>
+  <data name="carYearLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="carYearLabel6.Text" xml:space="preserve">
+    <value>2021</value>
+  </data>
+  <data name="carYearLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
   </data>
   <data name="&gt;&gt;carYearLabel6.Name" xml:space="preserve">
     <value>carYearLabel6</value>
@@ -1164,6 +1362,27 @@
   <data name="&gt;&gt;carYearLabel6.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="carFuelLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carFuelLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="carFuelLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carFuelLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 270</value>
+  </data>
+  <data name="carFuelLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 18</value>
+  </data>
+  <data name="carFuelLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="carFuelLabel6.Text" xml:space="preserve">
+    <value>Топливо:</value>
+  </data>
   <data name="&gt;&gt;carFuelLabel6.Name" xml:space="preserve">
     <value>carFuelLabel6</value>
   </data>
@@ -1175,6 +1394,27 @@
   </data>
   <data name="&gt;&gt;carFuelLabel6.ZOrder" xml:space="preserve">
     <value>10</value>
+  </data>
+  <data name="carNameLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="carNameLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carNameLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 173</value>
+  </data>
+  <data name="carNameLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 19</value>
+  </data>
+  <data name="carNameLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="carNameLabel6.Text" xml:space="preserve">
+    <value>Toyota Highlander XSE</value>
+  </data>
+  <data name="carNameLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
   </data>
   <data name="&gt;&gt;carNameLabel6.Name" xml:space="preserve">
     <value>carNameLabel6</value>
@@ -1188,6 +1428,35 @@
   <data name="&gt;&gt;carNameLabel6.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
+  <data name="carBrandPictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk32AgAAAAAAADYAAAAoAAAADgAAABAAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEgoTGw8bGw8bGw8bGw8bGw8bGw8bG
+        w8bGw8bGw8bGw8bGw8bGw8YAAAAAAISChP///////////////////////////////////////////8bD
+        xgAAAAAAhIKE////////////////////////////////////////////xsPGAAAAAACEgoT/////////
+        ///////////////////////////////////Gw8YAAAAAAISChP//////////////////////////////
+        /////////////8bDxgAAAAAAhIKE////////////AAD/AAD/////////AAD/AAD/////////xsPGAAAA
+        AACEgoT///////////////8AAP8AAP8AAP8AAP/////////////Gw8YAAAAAAISChP//////////////
+        /////wAA/wAA/////////////////8bDxgAAAAAAhIKE////////////////AAD/AAD/AAD/AAD/////
+        ////////xsPGAAAAAACEgoT///////////8AAP8AAP////////8AAP8AAP/////////Gw8YAAAAAAISC
+        hP///////////////////////////////////////////8bDxgAAAAAAhIKE////////////////////
+        ////////////////////////xsPGAAAAAACEgoT/////////////////////////////////////////
+        ///Gw8YAAAAAAISChP///////////////////////////////////////////8bDxgAAAAAAhIKEhIKE
+        hIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEAAA=
+</value>
+  </data>
+  <data name="carBrandPictureBox6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carBrandPictureBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 172</value>
+  </data>
+  <data name="carBrandPictureBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="carBrandPictureBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
   <data name="&gt;&gt;carBrandPictureBox6.Name" xml:space="preserve">
     <value>carBrandPictureBox6</value>
   </data>
@@ -1199,6 +1468,27 @@
   </data>
   <data name="&gt;&gt;carBrandPictureBox6.ZOrder" xml:space="preserve">
     <value>12</value>
+  </data>
+  <data name="mileageInfoLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="mileageInfoLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mileageInfoLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 232</value>
+  </data>
+  <data name="mileageInfoLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 20</value>
+  </data>
+  <data name="mileageInfoLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mileageInfoLabel6.Text" xml:space="preserve">
+    <value>10000 км</value>
+  </data>
+  <data name="mileageInfoLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
   </data>
   <data name="&gt;&gt;mileageInfoLabel6.Name" xml:space="preserve">
     <value>mileageInfoLabel6</value>
@@ -1212,6 +1502,27 @@
   <data name="&gt;&gt;mileageInfoLabel6.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
+  <data name="mileageLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mileageLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="mileageLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mileageLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 234</value>
+  </data>
+  <data name="mileageLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 18</value>
+  </data>
+  <data name="mileageLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mileageLabel6.Text" xml:space="preserve">
+    <value>Пробег:</value>
+  </data>
   <data name="&gt;&gt;mileageLabel6.Name" xml:space="preserve">
     <value>mileageLabel6</value>
   </data>
@@ -1223,6 +1534,38 @@
   </data>
   <data name="&gt;&gt;mileageLabel6.ZOrder" xml:space="preserve">
     <value>14</value>
+  </data>
+  <data name="carPictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk32AgAAAAAAADYAAAAoAAAADgAAABAAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEgoTGw8bGw8bGw8bGw8bGw8bGw8bG
+        w8bGw8bGw8bGw8bGw8bGw8YAAAAAAISChP///////////////////////////////////////////8bD
+        xgAAAAAAhIKE////////////////////////////////////////////xsPGAAAAAACEgoT/////////
+        ///////////////////////////////////Gw8YAAAAAAISChP//////////////////////////////
+        /////////////8bDxgAAAAAAhIKE////////////AAD/AAD/////////AAD/AAD/////////xsPGAAAA
+        AACEgoT///////////////8AAP8AAP8AAP8AAP/////////////Gw8YAAAAAAISChP//////////////
+        /////wAA/wAA/////////////////8bDxgAAAAAAhIKE////////////////AAD/AAD/AAD/AAD/////
+        ////////xsPGAAAAAACEgoT///////////8AAP8AAP////////8AAP8AAP/////////Gw8YAAAAAAISC
+        hP///////////////////////////////////////////8bDxgAAAAAAhIKE////////////////////
+        ////////////////////////xsPGAAAAAACEgoT/////////////////////////////////////////
+        ///Gw8YAAAAAAISChP///////////////////////////////////////////8bDxgAAAAAAhIKEhIKE
+        hIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEAAA=
+</value>
+  </data>
+  <data name="carPictureBox6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carPictureBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="carPictureBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 153</value>
+  </data>
+  <data name="carPictureBox6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="carPictureBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;carPictureBox6.Name" xml:space="preserve">
     <value>carPictureBox6</value>
@@ -3635,541 +3978,6 @@
     <value>carPanel4</value>
   </data>
   <data name="&gt;&gt;carPictureBox4.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="hideBtn6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 9.75pt, style=Bold</value>
-  </data>
-  <data name="hideBtn6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 0</value>
-  </data>
-  <data name="hideBtn6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 25</value>
-  </data>
-  <data name="hideBtn6.TabIndex" type="System.Int32, mscorlib">
-    <value>56</value>
-  </data>
-  <data name="hideBtn6.Text" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="&gt;&gt;hideBtn6.Name" xml:space="preserve">
-    <value>hideBtn6</value>
-  </data>
-  <data name="&gt;&gt;hideBtn6.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;hideBtn6.Parent" xml:space="preserve">
-    <value>carPanel6</value>
-  </data>
-  <data name="&gt;&gt;hideBtn6.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="detailsBtn6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt, style=Bold</value>
-  </data>
-  <data name="detailsBtn6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 427</value>
-  </data>
-  <data name="detailsBtn6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 34</value>
-  </data>
-  <data name="detailsBtn6.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="detailsBtn6.Text" xml:space="preserve">
-    <value>ПОДРОБНЕЕ 🡽</value>
-  </data>
-  <data name="&gt;&gt;detailsBtn6.Name" xml:space="preserve">
-    <value>detailsBtn6</value>
-  </data>
-  <data name="&gt;&gt;detailsBtn6.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;detailsBtn6.Parent" xml:space="preserve">
-    <value>carPanel6</value>
-  </data>
-  <data name="&gt;&gt;detailsBtn6.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="carPriceInfoLabel6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="carPriceInfoLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="carPriceInfoLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 381</value>
-  </data>
-  <data name="carPriceInfoLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 20</value>
-  </data>
-  <data name="carPriceInfoLabel6.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="carPriceInfoLabel6.Text" xml:space="preserve">
-    <value>3.500.000 ₽</value>
-  </data>
-  <data name="carPriceInfoLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopRight</value>
-  </data>
-  <data name="&gt;&gt;carPriceInfoLabel6.Name" xml:space="preserve">
-    <value>carPriceInfoLabel6</value>
-  </data>
-  <data name="&gt;&gt;carPriceInfoLabel6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;carPriceInfoLabel6.Parent" xml:space="preserve">
-    <value>carPanel6</value>
-  </data>
-  <data name="&gt;&gt;carPriceInfoLabel6.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="carPriceLabel6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="carPriceLabel6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt</value>
-  </data>
-  <data name="carPriceLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="carPriceLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 383</value>
-  </data>
-  <data name="carPriceLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 18</value>
-  </data>
-  <data name="carPriceLabel6.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="carPriceLabel6.Text" xml:space="preserve">
-    <value>Итоговая цена:</value>
-  </data>
-  <data name="&gt;&gt;carPriceLabel6.Name" xml:space="preserve">
-    <value>carPriceLabel6</value>
-  </data>
-  <data name="&gt;&gt;carPriceLabel6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;carPriceLabel6.Parent" xml:space="preserve">
-    <value>carPanel6</value>
-  </data>
-  <data name="&gt;&gt;carPriceLabel6.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="carDriveInfoLabel6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="carDriveInfoLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="carDriveInfoLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>141, 343</value>
-  </data>
-  <data name="carDriveInfoLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="carDriveInfoLabel6.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="carDriveInfoLabel6.Text" xml:space="preserve">
-    <value>Полный</value>
-  </data>
-  <data name="carDriveInfoLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopRight</value>
-  </data>
-  <data name="&gt;&gt;carDriveInfoLabel6.Name" xml:space="preserve">
-    <value>carDriveInfoLabel6</value>
-  </data>
-  <data name="&gt;&gt;carDriveInfoLabel6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;carDriveInfoLabel6.Parent" xml:space="preserve">
-    <value>carPanel6</value>
-  </data>
-  <data name="&gt;&gt;carDriveInfoLabel6.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="carDriveLabel6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="carDriveLabel6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt</value>
-  </data>
-  <data name="carDriveLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="carDriveLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 345</value>
-  </data>
-  <data name="carDriveLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 18</value>
-  </data>
-  <data name="carDriveLabel6.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="carDriveLabel6.Text" xml:space="preserve">
-    <value>Привод:</value>
-  </data>
-  <data name="&gt;&gt;carDriveLabel6.Name" xml:space="preserve">
-    <value>carDriveLabel6</value>
-  </data>
-  <data name="&gt;&gt;carDriveLabel6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;carDriveLabel6.Parent" xml:space="preserve">
-    <value>carPanel6</value>
-  </data>
-  <data name="&gt;&gt;carDriveLabel6.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="carEngineInfoLabel6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="carEngineInfoLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="carEngineInfoLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>133, 305</value>
-  </data>
-  <data name="carEngineInfoLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 20</value>
-  </data>
-  <data name="carEngineInfoLabel6.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="carEngineInfoLabel6.Text" xml:space="preserve">
-    <value>Электрический</value>
-  </data>
-  <data name="carEngineInfoLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopRight</value>
-  </data>
-  <data name="&gt;&gt;carEngineInfoLabel6.Name" xml:space="preserve">
-    <value>carEngineInfoLabel6</value>
-  </data>
-  <data name="&gt;&gt;carEngineInfoLabel6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;carEngineInfoLabel6.Parent" xml:space="preserve">
-    <value>carPanel6</value>
-  </data>
-  <data name="&gt;&gt;carEngineInfoLabel6.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="carEngineLabel6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="carEngineLabel6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt</value>
-  </data>
-  <data name="carEngineLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="carEngineLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 307</value>
-  </data>
-  <data name="carEngineLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 18</value>
-  </data>
-  <data name="carEngineLabel6.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="carEngineLabel6.Text" xml:space="preserve">
-    <value>Двигатель:</value>
-  </data>
-  <data name="&gt;&gt;carEngineLabel6.Name" xml:space="preserve">
-    <value>carEngineLabel6</value>
-  </data>
-  <data name="&gt;&gt;carEngineLabel6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;carEngineLabel6.Parent" xml:space="preserve">
-    <value>carPanel6</value>
-  </data>
-  <data name="&gt;&gt;carEngineLabel6.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="carFuelInfoLabel6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="carFuelInfoLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="carFuelInfoLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 268</value>
-  </data>
-  <data name="carFuelInfoLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 20</value>
-  </data>
-  <data name="carFuelInfoLabel6.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="carFuelInfoLabel6.Text" xml:space="preserve">
-    <value>Электричество</value>
-  </data>
-  <data name="carFuelInfoLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopRight</value>
-  </data>
-  <data name="&gt;&gt;carFuelInfoLabel6.Name" xml:space="preserve">
-    <value>carFuelInfoLabel6</value>
-  </data>
-  <data name="&gt;&gt;carFuelInfoLabel6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;carFuelInfoLabel6.Parent" xml:space="preserve">
-    <value>carPanel6</value>
-  </data>
-  <data name="&gt;&gt;carFuelInfoLabel6.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="carYearLabel6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt</value>
-  </data>
-  <data name="carYearLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="carYearLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 192</value>
-  </data>
-  <data name="carYearLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 17</value>
-  </data>
-  <data name="carYearLabel6.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="carYearLabel6.Text" xml:space="preserve">
-    <value>2021</value>
-  </data>
-  <data name="carYearLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopCenter</value>
-  </data>
-  <data name="&gt;&gt;carYearLabel6.Name" xml:space="preserve">
-    <value>carYearLabel6</value>
-  </data>
-  <data name="&gt;&gt;carYearLabel6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;carYearLabel6.Parent" xml:space="preserve">
-    <value>carPanel6</value>
-  </data>
-  <data name="&gt;&gt;carYearLabel6.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="carFuelLabel6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="carFuelLabel6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt</value>
-  </data>
-  <data name="carFuelLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="carFuelLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 270</value>
-  </data>
-  <data name="carFuelLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 18</value>
-  </data>
-  <data name="carFuelLabel6.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="carFuelLabel6.Text" xml:space="preserve">
-    <value>Топливо:</value>
-  </data>
-  <data name="&gt;&gt;carFuelLabel6.Name" xml:space="preserve">
-    <value>carFuelLabel6</value>
-  </data>
-  <data name="&gt;&gt;carFuelLabel6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;carFuelLabel6.Parent" xml:space="preserve">
-    <value>carPanel6</value>
-  </data>
-  <data name="&gt;&gt;carFuelLabel6.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="carNameLabel6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="carNameLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="carNameLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>73, 173</value>
-  </data>
-  <data name="carNameLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 19</value>
-  </data>
-  <data name="carNameLabel6.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="carNameLabel6.Text" xml:space="preserve">
-    <value>Toyota Highlander XSE</value>
-  </data>
-  <data name="carNameLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopCenter</value>
-  </data>
-  <data name="&gt;&gt;carNameLabel6.Name" xml:space="preserve">
-    <value>carNameLabel6</value>
-  </data>
-  <data name="&gt;&gt;carNameLabel6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;carNameLabel6.Parent" xml:space="preserve">
-    <value>carPanel6</value>
-  </data>
-  <data name="&gt;&gt;carNameLabel6.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="carBrandPictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        Qk32AgAAAAAAADYAAAAoAAAADgAAABAAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEgoTGw8bGw8bGw8bGw8bGw8bGw8bG
-        w8bGw8bGw8bGw8bGw8bGw8YAAAAAAISChP///////////////////////////////////////////8bD
-        xgAAAAAAhIKE////////////////////////////////////////////xsPGAAAAAACEgoT/////////
-        ///////////////////////////////////Gw8YAAAAAAISChP//////////////////////////////
-        /////////////8bDxgAAAAAAhIKE////////////AAD/AAD/////////AAD/AAD/////////xsPGAAAA
-        AACEgoT///////////////8AAP8AAP8AAP8AAP/////////////Gw8YAAAAAAISChP//////////////
-        /////wAA/wAA/////////////////8bDxgAAAAAAhIKE////////////////AAD/AAD/AAD/AAD/////
-        ////////xsPGAAAAAACEgoT///////////8AAP8AAP////////8AAP8AAP/////////Gw8YAAAAAAISC
-        hP///////////////////////////////////////////8bDxgAAAAAAhIKE////////////////////
-        ////////////////////////xsPGAAAAAACEgoT/////////////////////////////////////////
-        ///Gw8YAAAAAAISChP///////////////////////////////////////////8bDxgAAAAAAhIKEhIKE
-        hIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEAAA=
-</value>
-  </data>
-  <data name="carBrandPictureBox6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="carBrandPictureBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 172</value>
-  </data>
-  <data name="carBrandPictureBox6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 32</value>
-  </data>
-  <data name="carBrandPictureBox6.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;carBrandPictureBox6.Name" xml:space="preserve">
-    <value>carBrandPictureBox6</value>
-  </data>
-  <data name="&gt;&gt;carBrandPictureBox6.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;carBrandPictureBox6.Parent" xml:space="preserve">
-    <value>carPanel6</value>
-  </data>
-  <data name="&gt;&gt;carBrandPictureBox6.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="mileageInfoLabel6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="mileageInfoLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="mileageInfoLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 232</value>
-  </data>
-  <data name="mileageInfoLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 20</value>
-  </data>
-  <data name="mileageInfoLabel6.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="mileageInfoLabel6.Text" xml:space="preserve">
-    <value>10000 км</value>
-  </data>
-  <data name="mileageInfoLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopRight</value>
-  </data>
-  <data name="&gt;&gt;mileageInfoLabel6.Name" xml:space="preserve">
-    <value>mileageInfoLabel6</value>
-  </data>
-  <data name="&gt;&gt;mileageInfoLabel6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mileageInfoLabel6.Parent" xml:space="preserve">
-    <value>carPanel6</value>
-  </data>
-  <data name="&gt;&gt;mileageInfoLabel6.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="mileageLabel6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="mileageLabel6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt</value>
-  </data>
-  <data name="mileageLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="mileageLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 234</value>
-  </data>
-  <data name="mileageLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 18</value>
-  </data>
-  <data name="mileageLabel6.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="mileageLabel6.Text" xml:space="preserve">
-    <value>Пробег:</value>
-  </data>
-  <data name="&gt;&gt;mileageLabel6.Name" xml:space="preserve">
-    <value>mileageLabel6</value>
-  </data>
-  <data name="&gt;&gt;mileageLabel6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mileageLabel6.Parent" xml:space="preserve">
-    <value>carPanel6</value>
-  </data>
-  <data name="&gt;&gt;mileageLabel6.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="carPictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        Qk32AgAAAAAAADYAAAAoAAAADgAAABAAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEgoTGw8bGw8bGw8bGw8bGw8bGw8bG
-        w8bGw8bGw8bGw8bGw8bGw8YAAAAAAISChP///////////////////////////////////////////8bD
-        xgAAAAAAhIKE////////////////////////////////////////////xsPGAAAAAACEgoT/////////
-        ///////////////////////////////////Gw8YAAAAAAISChP//////////////////////////////
-        /////////////8bDxgAAAAAAhIKE////////////AAD/AAD/////////AAD/AAD/////////xsPGAAAA
-        AACEgoT///////////////8AAP8AAP8AAP8AAP/////////////Gw8YAAAAAAISChP//////////////
-        /////wAA/wAA/////////////////8bDxgAAAAAAhIKE////////////////AAD/AAD/AAD/AAD/////
-        ////////xsPGAAAAAACEgoT///////////8AAP8AAP////////8AAP8AAP/////////Gw8YAAAAAAISC
-        hP///////////////////////////////////////////8bDxgAAAAAAhIKE////////////////////
-        ////////////////////////xsPGAAAAAACEgoT/////////////////////////////////////////
-        ///Gw8YAAAAAAISChP///////////////////////////////////////////8bDxgAAAAAAhIKEhIKE
-        hIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEhIKEAAA=
-</value>
-  </data>
-  <data name="carPictureBox6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="carPictureBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
-  <data name="carPictureBox6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 153</value>
-  </data>
-  <data name="carPictureBox6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="carPictureBox6.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;carPictureBox6.Name" xml:space="preserve">
-    <value>carPictureBox6</value>
-  </data>
-  <data name="&gt;&gt;carPictureBox6.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;carPictureBox6.Parent" xml:space="preserve">
-    <value>carPanel6</value>
-  </data>
-  <data name="&gt;&gt;carPictureBox6.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
   <data name="hideBtn5.Font" type="System.Drawing.Font, System.Drawing">

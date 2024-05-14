@@ -163,6 +163,7 @@ namespace CarsAdviser.Forms
 
             webBrowser.Visible = true;
             webBrowser.Navigate(authUrl);
+            backBtn.Visible = true;
         }
 
         private async void webBrowser_Navigated(object sender, WebBrowserNavigatedEventArgs e)
@@ -230,6 +231,10 @@ namespace CarsAdviser.Forms
             return password.ToString();
         }
 
-
+        private void backBtn_Click(object sender, EventArgs e)
+        {
+            webBrowser.Visible = false;
+            backBtn.Visible = false;
+        }
     }
 }

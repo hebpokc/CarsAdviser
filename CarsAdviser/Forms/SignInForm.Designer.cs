@@ -44,6 +44,7 @@ namespace CarsAdviser.Forms
             this.passwordTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.showPassImageBtn = new Guna.UI2.WinForms.Guna2ImageButton();
             this.webBrowser = new System.Windows.Forms.WebBrowser();
+            this.backBtn = new Guna.UI2.WinForms.Guna2Button();
             this.SuspendLayout();
             // 
             // signInBtn
@@ -208,10 +209,22 @@ namespace CarsAdviser.Forms
             this.webBrowser.Name = "webBrowser";
             this.webBrowser.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.webBrowser_Navigated);
             // 
+            // backBtn
+            // 
+            this.backBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.backBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.backBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.backBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            resources.ApplyResources(this.backBtn, "backBtn");
+            this.backBtn.ForeColor = System.Drawing.Color.White;
+            this.backBtn.Name = "backBtn";
+            this.backBtn.Click += new System.EventHandler(this.backBtn_Click);
+            // 
             // SignInForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.backBtn);
             this.Controls.Add(this.webBrowser);
             this.Controls.Add(this.signInLabel1);
             this.Controls.Add(this.signInLabel2);
@@ -242,5 +255,6 @@ namespace CarsAdviser.Forms
         private Guna.UI2.WinForms.Guna2TextBox uncorrectDataTextBox;
         private Guna.UI2.WinForms.Guna2Button YandexAuthBtn;
         private WebBrowser webBrowser;
+        private Guna.UI2.WinForms.Guna2Button backBtn;
     }
 }
