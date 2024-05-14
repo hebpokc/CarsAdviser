@@ -214,7 +214,7 @@ namespace CarsAdviser.Forms
             {
                 using (var context = new AppContext())
                 {
-                    if (selectedPreferences.Count <= GetUserPreferences().Count)
+                    if (selectedPreferences.Count >= GetUserPreferences().Count)
                     {
                         var existingPreference = context.Users_preferences.FirstOrDefault(up => up.Users_id == userId && up.Cars_id == car.ID);
                         if (existingPreference == null)
