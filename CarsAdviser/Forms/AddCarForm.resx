@@ -117,1141 +117,1210 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;carTransmissionComboBox.Parent" xml:space="preserve">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="addCarBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="addCarBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt, style=Bold</value>
+  </data>
+  <data name="addCarBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 838</value>
+  </data>
+  <data name="addCarBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 25</value>
+  </data>
+  <data name="addCarBtn.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>311, 45</value>
+  </data>
+  <data name="addCarBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 45</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="addCarBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="addCarBtn.Text" xml:space="preserve">
+    <value>Добавить машину</value>
+  </data>
+  <data name="&gt;&gt;addCarBtn.Name" xml:space="preserve">
+    <value>addCarBtn</value>
+  </data>
+  <data name="&gt;&gt;addCarBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;addCarBtn.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;addCarBtn.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="carColorComboBox.Items10" xml:space="preserve">
-    <value>Оранжевый</value>
+  <data name="addPhotoBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
-  <data name="&gt;&gt;carYearLabel.ZOrder" xml:space="preserve">
-    <value>11</value>
+  <data name="addPhotoBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;carYearTextBox.Parent" xml:space="preserve">
+  <data name="addPhotoBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 787</value>
+  </data>
+  <data name="addPhotoBtn.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>311, 45</value>
+  </data>
+  <data name="addPhotoBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 45</value>
+  </data>
+  <data name="addPhotoBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="addPhotoBtn.Text" xml:space="preserve">
+    <value>Добавить фото</value>
+  </data>
+  <data name="&gt;&gt;addPhotoBtn.Name" xml:space="preserve">
+    <value>addPhotoBtn</value>
+  </data>
+  <data name="&gt;&gt;addPhotoBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;addPhotoBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addPhotoBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="carDescriptionRichTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="carDescriptionRichTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="carDescriptionRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 710</value>
+  </data>
+  <data name="carDescriptionRichTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>316, 57</value>
+  </data>
+  <data name="carDescriptionRichTextBox.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="carDescriptionRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 57</value>
+  </data>
+  <data name="carDescriptionRichTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="carDescriptionRichTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;carDescriptionRichTextBox.Name" xml:space="preserve">
+    <value>carDescriptionRichTextBox</value>
+  </data>
+  <data name="&gt;&gt;carDescriptionRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carDescriptionRichTextBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;carDescriptionRichTextBox.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="carFuelComboBox.Items4" xml:space="preserve">
-    <value>Водород</value>
-  </data>
-  <data name="&gt;&gt;carWheelLabel.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;carPriceLabel.Name" xml:space="preserve">
-    <value>carPriceLabel</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="carTrunkTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="carQtyPlacesTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 36</value>
-  </data>
-  <data name="addCarBtn.Text" xml:space="preserve">
-    <value>Добавить машину</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="carWheelComboBox.ItemHeight" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="carModelLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="carDescriptionLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;carEngineComboBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="carEnginePowerTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;carYearLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="carEngineComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="carDriveLabel.Text" xml:space="preserve">
-    <value>Привод</value>
-  </data>
-  <data name="&gt;&gt;carBrandLabel.Name" xml:space="preserve">
-    <value>carBrandLabel</value>
-  </data>
-  <data name="carTrunkLabel.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="carDescriptionLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 12pt</value>
   </data>
-  <data name="&gt;&gt;carBodyComboBox.Name" xml:space="preserve">
-    <value>carBodyComboBox</value>
-  </data>
-  <data name="&gt;&gt;carColorLabel.Name" xml:space="preserve">
-    <value>carColorLabel</value>
+  <data name="carDescriptionLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="carDescriptionLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>257, 927</value>
-  </data>
-  <data name="&gt;&gt;carBodyComboBox.ZOrder" xml:space="preserve">
-    <value>29</value>
-  </data>
-  <data name="carBodyComboBox.Items7" xml:space="preserve">
-    <value>Минивэн</value>
-  </data>
-  <data name="carPriceTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>608, 847</value>
-  </data>
-  <data name="carBrandLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 19</value>
-  </data>
-  <data name="addCarBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;preferencesLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="carPriceLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>45</value>
-  </data>
-  <data name="carFuelComboBox.Items1" xml:space="preserve">
-    <value>Дизельное топливо</value>
-  </data>
-  <data name="&gt;&gt;carMileageTextBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;carBodyLabel.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
-  <data name="carWheelComboBox.Items" xml:space="preserve">
-    <value>Левый</value>
-  </data>
-  <data name="&gt;&gt;carDescriptionLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="carColorComboBox.Items9" xml:space="preserve">
-    <value>Золотистый</value>
-  </data>
-  <data name="carDriveComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="carYearLabel.Text" xml:space="preserve">
-    <value>Год</value>
-  </data>
-  <data name="carTransmissionComboBox.Items1" xml:space="preserve">
-    <value>Автоматическая</value>
-  </data>
-  <data name="carBodyLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="carDriveComboBox.Items" xml:space="preserve">
-    <value>Передний</value>
-  </data>
-  <data name="carFuelComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="carDescriptionRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>562, 261</value>
-  </data>
-  <data name="carFuelLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="carBodyLabel.Text" xml:space="preserve">
-    <value>Тип кузова</value>
-  </data>
-  <data name="carTransmissionComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 36</value>
-  </data>
-  <data name="&gt;&gt;carDriveLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="carBodyComboBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="carFuelComboBox.Items2" xml:space="preserve">
-    <value>Электричество</value>
-  </data>
-  <data name="&gt;&gt;carPriceLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;carColorComboBox.Name" xml:space="preserve">
-    <value>carColorComboBox</value>
-  </data>
-  <data name="carTrunkLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>35</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>AddCarForm</value>
-  </data>
-  <data name="carColorComboBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="&gt;&gt;carDriveLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="carMileageLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="&gt;&gt;carModelLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;addPhotoBtn.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;carFuelComboBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;carTrunkLabel.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="carColorComboBox.Items1" xml:space="preserve">
-    <value>Белый</value>
-  </data>
-  <data name="carModelLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="carBodyComboBox.ItemHeight" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="carPriceTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="carEnginePowerTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="&gt;&gt;carEngineComboBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="carYearTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="addCarBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>392, 1316</value>
-  </data>
-  <data name="addCarBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>50</value>
-  </data>
-  <data name="carColorLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="carDriveLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 19</value>
-  </data>
-  <data name="carWheelLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>604, 425</value>
-  </data>
-  <data name="&gt;&gt;carWheelLabel.Name" xml:space="preserve">
-    <value>carWheelLabel</value>
-  </data>
-  <data name="carDriveLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>604, 326</value>
-  </data>
-  <data name="&gt;&gt;carFuelLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="carYearLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>39</value>
-  </data>
-  <data name="&gt;&gt;carEngineLabel.ZOrder" xml:space="preserve">
-    <value>26</value>
-  </data>
-  <data name="carFuelComboBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="carModelComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>608, 145</value>
-  </data>
-  <data name="&gt;&gt;carTrunkTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="carBrandComboBox.ItemHeight" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="carDescriptionRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 949</value>
-  </data>
-  <data name="&gt;&gt;carDriveLabel.Name" xml:space="preserve">
-    <value>carDriveLabel</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="carPriceLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>604, 812</value>
-  </data>
-  <data name="&gt;&gt;addPhotoBtn.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="carWheelComboBox.Items1" xml:space="preserve">
-    <value>Правый</value>
-  </data>
-  <data name="&gt;&gt;carDriveComboBox.Name" xml:space="preserve">
-    <value>carDriveComboBox</value>
-  </data>
-  <data name="&gt;&gt;carBodyComboBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="carWheelLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;carFuelLabel.Name" xml:space="preserve">
-    <value>carFuelLabel</value>
-  </data>
-  <data name="carColorComboBox.Items" xml:space="preserve">
-    <value>Черный</value>
-  </data>
-  <data name="carBrandLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="carBodyLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 19</value>
-  </data>
-  <data name="&gt;&gt;carEnginePowerLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="carWheelLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 19</value>
-  </data>
-  <data name="&gt;&gt;carDriveComboBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="addPhotoBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>392, 1246</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="carDriveComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>608, 348</value>
-  </data>
-  <data name="carColorComboBox.Items5" xml:space="preserve">
-    <value>Красный</value>
-  </data>
-  <data name="carModelLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="&gt;&gt;carWheelComboBox.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="carQtyPlacesLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="&gt;&gt;carModelLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;carQtyPlacesLabel.Name" xml:space="preserve">
-    <value>carQtyPlacesLabel</value>
-  </data>
-  <data name="carFuelLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 326</value>
-  </data>
-  <data name="carBodyComboBox.Items3" xml:space="preserve">
-    <value>Внедорожник</value>
-  </data>
-  <data name="&gt;&gt;carEnginePowerTextBox.Name" xml:space="preserve">
-    <value>carEnginePowerTextBox</value>
-  </data>
-  <data name="preferencesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>250, 61</value>
-  </data>
-  <data name="&gt;&gt;carColorComboBox.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;carModelComboBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="carTransmissionLabel.Text" xml:space="preserve">
-    <value>КПП</value>
-  </data>
-  <data name="carWheelLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="carWheelLabel.Text" xml:space="preserve">
-    <value>Руль</value>
-  </data>
-  <data name="carDescriptionRichTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>48</value>
-  </data>
-  <data name="carColorComboBox.Items7" xml:space="preserve">
-    <value>Коричневый</value>
-  </data>
-  <data name="&gt;&gt;carTrunkTextBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="carPriceLabel.Text" xml:space="preserve">
-    <value>Стоимость, руб.</value>
-  </data>
-  <data name="carQtyPlacesLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="carBrandLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="carBodyComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;carQtyPlacesTextBox.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;carYearLabel.Name" xml:space="preserve">
-    <value>carYearLabel</value>
-  </data>
-  <data name="addPhotoBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;carTrunkLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;carBodyLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;carWheelComboBox.Name" xml:space="preserve">
-    <value>carWheelComboBox</value>
-  </data>
-  <data name="&gt;&gt;carDescriptionRichTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="carDescriptionLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>47</value>
-  </data>
-  <data name="&gt;&gt;carMileageLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="carMileageLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="carEnginePowerLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>604, 613</value>
-  </data>
-  <data name="carBodyLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="carTransmissionComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 447</value>
-  </data>
-  <data name="&gt;&gt;carYearTextBox.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="carTransmissionComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="carColorLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
-  </data>
-  <data name="carFuelComboBox.Items3" xml:space="preserve">
-    <value>Гибридное топливо</value>
-  </data>
-  <data name="carEnginePowerLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;carTrunkLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="carWheelComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>608, 447</value>
-  </data>
-  <data name="carEnginePowerTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 36</value>
-  </data>
-  <data name="&gt;&gt;carEnginePowerTextBox.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="carMileageTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 847</value>
-  </data>
-  <data name="&gt;&gt;carEngineComboBox.Name" xml:space="preserve">
-    <value>carEngineComboBox</value>
-  </data>
-  <data name="carPriceTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;carQtyPlacesTextBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="carFuelLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="&gt;&gt;preferencesLabel.Name" xml:space="preserve">
-    <value>preferencesLabel</value>
-  </data>
-  <data name="carFuelComboBox.ItemHeight" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="carTransmissionComboBox.Items" xml:space="preserve">
-    <value>Механическая</value>
-  </data>
-  <data name="carBrandLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;carDriveLabel.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="carEngineComboBox.Items4" xml:space="preserve">
-    <value>Водородный</value>
-  </data>
-  <data name="&gt;&gt;carModelComboBox.Name" xml:space="preserve">
-    <value>carModelComboBox</value>
-  </data>
-  <data name="carDriveLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="carColorComboBox.Items3" xml:space="preserve">
-    <value>Серый</value>
-  </data>
-  <data name="&gt;&gt;addCarBtn.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="carBrandComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 145</value>
-  </data>
-  <data name="&gt;&gt;carPriceTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;preferencesLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="carEngineLabel.Text" xml:space="preserve">
-    <value>Тип двигателя</value>
-  </data>
-  <data name="&gt;&gt;carMileageLabel.Name" xml:space="preserve">
-    <value>carMileageLabel</value>
-  </data>
-  <data name="&gt;&gt;carColorComboBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="carColorComboBox.Items6" xml:space="preserve">
-    <value>Зеленый</value>
-  </data>
-  <data name="&gt;&gt;carPriceTextBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;carMileageLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;carQtyPlacesTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;carWheelLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="carMileageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 19</value>
-  </data>
-  <data name="carColorLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="&gt;&gt;carYearTextBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="carDriveLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="&gt;&gt;carEnginePowerLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="carPriceLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 19</value>
-  </data>
-  <data name="carBodyComboBox.Items2" xml:space="preserve">
-    <value>Универсал</value>
-  </data>
-  <data name="&gt;&gt;carDescriptionRichTextBox.Name" xml:space="preserve">
-    <value>carDescriptionRichTextBox</value>
-  </data>
-  <data name="carYearLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="carEnginePowerLabel.Text" xml:space="preserve">
-    <value>Мощность двигателя, л.с</value>
-  </data>
-  <data name="carTransmissionLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 425</value>
-  </data>
-  <data name="carModelComboBox.ItemHeight" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="carMileageLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="&gt;&gt;carBrandLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="carMileageLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 812</value>
-  </data>
-  <data name="carModelLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 19</value>
-  </data>
-  <data name="carDriveComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 36</value>
-  </data>
-  <data name="&gt;&gt;carEngineLabel.Name" xml:space="preserve">
-    <value>carEngineLabel</value>
-  </data>
-  <data name="carFuelComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 36</value>
-  </data>
-  <data name="&gt;&gt;carBodyComboBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="carModelLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>604, 123</value>
-  </data>
-  <data name="&gt;&gt;carEnginePowerTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;carModelLabel.ZOrder" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="addPhotoBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>311, 45</value>
-  </data>
-  <data name="&gt;&gt;carTransmissionLabel.Name" xml:space="preserve">
-    <value>carTransmissionLabel</value>
-  </data>
-  <data name="carQtyPlacesLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 19</value>
-  </data>
-  <data name="&gt;&gt;carPriceLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="carBodyComboBox.Items4" xml:space="preserve">
-    <value>Кроссовер</value>
-  </data>
-  <data name="carColorLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 524</value>
-  </data>
-  <data name="carDescriptionRichTextBox.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;carMileageTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;carTrunkTextBox.Name" xml:space="preserve">
-    <value>carTrunkTextBox</value>
-  </data>
-  <data name="&gt;&gt;carMileageTextBox.Name" xml:space="preserve">
-    <value>carMileageTextBox</value>
-  </data>
-  <data name="&gt;&gt;carEngineComboBox.ZOrder" xml:space="preserve">
-    <value>27</value>
-  </data>
-  <data name="carEngineLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="carColorComboBox.Items8" xml:space="preserve">
-    <value>Бежевый</value>
-  </data>
-  <data name="carTrunkLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 613</value>
-  </data>
-  <data name="carColorComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
-  </data>
-  <data name="carYearTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>40</value>
-  </data>
-  <data name="&gt;&gt;carDescriptionLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;carEngineLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="carMileageTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 36</value>
-  </data>
-  <data name="carColorComboBox.Items4" xml:space="preserve">
-    <value>Синий</value>
-  </data>
-  <data name="carFuelLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 19</value>
-  </data>
-  <data name="carTrunkLabel.Text" xml:space="preserve">
-    <value>Вместимость багажника, л</value>
-  </data>
-  <data name="carBrandComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="carDriveComboBox.ItemHeight" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="carMileageTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="carTrunkLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 19</value>
-  </data>
-  <data name="carColorComboBox.Items2" xml:space="preserve">
-    <value>Серебристый</value>
-  </data>
-  <data name="carYearLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;carModelComboBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;carFuelComboBox.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="carWheelComboBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="carTrunkTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="carEngineComboBox.Items1" xml:space="preserve">
-    <value>Дизельный</value>
-  </data>
-  <data name="preferencesLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="carModelLabel.Text" xml:space="preserve">
-    <value>Модель авто</value>
-  </data>
-  <data name="&gt;&gt;carQtyPlacesTextBox.Name" xml:space="preserve">
-    <value>carQtyPlacesTextBox</value>
-  </data>
-  <data name="&gt;&gt;carDescriptionLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="addCarBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>311, 45</value>
+    <value>83, 688</value>
   </data>
   <data name="carDescriptionLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 19</value>
   </data>
-  <data name="carEnginePowerLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
+  <data name="carDescriptionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
   </data>
-  <data name="carBodyComboBox.Items" xml:space="preserve">
-    <value>Седан</value>
+  <data name="carDescriptionLabel.Text" xml:space="preserve">
+    <value>Описание</value>
   </data>
-  <data name="addPhotoBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>49</value>
+  <data name="&gt;&gt;carDescriptionLabel.Name" xml:space="preserve">
+    <value>carDescriptionLabel</value>
   </data>
-  <data name="carWheelComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 36</value>
+  <data name="&gt;&gt;carDescriptionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="carEngineComboBox.Items2" xml:space="preserve">
-    <value>Гибридный</value>
+  <data name="&gt;&gt;carDescriptionLabel.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="carQtyPlacesTextBox.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="&gt;&gt;carDescriptionLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="carPriceTextBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt</value>
   </data>
-  <data name="carModelComboBox.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="carPriceTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 633</value>
+  </data>
+  <data name="carPriceTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="carPriceTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 36</value>
   </data>
-  <data name="&gt;&gt;carTransmissionComboBox.ZOrder" xml:space="preserve">
-    <value>21</value>
+  <data name="carPriceTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
   </data>
-  <data name="&gt;&gt;carQtyPlacesLabel.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;carPriceTextBox.Name" xml:space="preserve">
+    <value>carPriceTextBox</value>
   </data>
-  <data name="&gt;&gt;carColorLabel.ZOrder" xml:space="preserve">
-    <value>16</value>
+  <data name="&gt;&gt;carPriceTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
-  <data name="&gt;&gt;carBodyLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;carPriceTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="carEngineLabel.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="&gt;&gt;carPriceTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="carPriceLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carPriceLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 12pt</value>
   </data>
-  <data name="carPriceTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>46</value>
+  <data name="carPriceLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;carBrandLabel.ZOrder" xml:space="preserve">
-    <value>32</value>
+  <data name="carPriceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 598</value>
   </data>
-  <data name="&gt;&gt;carColorLabel.Type" xml:space="preserve">
+  <data name="carPriceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 19</value>
+  </data>
+  <data name="carPriceLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="carPriceLabel.Text" xml:space="preserve">
+    <value>Стоимость, руб.</value>
+  </data>
+  <data name="&gt;&gt;carPriceLabel.Name" xml:space="preserve">
+    <value>carPriceLabel</value>
+  </data>
+  <data name="&gt;&gt;carPriceLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="carEnginePowerLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
+  <data name="&gt;&gt;carPriceLabel.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;carWheelLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;carPriceLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="carEngineComboBox.Items3" xml:space="preserve">
-    <value>Электрический</value>
+  <data name="carMileageTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>AddCarForm</value>
+  <data name="carMileageTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 633</value>
   </data>
-  <data name="preferencesLabel.Text" xml:space="preserve">
-    <value>Добавить авто</value>
+  <data name="carMileageTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
-  <data name="&gt;&gt;carModelComboBox.ZOrder" xml:space="preserve">
-    <value>31</value>
+  <data name="carMileageTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 36</value>
   </data>
-  <data name="&gt;&gt;carFuelLabel.Parent" xml:space="preserve">
+  <data name="carMileageTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="&gt;&gt;carMileageTextBox.Name" xml:space="preserve">
+    <value>carMileageTextBox</value>
+  </data>
+  <data name="&gt;&gt;carMileageTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;carMileageTextBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;carMileageTextBox.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;addPhotoBtn.Name" xml:space="preserve">
-    <value>addPhotoBtn</value>
+  <data name="carMileageLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="addPhotoBtn.Text" xml:space="preserve">
-    <value>Добавить фото</value>
+  <data name="carMileageLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="carMileageLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carMileageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 598</value>
+  </data>
+  <data name="carMileageLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 19</value>
+  </data>
+  <data name="carMileageLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="carMileageLabel.Text" xml:space="preserve">
+    <value>Пробег, км</value>
+  </data>
+  <data name="&gt;&gt;carMileageLabel.Name" xml:space="preserve">
+    <value>carMileageLabel</value>
+  </data>
+  <data name="&gt;&gt;carMileageLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carMileageLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carMileageLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="carQtyPlacesTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="carQtyPlacesTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 543</value>
   </data>
   <data name="carQtyPlacesTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="carBodyComboBox.Items5" xml:space="preserve">
-    <value>Купе</value>
+  <data name="carQtyPlacesTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 36</value>
   </data>
-  <data name="&gt;&gt;carPriceTextBox.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="carQtyPlacesTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="&gt;&gt;carQtyPlacesTextBox.Name" xml:space="preserve">
+    <value>carQtyPlacesTextBox</value>
+  </data>
+  <data name="&gt;&gt;carQtyPlacesTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;carQtyPlacesTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carQtyPlacesTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="carQtyPlacesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carQtyPlacesLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="carQtyPlacesLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carQtyPlacesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 508</value>
+  </data>
+  <data name="carQtyPlacesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 19</value>
+  </data>
+  <data name="carQtyPlacesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="carQtyPlacesLabel.Text" xml:space="preserve">
+    <value>Количество мест</value>
+  </data>
+  <data name="&gt;&gt;carQtyPlacesLabel.Name" xml:space="preserve">
+    <value>carQtyPlacesLabel</value>
+  </data>
+  <data name="&gt;&gt;carQtyPlacesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carQtyPlacesLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carQtyPlacesLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="carYearTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="carYearTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 543</value>
+  </data>
+  <data name="carYearTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="carYearTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 36</value>
+  </data>
+  <data name="carYearTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;carYearTextBox.Name" xml:space="preserve">
+    <value>carYearTextBox</value>
+  </data>
+  <data name="&gt;&gt;carYearTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;carYearTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carYearTextBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="carYearLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carYearLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="carYearLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carYearLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 508</value>
+  </data>
+  <data name="carYearLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 19</value>
+  </data>
+  <data name="carYearLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="carYearLabel.Text" xml:space="preserve">
+    <value>Год</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel.Name" xml:space="preserve">
+    <value>carYearLabel</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;carYearLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carYearLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="carEnginePowerTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="carEnginePowerTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 457</value>
+  </data>
+  <data name="carEnginePowerTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="carEnginePowerTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 36</value>
+  </data>
+  <data name="carEnginePowerTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;carEnginePowerTextBox.Name" xml:space="preserve">
+    <value>carEnginePowerTextBox</value>
+  </data>
+  <data name="&gt;&gt;carEnginePowerTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;carEnginePowerTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carEnginePowerTextBox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="carEnginePowerLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carEnginePowerLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="carEnginePowerLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carEnginePowerLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 422</value>
+  </data>
+  <data name="carEnginePowerLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 19</value>
+  </data>
+  <data name="carEnginePowerLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="carEnginePowerLabel.Text" xml:space="preserve">
+    <value>Мощность двигателя, л.с</value>
+  </data>
+  <data name="&gt;&gt;carEnginePowerLabel.Name" xml:space="preserve">
+    <value>carEnginePowerLabel</value>
+  </data>
+  <data name="&gt;&gt;carEnginePowerLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carEnginePowerLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carEnginePowerLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="carTrunkTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="carTrunkTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 457</value>
+  </data>
+  <data name="carTrunkTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="carTrunkTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 36</value>
+  </data>
+  <data name="carTrunkTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;carTrunkTextBox.Name" xml:space="preserve">
+    <value>carTrunkTextBox</value>
+  </data>
+  <data name="&gt;&gt;carTrunkTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;carTrunkTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carTrunkTextBox.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="carTrunkLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carTrunkLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="carTrunkLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carTrunkLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 422</value>
+  </data>
+  <data name="carTrunkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 19</value>
+  </data>
+  <data name="carTrunkLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="carTrunkLabel.Text" xml:space="preserve">
+    <value>Вместимость багажника, л</value>
+  </data>
+  <data name="&gt;&gt;carTrunkLabel.Name" xml:space="preserve">
+    <value>carTrunkLabel</value>
+  </data>
+  <data name="&gt;&gt;carTrunkLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carTrunkLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carTrunkLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="carColorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carColorLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="carColorLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carColorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 343</value>
+  </data>
+  <data name="carColorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 19</value>
+  </data>
+  <data name="carColorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="carColorLabel.Text" xml:space="preserve">
+    <value>Цвет</value>
+  </data>
+  <data name="&gt;&gt;carColorLabel.Name" xml:space="preserve">
+    <value>carColorLabel</value>
+  </data>
+  <data name="&gt;&gt;carColorLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carColorLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carColorLabel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="carColorComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="carColorComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="carColorComboBox.Items" xml:space="preserve">
+    <value>Черный</value>
+  </data>
+  <data name="carColorComboBox.Items1" xml:space="preserve">
+    <value>Белый</value>
+  </data>
+  <data name="carColorComboBox.Items2" xml:space="preserve">
+    <value>Серебристый</value>
+  </data>
+  <data name="carColorComboBox.Items3" xml:space="preserve">
+    <value>Серый</value>
+  </data>
+  <data name="carColorComboBox.Items4" xml:space="preserve">
+    <value>Синий</value>
+  </data>
+  <data name="carColorComboBox.Items5" xml:space="preserve">
+    <value>Красный</value>
+  </data>
+  <data name="carColorComboBox.Items6" xml:space="preserve">
+    <value>Зеленый</value>
+  </data>
+  <data name="carColorComboBox.Items7" xml:space="preserve">
+    <value>Коричневый</value>
+  </data>
+  <data name="carColorComboBox.Items8" xml:space="preserve">
+    <value>Бежевый</value>
+  </data>
+  <data name="carColorComboBox.Items9" xml:space="preserve">
+    <value>Золотистый</value>
+  </data>
+  <data name="carColorComboBox.Items10" xml:space="preserve">
+    <value>Оранжевый</value>
+  </data>
+  <data name="carColorComboBox.Items11" xml:space="preserve">
+    <value>Желтый</value>
+  </data>
+  <data name="carColorComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 365</value>
+  </data>
+  <data name="carColorComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 36</value>
+  </data>
+  <data name="carColorComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;carColorComboBox.Name" xml:space="preserve">
+    <value>carColorComboBox</value>
+  </data>
+  <data name="&gt;&gt;carColorComboBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;carColorComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carColorComboBox.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="carWheelLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carWheelLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="carWheelLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carWheelLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 270</value>
+  </data>
+  <data name="carWheelLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 19</value>
+  </data>
+  <data name="carWheelLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="carWheelLabel.Text" xml:space="preserve">
+    <value>Руль</value>
+  </data>
+  <data name="&gt;&gt;carWheelLabel.Name" xml:space="preserve">
+    <value>carWheelLabel</value>
+  </data>
+  <data name="&gt;&gt;carWheelLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carWheelLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carWheelLabel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="carWheelComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="carWheelComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="carWheelComboBox.Items" xml:space="preserve">
+    <value>Левый</value>
+  </data>
+  <data name="carWheelComboBox.Items1" xml:space="preserve">
+    <value>Правый</value>
+  </data>
+  <data name="carWheelComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 292</value>
+  </data>
+  <data name="carWheelComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 36</value>
+  </data>
+  <data name="carWheelComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;carWheelComboBox.Name" xml:space="preserve">
+    <value>carWheelComboBox</value>
+  </data>
+  <data name="&gt;&gt;carWheelComboBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;carWheelComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carWheelComboBox.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="carTransmissionLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carTransmissionLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="carTransmissionLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carTransmissionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 270</value>
+  </data>
+  <data name="carTransmissionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 19</value>
+  </data>
+  <data name="carTransmissionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="carTransmissionLabel.Text" xml:space="preserve">
+    <value>КПП</value>
+  </data>
+  <data name="&gt;&gt;carTransmissionLabel.Name" xml:space="preserve">
+    <value>carTransmissionLabel</value>
+  </data>
+  <data name="&gt;&gt;carTransmissionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carTransmissionLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carTransmissionLabel.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="carTransmissionComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="carTransmissionComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="carTransmissionComboBox.Items" xml:space="preserve">
+    <value>Механическая</value>
+  </data>
+  <data name="carTransmissionComboBox.Items1" xml:space="preserve">
+    <value>Автоматическая</value>
+  </data>
+  <data name="carTransmissionComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 292</value>
+  </data>
+  <data name="carTransmissionComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 36</value>
+  </data>
+  <data name="carTransmissionComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;carTransmissionComboBox.Name" xml:space="preserve">
+    <value>carTransmissionComboBox</value>
+  </data>
+  <data name="&gt;&gt;carTransmissionComboBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;carTransmissionComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carTransmissionComboBox.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="carDriveLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carDriveLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="carDriveLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carDriveLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 194</value>
+  </data>
+  <data name="carDriveLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 19</value>
+  </data>
+  <data name="carDriveLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="carDriveLabel.Text" xml:space="preserve">
+    <value>Привод</value>
+  </data>
+  <data name="&gt;&gt;carDriveLabel.Name" xml:space="preserve">
+    <value>carDriveLabel</value>
+  </data>
+  <data name="&gt;&gt;carDriveLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carDriveLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carDriveLabel.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="carDriveComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="carDriveComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="carDriveComboBox.Items" xml:space="preserve">
+    <value>Передний</value>
+  </data>
+  <data name="carDriveComboBox.Items1" xml:space="preserve">
+    <value>Задний</value>
+  </data>
+  <data name="carDriveComboBox.Items2" xml:space="preserve">
+    <value>Полный</value>
+  </data>
+  <data name="carDriveComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 216</value>
+  </data>
+  <data name="carDriveComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 36</value>
+  </data>
+  <data name="carDriveComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;carDriveComboBox.Name" xml:space="preserve">
+    <value>carDriveComboBox</value>
+  </data>
+  <data name="&gt;&gt;carDriveComboBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;carDriveComboBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;carDriveComboBox.ZOrder" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="carTrunkTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 648</value>
-  </data>
-  <data name="carBrandLabel.Text" xml:space="preserve">
-    <value>Марка авто</value>
-  </data>
-  <data name="carPriceTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 36</value>
-  </data>
-  <data name="carYearTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="carEngineComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 36</value>
-  </data>
-  <data name="carBodyLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="carFuelLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="carDescriptionRichTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="carColorComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 546</value>
-  </data>
-  <data name="carEngineComboBox.ItemHeight" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;preferencesLabel.ZOrder" xml:space="preserve">
-    <value>34</value>
-  </data>
-  <data name="carMileageTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>44</value>
-  </data>
-  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="carEnginePowerLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 19</value>
-  </data>
-  <data name="carEnginePowerTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>608, 648</value>
-  </data>
-  <data name="carEngineComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>608, 247</value>
-  </data>
-  <data name="carModelComboBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="carTransmissionLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;carColorComboBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="carQtyPlacesLabel.Text" xml:space="preserve">
-    <value>Количество мест</value>
-  </data>
-  <data name="carEngineComboBox.Items" xml:space="preserve">
-    <value>Бензиновый</value>
-  </data>
-  <data name="carBodyComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 36</value>
-  </data>
-  <data name="carBodyComboBox.Items6" xml:space="preserve">
-    <value>Пикап</value>
-  </data>
-  <data name="&gt;&gt;addCarBtn.Name" xml:space="preserve">
-    <value>addCarBtn</value>
-  </data>
-  <data name="carMileageLabel.Text" xml:space="preserve">
-    <value>Пробег, км</value>
-  </data>
-  <data name="&gt;&gt;carFuelComboBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;carTransmissionComboBox.Name" xml:space="preserve">
-    <value>carTransmissionComboBox</value>
-  </data>
-  <data name="carFuelComboBox.Items" xml:space="preserve">
-    <value>Бензин</value>
-  </data>
-  <data name="&gt;&gt;carTransmissionLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="carColorLabel.Text" xml:space="preserve">
-    <value>Цвет</value>
-  </data>
-  <data name="carTransmissionComboBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="carColorComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 36</value>
-  </data>
-  <data name="carYearLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 713</value>
-  </data>
-  <data name="&gt;&gt;carColorLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="carPriceLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="carDriveComboBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="&gt;&gt;carBrandComboBox.ZOrder" xml:space="preserve">
-    <value>33</value>
-  </data>
-  <data name="carMileageTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
   </data>
   <data name="carFuelLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 12pt</value>
   </data>
-  <data name="carColorLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 19</value>
+  <data name="carFuelLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="carBrandComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 36</value>
+  <data name="carFuelLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 194</value>
   </data>
-  <data name="carDescriptionRichTextBox.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
-    <value>Vertical</value>
+  <data name="carFuelLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 19</value>
   </data>
-  <data name="&gt;&gt;carBrandLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;carModelLabel.Name" xml:space="preserve">
-    <value>carModelLabel</value>
-  </data>
-  <data name="carBrandComboBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="&gt;&gt;carBrandComboBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;carDriveComboBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="carTransmissionComboBox.ItemHeight" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="carModelComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;carFuelComboBox.Name" xml:space="preserve">
-    <value>carFuelComboBox</value>
-  </data>
-  <data name="carTransmissionLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="&gt;&gt;carQtyPlacesLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="carDriveComboBox.Items1" xml:space="preserve">
-    <value>Задний</value>
-  </data>
-  <data name="carBodyComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 247</value>
-  </data>
-  <data name="&gt;&gt;carYearTextBox.Name" xml:space="preserve">
-    <value>carYearTextBox</value>
-  </data>
-  <data name="&gt;&gt;carWheelComboBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="carWheelLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
-  </data>
-  <data name="carEngineLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;carEngineLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;carEnginePowerTextBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="carTrunkLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="carPriceLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="carTransmissionLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 19</value>
-  </data>
-  <data name="carFuelComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 348</value>
-  </data>
-  <data name="&gt;&gt;carMileageLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="carDescriptionLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>981, 1421</value>
-  </data>
-  <data name="carDriveLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="carEnginePowerTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="carQtyPlacesLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
-  </data>
-  <data name="carEngineComboBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="&gt;&gt;carEnginePowerLabel.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="preferencesLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 33</value>
-  </data>
-  <data name="carBodyLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 225</value>
-  </data>
-  <data name="carTrunkTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="&gt;&gt;carPriceLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>997, 1500</value>
-  </data>
-  <data name="&gt;&gt;carWheelComboBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="carWheelComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="carYearLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 19</value>
-  </data>
-  <data name="&gt;&gt;addCarBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;carEnginePowerLabel.Name" xml:space="preserve">
-    <value>carEnginePowerLabel</value>
-  </data>
-  <data name="carBodyComboBox.Items1" xml:space="preserve">
-    <value>Хэтчбек</value>
-  </data>
-  <data name="carQtyPlacesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>604, 713</value>
-  </data>
-  <data name="&gt;&gt;carFuelLabel.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;carTrunkTextBox.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="carQtyPlacesTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>42</value>
-  </data>
-  <data name="&gt;&gt;carTrunkLabel.Name" xml:space="preserve">
-    <value>carTrunkLabel</value>
-  </data>
-  <data name="&gt;&gt;addPhotoBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="carDescriptionLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="carTrunkTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 36</value>
-  </data>
-  <data name="carColorComboBox.ItemHeight" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="carYearTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 36</value>
-  </data>
-  <data name="&gt;&gt;carBrandComboBox.Name" xml:space="preserve">
-    <value>carBrandComboBox</value>
-  </data>
-  <data name="carBrandLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 123</value>
-  </data>
-  <data name="carYearTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 748</value>
-  </data>
-  <data name="carDescriptionLabel.Text" xml:space="preserve">
-    <value>Описание</value>
-  </data>
-  <data name="carDriveComboBox.Items2" xml:space="preserve">
-    <value>Полный</value>
-  </data>
-  <data name="&gt;&gt;carTransmissionLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;carBodyLabel.Name" xml:space="preserve">
-    <value>carBodyLabel</value>
-  </data>
-  <data name="carColorComboBox.Items11" xml:space="preserve">
-    <value>Желтый</value>
-  </data>
-  <data name="&gt;&gt;carBrandComboBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="carEngineLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>604, 225</value>
-  </data>
-  <data name="&gt;&gt;carTransmissionLabel.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;carDescriptionRichTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="carFuelLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
   </data>
   <data name="carFuelLabel.Text" xml:space="preserve">
     <value>Топливо</value>
   </data>
-  <data name="carTransmissionLabel.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;carFuelLabel.Name" xml:space="preserve">
+    <value>carFuelLabel</value>
+  </data>
+  <data name="&gt;&gt;carFuelLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carFuelLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carFuelLabel.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="carFuelComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="carFuelComboBox.ItemHeight" type="System.Int32, mscorlib">
     <value>30</value>
   </data>
-  <data name="preferencesLabel.AutoSize" type="System.Boolean, mscorlib">
+  <data name="carFuelComboBox.Items" xml:space="preserve">
+    <value>Бензин</value>
+  </data>
+  <data name="carFuelComboBox.Items1" xml:space="preserve">
+    <value>Дизельное топливо</value>
+  </data>
+  <data name="carFuelComboBox.Items2" xml:space="preserve">
+    <value>Электричество</value>
+  </data>
+  <data name="carFuelComboBox.Items3" xml:space="preserve">
+    <value>Гибридное топливо</value>
+  </data>
+  <data name="carFuelComboBox.Items4" xml:space="preserve">
+    <value>Водород</value>
+  </data>
+  <data name="carFuelComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 216</value>
+  </data>
+  <data name="carFuelComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 36</value>
+  </data>
+  <data name="carFuelComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;carFuelComboBox.Name" xml:space="preserve">
+    <value>carFuelComboBox</value>
+  </data>
+  <data name="&gt;&gt;carFuelComboBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;carFuelComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carFuelComboBox.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="carEngineLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="carQtyPlacesTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>608, 748</value>
+  <data name="carEngineLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
   </data>
-  <data name="&gt;&gt;carDescriptionLabel.Name" xml:space="preserve">
-    <value>carDescriptionLabel</value>
+  <data name="carEngineLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;carQtyPlacesLabel.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="carEngineLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 122</value>
   </data>
   <data name="carEngineLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>106, 19</value>
   </data>
+  <data name="carEngineLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="carEngineLabel.Text" xml:space="preserve">
+    <value>Тип двигателя</value>
+  </data>
+  <data name="&gt;&gt;carEngineLabel.Name" xml:space="preserve">
+    <value>carEngineLabel</value>
+  </data>
+  <data name="&gt;&gt;carEngineLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carEngineLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carEngineLabel.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="carEngineComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="carEngineComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="carEngineComboBox.Items" xml:space="preserve">
+    <value>Бензиновый</value>
+  </data>
+  <data name="carEngineComboBox.Items1" xml:space="preserve">
+    <value>Дизельный</value>
+  </data>
+  <data name="carEngineComboBox.Items2" xml:space="preserve">
+    <value>Гибридный</value>
+  </data>
+  <data name="carEngineComboBox.Items3" xml:space="preserve">
+    <value>Электрический</value>
+  </data>
+  <data name="carEngineComboBox.Items4" xml:space="preserve">
+    <value>Водородный</value>
+  </data>
+  <data name="carEngineComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 144</value>
+  </data>
+  <data name="carEngineComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 36</value>
+  </data>
+  <data name="carEngineComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;carEngineComboBox.Name" xml:space="preserve">
+    <value>carEngineComboBox</value>
+  </data>
+  <data name="&gt;&gt;carEngineComboBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;carEngineComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carEngineComboBox.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="carBodyLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carBodyLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="carBodyLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carBodyLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 122</value>
+  </data>
+  <data name="carBodyLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 19</value>
+  </data>
+  <data name="carBodyLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="carBodyLabel.Text" xml:space="preserve">
+    <value>Тип кузова</value>
+  </data>
+  <data name="&gt;&gt;carBodyLabel.Name" xml:space="preserve">
+    <value>carBodyLabel</value>
+  </data>
+  <data name="&gt;&gt;carBodyLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carBodyLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carBodyLabel.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="carBodyComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="carBodyComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="carBodyComboBox.Items" xml:space="preserve">
+    <value>Седан</value>
+  </data>
+  <data name="carBodyComboBox.Items1" xml:space="preserve">
+    <value>Хэтчбек</value>
+  </data>
+  <data name="carBodyComboBox.Items2" xml:space="preserve">
+    <value>Универсал</value>
+  </data>
+  <data name="carBodyComboBox.Items3" xml:space="preserve">
+    <value>Внедорожник</value>
+  </data>
+  <data name="carBodyComboBox.Items4" xml:space="preserve">
+    <value>Кроссовер</value>
+  </data>
+  <data name="carBodyComboBox.Items5" xml:space="preserve">
+    <value>Купе</value>
+  </data>
+  <data name="carBodyComboBox.Items6" xml:space="preserve">
+    <value>Пикап</value>
+  </data>
+  <data name="carBodyComboBox.Items7" xml:space="preserve">
+    <value>Минивэн</value>
+  </data>
+  <data name="carBodyComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 144</value>
+  </data>
+  <data name="carBodyComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 36</value>
+  </data>
+  <data name="carBodyComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;carBodyComboBox.Name" xml:space="preserve">
+    <value>carBodyComboBox</value>
+  </data>
+  <data name="&gt;&gt;carBodyComboBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;carBodyComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carBodyComboBox.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="carModelLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carModelLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="carModelLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carModelLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>435, 49</value>
+  </data>
+  <data name="carModelLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
+  </data>
+  <data name="carModelLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="carModelLabel.Text" xml:space="preserve">
+    <value>Модель авто</value>
+  </data>
+  <data name="&gt;&gt;carModelLabel.Name" xml:space="preserve">
+    <value>carModelLabel</value>
+  </data>
+  <data name="&gt;&gt;carModelLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carModelLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carModelLabel.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="carModelComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="carModelComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="carModelComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 71</value>
+  </data>
+  <data name="carModelComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 36</value>
+  </data>
+  <data name="carModelComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;carModelComboBox.Name" xml:space="preserve">
+    <value>carModelComboBox</value>
+  </data>
+  <data name="&gt;&gt;carModelComboBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;carModelComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carModelComboBox.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="carBrandLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="carBrandLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="carBrandLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="carBrandLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 49</value>
+  </data>
+  <data name="carBrandLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 19</value>
+  </data>
+  <data name="carBrandLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="carBrandLabel.Text" xml:space="preserve">
+    <value>Марка авто</value>
+  </data>
+  <data name="&gt;&gt;carBrandLabel.Name" xml:space="preserve">
+    <value>carBrandLabel</value>
+  </data>
+  <data name="&gt;&gt;carBrandLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;carBrandLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carBrandLabel.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="carBrandComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="carBrandComboBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="carBrandComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 71</value>
+  </data>
+  <data name="carBrandComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 36</value>
+  </data>
+  <data name="carBrandComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;carBrandComboBox.Name" xml:space="preserve">
+    <value>carBrandComboBox</value>
+  </data>
+  <data name="&gt;&gt;carBrandComboBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;carBrandComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;carBrandComboBox.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="preferencesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="preferencesLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 20.25pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;carTransmissionComboBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  <data name="preferencesLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;carPriceTextBox.Name" xml:space="preserve">
-    <value>carPriceTextBox</value>
+  <data name="preferencesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 0</value>
+  </data>
+  <data name="preferencesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 33</value>
+  </data>
+  <data name="preferencesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="preferencesLabel.Text" xml:space="preserve">
+    <value>Добавить авто</value>
+  </data>
+  <data name="&gt;&gt;preferencesLabel.Name" xml:space="preserve">
+    <value>preferencesLabel</value>
+  </data>
+  <data name="&gt;&gt;preferencesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;preferencesLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;preferencesLabel.ZOrder" xml:space="preserve">
+    <value>34</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>870, 985</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>AddCarForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AddCarForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

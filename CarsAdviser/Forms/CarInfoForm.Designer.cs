@@ -163,7 +163,6 @@ namespace CarsAdviser.Forms
             // 
             // characteristicsBtn
             // 
-            resources.ApplyResources(this.characteristicsBtn, "characteristicsBtn");
             this.characteristicsBtn.Animated = true;
             this.characteristicsBtn.BackColor = System.Drawing.Color.Transparent;
             this.characteristicsBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -171,6 +170,7 @@ namespace CarsAdviser.Forms
             this.characteristicsBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.characteristicsBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.characteristicsBtn.FillColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.characteristicsBtn, "characteristicsBtn");
             this.characteristicsBtn.ForeColor = System.Drawing.Color.Black;
             this.characteristicsBtn.Name = "characteristicsBtn";
             this.characteristicsBtn.UseTransparentBackground = true;
@@ -178,7 +178,6 @@ namespace CarsAdviser.Forms
             // 
             // descriptionBtn
             // 
-            resources.ApplyResources(this.descriptionBtn, "descriptionBtn");
             this.descriptionBtn.Animated = true;
             this.descriptionBtn.BackColor = System.Drawing.Color.Transparent;
             this.descriptionBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -186,6 +185,7 @@ namespace CarsAdviser.Forms
             this.descriptionBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.descriptionBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.descriptionBtn.FillColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.descriptionBtn, "descriptionBtn");
             this.descriptionBtn.ForeColor = System.Drawing.Color.Black;
             this.descriptionBtn.Name = "descriptionBtn";
             this.descriptionBtn.UseTransparentBackground = true;
@@ -258,7 +258,6 @@ namespace CarsAdviser.Forms
             // 
             // toBookmarksBtn
             // 
-            resources.ApplyResources(this.toBookmarksBtn, "toBookmarksBtn");
             this.toBookmarksBtn.Animated = true;
             this.toBookmarksBtn.BorderRadius = 7;
             this.toBookmarksBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -266,13 +265,13 @@ namespace CarsAdviser.Forms
             this.toBookmarksBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.toBookmarksBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.toBookmarksBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            resources.ApplyResources(this.toBookmarksBtn, "toBookmarksBtn");
             this.toBookmarksBtn.ForeColor = System.Drawing.Color.White;
             this.toBookmarksBtn.Name = "toBookmarksBtn";
             this.toBookmarksBtn.Click += new System.EventHandler(this.toBookmarksBtn_Click);
             // 
             // hideBtn
             // 
-            resources.ApplyResources(this.hideBtn, "hideBtn");
             this.hideBtn.Animated = true;
             this.hideBtn.BorderRadius = 7;
             this.hideBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -280,45 +279,45 @@ namespace CarsAdviser.Forms
             this.hideBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.hideBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.hideBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            resources.ApplyResources(this.hideBtn, "hideBtn");
             this.hideBtn.ForeColor = System.Drawing.Color.White;
             this.hideBtn.Name = "hideBtn";
             this.hideBtn.Click += new System.EventHandler(this.hideBtn_Click);
             // 
             // carPictureBox4
             // 
-            resources.ApplyResources(this.carPictureBox4, "carPictureBox4");
             this.carPictureBox4.BorderRadius = 15;
             this.carPictureBox4.ImageRotate = 0F;
+            resources.ApplyResources(this.carPictureBox4, "carPictureBox4");
             this.carPictureBox4.Name = "carPictureBox4";
             this.carPictureBox4.TabStop = false;
             // 
             // carPictureBox3
             // 
-            resources.ApplyResources(this.carPictureBox3, "carPictureBox3");
             this.carPictureBox3.BorderRadius = 15;
             this.carPictureBox3.ImageRotate = 0F;
+            resources.ApplyResources(this.carPictureBox3, "carPictureBox3");
             this.carPictureBox3.Name = "carPictureBox3";
             this.carPictureBox3.TabStop = false;
             // 
             // carPictureBox2
             // 
-            resources.ApplyResources(this.carPictureBox2, "carPictureBox2");
             this.carPictureBox2.BorderRadius = 15;
             this.carPictureBox2.ImageRotate = 0F;
+            resources.ApplyResources(this.carPictureBox2, "carPictureBox2");
             this.carPictureBox2.Name = "carPictureBox2";
             this.carPictureBox2.TabStop = false;
             // 
             // carPictureBox1
             // 
-            resources.ApplyResources(this.carPictureBox1, "carPictureBox1");
             this.carPictureBox1.BorderRadius = 20;
             this.carPictureBox1.ImageRotate = 0F;
+            resources.ApplyResources(this.carPictureBox1, "carPictureBox1");
             this.carPictureBox1.Name = "carPictureBox1";
             this.carPictureBox1.TabStop = false;
             // 
             // saveMarkBtn
             // 
-            resources.ApplyResources(this.saveMarkBtn, "saveMarkBtn");
             this.saveMarkBtn.Animated = true;
             this.saveMarkBtn.BorderRadius = 7;
             this.saveMarkBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -326,6 +325,7 @@ namespace CarsAdviser.Forms
             this.saveMarkBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.saveMarkBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.saveMarkBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            resources.ApplyResources(this.saveMarkBtn, "saveMarkBtn");
             this.saveMarkBtn.ForeColor = System.Drawing.Color.White;
             this.saveMarkBtn.Name = "saveMarkBtn";
             this.saveMarkBtn.Click += new System.EventHandler(this.saveMarkBtn_Click);

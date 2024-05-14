@@ -60,14 +60,5 @@ namespace CarsAdviser
         {
             return Thread.CurrentThread.CurrentUICulture;
         }
-
-        private void MainForm_Resize(object sender, EventArgs e)
-        {
-            int newWidth = this.ClientSize.Width;
-            int newHeight = this.ClientSize.Height;
-
-            appLogoPictureBox.Size = new Size(newWidth / 15, newHeight / 11);
-
-        }
     }
 }

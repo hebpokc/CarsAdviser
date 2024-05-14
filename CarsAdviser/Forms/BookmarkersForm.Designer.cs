@@ -32,6 +32,7 @@ namespace CarsAdviser.Forms
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BookmarkersForm));
             this.bookmarkersLabel = new System.Windows.Forms.Label();
             this.notificationLabel = new System.Windows.Forms.Label();
+            this.heddenPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.carPanel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.hideBtn1 = new Guna.UI2.WinForms.Guna2Button();
             this.detailsBtn1 = new Guna.UI2.WinForms.Guna2Button();
@@ -100,23 +101,6 @@ namespace CarsAdviser.Forms
             this.mileageInfoLabel4 = new System.Windows.Forms.Label();
             this.mileageLabel4 = new System.Windows.Forms.Label();
             this.carPictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.carPanel5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.hideBtn5 = new Guna.UI2.WinForms.Guna2Button();
-            this.detailsBtn5 = new Guna.UI2.WinForms.Guna2Button();
-            this.carPriceInfoLabel5 = new System.Windows.Forms.Label();
-            this.carPriceLabel5 = new System.Windows.Forms.Label();
-            this.carDriveInfoLabel5 = new System.Windows.Forms.Label();
-            this.carDriveLabel5 = new System.Windows.Forms.Label();
-            this.carEngineInfoLabel5 = new System.Windows.Forms.Label();
-            this.carEngineLabel5 = new System.Windows.Forms.Label();
-            this.carFuelInfoLabel5 = new System.Windows.Forms.Label();
-            this.carYearLabel5 = new System.Windows.Forms.Label();
-            this.carFuelLabel5 = new System.Windows.Forms.Label();
-            this.carNameLabel5 = new System.Windows.Forms.Label();
-            this.carBrandPictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.mileageInfoLabel5 = new System.Windows.Forms.Label();
-            this.mileageLabel5 = new System.Windows.Forms.Label();
-            this.carPictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.carPanel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.hideBtn6 = new Guna.UI2.WinForms.Guna2Button();
             this.detailsBtn6 = new Guna.UI2.WinForms.Guna2Button();
@@ -134,6 +118,24 @@ namespace CarsAdviser.Forms
             this.mileageInfoLabel6 = new System.Windows.Forms.Label();
             this.mileageLabel6 = new System.Windows.Forms.Label();
             this.carPictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.carPanel5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.hideBtn5 = new Guna.UI2.WinForms.Guna2Button();
+            this.detailsBtn5 = new Guna.UI2.WinForms.Guna2Button();
+            this.carPriceInfoLabel5 = new System.Windows.Forms.Label();
+            this.carPriceLabel5 = new System.Windows.Forms.Label();
+            this.carDriveInfoLabel5 = new System.Windows.Forms.Label();
+            this.carDriveLabel5 = new System.Windows.Forms.Label();
+            this.carEngineInfoLabel5 = new System.Windows.Forms.Label();
+            this.carEngineLabel5 = new System.Windows.Forms.Label();
+            this.carFuelInfoLabel5 = new System.Windows.Forms.Label();
+            this.carYearLabel5 = new System.Windows.Forms.Label();
+            this.carFuelLabel5 = new System.Windows.Forms.Label();
+            this.carNameLabel5 = new System.Windows.Forms.Label();
+            this.carBrandPictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.mileageInfoLabel5 = new System.Windows.Forms.Label();
+            this.mileageLabel5 = new System.Windows.Forms.Label();
+            this.carPictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.heddenPanel.SuspendLayout();
             this.carPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox1)).BeginInit();
@@ -146,12 +148,12 @@ namespace CarsAdviser.Forms
             this.carPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox4)).BeginInit();
-            this.carPanel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.carPictureBox5)).BeginInit();
             this.carPanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox6)).BeginInit();
+            this.carPanel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.carPictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // bookmarkersLabel
@@ -166,6 +168,17 @@ namespace CarsAdviser.Forms
             this.notificationLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.notificationLabel.ForeColor = System.Drawing.Color.White;
             this.notificationLabel.Name = "notificationLabel";
+            // 
+            // heddenPanel
+            // 
+            resources.ApplyResources(this.heddenPanel, "heddenPanel");
+            this.heddenPanel.Controls.Add(this.carPanel1);
+            this.heddenPanel.Controls.Add(this.carPanel2);
+            this.heddenPanel.Controls.Add(this.carPanel3);
+            this.heddenPanel.Controls.Add(this.carPanel4);
+            this.heddenPanel.Controls.Add(this.carPanel6);
+            this.heddenPanel.Controls.Add(this.carPanel5);
+            this.heddenPanel.Name = "heddenPanel";
             // 
             // carPanel1
             // 
@@ -207,7 +220,6 @@ namespace CarsAdviser.Forms
             this.hideBtn1.ForeColor = System.Drawing.Color.Black;
             this.hideBtn1.Name = "hideBtn1";
             this.hideBtn1.Tag = "";
-            this.hideBtn1.Click += new System.EventHandler(this.hideBtn_Click);
             // 
             // detailsBtn1
             // 
@@ -221,7 +233,6 @@ namespace CarsAdviser.Forms
             this.detailsBtn1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.detailsBtn1.Name = "detailsBtn1";
             this.detailsBtn1.Tag = "";
-            this.detailsBtn1.Click += new System.EventHandler(this.detailsBtn_Click);
             // 
             // carPriceInfoLabel1
             // 
@@ -285,8 +296,8 @@ namespace CarsAdviser.Forms
             // 
             // carBrandPictureBox1
             // 
-            this.carBrandPictureBox1.ImageRotate = 0F;
             resources.ApplyResources(this.carBrandPictureBox1, "carBrandPictureBox1");
+            this.carBrandPictureBox1.ImageRotate = 0F;
             this.carBrandPictureBox1.Name = "carBrandPictureBox1";
             this.carBrandPictureBox1.TabStop = false;
             // 
@@ -308,8 +319,8 @@ namespace CarsAdviser.Forms
             this.carPictureBox1.BorderRadius = 30;
             this.carPictureBox1.CustomizableEdges.BottomLeft = false;
             this.carPictureBox1.CustomizableEdges.BottomRight = false;
-            this.carPictureBox1.ImageRotate = 0F;
             resources.ApplyResources(this.carPictureBox1, "carPictureBox1");
+            this.carPictureBox1.ImageRotate = 0F;
             this.carPictureBox1.Name = "carPictureBox1";
             this.carPictureBox1.TabStop = false;
             // 
@@ -353,7 +364,6 @@ namespace CarsAdviser.Forms
             this.hideBtn2.ForeColor = System.Drawing.Color.Black;
             this.hideBtn2.Name = "hideBtn2";
             this.hideBtn2.Tag = "";
-            this.hideBtn2.Click += new System.EventHandler(this.hideBtn_Click);
             // 
             // detailsBtn2
             // 
@@ -367,7 +377,6 @@ namespace CarsAdviser.Forms
             this.detailsBtn2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.detailsBtn2.Name = "detailsBtn2";
             this.detailsBtn2.Tag = "";
-            this.detailsBtn2.Click += new System.EventHandler(this.detailsBtn_Click);
             // 
             // carPriceInfoLabel2
             // 
@@ -431,8 +440,8 @@ namespace CarsAdviser.Forms
             // 
             // carBrandPictureBox2
             // 
-            this.carBrandPictureBox2.ImageRotate = 0F;
             resources.ApplyResources(this.carBrandPictureBox2, "carBrandPictureBox2");
+            this.carBrandPictureBox2.ImageRotate = 0F;
             this.carBrandPictureBox2.Name = "carBrandPictureBox2";
             this.carBrandPictureBox2.TabStop = false;
             // 
@@ -454,8 +463,8 @@ namespace CarsAdviser.Forms
             this.carPictureBox2.BorderRadius = 30;
             this.carPictureBox2.CustomizableEdges.BottomLeft = false;
             this.carPictureBox2.CustomizableEdges.BottomRight = false;
-            this.carPictureBox2.ImageRotate = 0F;
             resources.ApplyResources(this.carPictureBox2, "carPictureBox2");
+            this.carPictureBox2.ImageRotate = 0F;
             this.carPictureBox2.Name = "carPictureBox2";
             this.carPictureBox2.TabStop = false;
             // 
@@ -499,7 +508,6 @@ namespace CarsAdviser.Forms
             this.hideBtn3.ForeColor = System.Drawing.Color.Black;
             this.hideBtn3.Name = "hideBtn3";
             this.hideBtn3.Tag = "";
-            this.hideBtn3.Click += new System.EventHandler(this.hideBtn_Click);
             // 
             // detailsBtn3
             // 
@@ -513,7 +521,6 @@ namespace CarsAdviser.Forms
             this.detailsBtn3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.detailsBtn3.Name = "detailsBtn3";
             this.detailsBtn3.Tag = "";
-            this.detailsBtn3.Click += new System.EventHandler(this.detailsBtn_Click);
             // 
             // carPriceInfoLabel3
             // 
@@ -577,8 +584,8 @@ namespace CarsAdviser.Forms
             // 
             // carBrandPictureBox3
             // 
-            this.carBrandPictureBox3.ImageRotate = 0F;
             resources.ApplyResources(this.carBrandPictureBox3, "carBrandPictureBox3");
+            this.carBrandPictureBox3.ImageRotate = 0F;
             this.carBrandPictureBox3.Name = "carBrandPictureBox3";
             this.carBrandPictureBox3.TabStop = false;
             // 
@@ -600,8 +607,8 @@ namespace CarsAdviser.Forms
             this.carPictureBox3.BorderRadius = 30;
             this.carPictureBox3.CustomizableEdges.BottomLeft = false;
             this.carPictureBox3.CustomizableEdges.BottomRight = false;
-            this.carPictureBox3.ImageRotate = 0F;
             resources.ApplyResources(this.carPictureBox3, "carPictureBox3");
+            this.carPictureBox3.ImageRotate = 0F;
             this.carPictureBox3.Name = "carPictureBox3";
             this.carPictureBox3.TabStop = false;
             // 
@@ -645,7 +652,6 @@ namespace CarsAdviser.Forms
             this.hideBtn4.ForeColor = System.Drawing.Color.Black;
             this.hideBtn4.Name = "hideBtn4";
             this.hideBtn4.Tag = "";
-            this.hideBtn4.Click += new System.EventHandler(this.hideBtn_Click);
             // 
             // detailsBtn4
             // 
@@ -659,7 +665,6 @@ namespace CarsAdviser.Forms
             this.detailsBtn4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.detailsBtn4.Name = "detailsBtn4";
             this.detailsBtn4.Tag = "";
-            this.detailsBtn4.Click += new System.EventHandler(this.detailsBtn_Click);
             // 
             // carPriceInfoLabel4
             // 
@@ -723,8 +728,8 @@ namespace CarsAdviser.Forms
             // 
             // carBrandPictureBox4
             // 
-            this.carBrandPictureBox4.ImageRotate = 0F;
             resources.ApplyResources(this.carBrandPictureBox4, "carBrandPictureBox4");
+            this.carBrandPictureBox4.ImageRotate = 0F;
             this.carBrandPictureBox4.Name = "carBrandPictureBox4";
             this.carBrandPictureBox4.TabStop = false;
             // 
@@ -746,156 +751,10 @@ namespace CarsAdviser.Forms
             this.carPictureBox4.BorderRadius = 30;
             this.carPictureBox4.CustomizableEdges.BottomLeft = false;
             this.carPictureBox4.CustomizableEdges.BottomRight = false;
-            this.carPictureBox4.ImageRotate = 0F;
             resources.ApplyResources(this.carPictureBox4, "carPictureBox4");
+            this.carPictureBox4.ImageRotate = 0F;
             this.carPictureBox4.Name = "carPictureBox4";
             this.carPictureBox4.TabStop = false;
-            // 
-            // carPanel5
-            // 
-            this.carPanel5.BorderColor = System.Drawing.Color.Black;
-            this.carPanel5.BorderRadius = 30;
-            this.carPanel5.BorderThickness = 1;
-            this.carPanel5.Controls.Add(this.hideBtn5);
-            this.carPanel5.Controls.Add(this.detailsBtn5);
-            this.carPanel5.Controls.Add(this.carPriceInfoLabel5);
-            this.carPanel5.Controls.Add(this.carPriceLabel5);
-            this.carPanel5.Controls.Add(this.carDriveInfoLabel5);
-            this.carPanel5.Controls.Add(this.carDriveLabel5);
-            this.carPanel5.Controls.Add(this.carEngineInfoLabel5);
-            this.carPanel5.Controls.Add(this.carEngineLabel5);
-            this.carPanel5.Controls.Add(this.carFuelInfoLabel5);
-            this.carPanel5.Controls.Add(this.carYearLabel5);
-            this.carPanel5.Controls.Add(this.carFuelLabel5);
-            this.carPanel5.Controls.Add(this.carNameLabel5);
-            this.carPanel5.Controls.Add(this.carBrandPictureBox5);
-            this.carPanel5.Controls.Add(this.mileageInfoLabel5);
-            this.carPanel5.Controls.Add(this.mileageLabel5);
-            this.carPanel5.Controls.Add(this.carPictureBox5);
-            resources.ApplyResources(this.carPanel5, "carPanel5");
-            this.carPanel5.Name = "carPanel5";
-            // 
-            // hideBtn5
-            // 
-            this.hideBtn5.BorderRadius = 30;
-            this.hideBtn5.BorderThickness = 1;
-            this.hideBtn5.CustomizableEdges.BottomLeft = false;
-            this.hideBtn5.CustomizableEdges.BottomRight = false;
-            this.hideBtn5.CustomizableEdges.TopLeft = false;
-            this.hideBtn5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.hideBtn5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.hideBtn5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.hideBtn5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.hideBtn5.FillColor = System.Drawing.Color.Silver;
-            resources.ApplyResources(this.hideBtn5, "hideBtn5");
-            this.hideBtn5.ForeColor = System.Drawing.Color.Black;
-            this.hideBtn5.Name = "hideBtn5";
-            this.hideBtn5.Tag = "";
-            this.hideBtn5.Click += new System.EventHandler(this.hideBtn_Click);
-            // 
-            // detailsBtn5
-            // 
-            this.detailsBtn5.Animated = true;
-            this.detailsBtn5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.detailsBtn5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.detailsBtn5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.detailsBtn5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.detailsBtn5.FillColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.detailsBtn5, "detailsBtn5");
-            this.detailsBtn5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.detailsBtn5.Name = "detailsBtn5";
-            this.detailsBtn5.Tag = "";
-            this.detailsBtn5.Click += new System.EventHandler(this.detailsBtn_Click);
-            // 
-            // carPriceInfoLabel5
-            // 
-            resources.ApplyResources(this.carPriceInfoLabel5, "carPriceInfoLabel5");
-            this.carPriceInfoLabel5.ForeColor = System.Drawing.Color.Black;
-            this.carPriceInfoLabel5.Name = "carPriceInfoLabel5";
-            // 
-            // carPriceLabel5
-            // 
-            resources.ApplyResources(this.carPriceLabel5, "carPriceLabel5");
-            this.carPriceLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.carPriceLabel5.Name = "carPriceLabel5";
-            // 
-            // carDriveInfoLabel5
-            // 
-            resources.ApplyResources(this.carDriveInfoLabel5, "carDriveInfoLabel5");
-            this.carDriveInfoLabel5.ForeColor = System.Drawing.Color.Black;
-            this.carDriveInfoLabel5.Name = "carDriveInfoLabel5";
-            // 
-            // carDriveLabel5
-            // 
-            resources.ApplyResources(this.carDriveLabel5, "carDriveLabel5");
-            this.carDriveLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.carDriveLabel5.Name = "carDriveLabel5";
-            // 
-            // carEngineInfoLabel5
-            // 
-            resources.ApplyResources(this.carEngineInfoLabel5, "carEngineInfoLabel5");
-            this.carEngineInfoLabel5.ForeColor = System.Drawing.Color.Black;
-            this.carEngineInfoLabel5.Name = "carEngineInfoLabel5";
-            // 
-            // carEngineLabel5
-            // 
-            resources.ApplyResources(this.carEngineLabel5, "carEngineLabel5");
-            this.carEngineLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.carEngineLabel5.Name = "carEngineLabel5";
-            // 
-            // carFuelInfoLabel5
-            // 
-            resources.ApplyResources(this.carFuelInfoLabel5, "carFuelInfoLabel5");
-            this.carFuelInfoLabel5.ForeColor = System.Drawing.Color.Black;
-            this.carFuelInfoLabel5.Name = "carFuelInfoLabel5";
-            // 
-            // carYearLabel5
-            // 
-            resources.ApplyResources(this.carYearLabel5, "carYearLabel5");
-            this.carYearLabel5.ForeColor = System.Drawing.Color.Black;
-            this.carYearLabel5.Name = "carYearLabel5";
-            // 
-            // carFuelLabel5
-            // 
-            resources.ApplyResources(this.carFuelLabel5, "carFuelLabel5");
-            this.carFuelLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.carFuelLabel5.Name = "carFuelLabel5";
-            // 
-            // carNameLabel5
-            // 
-            resources.ApplyResources(this.carNameLabel5, "carNameLabel5");
-            this.carNameLabel5.ForeColor = System.Drawing.Color.Black;
-            this.carNameLabel5.Name = "carNameLabel5";
-            // 
-            // carBrandPictureBox5
-            // 
-            this.carBrandPictureBox5.ImageRotate = 0F;
-            resources.ApplyResources(this.carBrandPictureBox5, "carBrandPictureBox5");
-            this.carBrandPictureBox5.Name = "carBrandPictureBox5";
-            this.carBrandPictureBox5.TabStop = false;
-            // 
-            // mileageInfoLabel5
-            // 
-            resources.ApplyResources(this.mileageInfoLabel5, "mileageInfoLabel5");
-            this.mileageInfoLabel5.ForeColor = System.Drawing.Color.Black;
-            this.mileageInfoLabel5.Name = "mileageInfoLabel5";
-            // 
-            // mileageLabel5
-            // 
-            resources.ApplyResources(this.mileageLabel5, "mileageLabel5");
-            this.mileageLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.mileageLabel5.Name = "mileageLabel5";
-            // 
-            // carPictureBox5
-            // 
-            this.carPictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.carPictureBox5.BorderRadius = 30;
-            this.carPictureBox5.CustomizableEdges.BottomLeft = false;
-            this.carPictureBox5.CustomizableEdges.BottomRight = false;
-            this.carPictureBox5.ImageRotate = 0F;
-            resources.ApplyResources(this.carPictureBox5, "carPictureBox5");
-            this.carPictureBox5.Name = "carPictureBox5";
-            this.carPictureBox5.TabStop = false;
             // 
             // carPanel6
             // 
@@ -937,7 +796,6 @@ namespace CarsAdviser.Forms
             this.hideBtn6.ForeColor = System.Drawing.Color.Black;
             this.hideBtn6.Name = "hideBtn6";
             this.hideBtn6.Tag = "";
-            this.hideBtn6.Click += new System.EventHandler(this.hideBtn_Click);
             // 
             // detailsBtn6
             // 
@@ -951,7 +809,6 @@ namespace CarsAdviser.Forms
             this.detailsBtn6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.detailsBtn6.Name = "detailsBtn6";
             this.detailsBtn6.Tag = "";
-            this.detailsBtn6.Click += new System.EventHandler(this.detailsBtn_Click);
             // 
             // carPriceInfoLabel6
             // 
@@ -1015,8 +872,8 @@ namespace CarsAdviser.Forms
             // 
             // carBrandPictureBox6
             // 
-            this.carBrandPictureBox6.ImageRotate = 0F;
             resources.ApplyResources(this.carBrandPictureBox6, "carBrandPictureBox6");
+            this.carBrandPictureBox6.ImageRotate = 0F;
             this.carBrandPictureBox6.Name = "carBrandPictureBox6";
             this.carBrandPictureBox6.TabStop = false;
             // 
@@ -1038,27 +895,167 @@ namespace CarsAdviser.Forms
             this.carPictureBox6.BorderRadius = 30;
             this.carPictureBox6.CustomizableEdges.BottomLeft = false;
             this.carPictureBox6.CustomizableEdges.BottomRight = false;
-            this.carPictureBox6.ImageRotate = 0F;
             resources.ApplyResources(this.carPictureBox6, "carPictureBox6");
+            this.carPictureBox6.ImageRotate = 0F;
             this.carPictureBox6.Name = "carPictureBox6";
             this.carPictureBox6.TabStop = false;
+            // 
+            // carPanel5
+            // 
+            this.carPanel5.BorderColor = System.Drawing.Color.Black;
+            this.carPanel5.BorderRadius = 30;
+            this.carPanel5.BorderThickness = 1;
+            this.carPanel5.Controls.Add(this.hideBtn5);
+            this.carPanel5.Controls.Add(this.detailsBtn5);
+            this.carPanel5.Controls.Add(this.carPriceInfoLabel5);
+            this.carPanel5.Controls.Add(this.carPriceLabel5);
+            this.carPanel5.Controls.Add(this.carDriveInfoLabel5);
+            this.carPanel5.Controls.Add(this.carDriveLabel5);
+            this.carPanel5.Controls.Add(this.carEngineInfoLabel5);
+            this.carPanel5.Controls.Add(this.carEngineLabel5);
+            this.carPanel5.Controls.Add(this.carFuelInfoLabel5);
+            this.carPanel5.Controls.Add(this.carYearLabel5);
+            this.carPanel5.Controls.Add(this.carFuelLabel5);
+            this.carPanel5.Controls.Add(this.carNameLabel5);
+            this.carPanel5.Controls.Add(this.carBrandPictureBox5);
+            this.carPanel5.Controls.Add(this.mileageInfoLabel5);
+            this.carPanel5.Controls.Add(this.mileageLabel5);
+            this.carPanel5.Controls.Add(this.carPictureBox5);
+            resources.ApplyResources(this.carPanel5, "carPanel5");
+            this.carPanel5.Name = "carPanel5";
+            // 
+            // hideBtn5
+            // 
+            this.hideBtn5.BorderRadius = 30;
+            this.hideBtn5.BorderThickness = 1;
+            this.hideBtn5.CustomizableEdges.BottomLeft = false;
+            this.hideBtn5.CustomizableEdges.BottomRight = false;
+            this.hideBtn5.CustomizableEdges.TopLeft = false;
+            this.hideBtn5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.hideBtn5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.hideBtn5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.hideBtn5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.hideBtn5.FillColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.hideBtn5, "hideBtn5");
+            this.hideBtn5.ForeColor = System.Drawing.Color.Black;
+            this.hideBtn5.Name = "hideBtn5";
+            this.hideBtn5.Tag = "";
+            // 
+            // detailsBtn5
+            // 
+            this.detailsBtn5.Animated = true;
+            this.detailsBtn5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.detailsBtn5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.detailsBtn5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.detailsBtn5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.detailsBtn5.FillColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.detailsBtn5, "detailsBtn5");
+            this.detailsBtn5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.detailsBtn5.Name = "detailsBtn5";
+            this.detailsBtn5.Tag = "";
+            // 
+            // carPriceInfoLabel5
+            // 
+            resources.ApplyResources(this.carPriceInfoLabel5, "carPriceInfoLabel5");
+            this.carPriceInfoLabel5.ForeColor = System.Drawing.Color.Black;
+            this.carPriceInfoLabel5.Name = "carPriceInfoLabel5";
+            // 
+            // carPriceLabel5
+            // 
+            resources.ApplyResources(this.carPriceLabel5, "carPriceLabel5");
+            this.carPriceLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.carPriceLabel5.Name = "carPriceLabel5";
+            // 
+            // carDriveInfoLabel5
+            // 
+            resources.ApplyResources(this.carDriveInfoLabel5, "carDriveInfoLabel5");
+            this.carDriveInfoLabel5.ForeColor = System.Drawing.Color.Black;
+            this.carDriveInfoLabel5.Name = "carDriveInfoLabel5";
+            // 
+            // carDriveLabel5
+            // 
+            resources.ApplyResources(this.carDriveLabel5, "carDriveLabel5");
+            this.carDriveLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.carDriveLabel5.Name = "carDriveLabel5";
+            // 
+            // carEngineInfoLabel5
+            // 
+            resources.ApplyResources(this.carEngineInfoLabel5, "carEngineInfoLabel5");
+            this.carEngineInfoLabel5.ForeColor = System.Drawing.Color.Black;
+            this.carEngineInfoLabel5.Name = "carEngineInfoLabel5";
+            // 
+            // carEngineLabel5
+            // 
+            resources.ApplyResources(this.carEngineLabel5, "carEngineLabel5");
+            this.carEngineLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.carEngineLabel5.Name = "carEngineLabel5";
+            // 
+            // carFuelInfoLabel5
+            // 
+            resources.ApplyResources(this.carFuelInfoLabel5, "carFuelInfoLabel5");
+            this.carFuelInfoLabel5.ForeColor = System.Drawing.Color.Black;
+            this.carFuelInfoLabel5.Name = "carFuelInfoLabel5";
+            // 
+            // carYearLabel5
+            // 
+            resources.ApplyResources(this.carYearLabel5, "carYearLabel5");
+            this.carYearLabel5.ForeColor = System.Drawing.Color.Black;
+            this.carYearLabel5.Name = "carYearLabel5";
+            // 
+            // carFuelLabel5
+            // 
+            resources.ApplyResources(this.carFuelLabel5, "carFuelLabel5");
+            this.carFuelLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.carFuelLabel5.Name = "carFuelLabel5";
+            // 
+            // carNameLabel5
+            // 
+            resources.ApplyResources(this.carNameLabel5, "carNameLabel5");
+            this.carNameLabel5.ForeColor = System.Drawing.Color.Black;
+            this.carNameLabel5.Name = "carNameLabel5";
+            // 
+            // carBrandPictureBox5
+            // 
+            resources.ApplyResources(this.carBrandPictureBox5, "carBrandPictureBox5");
+            this.carBrandPictureBox5.ImageRotate = 0F;
+            this.carBrandPictureBox5.Name = "carBrandPictureBox5";
+            this.carBrandPictureBox5.TabStop = false;
+            // 
+            // mileageInfoLabel5
+            // 
+            resources.ApplyResources(this.mileageInfoLabel5, "mileageInfoLabel5");
+            this.mileageInfoLabel5.ForeColor = System.Drawing.Color.Black;
+            this.mileageInfoLabel5.Name = "mileageInfoLabel5";
+            // 
+            // mileageLabel5
+            // 
+            resources.ApplyResources(this.mileageLabel5, "mileageLabel5");
+            this.mileageLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.mileageLabel5.Name = "mileageLabel5";
+            // 
+            // carPictureBox5
+            // 
+            this.carPictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.carPictureBox5.BorderRadius = 30;
+            this.carPictureBox5.CustomizableEdges.BottomLeft = false;
+            this.carPictureBox5.CustomizableEdges.BottomRight = false;
+            resources.ApplyResources(this.carPictureBox5, "carPictureBox5");
+            this.carPictureBox5.ImageRotate = 0F;
+            this.carPictureBox5.Name = "carPictureBox5";
+            this.carPictureBox5.TabStop = false;
             // 
             // BookmarkersForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.carPanel6);
-            this.Controls.Add(this.carPanel5);
-            this.Controls.Add(this.carPanel4);
-            this.Controls.Add(this.carPanel3);
-            this.Controls.Add(this.carPanel2);
-            this.Controls.Add(this.carPanel1);
+            this.Controls.Add(this.heddenPanel);
             this.Controls.Add(this.notificationLabel);
             this.Controls.Add(this.bookmarkersLabel);
             this.Name = "BookmarkersForm";
             this.Load += new System.EventHandler(this.BookmarkersForm_Load);
             this.ControlAdded += new System.Windows.Forms.ControlEventHandler(this.BookmarkersForm_ControlChanged);
             this.ControlRemoved += new System.Windows.Forms.ControlEventHandler(this.BookmarkersForm_ControlChanged);
+            this.heddenPanel.ResumeLayout(false);
             this.carPanel1.ResumeLayout(false);
             this.carPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox1)).EndInit();
@@ -1075,14 +1072,14 @@ namespace CarsAdviser.Forms
             this.carPanel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox4)).EndInit();
-            this.carPanel5.ResumeLayout(false);
-            this.carPanel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.carPictureBox5)).EndInit();
             this.carPanel6.ResumeLayout(false);
             this.carPanel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox6)).EndInit();
+            this.carPanel5.ResumeLayout(false);
+            this.carPanel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.carPictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1091,6 +1088,7 @@ namespace CarsAdviser.Forms
         #endregion
         private System.Windows.Forms.Label bookmarkersLabel;
         private System.Windows.Forms.Label notificationLabel;
+        private System.Windows.Forms.FlowLayoutPanel heddenPanel;
         private Guna.UI2.WinForms.Guna2Panel carPanel1;
         private Guna.UI2.WinForms.Guna2Button hideBtn1;
         private Guna.UI2.WinForms.Guna2Button detailsBtn1;
@@ -1159,23 +1157,6 @@ namespace CarsAdviser.Forms
         private System.Windows.Forms.Label mileageInfoLabel4;
         private System.Windows.Forms.Label mileageLabel4;
         private Guna.UI2.WinForms.Guna2PictureBox carPictureBox4;
-        private Guna.UI2.WinForms.Guna2Panel carPanel5;
-        private Guna.UI2.WinForms.Guna2Button hideBtn5;
-        private Guna.UI2.WinForms.Guna2Button detailsBtn5;
-        private System.Windows.Forms.Label carPriceInfoLabel5;
-        private System.Windows.Forms.Label carPriceLabel5;
-        private System.Windows.Forms.Label carDriveInfoLabel5;
-        private System.Windows.Forms.Label carDriveLabel5;
-        private System.Windows.Forms.Label carEngineInfoLabel5;
-        private System.Windows.Forms.Label carEngineLabel5;
-        private System.Windows.Forms.Label carFuelInfoLabel5;
-        private System.Windows.Forms.Label carYearLabel5;
-        private System.Windows.Forms.Label carFuelLabel5;
-        private System.Windows.Forms.Label carNameLabel5;
-        private Guna.UI2.WinForms.Guna2PictureBox carBrandPictureBox5;
-        private System.Windows.Forms.Label mileageInfoLabel5;
-        private System.Windows.Forms.Label mileageLabel5;
-        private Guna.UI2.WinForms.Guna2PictureBox carPictureBox5;
         private Guna.UI2.WinForms.Guna2Panel carPanel6;
         private Guna.UI2.WinForms.Guna2Button hideBtn6;
         private Guna.UI2.WinForms.Guna2Button detailsBtn6;
@@ -1193,5 +1174,22 @@ namespace CarsAdviser.Forms
         private System.Windows.Forms.Label mileageInfoLabel6;
         private System.Windows.Forms.Label mileageLabel6;
         private Guna.UI2.WinForms.Guna2PictureBox carPictureBox6;
+        private Guna.UI2.WinForms.Guna2Panel carPanel5;
+        private Guna.UI2.WinForms.Guna2Button hideBtn5;
+        private Guna.UI2.WinForms.Guna2Button detailsBtn5;
+        private System.Windows.Forms.Label carPriceInfoLabel5;
+        private System.Windows.Forms.Label carPriceLabel5;
+        private System.Windows.Forms.Label carDriveInfoLabel5;
+        private System.Windows.Forms.Label carDriveLabel5;
+        private System.Windows.Forms.Label carEngineInfoLabel5;
+        private System.Windows.Forms.Label carEngineLabel5;
+        private System.Windows.Forms.Label carFuelInfoLabel5;
+        private System.Windows.Forms.Label carYearLabel5;
+        private System.Windows.Forms.Label carFuelLabel5;
+        private System.Windows.Forms.Label carNameLabel5;
+        private Guna.UI2.WinForms.Guna2PictureBox carBrandPictureBox5;
+        private System.Windows.Forms.Label mileageInfoLabel5;
+        private System.Windows.Forms.Label mileageLabel5;
+        private Guna.UI2.WinForms.Guna2PictureBox carPictureBox5;
     }
 }

@@ -55,6 +55,7 @@
             this.carNameLabel4 = new System.Windows.Forms.Label();
             this.carPanel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.carPanel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.allRecomendationPanel = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox2)).BeginInit();
@@ -67,6 +68,7 @@
             this.carPanel4.SuspendLayout();
             this.carPanel2.SuspendLayout();
             this.carPanel1.SuspendLayout();
+            this.allRecomendationPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // preferencesLabel
@@ -74,7 +76,7 @@
             this.preferencesLabel.AutoSize = true;
             this.preferencesLabel.Font = new System.Drawing.Font("Candara", 20.25F, System.Drawing.FontStyle.Bold);
             this.preferencesLabel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.preferencesLabel.Location = new System.Drawing.Point(320, 134);
+            this.preferencesLabel.Location = new System.Drawing.Point(95, 61);
             this.preferencesLabel.Name = "preferencesLabel";
             this.preferencesLabel.Size = new System.Drawing.Size(275, 33);
             this.preferencesLabel.TabIndex = 55;
@@ -153,9 +155,10 @@
             this.saveBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.saveBtn.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold);
             this.saveBtn.ForeColor = System.Drawing.Color.White;
-            this.saveBtn.Location = new System.Drawing.Point(300, 840);
+            this.saveBtn.Location = new System.Drawing.Point(101, 545);
+            this.saveBtn.MinimumSize = new System.Drawing.Size(265, 45);
             this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(593, 45);
+            this.saveBtn.Size = new System.Drawing.Size(265, 45);
             this.saveBtn.TabIndex = 57;
             this.saveBtn.Text = "Выбрать предпочтения";
             this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
@@ -353,9 +356,11 @@
             this.carPanel3.Controls.Add(this.carYearLabel3);
             this.carPanel3.Controls.Add(this.carBrandPictureBox3);
             this.carPanel3.Controls.Add(this.carNameLabel3);
-            this.carPanel3.Location = new System.Drawing.Point(300, 537);
+            this.carPanel3.Location = new System.Drawing.Point(321, 351);
+            this.carPanel3.Margin = new System.Windows.Forms.Padding(3, 3, 50, 75);
+            this.carPanel3.MinimumSize = new System.Drawing.Size(275, 270);
             this.carPanel3.Name = "carPanel3";
-            this.carPanel3.Size = new System.Drawing.Size(265, 270);
+            this.carPanel3.Size = new System.Drawing.Size(275, 270);
             this.carPanel3.TabIndex = 45;
             // 
             // preferCheckBox3
@@ -407,7 +412,8 @@
             this.carPanel4.Controls.Add(this.carYearLabel4);
             this.carPanel4.Controls.Add(this.carBrandPictureBox4);
             this.carPanel4.Controls.Add(this.carNameLabel4);
-            this.carPanel4.Location = new System.Drawing.Point(628, 537);
+            this.carPanel4.Location = new System.Drawing.Point(3, 351);
+            this.carPanel4.Margin = new System.Windows.Forms.Padding(3, 3, 50, 75);
             this.carPanel4.Name = "carPanel4";
             this.carPanel4.Size = new System.Drawing.Size(265, 270);
             this.carPanel4.TabIndex = 46;
@@ -434,7 +440,8 @@
             this.carPanel2.Controls.Add(this.carYearLabel2);
             this.carPanel2.Controls.Add(this.carBrandPictureBox2);
             this.carPanel2.Controls.Add(this.carNameLabel2);
-            this.carPanel2.Location = new System.Drawing.Point(628, 216);
+            this.carPanel2.Location = new System.Drawing.Point(321, 3);
+            this.carPanel2.Margin = new System.Windows.Forms.Padding(3, 3, 50, 75);
             this.carPanel2.Name = "carPanel2";
             this.carPanel2.Size = new System.Drawing.Size(265, 270);
             this.carPanel2.TabIndex = 44;
@@ -449,22 +456,35 @@
             this.carPanel1.Controls.Add(this.carYearLabel1);
             this.carPanel1.Controls.Add(this.carBrandPictureBox1);
             this.carPanel1.Controls.Add(this.carNameLabel1);
-            this.carPanel1.Location = new System.Drawing.Point(300, 216);
+            this.carPanel1.Location = new System.Drawing.Point(3, 3);
+            this.carPanel1.Margin = new System.Windows.Forms.Padding(3, 3, 50, 75);
             this.carPanel1.Name = "carPanel1";
             this.carPanel1.Size = new System.Drawing.Size(265, 270);
             this.carPanel1.TabIndex = 24;
+            // 
+            // allRecomendationPanel
+            // 
+            this.allRecomendationPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.allRecomendationPanel.AutoScroll = true;
+            this.allRecomendationPanel.Controls.Add(this.carPanel1);
+            this.allRecomendationPanel.Controls.Add(this.carPanel2);
+            this.allRecomendationPanel.Controls.Add(this.carPanel4);
+            this.allRecomendationPanel.Controls.Add(this.carPanel3);
+            this.allRecomendationPanel.Location = new System.Drawing.Point(101, 142);
+            this.allRecomendationPanel.Name = "allRecomendationPanel";
+            this.allRecomendationPanel.Size = new System.Drawing.Size(832, 397);
+            this.allRecomendationPanel.TabIndex = 58;
             // 
             // AllRecomendation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1028, 749);
+            this.Controls.Add(this.allRecomendationPanel);
             this.Controls.Add(this.preferencesLabel);
             this.Controls.Add(this.saveBtn);
-            this.Controls.Add(this.carPanel3);
-            this.Controls.Add(this.carPanel4);
-            this.Controls.Add(this.carPanel2);
-            this.Controls.Add(this.carPanel1);
             this.Name = "AllRecomendation";
             this.Text = "AllRecomendation";
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox1)).EndInit();
@@ -483,6 +503,7 @@
             this.carPanel2.PerformLayout();
             this.carPanel1.ResumeLayout(false);
             this.carPanel1.PerformLayout();
+            this.allRecomendationPanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -516,5 +537,6 @@
         private System.Windows.Forms.Label carNameLabel4;
         private Guna.UI2.WinForms.Guna2Panel carPanel2;
         private Guna.UI2.WinForms.Guna2Panel carPanel1;
+        private System.Windows.Forms.FlowLayoutPanel allRecomendationPanel;
     }
 }

@@ -183,7 +183,7 @@
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="detailsBtn1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 427</value>
+    <value>77, 424</value>
   </data>
   <data name="detailsBtn1.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 34</value>
@@ -553,10 +553,13 @@
     <value>14</value>
   </data>
   <data name="carPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>477, 88</value>
+    <value>3, 1623</value>
+  </data>
+  <data name="carPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 50, 75</value>
   </data>
   <data name="carPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 479</value>
+    <value>265, 461</value>
   </data>
   <data name="carPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -568,16 +571,19 @@
     <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="&gt;&gt;carPanel1.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>CarsPanel</value>
   </data>
   <data name="&gt;&gt;carPanel1.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>3</value>
+  </data>
+  <data name="applyBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="applyBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 12pt, style=Bold</value>
   </data>
   <data name="applyBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 272</value>
+    <value>15, 206</value>
   </data>
   <data name="applyBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>319, 45</value>
@@ -600,11 +606,41 @@
   <data name="&gt;&gt;applyBtn.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="MailSendBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt, style=Bold</value>
+  </data>
+  <data name="MailSendBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 268</value>
+  </data>
+  <data name="MailSendBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 45</value>
+  </data>
+  <data name="MailSendBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="MailSendBtn.Text" xml:space="preserve">
+    <value>Отправить подборку на почту</value>
+  </data>
+  <data name="&gt;&gt;MailSendBtn.Name" xml:space="preserve">
+    <value>MailSendBtn</value>
+  </data>
+  <data name="&gt;&gt;MailSendBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;MailSendBtn.Parent" xml:space="preserve">
+    <value>priceGroupBox</value>
+  </data>
+  <data name="&gt;&gt;MailSendBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="priceTrackBar2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
   <data name="priceTrackBar2.Location" type="System.Drawing.Point, System.Drawing">
     <value>168, 164</value>
   </data>
   <data name="priceTrackBar2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 23</value>
+    <value>154, 0</value>
   </data>
   <data name="priceTrackBar2.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -619,13 +655,16 @@
     <value>priceGroupBox</value>
   </data>
   <data name="&gt;&gt;priceTrackBar2.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
+  </data>
+  <data name="priceTrackBar1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
   </data>
   <data name="priceTrackBar1.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 164</value>
   </data>
   <data name="priceTrackBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 23</value>
+    <value>154, 0</value>
   </data>
   <data name="priceTrackBar1.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -640,7 +679,10 @@
     <value>priceGroupBox</value>
   </data>
   <data name="&gt;&gt;priceTrackBar1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
+  </data>
+  <data name="priceToLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="priceToLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -649,7 +691,7 @@
     <value>Candara, 9.75pt, style=Bold</value>
   </data>
   <data name="priceToLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 76</value>
+    <value>206, 72</value>
   </data>
   <data name="priceToLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 15</value>
@@ -670,7 +712,7 @@
     <value>priceGroupBox</value>
   </data>
   <data name="&gt;&gt;priceToLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="priceFromLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -700,7 +742,10 @@
     <value>priceGroupBox</value>
   </data>
   <data name="&gt;&gt;priceFromLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
+  </data>
+  <data name="rubleLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
   </data>
   <data name="rubleLabel2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -709,7 +754,7 @@
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="rubleLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>328, 103</value>
+    <value>328, 92</value>
   </data>
   <data name="rubleLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>17, 18</value>
@@ -730,7 +775,10 @@
     <value>priceGroupBox</value>
   </data>
   <data name="&gt;&gt;rubleLabel2.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
+  </data>
+  <data name="priceToTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="priceToTextBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt</value>
@@ -757,7 +805,10 @@
     <value>priceGroupBox</value>
   </data>
   <data name="&gt;&gt;priceToTextBox.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
+  </data>
+  <data name="rubleLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
   </data>
   <data name="rubleLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -787,7 +838,10 @@
     <value>priceGroupBox</value>
   </data>
   <data name="&gt;&gt;rubleLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
+  </data>
+  <data name="priceFromTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="priceFromTextBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt</value>
@@ -814,16 +868,16 @@
     <value>priceGroupBox</value>
   </data>
   <data name="&gt;&gt;priceFromTextBox.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="priceGroupBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 12pt, style=Bold</value>
   </data>
   <data name="priceGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 212</value>
+    <value>85, 212</value>
   </data>
   <data name="priceGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>354, 355</value>
+    <value>354, 332</value>
   </data>
   <data name="priceGroupBox.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -841,19 +895,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;priceGroupBox.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>1</value>
   </data>
   <data name="searchTextBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="searchTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 140</value>
+    <value>85, 140</value>
   </data>
   <data name="searchTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="searchTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>354, 33</value>
+    <value>354, 45</value>
   </data>
   <data name="searchTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -868,7 +922,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;searchTextBox.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>2</value>
   </data>
   <data name="searchLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -898,7 +952,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;searchLabel.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>3</value>
+  </data>
+  <data name="announcementLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="announcementLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -928,13 +985,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;announcementLabel.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>4</value>
+  </data>
+  <data name="carPanel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="detailsBtn2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="detailsBtn2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 427</value>
+    <value>74, 424</value>
   </data>
   <data name="detailsBtn2.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 34</value>
@@ -1363,10 +1423,13 @@
     <value>14</value>
   </data>
   <data name="carPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>800, 88</value>
+    <value>3, 1084</value>
+  </data>
+  <data name="carPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 50, 75</value>
   </data>
   <data name="carPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 479</value>
+    <value>268, 461</value>
   </data>
   <data name="carPanel2.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -1378,16 +1441,19 @@
     <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="&gt;&gt;carPanel2.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>CarsPanel</value>
   </data>
   <data name="&gt;&gt;carPanel2.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>2</value>
+  </data>
+  <data name="carPanel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="detailsBtn3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="detailsBtn3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 427</value>
+    <value>74, 424</value>
   </data>
   <data name="detailsBtn3.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 34</value>
@@ -1816,10 +1882,13 @@
     <value>14</value>
   </data>
   <data name="carPanel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1117, 88</value>
+    <value>3, 545</value>
+  </data>
+  <data name="carPanel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 50, 75</value>
   </data>
   <data name="carPanel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 479</value>
+    <value>268, 461</value>
   </data>
   <data name="carPanel3.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -1831,16 +1900,19 @@
     <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="&gt;&gt;carPanel3.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>CarsPanel</value>
   </data>
   <data name="&gt;&gt;carPanel3.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>1</value>
+  </data>
+  <data name="carPanel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="detailsBtn6.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="detailsBtn6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 427</value>
+    <value>74, 424</value>
   </data>
   <data name="detailsBtn6.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 34</value>
@@ -2269,10 +2341,13 @@
     <value>14</value>
   </data>
   <data name="carPanel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1117, 613</value>
+    <value>3, 4339</value>
+  </data>
+  <data name="carPanel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 50, 75</value>
   </data>
   <data name="carPanel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 479</value>
+    <value>268, 461</value>
   </data>
   <data name="carPanel6.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -2284,10 +2359,10 @@
     <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="&gt;&gt;carPanel6.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>CarsPanel</value>
   </data>
   <data name="&gt;&gt;carPanel6.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>8</value>
   </data>
   <data name="detailsBtn5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt, style=Bold</value>
@@ -2722,10 +2797,13 @@
     <value>14</value>
   </data>
   <data name="carPanel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>800, 613</value>
+    <value>3, 3</value>
+  </data>
+  <data name="carPanel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 50, 75</value>
   </data>
   <data name="carPanel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 479</value>
+    <value>268, 464</value>
   </data>
   <data name="carPanel5.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -2737,10 +2815,13 @@
     <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="&gt;&gt;carPanel5.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>CarsPanel</value>
   </data>
   <data name="&gt;&gt;carPanel5.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>0</value>
+  </data>
+  <data name="carPanel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="detailsBtn4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt, style=Bold</value>
@@ -3175,10 +3256,13 @@
     <value>14</value>
   </data>
   <data name="carPanel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>477, 613</value>
+    <value>3, 2162</value>
+  </data>
+  <data name="carPanel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 50, 75</value>
   </data>
   <data name="carPanel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 479</value>
+    <value>268, 464</value>
   </data>
   <data name="carPanel4.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -3190,16 +3274,16 @@
     <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="&gt;&gt;carPanel4.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>CarsPanel</value>
   </data>
   <data name="&gt;&gt;carPanel4.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>4</value>
   </data>
   <data name="detailsBtn9.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="detailsBtn9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 427</value>
+    <value>74, 424</value>
   </data>
   <data name="detailsBtn9.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 34</value>
@@ -3628,10 +3712,13 @@
     <value>14</value>
   </data>
   <data name="carPanel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1117, 1149</value>
+    <value>3, 2704</value>
+  </data>
+  <data name="carPanel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 50, 75</value>
   </data>
   <data name="carPanel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 479</value>
+    <value>265, 461</value>
   </data>
   <data name="carPanel9.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -3643,16 +3730,16 @@
     <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="&gt;&gt;carPanel9.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>CarsPanel</value>
   </data>
   <data name="&gt;&gt;carPanel9.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="detailsBtn8.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="detailsBtn8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 427</value>
+    <value>76, 424</value>
   </data>
   <data name="detailsBtn8.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 34</value>
@@ -4081,10 +4168,13 @@
     <value>14</value>
   </data>
   <data name="carPanel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>800, 1149</value>
+    <value>3, 3243</value>
+  </data>
+  <data name="carPanel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 50, 75</value>
   </data>
   <data name="carPanel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 479</value>
+    <value>265, 461</value>
   </data>
   <data name="carPanel8.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -4096,10 +4186,10 @@
     <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="&gt;&gt;carPanel8.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>CarsPanel</value>
   </data>
   <data name="&gt;&gt;carPanel8.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="detailsBtn7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt, style=Bold</value>
@@ -4534,7 +4624,10 @@
     <value>14</value>
   </data>
   <data name="carPanel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>477, 1149</value>
+    <value>3, 3782</value>
+  </data>
+  <data name="carPanel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 50, 75</value>
   </data>
   <data name="carPanel7.Size" type="System.Drawing.Size, System.Drawing">
     <value>265, 479</value>
@@ -4549,36 +4642,45 @@
     <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="&gt;&gt;carPanel7.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>CarsPanel</value>
   </data>
   <data name="&gt;&gt;carPanel7.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
-  <data name="MailSendBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt, style=Bold</value>
+  <data name="CarsPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="MailSendBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>91, 599</value>
+  <data name="CarsPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="MailSendBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>319, 45</value>
+  <data name="CarsPanel.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
   </data>
-  <data name="MailSendBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="CarsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 140</value>
   </data>
-  <data name="MailSendBtn.Text" xml:space="preserve">
-    <value>Отправить подборку на почту</value>
+  <data name="CarsPanel.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1350, 0</value>
   </data>
-  <data name="&gt;&gt;MailSendBtn.Name" xml:space="preserve">
-    <value>MailSendBtn</value>
+  <data name="CarsPanel.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>278, 430</value>
   </data>
-  <data name="&gt;&gt;MailSendBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  <data name="CarsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>522, 430</value>
   </data>
-  <data name="&gt;&gt;MailSendBtn.Parent" xml:space="preserve">
+  <data name="CarsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;CarsPanel.Name" xml:space="preserve">
+    <value>CarsPanel</value>
+  </data>
+  <data name="&gt;&gt;CarsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CarsPanel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;MailSendBtn.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;CarsPanel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -4591,7 +4693,7 @@
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1904, 1041</value>
+    <value>1028, 672</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>AnnouncementForm</value>

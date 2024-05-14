@@ -117,11 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="headerPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="notificationLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="notificationLabel2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -130,7 +133,7 @@
     <value>Segoe UI, 8.25pt</value>
   </data>
   <data name="notificationLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1278, 29</value>
+    <value>1758, 29</value>
   </data>
   <data name="notificationLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>2, 15</value>
@@ -160,7 +163,7 @@
     <value>Segoe UI, 8.25pt</value>
   </data>
   <data name="notificationLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1153, 29</value>
+    <value>1633, 29</value>
   </data>
   <data name="notificationLabel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>2, 15</value>
@@ -190,7 +193,7 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="hiddenBottomLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1213, 63</value>
+    <value>1693, 63</value>
   </data>
   <data name="hiddenBottomLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 20</value>
@@ -223,7 +226,7 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="bookmarkersBottomLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1084, 63</value>
+    <value>1564, 63</value>
   </data>
   <data name="bookmarkersBottomLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 20</value>
@@ -256,7 +259,7 @@
     <value>Segoe UI, 11.25pt, style=Bold</value>
   </data>
   <data name="announcementBottomLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>935, 63</value>
+    <value>1415, 63</value>
   </data>
   <data name="announcementBottomLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 20</value>
@@ -286,7 +289,7 @@
     <value>Candara, 9.75pt</value>
   </data>
   <data name="accountBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1323, 65</value>
+    <value>1803, 65</value>
   </data>
   <data name="accountBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>89, 34</value>
@@ -313,7 +316,7 @@
     <value>Top, Right</value>
   </data>
   <data name="accountCirclePictureBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1338, 12</value>
+    <value>1818, 12</value>
   </data>
   <data name="accountCirclePictureBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 60</value>
@@ -343,7 +346,7 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="hiddenBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1185, 29</value>
+    <value>1665, 29</value>
   </data>
   <data name="hiddenBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 34</value>
@@ -373,7 +376,7 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="bookmarkersBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1058, 29</value>
+    <value>1538, 29</value>
   </data>
   <data name="bookmarkersBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 34</value>
@@ -403,7 +406,7 @@
     <value>Candara, 12pt</value>
   </data>
   <data name="announcementBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>918, 29</value>
+    <value>1398, 29</value>
   </data>
   <data name="announcementBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 34</value>
@@ -427,10 +430,10 @@
     <value>9</value>
   </data>
   <data name="appLogoPictureBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>239, 12</value>
+    <value>166, 3</value>
   </data>
   <data name="appLogoPictureBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 72</value>
+    <value>118, 99</value>
   </data>
   <data name="appLogoPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -450,6 +453,9 @@
   <data name="&gt;&gt;appLogoPictureBox.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
+  <data name="appNameLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
   <data name="appNameLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -457,7 +463,7 @@
     <value>Candara, 15.75pt, style=Bold</value>
   </data>
   <data name="appNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>108, 37</value>
+    <value>32, 37</value>
   </data>
   <data name="appNameLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 26</value>
@@ -487,7 +493,7 @@
     <value>0, 0</value>
   </data>
   <data name="headerPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1424, 102</value>
+    <value>1904, 102</value>
   </data>
   <data name="headerPanel.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -514,7 +520,7 @@
     <value>0, 102</value>
   </data>
   <data name="mainPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1424, 922</value>
+    <value>1904, 939</value>
   </data>
   <data name="mainPanel.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -537,11 +543,11 @@
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
-  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1424, 1024</value>
+    <value>1904, 1041</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -842,7 +848,7 @@
 </value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>16, 1024</value>
+    <value>800, 600</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

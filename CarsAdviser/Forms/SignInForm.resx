@@ -119,14 +119,14 @@
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="signInBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+    <value>Top</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="signInBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 12pt, style=Bold</value>
   </data>
   <data name="signInBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>959, 609</value>
+    <value>781, 385</value>
   </data>
   <data name="signInBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>288, 45</value>
@@ -151,13 +151,13 @@
     <value>5</value>
   </data>
   <data name="loginTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+    <value>Top</value>
   </data>
   <data name="loginTextBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="loginTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>959, 477</value>
+    <value>781, 253</value>
   </data>
   <data name="loginTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
@@ -178,16 +178,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;loginTextBox.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="createAccountBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+    <value>Top</value>
   </data>
   <data name="createAccountBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt</value>
   </data>
   <data name="createAccountBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>985, 441</value>
+    <value>807, 217</value>
   </data>
   <data name="createAccountBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>136, 19</value>
@@ -208,10 +208,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;createAccountBtn.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="signInLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+    <value>Top</value>
   </data>
   <data name="signInLabel2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -223,7 +223,7 @@
     <value>NoControl</value>
   </data>
   <data name="signInLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>956, 442</value>
+    <value>781, 218</value>
   </data>
   <data name="signInLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 18</value>
@@ -244,10 +244,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;signInLabel2.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>2</value>
   </data>
   <data name="signInLabel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+    <value>Top</value>
   </data>
   <data name="signInLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -259,7 +259,7 @@
     <value>NoControl</value>
   </data>
   <data name="signInLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>955, 410</value>
+    <value>780, 191</value>
   </data>
   <data name="signInLabel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 23</value>
@@ -280,10 +280,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;signInLabel1.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>1</value>
   </data>
   <data name="mandatoryFillingLabel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+    <value>Top</value>
   </data>
   <data name="mandatoryFillingLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -295,7 +295,7 @@
     <value>NoControl</value>
   </data>
   <data name="mandatoryFillingLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1270, 487</value>
+    <value>1092, 263</value>
   </data>
   <data name="mandatoryFillingLabel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>261, 18</value>
@@ -319,10 +319,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;mandatoryFillingLabel1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>10</value>
   </data>
   <data name="mandatoryFillingLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+    <value>Top</value>
   </data>
   <data name="mandatoryFillingLabel2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -334,7 +334,7 @@
     <value>NoControl</value>
   </data>
   <data name="mandatoryFillingLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1270, 545</value>
+    <value>1092, 321</value>
   </data>
   <data name="mandatoryFillingLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>261, 18</value>
@@ -361,13 +361,13 @@
     <value>3</value>
   </data>
   <data name="uncorrectDataTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+    <value>Top</value>
   </data>
   <data name="uncorrectDataTextBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="uncorrectDataTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>959, 712</value>
+    <value>781, 498</value>
   </data>
   <data name="uncorrectDataTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
@@ -391,46 +391,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;uncorrectDataTextBox.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="webBrowser.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="webBrowser.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="webBrowser.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>20, 20</value>
-  </data>
-  <data name="webBrowser.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1904, 1041</value>
-  </data>
-  <data name="webBrowser.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="webBrowser.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;webBrowser.Name" xml:space="preserve">
-    <value>webBrowser</value>
-  </data>
-  <data name="&gt;&gt;webBrowser.Type" xml:space="preserve">
-    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;webBrowser.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;webBrowser.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>7</value>
   </data>
   <data name="YandexAuthBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+    <value>Top</value>
   </data>
   <data name="YandexAuthBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 12pt, style=Bold</value>
   </data>
   <data name="YandexAuthBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>959, 660</value>
+    <value>781, 436</value>
   </data>
   <data name="YandexAuthBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>288, 45</value>
@@ -451,16 +421,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;YandexAuthBtn.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>6</value>
   </data>
   <data name="passwordTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+    <value>Top</value>
   </data>
   <data name="passwordTextBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="passwordTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>959, 535</value>
+    <value>781, 311</value>
   </data>
   <data name="passwordTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
@@ -481,7 +451,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;passwordTextBox.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>4</value>
   </data>
   <data name="showPassImageBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -520,17 +490,47 @@
   <data name="&gt;&gt;showPassImageBtn.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2ImageButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
+  <data name="webBrowser.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="webBrowser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="webBrowser.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="webBrowser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1904, 1041</value>
+  </data>
+  <data name="webBrowser.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="webBrowser.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;webBrowser.Name" xml:space="preserve">
+    <value>webBrowser</value>
+  </data>
+  <data name="&gt;&gt;webBrowser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;webBrowser.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;webBrowser.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1904, 1041</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>SignInForm</value>

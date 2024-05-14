@@ -36,9 +36,9 @@ namespace CarsAdviser
             this.chooseLangLabel = new System.Windows.Forms.Label();
             this.appNameLabel = new System.Windows.Forms.Label();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.headerPanel = new Guna.UI2.WinForms.Guna2Panel();
             ((System.ComponentModel.ISupportInitialize)(this.appLogoPictureBox)).BeginInit();
-            this.guna2Panel1.SuspendLayout();
+            this.headerPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // appLogoPictureBox
@@ -52,6 +52,7 @@ namespace CarsAdviser
             // 
             // enLangBtn
             // 
+            resources.ApplyResources(this.enLangBtn, "enLangBtn");
             this.enLangBtn.Animated = true;
             this.enLangBtn.BorderRadius = 3;
             this.enLangBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -59,7 +60,6 @@ namespace CarsAdviser
             this.enLangBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.enLangBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.enLangBtn.FillColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.enLangBtn, "enLangBtn");
             this.enLangBtn.ForeColor = System.Drawing.Color.White;
             this.enLangBtn.Image = global::CarsAdviser.Properties.Resources.united_states_flag;
             this.enLangBtn.ImageSize = new System.Drawing.Size(32, 32);
@@ -68,6 +68,7 @@ namespace CarsAdviser
             // 
             // ruLangBtn
             // 
+            resources.ApplyResources(this.ruLangBtn, "ruLangBtn");
             this.ruLangBtn.Animated = true;
             this.ruLangBtn.BorderRadius = 3;
             this.ruLangBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -75,7 +76,6 @@ namespace CarsAdviser
             this.ruLangBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.ruLangBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.ruLangBtn.FillColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.ruLangBtn, "ruLangBtn");
             this.ruLangBtn.ForeColor = System.Drawing.Color.White;
             this.ruLangBtn.Image = global::CarsAdviser.Properties.Resources.russia_flag;
             this.ruLangBtn.ImageSize = new System.Drawing.Size(32, 32);
@@ -84,43 +84,43 @@ namespace CarsAdviser
             // 
             // chooseLangLabel
             // 
-            this.chooseLangLabel.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.chooseLangLabel, "chooseLangLabel");
+            this.chooseLangLabel.BackColor = System.Drawing.Color.Transparent;
             this.chooseLangLabel.Name = "chooseLangLabel";
             // 
             // appNameLabel
             // 
-            this.appNameLabel.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.appNameLabel, "appNameLabel");
+            this.appNameLabel.BackColor = System.Drawing.Color.Transparent;
             this.appNameLabel.Name = "appNameLabel";
             // 
             // mainPanel
             // 
-            this.mainPanel.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.mainPanel, "mainPanel");
+            this.mainPanel.BackColor = System.Drawing.Color.Transparent;
             this.mainPanel.Name = "mainPanel";
             // 
-            // guna2Panel1
+            // headerPanel
             // 
-            this.guna2Panel1.Controls.Add(this.ruLangBtn);
-            this.guna2Panel1.Controls.Add(this.enLangBtn);
-            this.guna2Panel1.Controls.Add(this.appNameLabel);
-            this.guna2Panel1.Controls.Add(this.appLogoPictureBox);
-            this.guna2Panel1.Controls.Add(this.chooseLangLabel);
-            resources.ApplyResources(this.guna2Panel1, "guna2Panel1");
-            this.guna2Panel1.Name = "guna2Panel1";
+            resources.ApplyResources(this.headerPanel, "headerPanel");
+            this.headerPanel.Controls.Add(this.enLangBtn);
+            this.headerPanel.Controls.Add(this.ruLangBtn);
+            this.headerPanel.Controls.Add(this.chooseLangLabel);
+            this.headerPanel.Controls.Add(this.appLogoPictureBox);
+            this.headerPanel.Controls.Add(this.appNameLabel);
+            this.headerPanel.Name = "headerPanel";
             // 
             // AuthorizationForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.headerPanel);
             this.Controls.Add(this.mainPanel);
             this.Name = "AuthorizationForm";
             this.Load += new System.EventHandler(this.AuthorizationForm_Load);
-            this.Resize += new System.EventHandler(this.MainForm_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.appLogoPictureBox)).EndInit();
-            this.guna2Panel1.ResumeLayout(false);
+            this.headerPanel.ResumeLayout(false);
+            this.headerPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -132,6 +132,6 @@ namespace CarsAdviser
         private System.Windows.Forms.Label chooseLangLabel;
         private Guna.UI2.WinForms.Guna2Button enLangBtn;
         private System.Windows.Forms.Panel mainPanel;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel headerPanel;
     }
 }

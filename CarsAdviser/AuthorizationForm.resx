@@ -123,10 +123,13 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="appLogoPictureBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 3</value>
+    <value>278, 8</value>
+  </data>
+  <data name="appLogoPictureBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 10, 0, 0</value>
   </data>
   <data name="appLogoPictureBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 97</value>
+    <value>131, 106</value>
   </data>
   <data name="appLogoPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -142,19 +145,22 @@
     <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="&gt;&gt;appLogoPictureBox.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
+    <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;appLogoPictureBox.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="enLangBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
   <data name="enLangBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="enLangBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1483, 3</value>
+    <value>1728, 68</value>
   </data>
   <data name="enLangBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 97</value>
+    <value>53, 35</value>
   </data>
   <data name="enLangBtn.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -166,22 +172,22 @@
     <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="&gt;&gt;enLangBtn.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
+    <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;enLangBtn.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
+  </data>
+  <data name="ruLangBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
   <data name="ruLangBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
+    <value>Segoe UI, 12pt</value>
   </data>
   <data name="ruLangBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1424, 3</value>
-  </data>
-  <data name="ruLangBtn.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 58, 0, 0</value>
+    <value>1667, 68</value>
   </data>
   <data name="ruLangBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 97</value>
+    <value>46, 35</value>
   </data>
   <data name="ruLangBtn.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -193,28 +199,34 @@
     <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="&gt;&gt;ruLangBtn.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
+    <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;ruLangBtn.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
+  </data>
+  <data name="chooseLangLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="chooseLangLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="chooseLangLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 14.25pt, style=Bold</value>
+    <value>Candara, 15.75pt, style=Bold</value>
   </data>
   <data name="chooseLangLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="chooseLangLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1278, 2</value>
+    <value>1651, 8</value>
   </data>
   <data name="chooseLangLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1100, 0, 3, 0</value>
+    <value>10, 0, 3, 0</value>
   </data>
   <data name="chooseLangLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 40, 0, 0</value>
+    <value>0, 30, 0, 0</value>
   </data>
   <data name="chooseLangLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 63</value>
+    <value>156, 56</value>
   </data>
   <data name="chooseLangLabel.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -229,25 +241,31 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chooseLangLabel.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
+    <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;chooseLangLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>2</value>
+  </data>
+  <data name="appNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="appNameLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 15.75pt, style=Bold</value>
+    <value>Candara, 21.75pt, style=Bold</value>
   </data>
   <data name="appNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="appNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
+    <value>0, 0</value>
+  </data>
+  <data name="appNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="appNameLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>105, 40, 0, 0</value>
+    <value>105, 46, 0, 0</value>
   </data>
   <data name="appNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 78</value>
+    <value>275, 82</value>
   </data>
   <data name="appNameLabel.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -262,10 +280,13 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;appNameLabel.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
+    <value>headerPanel</value>
   </data>
   <data name="&gt;&gt;appNameLabel.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
+  </data>
+  <data name="mainPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="mainPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -277,10 +298,10 @@
     <value>3, 0, 3, 3</value>
   </data>
   <data name="mainPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 100, 0, 0</value>
+    <value>0, 135, 0, 0</value>
   </data>
   <data name="mainPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1904, 1041</value>
+    <value>1904, 1061</value>
   </data>
   <data name="mainPanel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -297,28 +318,31 @@
   <data name="&gt;&gt;mainPanel.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="guna2Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="headerPanel.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="headerPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="guna2Panel1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="headerPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="guna2Panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1904, 100</value>
+  <data name="headerPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1904, 132</value>
   </data>
-  <data name="guna2Panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="headerPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
   </data>
-  <data name="&gt;&gt;guna2Panel1.Name" xml:space="preserve">
-    <value>guna2Panel1</value>
+  <data name="&gt;&gt;headerPanel.Name" xml:space="preserve">
+    <value>headerPanel</value>
   </data>
-  <data name="&gt;&gt;guna2Panel1.Type" xml:space="preserve">
+  <data name="&gt;&gt;headerPanel.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
-  <data name="&gt;&gt;guna2Panel1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;headerPanel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;guna2Panel1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;headerPanel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -328,7 +352,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1904, 1041</value>
+    <value>1904, 1061</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -739,6 +763,9 @@
         hAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFCxMXx/x0gpAj4xy2kAAAA
         AElFTkSuQmCC
 </value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>720, 640</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

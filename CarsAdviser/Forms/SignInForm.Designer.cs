@@ -40,10 +40,10 @@ namespace CarsAdviser.Forms
             this.mandatoryFillingLabel1 = new System.Windows.Forms.Label();
             this.mandatoryFillingLabel2 = new System.Windows.Forms.Label();
             this.uncorrectDataTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.webBrowser = new System.Windows.Forms.WebBrowser();
             this.YandexAuthBtn = new Guna.UI2.WinForms.Guna2Button();
             this.passwordTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.showPassImageBtn = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.webBrowser = new System.Windows.Forms.WebBrowser();
             this.SuspendLayout();
             // 
             // signInBtn
@@ -146,12 +146,6 @@ namespace CarsAdviser.Forms
             this.uncorrectDataTextBox.TabStop = false;
             this.uncorrectDataTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uncorrectDataTextBox_KeyDown);
             // 
-            // webBrowser
-            // 
-            resources.ApplyResources(this.webBrowser, "webBrowser");
-            this.webBrowser.Name = "webBrowser";
-            this.webBrowser.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.webBrowser_Navigated);
-            // 
             // YandexAuthBtn
             // 
             resources.ApplyResources(this.YandexAuthBtn, "YandexAuthBtn");
@@ -208,21 +202,27 @@ namespace CarsAdviser.Forms
             this.showPassImageBtn.Name = "showPassImageBtn";
             this.showPassImageBtn.PressedState.ImageSize = new System.Drawing.Size(32, 32);
             // 
+            // webBrowser
+            // 
+            resources.ApplyResources(this.webBrowser, "webBrowser");
+            this.webBrowser.Name = "webBrowser";
+            this.webBrowser.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.webBrowser_Navigated);
+            // 
             // SignInForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.webBrowser);
+            this.Controls.Add(this.signInLabel1);
+            this.Controls.Add(this.signInLabel2);
+            this.Controls.Add(this.mandatoryFillingLabel2);
+            this.Controls.Add(this.passwordTextBox);
+            this.Controls.Add(this.signInBtn);
             this.Controls.Add(this.YandexAuthBtn);
             this.Controls.Add(this.uncorrectDataTextBox);
-            this.Controls.Add(this.mandatoryFillingLabel2);
-            this.Controls.Add(this.mandatoryFillingLabel1);
-            this.Controls.Add(this.signInBtn);
-            this.Controls.Add(this.passwordTextBox);
             this.Controls.Add(this.loginTextBox);
             this.Controls.Add(this.createAccountBtn);
-            this.Controls.Add(this.signInLabel2);
-            this.Controls.Add(this.signInLabel1);
+            this.Controls.Add(this.mandatoryFillingLabel1);
             this.Name = "SignInForm";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -58,6 +58,7 @@ namespace CarsAdviser.Forms
             this.carBrandPictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.carNameLabel3 = new System.Windows.Forms.Label();
             this.clearBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.prefPanel = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox1)).BeginInit();
             this.carPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox1)).BeginInit();
@@ -70,6 +71,7 @@ namespace CarsAdviser.Forms
             this.carPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox3)).BeginInit();
+            this.prefPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // preferencesLabel
@@ -363,17 +365,23 @@ namespace CarsAdviser.Forms
             this.clearBtn.Name = "clearBtn";
             this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
             // 
+            // prefPanel
+            // 
+            resources.ApplyResources(this.prefPanel, "prefPanel");
+            this.prefPanel.Controls.Add(this.carPanel1);
+            this.prefPanel.Controls.Add(this.carPanel2);
+            this.prefPanel.Controls.Add(this.carPanel4);
+            this.prefPanel.Controls.Add(this.carPanel3);
+            this.prefPanel.Name = "prefPanel";
+            // 
             // PreferencesForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.prefPanel);
             this.Controls.Add(this.clearBtn);
-            this.Controls.Add(this.carPanel4);
-            this.Controls.Add(this.carPanel3);
-            this.Controls.Add(this.carPanel2);
             this.Controls.Add(this.newListBtn);
             this.Controls.Add(this.saveBtn);
-            this.Controls.Add(this.carPanel1);
             this.Controls.Add(this.preferencesLabel);
             this.Name = "PreferencesForm";
             ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox1)).EndInit();
@@ -392,6 +400,7 @@ namespace CarsAdviser.Forms
             this.carPanel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox3)).EndInit();
+            this.prefPanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -427,5 +436,6 @@ namespace CarsAdviser.Forms
         private Guna.UI2.WinForms.Guna2PictureBox carBrandPictureBox3;
         private System.Windows.Forms.Label carNameLabel3;
         private Guna.UI2.WinForms.Guna2Button clearBtn;
+        private System.Windows.Forms.FlowLayoutPanel prefPanel;
     }
 }

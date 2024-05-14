@@ -48,6 +48,7 @@ namespace CarsAdviser.Forms
             this.carPictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.priceGroupBox = new Guna.UI2.WinForms.Guna2GroupBox();
             this.applyBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.MailSendBtn = new Guna.UI2.WinForms.Guna2Button();
             this.priceTrackBar2 = new Guna.UI2.WinForms.Guna2TrackBar();
             this.priceTrackBar1 = new Guna.UI2.WinForms.Guna2TrackBar();
             this.priceToLabel = new System.Windows.Forms.Label();
@@ -187,7 +188,7 @@ namespace CarsAdviser.Forms
             this.mileageInfoLabel7 = new System.Windows.Forms.Label();
             this.mileageLabel7 = new System.Windows.Forms.Label();
             this.carPictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.MailSendBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.CarsPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.carPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox1)).BeginInit();
@@ -216,6 +217,7 @@ namespace CarsAdviser.Forms
             this.carPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox7)).BeginInit();
+            this.CarsPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // carYearLabel1
@@ -349,6 +351,7 @@ namespace CarsAdviser.Forms
             // 
             this.priceGroupBox.BorderRadius = 7;
             this.priceGroupBox.Controls.Add(this.applyBtn);
+            this.priceGroupBox.Controls.Add(this.MailSendBtn);
             this.priceGroupBox.Controls.Add(this.priceTrackBar2);
             this.priceGroupBox.Controls.Add(this.priceTrackBar1);
             this.priceGroupBox.Controls.Add(this.priceToLabel);
@@ -363,6 +366,7 @@ namespace CarsAdviser.Forms
             // 
             // applyBtn
             // 
+            resources.ApplyResources(this.applyBtn, "applyBtn");
             this.applyBtn.Animated = true;
             this.applyBtn.BackColor = System.Drawing.Color.Transparent;
             this.applyBtn.BorderRadius = 15;
@@ -371,16 +375,30 @@ namespace CarsAdviser.Forms
             this.applyBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.applyBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.applyBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.applyBtn, "applyBtn");
             this.applyBtn.ForeColor = System.Drawing.Color.White;
             this.applyBtn.Name = "applyBtn";
             this.applyBtn.Click += new System.EventHandler(this.applyBtn_Click);
             // 
+            // MailSendBtn
+            // 
+            this.MailSendBtn.Animated = true;
+            this.MailSendBtn.BackColor = System.Drawing.Color.Transparent;
+            this.MailSendBtn.BorderRadius = 15;
+            this.MailSendBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.MailSendBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.MailSendBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.MailSendBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.MailSendBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            resources.ApplyResources(this.MailSendBtn, "MailSendBtn");
+            this.MailSendBtn.ForeColor = System.Drawing.Color.White;
+            this.MailSendBtn.Name = "MailSendBtn";
+            this.MailSendBtn.Click += new System.EventHandler(this.MailSendBtn_Click);
+            // 
             // priceTrackBar2
             // 
+            resources.ApplyResources(this.priceTrackBar2, "priceTrackBar2");
             this.priceTrackBar2.BackColor = System.Drawing.Color.Transparent;
             this.priceTrackBar2.LargeChange = 500000;
-            resources.ApplyResources(this.priceTrackBar2, "priceTrackBar2");
             this.priceTrackBar2.Maximum = 10000000;
             this.priceTrackBar2.Minimum = 5000001;
             this.priceTrackBar2.Name = "priceTrackBar2";
@@ -391,10 +409,10 @@ namespace CarsAdviser.Forms
             // 
             // priceTrackBar1
             // 
+            resources.ApplyResources(this.priceTrackBar1, "priceTrackBar1");
             this.priceTrackBar1.BackColor = System.Drawing.Color.Transparent;
             this.priceTrackBar1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.priceTrackBar1.LargeChange = 500000;
-            resources.ApplyResources(this.priceTrackBar1, "priceTrackBar1");
             this.priceTrackBar1.Maximum = 5000000;
             this.priceTrackBar1.Name = "priceTrackBar1";
             this.priceTrackBar1.SmallChange = 100000;
@@ -422,6 +440,7 @@ namespace CarsAdviser.Forms
             // 
             // priceToTextBox
             // 
+            resources.ApplyResources(this.priceToTextBox, "priceToTextBox");
             this.priceToTextBox.Animated = true;
             this.priceToTextBox.AutoRoundedCorners = true;
             this.priceToTextBox.BackColor = System.Drawing.Color.Transparent;
@@ -433,7 +452,6 @@ namespace CarsAdviser.Forms
             this.priceToTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.priceToTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.priceToTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.priceToTextBox, "priceToTextBox");
             this.priceToTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.priceToTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.priceToTextBox.Name = "priceToTextBox";
@@ -450,6 +468,7 @@ namespace CarsAdviser.Forms
             // 
             // priceFromTextBox
             // 
+            resources.ApplyResources(this.priceFromTextBox, "priceFromTextBox");
             this.priceFromTextBox.Animated = true;
             this.priceFromTextBox.AutoRoundedCorners = true;
             this.priceFromTextBox.BackColor = System.Drawing.Color.Transparent;
@@ -461,7 +480,6 @@ namespace CarsAdviser.Forms
             this.priceFromTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.priceFromTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.priceFromTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.priceFromTextBox, "priceFromTextBox");
             this.priceFromTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.priceFromTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.priceFromTextBox.Name = "priceFromTextBox";
@@ -503,6 +521,7 @@ namespace CarsAdviser.Forms
             // 
             // carPanel2
             // 
+            resources.ApplyResources(this.carPanel2, "carPanel2");
             this.carPanel2.BorderColor = System.Drawing.Color.Black;
             this.carPanel2.BorderRadius = 30;
             this.carPanel2.BorderThickness = 1;
@@ -521,7 +540,6 @@ namespace CarsAdviser.Forms
             this.carPanel2.Controls.Add(this.mileageInfoLabel2);
             this.carPanel2.Controls.Add(this.mileageLabel2);
             this.carPanel2.Controls.Add(this.carPictureBox2);
-            resources.ApplyResources(this.carPanel2, "carPanel2");
             this.carPanel2.Name = "carPanel2";
             // 
             // detailsBtn2
@@ -630,6 +648,7 @@ namespace CarsAdviser.Forms
             // 
             // carPanel3
             // 
+            resources.ApplyResources(this.carPanel3, "carPanel3");
             this.carPanel3.BorderColor = System.Drawing.Color.Black;
             this.carPanel3.BorderRadius = 30;
             this.carPanel3.BorderThickness = 1;
@@ -648,7 +667,6 @@ namespace CarsAdviser.Forms
             this.carPanel3.Controls.Add(this.mileageInfoLabel3);
             this.carPanel3.Controls.Add(this.mileageLabel3);
             this.carPanel3.Controls.Add(this.carPictureBox3);
-            resources.ApplyResources(this.carPanel3, "carPanel3");
             this.carPanel3.Name = "carPanel3";
             // 
             // detailsBtn3
@@ -757,6 +775,7 @@ namespace CarsAdviser.Forms
             // 
             // carPanel6
             // 
+            resources.ApplyResources(this.carPanel6, "carPanel6");
             this.carPanel6.BorderColor = System.Drawing.Color.Black;
             this.carPanel6.BorderRadius = 30;
             this.carPanel6.BorderThickness = 1;
@@ -775,7 +794,6 @@ namespace CarsAdviser.Forms
             this.carPanel6.Controls.Add(this.mileageInfoLabel6);
             this.carPanel6.Controls.Add(this.mileageLabel6);
             this.carPanel6.Controls.Add(this.carPictureBox6);
-            resources.ApplyResources(this.carPanel6, "carPanel6");
             this.carPanel6.Name = "carPanel6";
             // 
             // detailsBtn6
@@ -1011,6 +1029,7 @@ namespace CarsAdviser.Forms
             // 
             // carPanel4
             // 
+            resources.ApplyResources(this.carPanel4, "carPanel4");
             this.carPanel4.BorderColor = System.Drawing.Color.Black;
             this.carPanel4.BorderRadius = 30;
             this.carPanel4.BorderThickness = 1;
@@ -1029,7 +1048,6 @@ namespace CarsAdviser.Forms
             this.carPanel4.Controls.Add(this.mileageInfoLabel4);
             this.carPanel4.Controls.Add(this.mileageLabel4);
             this.carPanel4.Controls.Add(this.carPictureBox4);
-            resources.ApplyResources(this.carPanel4, "carPanel4");
             this.carPanel4.Name = "carPanel4";
             // 
             // detailsBtn4
@@ -1514,35 +1532,25 @@ namespace CarsAdviser.Forms
             this.carPictureBox7.Name = "carPictureBox7";
             this.carPictureBox7.TabStop = false;
             // 
-            // MailSendBtn
+            // CarsPanel
             // 
-            this.MailSendBtn.Animated = true;
-            this.MailSendBtn.BackColor = System.Drawing.Color.Transparent;
-            this.MailSendBtn.BorderRadius = 15;
-            this.MailSendBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.MailSendBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.MailSendBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.MailSendBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.MailSendBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.MailSendBtn, "MailSendBtn");
-            this.MailSendBtn.ForeColor = System.Drawing.Color.White;
-            this.MailSendBtn.Name = "MailSendBtn";
-            this.MailSendBtn.Click += new System.EventHandler(this.MailSendBtn_Click);
+            resources.ApplyResources(this.CarsPanel, "CarsPanel");
+            this.CarsPanel.Controls.Add(this.carPanel5);
+            this.CarsPanel.Controls.Add(this.carPanel3);
+            this.CarsPanel.Controls.Add(this.carPanel2);
+            this.CarsPanel.Controls.Add(this.carPanel1);
+            this.CarsPanel.Controls.Add(this.carPanel4);
+            this.CarsPanel.Controls.Add(this.carPanel9);
+            this.CarsPanel.Controls.Add(this.carPanel8);
+            this.CarsPanel.Controls.Add(this.carPanel7);
+            this.CarsPanel.Controls.Add(this.carPanel6);
+            this.CarsPanel.Name = "CarsPanel";
             // 
             // AnnouncementForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.MailSendBtn);
-            this.Controls.Add(this.carPanel9);
-            this.Controls.Add(this.carPanel8);
-            this.Controls.Add(this.carPanel7);
-            this.Controls.Add(this.carPanel6);
-            this.Controls.Add(this.carPanel5);
-            this.Controls.Add(this.carPanel4);
-            this.Controls.Add(this.carPanel3);
-            this.Controls.Add(this.carPanel2);
-            this.Controls.Add(this.carPanel1);
+            this.Controls.Add(this.CarsPanel);
             this.Controls.Add(this.priceGroupBox);
             this.Controls.Add(this.searchTextBox);
             this.Controls.Add(this.searchLabel);
@@ -1586,6 +1594,8 @@ namespace CarsAdviser.Forms
             this.carPanel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carBrandPictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.carPictureBox7)).EndInit();
+            this.CarsPanel.ResumeLayout(false);
+            this.CarsPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1750,5 +1760,6 @@ namespace CarsAdviser.Forms
         private System.Windows.Forms.Label mileageLabel7;
         private Guna.UI2.WinForms.Guna2PictureBox carPictureBox7;
         private Guna.UI2.WinForms.Guna2Button MailSendBtn;
+        private System.Windows.Forms.FlowLayoutPanel CarsPanel;
     }
 }

@@ -51,6 +51,7 @@ namespace CarsAdviser
             // 
             // headerPanel
             // 
+            resources.ApplyResources(this.headerPanel, "headerPanel");
             this.headerPanel.Controls.Add(this.notificationLabel2);
             this.headerPanel.Controls.Add(this.notificationLabel1);
             this.headerPanel.Controls.Add(this.hiddenBottomLabel);
@@ -63,7 +64,6 @@ namespace CarsAdviser
             this.headerPanel.Controls.Add(this.announcementBtn);
             this.headerPanel.Controls.Add(this.appLogoPictureBox);
             this.headerPanel.Controls.Add(this.appNameLabel);
-            resources.ApplyResources(this.headerPanel, "headerPanel");
             this.headerPanel.Name = "headerPanel";
             // 
             // notificationLabel2
