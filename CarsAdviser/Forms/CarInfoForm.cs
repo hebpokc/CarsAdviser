@@ -172,85 +172,91 @@ namespace CarsAdviser.Forms
         }
         private void toBookmarksBtn_Click(object sender, EventArgs e)
         {
-            try
-            {
-                using (var context = new AppContext())
-                {
-                    var hiddenAuto = context.Users_hidden_auto.FirstOrDefault(b => b.Users_id == parentForm.currentUserId && b.Cars_id == carId);
-                    if (hiddenAuto != null)
-                    {
-                        context.Users_hidden_auto.Remove(hiddenAuto);
-                        context.SaveChanges();
-                    }
-
-                    var bookmark = context.Users_bookmarks.FirstOrDefault(b => b.Users_id == parentForm.currentUserId && b.Cars_id == carId);
-                    if (bookmark != null)
-                    {
-                        MessageBox.Show(Local.carAlreadyBookmarks, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                    else
-                    {
-                        bookmark = new Users_bookmarks
-                        {
-                            Users_id = parentForm.currentUserId,
-                            Cars_id = carId
-                        };
-
-                        context.Users_bookmarks.Add(bookmark);
-                        context.SaveChanges();
-
-                        logger.Info($"Пользователь добавил автомобиль с ID: {carId} в закладки.");
-                        MessageBox.Show(Local.carAddedBookmarks, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                logger.Error($"Не удалось добавить машину в закладки: {ex.Message}");
-                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            HandleBookmarkAction(carId, isBookmark: true);
         }
+
         private void hideBtn_Click(object sender, EventArgs e)
+        {
+            HandleBookmarkAction(carId, isBookmark: false);
+        }
+
+        private void HandleBookmarkAction(int carId, bool isBookmark)
         {
             try
             {
                 using (var context = new AppContext())
                 {
-                    var bookmark = context.Users_bookmarks.FirstOrDefault(b => b.Users_id == parentForm.currentUserId && b.Cars_id == carId);
-                    if (bookmark != null)
+                    if (isBookmark)
                     {
-                        context.Users_bookmarks.Remove(bookmark);
-                        context.SaveChanges();
-                    }
-
-                    var hiddenAuto = context.Users_hidden_auto.FirstOrDefault(b => b.Users_id == parentForm.currentUserId && b.Cars_id == carId);
-                    if (hiddenAuto != null)
-                    {
-                        MessageBox.Show(Local.carAlreadyHidden, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        var hiddenAuto = context.Users_hidden_auto.FirstOrDefault(b => b.Users_id == parentForm.currentUserId && b.Cars_id == carId);
+                        if (hiddenAuto != null)
+                        {
+                            context.Users_hidden_auto.Remove(hiddenAuto);
+                            context.SaveChanges();
+                        }
                     }
                     else
                     {
-                        hiddenAuto = new Users_hidden_auto
+                        var bookmark = context.Users_bookmarks.FirstOrDefault(b => b.Users_id == parentForm.currentUserId && b.Cars_id == carId);
+                        if (bookmark != null)
                         {
-                            Users_id = parentForm.currentUserId,
-                            Cars_id = carId
-                        };
-
-                        context.Users_hidden_auto.Add(hiddenAuto);
-                        context.SaveChanges();
-
-                        logger.Info($"Пользователь скрыл автомобиль с ID: {carId}.");
-                        MessageBox.Show(Local.carAddedHidden, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            context.Users_bookmarks.Remove(bookmark);
+                            context.SaveChanges();
+                        }
                     }
-                    
+                    if (isBookmark)
+                    {
+                        var bookmark = context.Users_bookmarks.FirstOrDefault(b => b.Users_id == parentForm.currentUserId && b.Cars_id == carId);
+                        if (bookmark != null)
+                        {
+                            MessageBox.Show(Local.carAlreadyBookmarks, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+                            var newBookmark = new Users_bookmarks
+                            {
+                                Users_id = parentForm.currentUserId,
+                                Cars_id = carId
+                            };
+
+                            context.Users_bookmarks.Add(newBookmark);
+                            context.SaveChanges();
+
+                            logger.Info($"Пользователь добавил автомобиль с ID: {carId} в закладки.");
+                            MessageBox.Show(Local.carAddedBookmarks, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                    }
+                    else
+                    {
+                        var hiddenAuto = context.Users_hidden_auto.FirstOrDefault(b => b.Users_id == parentForm.currentUserId && b.Cars_id == carId);
+                        if (hiddenAuto != null)
+                        {
+                            MessageBox.Show(Local.carAlreadyHidden, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+                            var newHiddenAuto = new Users_hidden_auto
+                            {
+                                Users_id = parentForm.currentUserId,
+                                Cars_id = carId
+                            };
+
+                            context.Users_hidden_auto.Add(newHiddenAuto);
+                            context.SaveChanges();
+
+                            logger.Info($"Пользователь скрыл автомобиль с ID: {carId}.");
+                            MessageBox.Show(Local.carAddedHidden, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                    }
                 }
             }
             catch (Exception ex)
             {
-                logger.Error($"Не удалось сркыть машину: {ex.Message}");
+                logger.Error($"Ошибка при обработке автомобиля (ID: {carId}): {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
         public CultureInfo GetCurrentUICulture()
         {
             return Thread.CurrentThread.CurrentUICulture;

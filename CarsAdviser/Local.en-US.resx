@@ -239,4 +239,10 @@ Incorrect username or password</value>
   <data name="wrongPrices" xml:space="preserve">
     <value>The price &lt;from&gt; should be less than &lt;to&gt;</value>
   </data>
+  <data name="yandexAuth" xml:space="preserve">
+    <value>Connect with Yandex ID</value>
+  </data>
+  <data name="yandexReg" xml:space="preserve">
+    <value>Registr with Yandex ID</value>
+  </data>
 </root>

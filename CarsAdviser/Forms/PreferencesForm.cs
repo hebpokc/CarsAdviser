@@ -20,6 +20,7 @@ namespace CarsAdviser.Forms
         public List<Cars> similarToPreferences;
         private List<Cars> selectedPreferences = new List<Cars>();
         private static Logger logger = LogManager.GetCurrentClassLogger();
+        private Helper helper = new Helper();
         public PreferencesForm(AccountForm parentForm, int userId)
         {
             InitializeComponent();
@@ -33,6 +34,7 @@ namespace CarsAdviser.Forms
         {
             try
             {
+                prefPanel.Controls.Clear();
                 logger.Info("Загрузка случайных автомобилей");
                 var randomCars = new List<Cars>();
 
@@ -43,23 +45,23 @@ namespace CarsAdviser.Forms
                                                                .ThenInclude(cm => cm.Cars_Stamp)
                                                                .Where(up => up.Users_id == userId)
                                                                .Select(up => up.Cars)
-                                                               .Take(4)
+                                                               .Take(10)
                                                                .ToList();
 
                     randomCars.AddRange(userPreferencesCars);
 
-                    if (randomCars.Count < 4)
+                    if (randomCars.Count < 10)
                     {
 
                         var allCars = context.Cars.Include(c => c.Cars_Model)
                                                   .Include(c => c.Cars_Stamp)
                                                   .ToList();
 
-                        randomCars = allCars.OrderBy(x => Guid.NewGuid()).Take(4).ToList();
+                        randomCars = allCars.OrderBy(x => Guid.NewGuid()).Take(10).ToList();
 
-                        var remainingCount = 4 - randomCars.Count;
+                        var remainingCount = 10 - randomCars.Count;
 
-                        var remainingCars = randomCars.Skip(4).ToList();
+                        var remainingCars = randomCars.Skip(10).ToList();
 
                         randomCars.AddRange(remainingCars);
                     }
@@ -69,61 +71,15 @@ namespace CarsAdviser.Forms
                         var allCars = context.Cars.Include(c => c.Cars_Model)
                                                    .Include(c => c.Cars_Stamp)
                                                    .OrderBy(x => Guid.NewGuid())
-                                                   .Take(4)
+                                                   .Take(10)
                                                    .ToList();
 
                         randomCars.AddRange(allCars);
                     }
 
-                    for (int i = 0; i < randomCars.Count; i++)
+                    foreach (var car in randomCars)
                     {
-                        var car = randomCars[i];
-                        Guna2Panel carPanel = this.Controls.Find($"carPanel{i + 1}", true).FirstOrDefault() as Guna2Panel;
-                        if (carPanel != null)
-                        {
-                            carPanel.Visible = true;
-
-                            Guna2PictureBox carPicture = carPanel.Controls.Find($"carPictureBox{i + 1}", true).FirstOrDefault() as Guna2PictureBox;
-                            if (carPicture != null)
-                            {
-                                if (car.Photo_1 != null)
-                                {
-                                    carPicture.Image = Image.FromFile(car.Photo_1);
-                                }
-                                else
-                                {
-                                    carPicture.Image = Properties.Resources.noAuto;
-                                }
-                            }
-
-                            Guna2PictureBox carBrandPicture = carPanel.Controls.Find($"carBrandPictureBox{i + 1}", true).FirstOrDefault() as Guna2PictureBox;
-                            if (carBrandPicture != null)
-                            {
-                                carBrandPicture.Image = Image.FromFile(GetStampImageLocation(car.Cars_Stamp.Stamp));
-                            }
-
-                            Label carName = carPanel.Controls.Find($"carNameLabel{i + 1}", true).FirstOrDefault() as Label;
-                            if (carName != null)
-                            {
-                                carName.Text = $"{car.Cars_Stamp.Stamp} {car.Cars_Model.Model}";
-                            }
-
-                            Label carYear = carPanel.Controls.Find($"carYearLabel{i + 1}", true).FirstOrDefault() as Label;
-                            if (carYear != null)
-                            {
-                                carYear.Text = $"{car.Year}";
-                            }
-
-                            Guna2CheckBox check = carPanel.Controls.Find($"preferCheckBox{i + 1}", true).FirstOrDefault() as Guna2CheckBox;
-                            if (check != null)
-                            {
-                                check.Tag = car.ID;
-                                if (userPreferencesCars.Any(upc => upc.ID == car.ID))
-                                {
-                                    check.Checked = true;
-                                }
-                            }
-                        }
+                        LoadCurrentCarPreference(car);
                     }
                 }
             }
@@ -133,45 +89,69 @@ namespace CarsAdviser.Forms
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        private string GetStampImageLocation(string stamp)
+        private void LoadCurrentCarPreference(Cars car)
         {
-            switch (stamp)
+            Guna2Panel carPanel = new Guna2Panel()
             {
-                case "Audi":
-                    return "../../Images/CarsBrands/audi_logo.png";
-                case "BMW":
-                    return "../../Images/CarsBrands/bmw_logo.png";
-                case "Chevrolet":
-                    return "../../Images/CarsBrands/chevrolet_logo.png";
-                case "Ford":
-                    return "../../Images/CarsBrands/ford_logo.png";
-                case "Honda":
-                    return "../../Images/CarsBrands/honda_logo.png";
-                case "Hyundai":
-                    return "../../Images/CarsBrands/hyundai_logo.png";
-                case "Jeep":
-                    return "../../Images/CarsBrands/jeep_logo.png";
-                case "Kia":
-                    return "../../Images/CarsBrands/kia_logo.png";
-                case "Lexus":
-                    return "../../Images/CarsBrands/lexus_logo.png";
-                case "Mercedes-Benz":
-                    return "../../Images/CarsBrands/mercedes_logo.png";
-                case "Nissan":
-                    return "../../Images/CarsBrands/nissan_logo.png";
-                case "Subaru":
-                    return "../../Images/CarsBrands/subaru_logo.png";
-                case "Tesla":
-                    return "../../Images/CarsBrands/tesla_logo.png";
-                case "Toyota":
-                    return "../../Images/CarsBrands/toyota_logo.png";
-                case "Volkswagen":
-                    return "../../Images/CarsBrands/volkswagen_logo.png";
-                default:
-                    return "../../Resources/noAuto.png";
-            }
-        }
+                Size = new Size(265, 270),
+                Margin = new Padding(3, 3, 50, 75),
+                BorderColor = Color.Black,
+                BorderRadius = 30,
+                BorderThickness = 1
+            };
+            Guna2PictureBox carPictureBox = new Guna2PictureBox()
+            {
+                Size = new Size(265, 153),
+                FillColor = Color.White,
+                BorderRadius = 30,
+                BackColor = Color.Transparent,
+                CustomizableEdges = { TopLeft = true, TopRight = true, BottomRight = false, BottomLeft = false },
+                Location = new Point(1, 1),
+                SizeMode = PictureBoxSizeMode.StretchImage,
+                Image = Image.FromFile(car.Photo_1)
+            };
+            Guna2PictureBox carBrandPictureBox = new Guna2PictureBox()
+            {
+                Size = new Size(32, 32),
+                FillColor = Color.White,
+                BackColor = Color.Transparent,
+                Location = new Point(35, 172),
+                SizeMode = PictureBoxSizeMode.StretchImage,
+                Image = Image.FromFile(helper.GetStampImageLocation(car.Cars_Stamp.Stamp)),
+            };
+            Label carYearLabel = new Label()
+            {
+                Location = new Point(75, 192),
+                Font = new Font("Segoe UI", 10),
+                Text = car.Year.ToString(),
+            };
+            Label carNameLabel = new Label()
+            {
+                Location = new Point(75, 173),
+                Font = new Font("Candara", 12),
+                Text = car.Cars_Stamp.Stamp + ' ' + car.Cars_Model.Model,
+                Size = new Size(carPanel.Width - 85, 32),
+                TextAlign = ContentAlignment.TopLeft
+            };
+            Guna2CheckBox preferCheckBox = new Guna2CheckBox()
+            {
+                Size = new Size(90, 23),
+                Text = "Выбрано",
+                Font = new Font("Candara", 12),
+                Location = new Point(92, 231),
+                ForeColor = Color.FromArgb(160, 113, 255),
+                Checked = GetUserPreferences().Any(p => p.ID == car.ID),
+                Tag = car.ID
+            };
+            preferCheckBox.CheckedChanged += new EventHandler(preferCheckBox_CheckedChanged);
 
+            carPanel.Controls.Add(preferCheckBox);
+            carPanel.Controls.Add(carBrandPictureBox);
+            carPanel.Controls.Add(carYearLabel);
+            carPanel.Controls.Add(carNameLabel);
+            carPanel.Controls.Add(carPictureBox);
+            prefPanel.Controls.Add(carPanel);
+        }
         private void newListBtn_Click(object sender, EventArgs e)
         {
             LoadRandomCars();
@@ -212,6 +192,8 @@ namespace CarsAdviser.Forms
                 {
                     selectedPreferences.Remove(car);
                 }
+
+                checkBox.Checked = selectedPreferences.Contains(car);
             }
         }
         private void SaveUserPreferences(Cars car)
@@ -220,23 +202,39 @@ namespace CarsAdviser.Forms
             {
                 using (var context = new AppContext())
                 {
-                    var userPreferences = new Users_preferences()
-                    {
-                        Users_id = userId,
-                        Cars_id = car.ID
-                    };
+                    var existingPreference = context.Users_preferences.FirstOrDefault(up => up.Users_id == userId && up.Cars_id == car.ID);
 
-                    context.Users_preferences.Add(userPreferences);
+                    if (selectedPreferences.Contains(car))
+                    {
+                        if (existingPreference == null)
+                        {
+                            var userPreferences = new Users_preferences()
+                            {
+                                Users_id = userId,
+                                Cars_id = car.ID
+                            };
+                            context.Users_preferences.Add(userPreferences);
+                            logger.Info($"Сохранение предпочтений пользователя для автомобиля с ID: {car.ID}");
+                        }
+                    }
+                    else
+                    {
+                        if (existingPreference != null)
+                        {
+                            context.Users_preferences.Remove(existingPreference);
+                            logger.Warn($"Удаление записи для автомобиля с ID: {car.ID}, так как он был удален из предпочтений пользователя с ID: {userId}");
+                        }
+                    }
                     context.SaveChanges();
-                    logger.Info($"Сохранение предпочтений пользователя для автомобиля с ID: {car.ID}");
-                } 
+                }
             }
             catch (Exception ex)
             {
-                logger.Error($"Ошибка при сохранение предпочтений пользователя: {ex.Message}");
+                logger.Error($"Ошибка при сохранении предпочтений пользователя: {ex.Message}");
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
         private void RemovePreferences()
         {
             try
@@ -255,7 +253,7 @@ namespace CarsAdviser.Forms
             catch (Exception ex)
             {
                 logger.Error($"Ошибка при удаление всех предпочтений пользователя: {ex.Message}");
-                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}",Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private List<Cars> GetUserPreferences()
@@ -303,49 +301,125 @@ namespace CarsAdviser.Forms
                 var similarCars = FindSimilarCars(userPreference);
                 similarToPreferences.AddRange(similarCars);
             }
+
             var uniqueSimilarToPreferences = similarToPreferences
-                                                    .GroupBy(car => car.ID)
-                                                    .Select(group => group.First())
-                                                    .ToList();
+                                                .GroupBy(car => car.ID)
+                                                .Select(group => group.First())
+                                                .OrderByDescending(car => similarToPreferences.Count(similarCar => similarCar.ID == car.ID))
+                                                .ToList();
 
             return uniqueSimilarToPreferences;
+        }
+        private List<Cars> GetAllCars()
+        {
+            try
+            {
+                using (var context = new AppContext())
+                {
+                    return context.Cars
+                    .Include(c => c.Cars_Model)
+                    .Include(c => c.Cars_Stamp)
+                    .Include(c => c.Cars_Body)
+                    .Include(c => c.Cars_Engine)
+                    .Include(c => c.Cars_Fuel)
+                    .Include(c => c.Cars_Drive)
+                    .Include(c => c.Cars_Checkpoint)
+                    .Include(c => c.Cars_Wheel)
+                    .Include(c => c.Cars_Colour)
+                    .ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                logger.Error($"Ошибка при получении списка всех автомобилей: {ex.Message}");
+                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return null;
+            }
         }
         private List<Cars> FindSimilarCars(Cars userPreference)
         {
             try
             {
                 logger.Info("Поиск похожих авто");
+
+                List<Cars> similarCars = new List<Cars>();
+
                 using (var context = new AppContext())
                 {
-                    var allCars = context.Cars.Include(c => c.Cars_Model)
-                                            .Include(c => c.Cars_Stamp)
-                                            .Include(c => c.Cars_Body)
-                                            .Include(c => c.Cars_Engine)
-                                            .Include(c => c.Cars_Fuel)
-                                            .Include(c => c.Cars_Drive)
-                                            .Include(c => c.Cars_Checkpoint)
-                                            .Include(c => c.Cars_Wheel)
-                                            .Include(c => c.Cars_Colour)
-                                            .ToList();
+                    var allCars = GetAllCars();
+                    var selectedCars = GetUserPreferences(); 
 
-                    var similarCars = new List<Cars>();
-                    var groupedCars = allCars.GroupBy(c => c.Mark);
-
-                    foreach (var group in groupedCars.OrderByDescending(g => g.Key))
+                    foreach (var selectedCar in selectedCars)
                     {
-                        foreach (var car in group)
+                        int similarityCount = 0;
+
+                        foreach (var property in typeof(Cars).GetProperties())
                         {
-                            if (car.Cars_Stamp.Stamp == userPreference.Cars_Stamp.Stamp || car.Cars_Model.Model == userPreference.Cars_Model.Model || car.Cars_Body.Body == userPreference.Cars_Body.Body
-                                || car.Cars_Engine.Engine == userPreference.Cars_Engine.Engine || car.Cars_Fuel.Fuel == userPreference.Cars_Fuel.Fuel || car.Cars_Drive.Drive == userPreference.Cars_Drive.Drive
-                                || car.Cars_Checkpoint.Checkpoint == userPreference.Cars_Checkpoint.Checkpoint || car.Cars_Wheel.Wheel == userPreference.Cars_Wheel.Wheel || car.Cars_Colour.Colour == userPreference.Cars_Colour.Colour
-                                || car.Year == userPreference.Year)
+                            try
                             {
-                                similarCars.Add(car);
+                                if (property.Name.StartsWith("Cars_"))
+                                {
+                                    var selectedCarPropertyValue = property.GetValue(selectedCar);
+
+                                    if ((int)property.GetValue(userPreference) == (int)selectedCarPropertyValue)
+                                    {
+                                        similarityCount++;
+                                    }
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                logger.Error($"Ошибка при сравнении свойств автомобилей: {ex.Message}");
                             }
                         }
+
+                        if (similarityCount > 0)
+                        {
+                            similarCars.Add(selectedCar);
+                        }
                     }
-                    return similarCars;
+
+                    foreach (var availableCar in allCars)
+                    {
+                        if (selectedCars.Contains(availableCar))
+                            continue;
+
+                        int similarityCount = 0;
+
+                        foreach (var selectedCar in selectedCars)
+                        {
+                            foreach (var property in typeof(Cars).GetProperties())
+                            {
+                                try
+                                {
+                                    if (property.Name.StartsWith("Cars_"))
+                                    {
+                                        var selectedCarPropertyValue = property.GetValue(selectedCar);
+                                        var availableCarPropertyValue = property.GetValue(availableCar);
+
+                                        if ((int)selectedCarPropertyValue == (int)availableCarPropertyValue)
+                                        {
+                                            similarityCount++;
+                                        }
+                                    }
+                                }
+                                catch (Exception ex)
+                                {
+                                    logger.Error($"Ошибка при сравнении свойств автомобилей: {ex.Message}");
+                                }
+                            }
+                        }
+
+                        if (similarityCount > 0)
+                        {
+                            similarCars.Add(availableCar);
+                        }
+                    }
                 }
+
+                similarCars = similarCars.OrderByDescending(car => similarCars.Count(similarCar => similarCar.ID == car.ID)).ToList();
+
+                return similarCars;
             }
             catch (Exception ex)
             {
@@ -354,7 +428,6 @@ namespace CarsAdviser.Forms
                 return null;
             }
         }
-
         private void saveBtn_Click(object sender, EventArgs e)
         {
             foreach (var car in selectedPreferences)
@@ -366,10 +439,9 @@ namespace CarsAdviser.Forms
 
             similarToPreferences = AnalyzeUserPreferences();
 
-            parentForm.similarToPreferences = similarToPreferences;
+            UserPreferencesStorage.UpdateUserPreferences(similarToPreferences);
             MessageBox.Show(Local.preferencesTaken, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-
         private void clearBtn_Click(object sender, EventArgs e)
         {
             RemovePreferences();

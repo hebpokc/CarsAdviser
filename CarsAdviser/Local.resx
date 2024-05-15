@@ -181,7 +181,7 @@
     <value>Изображение не загружено</value>
   </data>
   <data name="ImageUploaded" xml:space="preserve">
-    <value>Изображение загружено\nОбновите страницу или выйдите из аккаунта чтобы увидеть изменения</value>
+    <value>Изображение загружено. Обновите страницу или выйдите из аккаунта чтобы увидеть изменения</value>
   </data>
   <data name="loginPlaceHolder" xml:space="preserve">
     <value>E-mail или телефон</value>
@@ -238,5 +238,11 @@
   </data>
   <data name="wrongPrices" xml:space="preserve">
     <value>Цена &lt;от&gt; должна быть меньше чем &lt;до&gt;</value>
+  </data>
+  <data name="yandexAuth" xml:space="preserve">
+    <value>Войти с Yandex ID</value>
+  </data>
+  <data name="yandexReg" xml:space="preserve">
+    <value>Зарегистрироваться через Yandex ID</value>
   </data>
 </root>

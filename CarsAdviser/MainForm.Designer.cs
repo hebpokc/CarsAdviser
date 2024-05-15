@@ -44,6 +44,7 @@ namespace CarsAdviser
             this.appLogoPictureBox = new Guna.UI2.WinForms.Guna2PictureBox();
             this.appNameLabel = new System.Windows.Forms.Label();
             this.mainPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.accountBottomLabel = new System.Windows.Forms.Label();
             this.headerPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.accountCirclePictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.appLogoPictureBox)).BeginInit();
@@ -52,6 +53,7 @@ namespace CarsAdviser
             // headerPanel
             // 
             resources.ApplyResources(this.headerPanel, "headerPanel");
+            this.headerPanel.Controls.Add(this.accountBottomLabel);
             this.headerPanel.Controls.Add(this.notificationLabel2);
             this.headerPanel.Controls.Add(this.notificationLabel1);
             this.headerPanel.Controls.Add(this.hiddenBottomLabel);
@@ -174,10 +176,10 @@ namespace CarsAdviser
             // 
             // appLogoPictureBox
             // 
-            resources.ApplyResources(this.appLogoPictureBox, "appLogoPictureBox");
             this.appLogoPictureBox.BackColor = System.Drawing.Color.Transparent;
             this.appLogoPictureBox.Image = global::CarsAdviser.Properties.Resources.logo;
             this.appLogoPictureBox.ImageRotate = 0F;
+            resources.ApplyResources(this.appLogoPictureBox, "appLogoPictureBox");
             this.appLogoPictureBox.Name = "appLogoPictureBox";
             this.appLogoPictureBox.TabStop = false;
             // 
@@ -191,6 +193,11 @@ namespace CarsAdviser
             // 
             resources.ApplyResources(this.mainPanel, "mainPanel");
             this.mainPanel.Name = "mainPanel";
+            // 
+            // accountBottomLabel
+            // 
+            resources.ApplyResources(this.accountBottomLabel, "accountBottomLabel");
+            this.accountBottomLabel.Name = "accountBottomLabel";
             // 
             // MainForm
             // 
@@ -221,9 +228,10 @@ namespace CarsAdviser
         private System.Windows.Forms.Label announcementBottomLabel;
         private System.Windows.Forms.Label bookmarkersBottomLabel;
         private System.Windows.Forms.Label hiddenBottomLabel;
-        private Guna.UI2.WinForms.Guna2Panel mainPanel;
         private System.Windows.Forms.Label notificationLabel2;
         private System.Windows.Forms.Label notificationLabel1;
+        public Guna.UI2.WinForms.Guna2Panel mainPanel;
+        private System.Windows.Forms.Label accountBottomLabel;
     }
 }
 

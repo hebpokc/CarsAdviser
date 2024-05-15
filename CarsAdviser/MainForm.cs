@@ -51,11 +51,7 @@ namespace CarsAdviser
         }
         private void MainForm_Load(object sender, EventArgs e)
         {
-            OpenChildForm(new AnnouncementForm(this, similarToPreferences));
-            announcementBtn.Font = new Font(announcementBtn.Font.FontFamily, announcementBtn.Font.Size, FontStyle.Bold);
-            announcementBottomLabel.Visible = true;
-            ResetStyle(bookmarkersBtn, bookmarkersBottomLabel);
-            ResetStyle(hiddenBtn, hiddenBottomLabel);
+            OpenChildFormAndSetStyle(new AnnouncementForm(this, currentUserId), announcementBtn, announcementBottomLabel);
             LoadAvatar();
             logger.Info("Загрузка формы MainForm");
         }
@@ -76,6 +72,20 @@ namespace CarsAdviser
             btn.Font = new Font(btn.Font.FontFamily, btn.Font.Size, FontStyle.Regular);
             label.Visible = false;
         }
+        private void OpenChildFormAndSetStyle(Form childForm, Guna2Button activeButton, Label activeLabel)
+        {
+            currentChildForm?.Close();
+            OpenChildForm(childForm);
+
+
+            ResetStyle(announcementBtn, announcementBottomLabel);
+            ResetStyle(bookmarkersBtn, bookmarkersBottomLabel);
+            ResetStyle(hiddenBtn, hiddenBottomLabel);
+            ResetStyle(accountBtn, accountBottomLabel);
+
+            activeButton.Font = new Font(activeButton.Font.FontFamily, activeButton.Font.Size, FontStyle.Bold);
+            activeLabel.Visible = true;
+        }
         public void NotificationTextUpdate1(string text)
         {
             notificationLabel1.Text = text;
@@ -86,44 +96,21 @@ namespace CarsAdviser
         }
         private void announcementBtn_Click(object sender, EventArgs e)
         {
-            currentChildForm.Close();
-            OpenChildForm(new AnnouncementForm(this, similarToPreferences));
-            announcementBtn.Font = new Font(announcementBtn.Font.FontFamily, announcementBtn.Font.Size, FontStyle.Bold);
-            announcementBottomLabel.Visible = true;
-            accountBtn.Font = new Font(accountBtn.Font.FontFamily, accountBtn.Font.Size, FontStyle.Regular);
-            ResetStyle(bookmarkersBtn, bookmarkersBottomLabel);
-            ResetStyle(hiddenBtn, hiddenBottomLabel);
+            OpenChildFormAndSetStyle(new AnnouncementForm(this, currentUserId), announcementBtn, announcementBottomLabel);
         }
 
         private void bookmarkersBtn_Click(object sender, EventArgs e)
         {
-            currentChildForm.Close();
-            OpenChildForm(new BookmarkersForm(this, currentUserId));
-            bookmarkersBtn.Font = new Font(bookmarkersBtn.Font.FontFamily, bookmarkersBtn.Font.Size, FontStyle.Bold);
-            bookmarkersBottomLabel.Visible = true;
-            accountBtn.Font = new Font(accountBtn.Font.FontFamily, accountBtn.Font.Size, FontStyle.Regular);
-            ResetStyle(announcementBtn, announcementBottomLabel);
-            ResetStyle(hiddenBtn, hiddenBottomLabel);
+            OpenChildFormAndSetStyle(new BookmarkersForm(this, currentUserId), bookmarkersBtn, bookmarkersBottomLabel);
         }
         private void hiddenBtn_Click(object sender, EventArgs e)
         {
-            currentChildForm.Close();
-            OpenChildForm(new HiddenForm(this, currentUserId));
-            hiddenBtn.Font = new Font(hiddenBtn.Font.FontFamily, hiddenBtn.Font.Size, FontStyle.Bold);
-            hiddenBottomLabel.Visible = true;
-            accountBtn.Font = new Font(accountBtn.Font.FontFamily, accountBtn.Font.Size, FontStyle.Regular);
-            ResetStyle(announcementBtn, announcementBottomLabel);
-            ResetStyle(bookmarkersBtn, bookmarkersBottomLabel);
+            OpenChildFormAndSetStyle(new HiddenForm(this, currentUserId), hiddenBtn, hiddenBottomLabel);
         }
 
         private void accountBtn_Click(object sender, EventArgs e)
         {
-            currentChildForm.Close();
-            OpenChildForm(new AccountForm(this, currentUserId));
-            accountBtn.Font = new Font(accountBtn.Font.FontFamily, accountBtn.Font.Size, FontStyle.Bold);
-            ResetStyle(announcementBtn, announcementBottomLabel);
-            ResetStyle(bookmarkersBtn, bookmarkersBottomLabel);
-            ResetStyle(hiddenBtn, hiddenBottomLabel);
+            OpenChildFormAndSetStyle(new AccountForm(this, currentUserId), accountBtn, accountBottomLabel); 
         }
         private void LoadAvatar()
         {

@@ -1,8 +1,13 @@
 ﻿using System;
-using System.Linq;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using CarsAdviser.Database;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
 using NLog;
 
 namespace CarsAdviser.Forms
@@ -12,6 +17,9 @@ namespace CarsAdviser.Forms
         private AuthorizationForm parentForm;
         private static Logger logger = LogManager.GetCurrentClassLogger();
 
+        private const string ClientId = "a4eafaed8ce24ccfa608401fdb825ed7";
+        private const string RedirectUri = "https://oauth.yandex.ru/verification_code";
+
         public SignInForm() { }
         public SignInForm(AuthorizationForm parentForm)
         {
@@ -20,7 +28,7 @@ namespace CarsAdviser.Forms
             passwordTextBox.UseSystemPasswordChar = true;
             Thread.CurrentThread.CurrentUICulture = parentForm.GetCurrentUICulture();
             UpdateInterface();
-            logger.Info("Загрузка формы SignInForm");
+            logger.Info("Загрузка формы SignInForm");  
         }
 
         private void uncorrectDataTextBox_KeyDown(object sender, KeyEventArgs e)
@@ -105,6 +113,7 @@ namespace CarsAdviser.Forms
                 signInBtn.PerformClick();
             }
         }
+
         private void UpdateInterface()
         {
             loginTextBox.PlaceholderText = Local.loginPlaceHolder;
@@ -112,6 +121,51 @@ namespace CarsAdviser.Forms
             uncorrectDataTextBox.Text = Local.uncorrectData;
         }
 
-        
+        private void YandexAuthBtn_Click(object sender, EventArgs e)
+        {
+            var authUrl = "https://passport.yandex.ru/auth/list?retpath=" + Uri.EscapeDataString($"https://oauth.yandex.ru/authorize?response_type=code&client_id={ClientId}&redirect_uri={RedirectUri}&prompt=select_account");
+
+            webBrowser.Visible = true;
+            webBrowser.Navigate(authUrl);
+            backBtn.Visible = true;
+        }
+        private async void webBrowser_Navigated(object sender, WebBrowserNavigatedEventArgs e)
+        {
+            webBrowser.ScriptErrorsSuppressed = true;
+            if (e.Url.AbsoluteUri.StartsWith(RedirectUri))
+            {
+                YandexHelper yandexHelper = new YandexHelper();
+                var code = e.Url.Query.Substring(e.Url.Query.IndexOf("code=") + 5).Split('&')[0];
+                var accessToken = await yandexHelper.ExchangeCodeForTokenAsync(code);
+                webBrowser.Visible = false;
+
+                var userInfo = await yandexHelper.GetUserInfoAsync(accessToken);
+                if (userInfo != null)
+                {
+                    var auth = new Auth(Thread.CurrentThread.CurrentUICulture);
+                    var isAuth = auth.AuthenticateUser(userInfo.Email, userInfo.IsYandex == 1);
+                    if (isAuth)
+                    {
+                        uncorrectDataTextBox.Visible = false;
+                        logger.Info($"Пользователь {userInfo.First_name} успешно авторизован");
+                        loginTextBox.Clear();
+                        passwordTextBox.Clear();
+                        MainForm mainForm = new MainForm(parentForm, auth.CurrentUserId);
+                        mainForm.Show();
+                        parentForm.Hide();
+                    }
+                    else
+                    {
+                        uncorrectDataTextBox.Visible = true;
+                    }
+                }
+            }
+        }
+
+        private void backBtn_Click(object sender, EventArgs e)
+        {
+            webBrowser.Visible = false;
+            backBtn.Visible = false;
+        }
     }
 }

@@ -40,8 +40,11 @@ namespace CarsAdviser.Forms
             this.mandatoryFillingLabel1 = new System.Windows.Forms.Label();
             this.mandatoryFillingLabel2 = new System.Windows.Forms.Label();
             this.uncorrectDataTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.YandexAuthBtn = new Guna.UI2.WinForms.Guna2Button();
             this.passwordTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.showPassImageBtn = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.webBrowser = new System.Windows.Forms.WebBrowser();
+            this.backBtn = new Guna.UI2.WinForms.Guna2Button();
             this.SuspendLayout();
             // 
             // signInBtn
@@ -144,6 +147,25 @@ namespace CarsAdviser.Forms
             this.uncorrectDataTextBox.TabStop = false;
             this.uncorrectDataTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uncorrectDataTextBox_KeyDown);
             // 
+            // YandexAuthBtn
+            // 
+            resources.ApplyResources(this.YandexAuthBtn, "YandexAuthBtn");
+            this.YandexAuthBtn.Animated = true;
+            this.YandexAuthBtn.BorderRadius = 10;
+            this.YandexAuthBtn.BorderThickness = 1;
+            this.YandexAuthBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.YandexAuthBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.YandexAuthBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.YandexAuthBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.YandexAuthBtn.FillColor = System.Drawing.Color.White;
+            this.YandexAuthBtn.ForeColor = System.Drawing.Color.Black;
+            this.YandexAuthBtn.Image = global::CarsAdviser.Properties.Resources.yandex;
+            this.YandexAuthBtn.ImageOffset = new System.Drawing.Point(-4, 0);
+            this.YandexAuthBtn.ImageSize = new System.Drawing.Size(25, 25);
+            this.YandexAuthBtn.Name = "YandexAuthBtn";
+            this.YandexAuthBtn.TabStop = false;
+            this.YandexAuthBtn.Click += new System.EventHandler(this.YandexAuthBtn_Click);
+            // 
             // passwordTextBox
             // 
             resources.ApplyResources(this.passwordTextBox, "passwordTextBox");
@@ -181,19 +203,39 @@ namespace CarsAdviser.Forms
             this.showPassImageBtn.Name = "showPassImageBtn";
             this.showPassImageBtn.PressedState.ImageSize = new System.Drawing.Size(32, 32);
             // 
+            // webBrowser
+            // 
+            resources.ApplyResources(this.webBrowser, "webBrowser");
+            this.webBrowser.Name = "webBrowser";
+            this.webBrowser.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.webBrowser_Navigated);
+            // 
+            // backBtn
+            // 
+            this.backBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.backBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.backBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.backBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            resources.ApplyResources(this.backBtn, "backBtn");
+            this.backBtn.ForeColor = System.Drawing.Color.White;
+            this.backBtn.Name = "backBtn";
+            this.backBtn.Click += new System.EventHandler(this.backBtn_Click);
+            // 
             // SignInForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.uncorrectDataTextBox);
+            this.Controls.Add(this.backBtn);
+            this.Controls.Add(this.webBrowser);
+            this.Controls.Add(this.signInLabel1);
+            this.Controls.Add(this.signInLabel2);
             this.Controls.Add(this.mandatoryFillingLabel2);
-            this.Controls.Add(this.mandatoryFillingLabel1);
-            this.Controls.Add(this.signInBtn);
             this.Controls.Add(this.passwordTextBox);
+            this.Controls.Add(this.signInBtn);
+            this.Controls.Add(this.YandexAuthBtn);
+            this.Controls.Add(this.uncorrectDataTextBox);
             this.Controls.Add(this.loginTextBox);
             this.Controls.Add(this.createAccountBtn);
-            this.Controls.Add(this.signInLabel2);
-            this.Controls.Add(this.signInLabel1);
+            this.Controls.Add(this.mandatoryFillingLabel1);
             this.Name = "SignInForm";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -211,5 +253,8 @@ namespace CarsAdviser.Forms
         private System.Windows.Forms.Label mandatoryFillingLabel1;
         private System.Windows.Forms.Label mandatoryFillingLabel2;
         private Guna.UI2.WinForms.Guna2TextBox uncorrectDataTextBox;
+        private Guna.UI2.WinForms.Guna2Button YandexAuthBtn;
+        private WebBrowser webBrowser;
+        private Guna.UI2.WinForms.Guna2Button backBtn;
     }
 }

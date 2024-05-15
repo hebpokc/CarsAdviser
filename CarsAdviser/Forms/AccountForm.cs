@@ -1,4 +1,5 @@
 ﻿using CarsAdviser.Database;
+using Guna.UI2.WinForms;
 using NLog;
 using System;
 using System.Collections.Generic;
@@ -6,6 +7,7 @@ using System.Drawing;
 using System.Globalization;
 using System.Linq;
 using System.Threading;
+using System.Web.UI.WebControls;
 using System.Windows.Forms;
 using AppContext = CarsAdviser.Database.AppContext;
 
@@ -18,6 +20,7 @@ namespace CarsAdviser.Forms
         private int currentUserId;
         public List<Cars> similarToPreferences;
         private static Logger logger = LogManager.GetCurrentClassLogger();
+
         public AccountForm(MainForm parentForm, int CurrentUserId)
         {
             InitializeComponent();
@@ -29,10 +32,24 @@ namespace CarsAdviser.Forms
         private void AccountForm_Load(object sender, EventArgs e)
         {
             OpenChildForm(new DataFillingForm(this, currentUserId));
-            personalInformationBtn.Font = new Font(personalInformationBtn.Font.FontFamily, personalInformationBtn.Font.Size, FontStyle.Bold);
+            personalInformationBtn.Font = SetBoldFont(personalInformationBtn.Font);
             LoadUserData(currentUserId);
+            SetYandexVisibility();
             logger.Info("Загрузка формы AccountForm");
         }
+
+        private void SetYandexVisibility()
+        {
+            using (var context = new AppContext())
+            {
+                var user = context.Users.FirstOrDefault(u => u.ID == currentUserId);
+                if (user != null && user.IsYandex == 1)
+                {
+                    yandexImg.Visible = true;
+                }
+            }
+        }
+
         public void OpenChildForm(Form childForm)
         {
             currentChildForm = childForm;
@@ -44,6 +61,7 @@ namespace CarsAdviser.Forms
             childForm.Show();
             logger.Info($"Открытие дочерней формы: {childForm.GetType().Name}");
         }
+
         private void LoadUserData(int userId)
         {
             logger.Info($"Загрузка личных данных для пользователя: {userId}");
@@ -54,14 +72,9 @@ namespace CarsAdviser.Forms
                     var user = context.Users.FirstOrDefault(u => u.ID == userId);
                     if (user != null)
                     {
-                        if (!string.IsNullOrEmpty(user.Avatar))
-                        {
-                            accountCirclePictureBox.Image = Image.FromFile(user.Avatar);
-                        }
-                        else
-                        {
-                            accountCirclePictureBox.Image = Properties.Resources.noAvatar;
-                        }
+                        accountCirclePictureBox.Image = !string.IsNullOrEmpty(user.Avatar)
+                            ? System.Drawing.Image.FromFile(user.Avatar)
+                            : Properties.Resources.noAvatar;
 
                         nameLabel.Text = user.First_name;
                         surnameLabel.Text = user.Last_name;
@@ -74,36 +87,51 @@ namespace CarsAdviser.Forms
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
         private void personalInformationBtn_Click(object sender, EventArgs e)
         {
-            currentChildForm.Close();
-            OpenChildForm(new DataFillingForm(this, currentUserId));
-            personalInformationBtn.Font = new Font(personalInformationBtn.Font.FontFamily, personalInformationBtn.Font.Size, FontStyle.Bold);
-            preferencesBtn.Font = new Font(preferencesBtn.Font.FontFamily, preferencesBtn.Font.Size, FontStyle.Regular);
-            addCarBtn.Font = new Font(addCarBtn.Font.FontFamily, addCarBtn.Font.Size, FontStyle.Regular);
-            changePasswordBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Regular);
+            HandleButtonClick(new DataFillingForm(this, currentUserId), personalInformationBtn);
         }
-
 
         private void preferencesBtn_Click(object sender, EventArgs e)
         {
-            currentChildForm.Close();
-            OpenChildForm(new PreferencesForm(this, currentUserId));
-            personalInformationBtn.Font = new Font(personalInformationBtn.Font.FontFamily, personalInformationBtn.Font.Size, FontStyle.Regular);
-            preferencesBtn.Font = new Font(preferencesBtn.Font.FontFamily, preferencesBtn.Font.Size, FontStyle.Bold);
-            addCarBtn.Font = new Font(addCarBtn.Font.FontFamily, addCarBtn.Font.Size, FontStyle.Regular);
-            changePasswordBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Regular);
+            HandleButtonClick(new PreferencesForm(this, currentUserId), preferencesBtn);
         }
 
         private void changePasswordBtn_Click(object sender, EventArgs e)
         {
-            currentChildForm.Close();
-            OpenChildForm(new ChangePasswordForm(this, currentUserId));
-            personalInformationBtn.Font = new Font(personalInformationBtn.Font.FontFamily, personalInformationBtn.Font.Size, FontStyle.Regular);
-            preferencesBtn.Font = new Font(preferencesBtn.Font.FontFamily, preferencesBtn.Font.Size, FontStyle.Regular);
-            addCarBtn.Font = new Font(addCarBtn.Font.FontFamily, addCarBtn.Font.Size, FontStyle.Regular);
-            changePasswordBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Bold);
+            HandleButtonClick(new ChangePasswordForm(this, currentUserId), changePasswordBtn);
         }
+
+        private void addCarBtn_Click(object sender, EventArgs e)
+        {
+            HandleButtonClick(new AddCarForm(this), addCarBtn);
+        }
+
+        private void AllPlaylistBtn_Click(object sender, EventArgs e)
+        {
+            HandleButtonClick(new AllRecomendation(this, currentUserId), AllPlaylistBtn);
+        }
+
+        private void HandleButtonClick(Form form, Guna2Button button)
+        {
+            currentChildForm.Close();
+            OpenChildForm(form);
+            SetButtonFontStyle(button);
+        }
+
+        private void SetButtonFontStyle(Guna2Button activeButton)
+        {
+            var buttons = new[] { personalInformationBtn, preferencesBtn, addCarBtn, changePasswordBtn, AllPlaylistBtn };
+            foreach (var button in buttons)
+            {
+                button.Font = button == activeButton ? SetBoldFont(button.Font) : SetRegularFont(button.Font);
+            }
+        }
+
+        private Font SetBoldFont(Font font) => new Font(font.FontFamily, font.Size, FontStyle.Bold);
+
+        private Font SetRegularFont(Font font) => new Font(font.FontFamily, font.Size, FontStyle.Regular);
 
         private void exitBtn_Click(object sender, EventArgs e)
         {
@@ -111,20 +139,11 @@ namespace CarsAdviser.Forms
             parentForm.Logout();
         }
 
-        private void addCarBtn_Click(object sender, EventArgs e)
-        {
-            currentChildForm.Close();
-            OpenChildForm(new AddCarForm(this));
-            personalInformationBtn.Font = new Font(personalInformationBtn.Font.FontFamily, personalInformationBtn.Font.Size, FontStyle.Regular);
-            preferencesBtn.Font = new Font(preferencesBtn.Font.FontFamily, preferencesBtn.Font.Size, FontStyle.Regular);
-            addCarBtn.Font = new Font(addCarBtn.Font.FontFamily, addCarBtn.Font.Size, FontStyle.Bold);
-            changePasswordBtn.Font = new Font(changePasswordBtn.Font.FontFamily, changePasswordBtn.Font.Size, FontStyle.Regular);
-        }
-
         private void AccountForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             parentForm.similarToPreferences = similarToPreferences;
         }
+
         public CultureInfo GetCurrentUICulture()
         {
             return Thread.CurrentThread.CurrentUICulture;
