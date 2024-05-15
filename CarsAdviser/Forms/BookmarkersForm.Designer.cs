@@ -234,6 +234,7 @@ namespace CarsAdviser.Forms
             this.detailsBtn1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.detailsBtn1.Name = "detailsBtn1";
             this.detailsBtn1.Tag = "";
+            this.detailsBtn1.Click += new System.EventHandler(this.detailsBtn_Click);
             // 
             // carPriceInfoLabel1
             // 
@@ -379,6 +380,7 @@ namespace CarsAdviser.Forms
             this.detailsBtn2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.detailsBtn2.Name = "detailsBtn2";
             this.detailsBtn2.Tag = "";
+            this.detailsBtn2.Click += new System.EventHandler(this.detailsBtn_Click);
             // 
             // carPriceInfoLabel2
             // 
@@ -524,6 +526,7 @@ namespace CarsAdviser.Forms
             this.detailsBtn3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.detailsBtn3.Name = "detailsBtn3";
             this.detailsBtn3.Tag = "";
+            this.detailsBtn3.Click += new System.EventHandler(this.detailsBtn_Click);
             // 
             // carPriceInfoLabel3
             // 
@@ -669,6 +672,7 @@ namespace CarsAdviser.Forms
             this.detailsBtn4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.detailsBtn4.Name = "detailsBtn4";
             this.detailsBtn4.Tag = "";
+            this.detailsBtn4.Click += new System.EventHandler(this.detailsBtn_Click);
             // 
             // carPriceInfoLabel4
             // 

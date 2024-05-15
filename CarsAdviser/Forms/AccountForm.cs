@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Globalization;
 using System.Linq;
 using System.Threading;
+using System.Web.UI.WebControls;
 using System.Windows.Forms;
 using AppContext = CarsAdviser.Database.AppContext;
 
@@ -72,7 +73,7 @@ namespace CarsAdviser.Forms
                     if (user != null)
                     {
                         accountCirclePictureBox.Image = !string.IsNullOrEmpty(user.Avatar)
-                            ? Image.FromFile(user.Avatar)
+                            ? System.Drawing.Image.FromFile(user.Avatar)
                             : Properties.Resources.noAvatar;
 
                         nameLabel.Text = user.First_name;

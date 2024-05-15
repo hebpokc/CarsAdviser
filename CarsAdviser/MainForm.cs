@@ -51,7 +51,7 @@ namespace CarsAdviser
         }
         private void MainForm_Load(object sender, EventArgs e)
         {
-            OpenChildFormAndSetStyle(new AnnouncementForm(this, similarToPreferences, currentUserId), announcementBtn, announcementBottomLabel);
+            OpenChildFormAndSetStyle(new AnnouncementForm(this, currentUserId), announcementBtn, announcementBottomLabel);
             LoadAvatar();
             logger.Info("Загрузка формы MainForm");
         }
@@ -96,7 +96,7 @@ namespace CarsAdviser
         }
         private void announcementBtn_Click(object sender, EventArgs e)
         {
-            OpenChildFormAndSetStyle(new AnnouncementForm(this, similarToPreferences, currentUserId), announcementBtn, announcementBottomLabel);
+            OpenChildFormAndSetStyle(new AnnouncementForm(this, currentUserId), announcementBtn, announcementBottomLabel);
         }
 
         private void bookmarkersBtn_Click(object sender, EventArgs e)
