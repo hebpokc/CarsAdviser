@@ -469,6 +469,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Database\CarAdviser.db" />
+    <Content Include="Images\CarsBrands\lada_logo.png" />
     <Content Include="NLog.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

@@ -47,6 +47,8 @@ namespace CarsAdviser.Database
                     return "../../Images/CarsBrands/toyota_logo.png";
                 case "Volkswagen":
                     return "../../Images/CarsBrands/volkswagen_logo.png";
+                case "Lada":
+                    return "../../Images/CarsBrands/lada_logo.png";
                 default:
                     return "../../Resources/noAuto.png";
             }
