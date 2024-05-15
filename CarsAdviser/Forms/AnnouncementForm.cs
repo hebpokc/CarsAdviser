@@ -25,6 +25,7 @@ namespace CarsAdviser.Forms
         private List<Cars> similarToPreferences = null;
         private List<Attachment> attachments = new List<Attachment>();
         private static Logger logger = LogManager.GetCurrentClassLogger();
+        private Helper helper = new Helper();
         public AnnouncementForm(MainForm parentFrom, List<Cars> similarToPreferences, int currentUserId)
         {
             InitializeComponent();
@@ -55,44 +56,6 @@ namespace CarsAdviser.Forms
                 carId = Convert.ToInt32(btn.Tag);
                 parentForm.currentChildForm.Close();
                 parentForm.OpenChildForm(new CarInfoForm(parentForm, carId));
-            }
-        }
-        public string GetStampImageLocation(string stamp)
-        {
-            switch(stamp)
-            {
-                case "Audi":
-                    return "../../Images/CarsBrands/audi_logo.png";
-                case "BMW":
-                    return "../../Images/CarsBrands/bmw_logo.png";
-                case "Chevrolet":
-                    return "../../Images/CarsBrands/chevrolet_logo.png";
-                case "Ford":
-                    return "../../Images/CarsBrands/ford_logo.png";
-                case "Honda":
-                    return "../../Images/CarsBrands/honda_logo.png";
-                case "Hyundai":
-                    return "../../Images/CarsBrands/hyundai_logo.png";
-                case "Jeep":
-                    return "../../Images/CarsBrands/jeep_logo.png";
-                case "Kia":
-                    return "../../Images/CarsBrands/kia_logo.png";
-                case "Lexus":
-                    return "../../Images/CarsBrands/lexus_logo.png";
-                case "Mercedes-Benz":
-                    return "../../Images/CarsBrands/mercedes_logo.png";
-                case "Nissan":
-                    return "../../Images/CarsBrands/nissan_logo.png";
-                case "Subaru":
-                    return "../../Images/CarsBrands/subaru_logo.png";
-                case "Tesla":
-                    return "../../Images/CarsBrands/tesla_logo.png";
-                case "Toyota":
-                    return "../../Images/CarsBrands/toyota_logo.png";
-                case "Volkswagen":
-                    return "../../Images/CarsBrands/volkswagen_logo.png";
-                default:
-                    return "../../Resources/noAuto.png";
             }
         }
         public bool IsPreferred()
@@ -188,7 +151,7 @@ namespace CarsAdviser.Forms
                             Guna2PictureBox carBrandPicture = carPanel.Controls.Find($"carBrandPictureBox{i + 1}", true).FirstOrDefault() as Guna2PictureBox;
                             if (carBrandPicture != null)
                             {
-                                carBrandPicture.Image = Image.FromFile(GetStampImageLocation(car.Cars_Stamp.Stamp));
+                                carBrandPicture.Image = Image.FromFile(helper.GetStampImageLocation(car.Cars_Stamp.Stamp));
                             }
 
                             Label carName = carPanel.Controls.Find($"carNameLabel{i + 1}", true).FirstOrDefault() as Label;
@@ -468,7 +431,7 @@ namespace CarsAdviser.Forms
                             Guna2PictureBox carBrandPicture = carPanel.Controls.Find($"carBrandPictureBox{i + 1}", true).FirstOrDefault() as Guna2PictureBox;
                             if (carBrandPicture != null)
                             {
-                                carBrandPicture.Image = Image.FromFile(GetStampImageLocation(car.Cars_Stamp.Stamp));
+                                carBrandPicture.Image = Image.FromFile(helper.GetStampImageLocation(car.Cars_Stamp.Stamp));
                             }
 
                             Label carName = carPanel.Controls.Find($"carNameLabel{i + 1}", true).FirstOrDefault() as Label;
@@ -549,13 +512,6 @@ namespace CarsAdviser.Forms
                             mail.To.Add(userEmail);
                             mail.Subject = "Ваша подборка.";
                             mail.Body = GetAutos();
-
-                            //// Добавляем вложения
-                            //foreach (var someCar in cars)
-                            //{
-                            //    if (someCar.Photo_1 != null)
-                            //        mail.Attachments.Add(new Attachment(someCar.Photo_1));
-                            //}
 
                             SendEmailWithAttachments(mail);
                         }

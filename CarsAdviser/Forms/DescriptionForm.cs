@@ -20,19 +20,17 @@ namespace CarsAdviser.Forms
         }
         private void LoadCarDetails()
         {
-            try
-            {
+
                 if (car != null)
                 {
                     logger.Debug($"Описание автомобиля загружено: {car.Description}");
                     descriptionRichTextBox.Text = car.Description;
                 }
-            }
-            catch (Exception ex)
-            {
-                logger.Error($"Ошибка при загрузке описания автомобиля: {ex.Message}");
-                MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+                else
+                {
+                    logger.Error($"Ошибка при загрузке описания автомобиля.");
+                }
+
         }
     }
 }

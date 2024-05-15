@@ -339,12 +339,6 @@
     <Compile Include="Forms\SignInForm.Designer.cs">
       <DependentUpon>SignInForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\UsersPlaylist.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\UsersPlaylist.Designer.cs">
-      <DependentUpon>UsersPlaylist.cs</DependentUpon>
-    </Compile>
     <Compile Include="Local.en-US.Designer.cs">
       <DependentUpon>Local.en-US.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -447,9 +441,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SignInForm.resx">
       <DependentUpon>SignInForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\UsersPlaylist.resx">
-      <DependentUpon>UsersPlaylist.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Local.en-US.resx">
       <Generator>ResXFileCodeGenerator</Generator>
