@@ -78,6 +78,7 @@ namespace CarsAdviser.Forms
             this.addCarBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.addCarBtn.ForeColor = System.Drawing.Color.White;
             this.addCarBtn.Name = "addCarBtn";
+            this.addCarBtn.Click += new System.EventHandler(this.AddCarForm_Load);
             // 
             // addPhotoBtn
             // 
@@ -90,6 +91,7 @@ namespace CarsAdviser.Forms
             this.addPhotoBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.addPhotoBtn.ForeColor = System.Drawing.Color.White;
             this.addPhotoBtn.Name = "addPhotoBtn";
+            this.addPhotoBtn.Click += new System.EventHandler(this.addPhotoBtn_Click);
             // 
             // carDescriptionRichTextBox
             // 
@@ -416,6 +418,7 @@ namespace CarsAdviser.Forms
             this.carBrandComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.carBrandComboBox.Name = "carBrandComboBox";
             this.carBrandComboBox.Sorted = true;
+            this.carBrandComboBox.SelectedIndexChanged += new System.EventHandler(this.carBrandComboBox_SelectedIndexChanged);
             // 
             // preferencesLabel
             // 

@@ -185,24 +185,29 @@ namespace CarsAdviser.Forms
                 using (var context = new AppContext())
                 {
                     var existingPreference = context.Users_preferences.FirstOrDefault(up => up.Users_id == userId && up.Cars_id == car.ID);
-                    if (existingPreference == null && selectedPreferences.Contains(car))
-                    {
-                        var userPreferences = new Users_preferences()
-                        {
-                            Users_id = userId,
-                            Cars_id = car.ID
-                        };
 
-                        context.Users_preferences.Add(userPreferences);
-                        context.SaveChanges();
-                        logger.Info($"Сохранение предпочтений пользователя для автомобиля с ID: {car.ID}");
-                    }
-                    else if (existingPreference != null && !selectedPreferences.Contains(car))
+                    if (selectedPreferences.Contains(car))
                     {
-                        context.Users_preferences.Remove(existingPreference);
-                        context.SaveChanges();
-                        logger.Warn($"Удаление записи для автомобиля с ID: {car.ID}, так как он был удален из предпочтений пользователя с ID: {userId}");
+                        if (existingPreference == null)
+                        {
+                            var userPreferences = new Users_preferences()
+                            {
+                                Users_id = userId,
+                                Cars_id = car.ID
+                            };
+                            context.Users_preferences.Add(userPreferences);
+                            logger.Info($"Сохранение предпочтений пользователя для автомобиля с ID: {car.ID}");
+                        }
                     }
+                    else
+                    {
+                        if (existingPreference != null)
+                        {
+                            context.Users_preferences.Remove(existingPreference);
+                            logger.Warn($"Удаление записи для автомобиля с ID: {car.ID}, так как он был удален из предпочтений пользователя с ID: {userId}");
+                        }
+                    }
+                    context.SaveChanges();
                 }
             }
             catch (Exception ex)
@@ -211,6 +216,7 @@ namespace CarsAdviser.Forms
                 MessageBox.Show($"{Local.databaseConnectionError}: {ex.Message}", Local.messageBoxError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
 
         private List<Cars> GetUserPreferences()
         {
