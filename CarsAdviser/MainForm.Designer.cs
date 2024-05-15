@@ -31,6 +31,7 @@ namespace CarsAdviser
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.headerPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.accountBottomLabel = new System.Windows.Forms.Label();
             this.notificationLabel2 = new System.Windows.Forms.Label();
             this.notificationLabel1 = new System.Windows.Forms.Label();
             this.hiddenBottomLabel = new System.Windows.Forms.Label();
@@ -44,7 +45,6 @@ namespace CarsAdviser
             this.appLogoPictureBox = new Guna.UI2.WinForms.Guna2PictureBox();
             this.appNameLabel = new System.Windows.Forms.Label();
             this.mainPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.accountBottomLabel = new System.Windows.Forms.Label();
             this.headerPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.accountCirclePictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.appLogoPictureBox)).BeginInit();
@@ -67,6 +67,11 @@ namespace CarsAdviser
             this.headerPanel.Controls.Add(this.appLogoPictureBox);
             this.headerPanel.Controls.Add(this.appNameLabel);
             this.headerPanel.Name = "headerPanel";
+            // 
+            // accountBottomLabel
+            // 
+            resources.ApplyResources(this.accountBottomLabel, "accountBottomLabel");
+            this.accountBottomLabel.Name = "accountBottomLabel";
             // 
             // notificationLabel2
             // 
@@ -176,10 +181,10 @@ namespace CarsAdviser
             // 
             // appLogoPictureBox
             // 
+            resources.ApplyResources(this.appLogoPictureBox, "appLogoPictureBox");
             this.appLogoPictureBox.BackColor = System.Drawing.Color.Transparent;
             this.appLogoPictureBox.Image = global::CarsAdviser.Properties.Resources.logo;
             this.appLogoPictureBox.ImageRotate = 0F;
-            resources.ApplyResources(this.appLogoPictureBox, "appLogoPictureBox");
             this.appLogoPictureBox.Name = "appLogoPictureBox";
             this.appLogoPictureBox.TabStop = false;
             // 
@@ -193,11 +198,6 @@ namespace CarsAdviser
             // 
             resources.ApplyResources(this.mainPanel, "mainPanel");
             this.mainPanel.Name = "mainPanel";
-            // 
-            // accountBottomLabel
-            // 
-            resources.ApplyResources(this.accountBottomLabel, "accountBottomLabel");
-            this.accountBottomLabel.Name = "accountBottomLabel";
             // 
             // MainForm
             // 

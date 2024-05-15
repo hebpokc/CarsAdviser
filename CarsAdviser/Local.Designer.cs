@@ -19,7 +19,7 @@ namespace CarsAdviser {
     // с помощью такого средства, как ResGen или Visual Studio.
     // Чтобы добавить или удалить член, измените файл .ResX и снова запустите ResGen
     // с параметром /str или перестройте свой проект VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Local {
@@ -214,6 +214,33 @@ namespace CarsAdviser {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на ПОДРОБНЕЕ 🡽.
+        /// </summary>
+        internal static string details {
+            get {
+                return ResourceManager.GetString("details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Привод:.
+        /// </summary>
+        internal static string drive {
+            get {
+                return ResourceManager.GetString("drive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Двигатель:.
+        /// </summary>
+        internal static string engine {
+            get {
+                return ResourceManager.GetString("engine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Введите корректный адрес электронной почты!.
         /// </summary>
         internal static string EnterValidMail {
@@ -237,6 +264,15 @@ namespace CarsAdviser {
         internal static string formText {
             get {
                 return ResourceManager.GetString("formText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Топливо:.
+        /// </summary>
+        internal static string fuel {
+            get {
+                return ResourceManager.GetString("fuel", resourceCulture);
             }
         }
         
@@ -268,6 +304,24 @@ namespace CarsAdviser {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Письмо успешно отправлено на указанный адрес.
+        /// </summary>
+        internal static string mailSend {
+            get {
+                return ResourceManager.GetString("mailSend", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Ошибка при отправке письма.
+        /// </summary>
+        internal static string mailSendError {
+            get {
+                return ResourceManager.GetString("mailSendError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Ошибка.
         /// </summary>
         internal static string messageBoxError {
@@ -282,6 +336,15 @@ namespace CarsAdviser {
         internal static string messageBoxInfo {
             get {
                 return ResourceManager.GetString("messageBoxInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Пробег:.
+        /// </summary>
+        internal static string mileage {
+            get {
+                return ResourceManager.GetString("mileage", resourceCulture);
             }
         }
         
@@ -322,6 +385,24 @@ namespace CarsAdviser {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Пароль отправлен на вашу почту.
+        /// </summary>
+        internal static string passwordToMail {
+            get {
+                return ResourceManager.GetString("passwordToMail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Ошибка отправки пароля по почте.
+        /// </summary>
+        internal static string passwordToMailError {
+            get {
+                return ResourceManager.GetString("passwordToMailError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Отчество.
         /// </summary>
         internal static string patronymicPlaceHolder {
@@ -354,6 +435,15 @@ namespace CarsAdviser {
         internal static string preferencesTaken {
             get {
                 return ResourceManager.GetString("preferencesTaken", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Итоговая цена:.
+        /// </summary>
+        internal static string price {
+            get {
+                return ResourceManager.GetString("price", resourceCulture);
             }
         }
         
@@ -419,24 +509,6 @@ namespace CarsAdviser {
         internal static string wrongPrices {
             get {
                 return ResourceManager.GetString("wrongPrices", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на Войти с Yandex ID.
-        /// </summary>
-        internal static string yandexAuth {
-            get {
-                return ResourceManager.GetString("yandexAuth", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на Зарегистрироваться через Yandex ID.
-        /// </summary>
-        internal static string yandexReg {
-            get {
-                return ResourceManager.GetString("yandexReg", resourceCulture);
             }
         }
     }

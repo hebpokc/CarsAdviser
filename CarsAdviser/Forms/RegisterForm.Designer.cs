@@ -253,11 +253,11 @@ namespace CarsAdviser.Forms
             // 
             // backBtn
             // 
+            resources.ApplyResources(this.backBtn, "backBtn");
             this.backBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.backBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.backBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.backBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            resources.ApplyResources(this.backBtn, "backBtn");
             this.backBtn.ForeColor = System.Drawing.Color.White;
             this.backBtn.Name = "backBtn";
             this.backBtn.Click += new System.EventHandler(this.backBtn_Click);

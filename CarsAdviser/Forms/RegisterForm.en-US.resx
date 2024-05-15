@@ -134,7 +134,7 @@
     <value>Create an account</value>
   </data>
   <data name="signInAccountBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>434, 100</value>
+    <value>803, 217</value>
   </data>
   <data name="signInAccountBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>155, 28</value>
@@ -171,5 +171,21 @@
   </data>
   <data name="mandatoryFillingLabel4.Text" xml:space="preserve">
     <value>This field is required</value>
+  </data>
+  <data name="YandexAuthBtn.Text" xml:space="preserve">
+    <value>Register with Yandex ID</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="webBrowser.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="webBrowser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="backBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1904, 33</value>
+  </data>
+  <data name="backBtn.Text" xml:space="preserve">
+    <value>Back</value>
   </data>
 </root>

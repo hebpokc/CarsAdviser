@@ -117,90 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="preferencesLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 33</value>
-  </data>
-  <data name="preferencesLabel.Text" xml:space="preserve">
+  <data name="addCarBtn.Text" xml:space="preserve">
     <value>Add a car</value>
   </data>
-  <data name="carBrandLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 19</value>
+  <data name="addPhotoBtn.Text" xml:space="preserve">
+    <value>Add a photo</value>
   </data>
-  <data name="carBrandLabel.Text" xml:space="preserve">
-    <value>Car brand</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="carDescriptionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 19</value>
   </data>
-  <data name="carModelLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 19</value>
-  </data>
-  <data name="carModelLabel.Text" xml:space="preserve">
-    <value>Car model</value>
-  </data>
-  <data name="carEngineLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 19</value>
-  </data>
-  <data name="carEngineLabel.Text" xml:space="preserve">
-    <value>Engine type</value>
-  </data>
-  <data name="carBodyLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 19</value>
-  </data>
-  <data name="carBodyLabel.Text" xml:space="preserve">
-    <value>Body type</value>
-  </data>
-  <data name="carDriveLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 19</value>
-  </data>
-  <data name="carDriveLabel.Text" xml:space="preserve">
-    <value>Drive</value>
-  </data>
-  <data name="carFuelLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 19</value>
-  </data>
-  <data name="carFuelLabel.Text" xml:space="preserve">
-    <value>Fuel</value>
-  </data>
-  <data name="carWheelLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 19</value>
-  </data>
-  <data name="carWheelLabel.Text" xml:space="preserve">
-    <value>Wheel</value>
-  </data>
-  <data name="carTransmissionLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 19</value>
-  </data>
-  <data name="carTransmissionLabel.Text" xml:space="preserve">
-    <value>Transmission</value>
-  </data>
-  <data name="carColorLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 19</value>
-  </data>
-  <data name="carColorLabel.Text" xml:space="preserve">
-    <value>Colour</value>
-  </data>
-  <data name="carTrunkLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 19</value>
-  </data>
-  <data name="carTrunkLabel.Text" xml:space="preserve">
-    <value>Trunk capacity, l</value>
-  </data>
-  <data name="carEnginePowerLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 19</value>
-  </data>
-  <data name="carEnginePowerLabel.Text" xml:space="preserve">
-    <value>Engine power, hp</value>
-  </data>
-  <data name="carQtyPlacesLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 19</value>
-  </data>
-  <data name="carQtyPlacesLabel.Text" xml:space="preserve">
-    <value>Number of seats</value>
-  </data>
-  <data name="carYearLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 19</value>
-  </data>
-  <data name="carYearLabel.Text" xml:space="preserve">
-    <value>Year</value>
+  <data name="carDescriptionLabel.Text" xml:space="preserve">
+    <value>Description</value>
   </data>
   <data name="carPriceLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 19</value>
@@ -214,16 +142,88 @@
   <data name="carMileageLabel.Text" xml:space="preserve">
     <value>Mileage, km</value>
   </data>
-  <data name="carDescriptionLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 19</value>
+  <data name="carQtyPlacesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 19</value>
   </data>
-  <data name="carDescriptionLabel.Text" xml:space="preserve">
-    <value>Description</value>
+  <data name="carQtyPlacesLabel.Text" xml:space="preserve">
+    <value>Number of seats</value>
   </data>
-  <data name="addPhotoBtn.Text" xml:space="preserve">
-    <value>Add a photo</value>
+  <data name="carYearLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 19</value>
   </data>
-  <data name="addCarBtn.Text" xml:space="preserve">
+  <data name="carYearLabel.Text" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="carEnginePowerLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 19</value>
+  </data>
+  <data name="carEnginePowerLabel.Text" xml:space="preserve">
+    <value>Engine power, hp</value>
+  </data>
+  <data name="carTrunkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 19</value>
+  </data>
+  <data name="carTrunkLabel.Text" xml:space="preserve">
+    <value>Trunk capacity, l</value>
+  </data>
+  <data name="carColorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 19</value>
+  </data>
+  <data name="carColorLabel.Text" xml:space="preserve">
+    <value>Colour</value>
+  </data>
+  <data name="carWheelLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 19</value>
+  </data>
+  <data name="carWheelLabel.Text" xml:space="preserve">
+    <value>Wheel</value>
+  </data>
+  <data name="carTransmissionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 19</value>
+  </data>
+  <data name="carTransmissionLabel.Text" xml:space="preserve">
+    <value>Transmission</value>
+  </data>
+  <data name="carDriveLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 19</value>
+  </data>
+  <data name="carDriveLabel.Text" xml:space="preserve">
+    <value>Drive</value>
+  </data>
+  <data name="carFuelLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 19</value>
+  </data>
+  <data name="carFuelLabel.Text" xml:space="preserve">
+    <value>Fuel</value>
+  </data>
+  <data name="carEngineLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 19</value>
+  </data>
+  <data name="carEngineLabel.Text" xml:space="preserve">
+    <value>Engine type</value>
+  </data>
+  <data name="carBodyLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 19</value>
+  </data>
+  <data name="carBodyLabel.Text" xml:space="preserve">
+    <value>Body type</value>
+  </data>
+  <data name="carModelLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 19</value>
+  </data>
+  <data name="carModelLabel.Text" xml:space="preserve">
+    <value>Car model</value>
+  </data>
+  <data name="carBrandLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 19</value>
+  </data>
+  <data name="carBrandLabel.Text" xml:space="preserve">
+    <value>Car brand</value>
+  </data>
+  <data name="preferencesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 33</value>
+  </data>
+  <data name="preferencesLabel.Text" xml:space="preserve">
     <value>Add a car</value>
   </data>
 </root>

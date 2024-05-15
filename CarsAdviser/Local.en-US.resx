@@ -168,6 +168,15 @@
   <data name="DataChanged" xml:space="preserve">
     <value>Data changed</value>
   </data>
+  <data name="details" xml:space="preserve">
+    <value>DETAILS 🡽</value>
+  </data>
+  <data name="drive" xml:space="preserve">
+    <value>Drive:</value>
+  </data>
+  <data name="engine" xml:space="preserve">
+    <value>Engine:</value>
+  </data>
   <data name="EnterValidMail" xml:space="preserve">
     <value>Please enter a valid email address!</value>
   </data>
@@ -176,6 +185,9 @@
   </data>
   <data name="formText" xml:space="preserve">
     <value>Authorization</value>
+  </data>
+  <data name="fuel" xml:space="preserve">
+    <value>Fuel:</value>
   </data>
   <data name="ImageNotLoaded" xml:space="preserve">
     <value>Image not loaded</value>
@@ -186,11 +198,20 @@
   <data name="loginPlaceHolder" xml:space="preserve">
     <value>E-mail or phone number</value>
   </data>
+  <data name="mailSend" xml:space="preserve">
+    <value>The email has been successfully sent to the specified address</value>
+  </data>
+  <data name="mailSendError" xml:space="preserve">
+    <value>Error when sending an email</value>
+  </data>
   <data name="messageBoxError" xml:space="preserve">
     <value>Error</value>
   </data>
   <data name="messageBoxInfo" xml:space="preserve">
     <value>Information</value>
+  </data>
+  <data name="mileage" xml:space="preserve">
+    <value>Mileage:</value>
   </data>
   <data name="namePlaceHolder" xml:space="preserve">
     <value>Name</value>
@@ -204,6 +225,12 @@
   <data name="passwordPlaceHolder" xml:space="preserve">
     <value>Password</value>
   </data>
+  <data name="passwordToMail" xml:space="preserve">
+    <value>The password has been sent to your email</value>
+  </data>
+  <data name="passwordToMailError" xml:space="preserve">
+    <value>Error sending the password by mail</value>
+  </data>
   <data name="patronymicPlaceHolder" xml:space="preserve">
     <value>Patronymic</value>
   </data>
@@ -215,6 +242,9 @@
   </data>
   <data name="preferencesTaken" xml:space="preserve">
     <value>Preferences are taken into account</value>
+  </data>
+  <data name="price" xml:space="preserve">
+    <value>Final price:</value>
   </data>
   <data name="ratingSaved" xml:space="preserve">
     <value>The rating is saved</value>
@@ -238,11 +268,5 @@ Incorrect username or password</value>
   </data>
   <data name="wrongPrices" xml:space="preserve">
     <value>The price &lt;from&gt; should be less than &lt;to&gt;</value>
-  </data>
-  <data name="yandexAuth" xml:space="preserve">
-    <value>Connect with Yandex ID</value>
-  </data>
-  <data name="yandexReg" xml:space="preserve">
-    <value>Registr with Yandex ID</value>
   </data>
 </root>

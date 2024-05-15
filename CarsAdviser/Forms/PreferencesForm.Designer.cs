@@ -44,6 +44,7 @@ namespace CarsAdviser.Forms
             // 
             // saveBtn
             // 
+            resources.ApplyResources(this.saveBtn, "saveBtn");
             this.saveBtn.Animated = true;
             this.saveBtn.BorderRadius = 15;
             this.saveBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -51,13 +52,13 @@ namespace CarsAdviser.Forms
             this.saveBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.saveBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.saveBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.saveBtn, "saveBtn");
             this.saveBtn.ForeColor = System.Drawing.Color.White;
             this.saveBtn.Name = "saveBtn";
             this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
             // newListBtn
             // 
+            resources.ApplyResources(this.newListBtn, "newListBtn");
             this.newListBtn.Animated = true;
             this.newListBtn.BorderRadius = 15;
             this.newListBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -65,13 +66,13 @@ namespace CarsAdviser.Forms
             this.newListBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.newListBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.newListBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.newListBtn, "newListBtn");
             this.newListBtn.ForeColor = System.Drawing.Color.White;
             this.newListBtn.Name = "newListBtn";
             this.newListBtn.Click += new System.EventHandler(this.newListBtn_Click);
             // 
             // clearBtn
             // 
+            resources.ApplyResources(this.clearBtn, "clearBtn");
             this.clearBtn.Animated = true;
             this.clearBtn.BorderRadius = 15;
             this.clearBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -79,7 +80,6 @@ namespace CarsAdviser.Forms
             this.clearBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.clearBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.clearBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.clearBtn, "clearBtn");
             this.clearBtn.ForeColor = System.Drawing.Color.White;
             this.clearBtn.Name = "clearBtn";
             this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);

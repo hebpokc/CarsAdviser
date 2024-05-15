@@ -201,11 +201,11 @@ namespace CarsAdviser.Forms
                                     smtpClient.Send(mail);
                                 }
                             }
-                            MessageBox.Show("Пароль отправлен на вашу почту.");
+                            MessageBox.Show(Local.passwordToMail);
                         }
                         catch (Exception ex)
                         {
-                            MessageBox.Show("Ошибка отправки почты: " + ex.Message);
+                            MessageBox.Show($"{Local.passwordToMailError}: " + ex.Message);
                         }
                         MessageBox.Show(Local.RegisterAccountSuccess, Local.messageBoxInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                         logger.Info($"Пользователь {userInfo.First_name} {userInfo.Last_name} успешно зарегистрирован");

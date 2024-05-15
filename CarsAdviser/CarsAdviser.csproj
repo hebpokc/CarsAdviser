@@ -378,6 +378,9 @@
     <EmbeddedResource Include="Forms\AddCarForm.resx">
       <DependentUpon>AddCarForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AllRecomendation.en-US.resx">
+      <DependentUpon>AllRecomendation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\AllRecomendation.resx">
       <DependentUpon>AllRecomendation.cs</DependentUpon>
     </EmbeddedResource>

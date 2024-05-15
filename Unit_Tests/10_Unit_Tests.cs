@@ -6,103 +6,95 @@ using CarsAdviser;
 using CarsAdviser.Forms;
 using System.Globalization;
 using System.Threading;
+using System.Linq;
+using Guna.UI2.WinForms;
+using CarsAdviser.Database;
 
 namespace Unit_Tests
 {
     [TestClass]
     public class RegisterFormTests
     {
+        private static AuthorizationForm authForm = new AuthorizationForm();
+        private static RegisterForm regForm = new RegisterForm(authForm);
+        private static MainForm mainForm = new MainForm(authForm, 1);
+
         [TestMethod]
         public void IsValidEmail_ValidEmail_ReturnsTrue()
         {
-            var registerForm = new RegisterForm(null);
-            Assert.IsTrue(registerForm.IsValidEmail("test@example.com"));
+            Assert.IsTrue(regForm.IsValidEmail("test@mail.ru"));
         }
 
         [TestMethod]
         public void IsValidEmail_InvalidEmail_ReturnsFalse()
         {
-            var registerForm = new RegisterForm(null);
-            Assert.IsFalse(registerForm.IsValidEmail("test@example"));
+            Assert.IsFalse(regForm.IsValidEmail("test@example"));
         }
 
         [TestMethod]
         public void IsValidPhone_ValidPhone_ReturnsTrue()
         {
-            var registerForm = new RegisterForm(null);
-            Assert.IsTrue(registerForm.IsValidPhone("+71234567890"));
+            Assert.IsTrue(regForm.IsValidPhone("+79174325490"));
         }
 
         [TestMethod]
         public void IsValidPhone_InvalidPhone_ReturnsFalse()
         {
-            var registerForm = new RegisterForm(null);
-            Assert.IsFalse(registerForm.IsValidPhone("1234567890"));
+            Assert.IsFalse(regForm.IsValidPhone("0194292495"));
         }
 
         [TestMethod]
         public void IsValidPhone_InvalidPhoneWithLetter_ReturnsFalse()
         {
-            var registerForm = new RegisterForm(null);
-            Assert.IsFalse(registerForm.IsValidPhone("12345678di"));
+            Assert.IsFalse(regForm.IsValidPhone("12345678di"));
         }
 
         [TestMethod]
         public void GenerateRandomCode_ReturnsCorrectLength()
         {
-            var changePasswordForm = new ChangePasswordForm(null, 1);
+            var changePasswordForm = new ChangePasswordForm(new AccountForm(mainForm, 1), 1);
             string code = changePasswordForm.GenerateRandomCode(5);
             Assert.AreEqual(5, code.Length);
         }
 
-
         [TestMethod]
         public void PriceTextBox_KeyPress_PreventsNonNumericCharacters()
         {
-            var mockForm = new Mock<AnnouncementForm>();
-            var keyPressEventArgs = new KeyPressEventArgs((char)Keys.A);
-            mockForm.Object.priceTextBox_KeyPress(null, keyPressEventArgs);
-            Assert.IsTrue(keyPressEventArgs.Handled);
+            var announcementForm = new AnnouncementForm(mainForm, 1);
+            Guna2TextBox textBox = announcementForm.Controls.Find("priceFromTextBox", true).FirstOrDefault() as Guna2TextBox;
+            textBox.KeyPress += new KeyPressEventHandler((sender, args) => { args.KeyChar = 'a'; });
+
+            Assert.IsFalse(textBox.Text.Contains("a"));
         }
 
         [TestMethod]
         public void GetStampImageLocation_ReturnsCorrectPath()
         {
-            var mockForm = new Mock<AnnouncementForm>();
-            string expectedPath = "path/to/image.png";
-            string result = mockForm.Object.GetStampImageLocation("BrandName");
+            var helper = new Helper();
+            string expectedPath = "../../Images/CarsBrands/bmw_logo.png";
+            string result = helper.GetStampImageLocation("BMW");
             Assert.AreEqual(expectedPath, result);
         }
 
-        
         [TestMethod]
         public void Logout_ClosesMainFormAndShowsAuthorizationForm()
         {
-            // Arrange
-            var authorizationForm = new AuthorizationForm();
-            var mainForm = new MainForm(authorizationForm, 1);
             mainForm.Show();
 
-            // Act
             mainForm.Logout();
 
-            // Assert
             Assert.IsFalse(mainForm.Visible);
-            Assert.IsTrue(authorizationForm.Visible);
+            Assert.IsTrue(authForm.Visible);
         }
 
         [TestMethod]
         public void GetCurrentUICulture_ReturnsCorrectCulture()
         {
-            // Arrange
-            var mainForm = new MainForm(null, 1);
             CultureInfo expectedCulture = new CultureInfo("ru-RU");
             Thread.CurrentThread.CurrentUICulture = expectedCulture;
 
-            // Act
             CultureInfo result = mainForm.GetCurrentUICulture();
 
-            // Assert
             Assert.AreEqual(expectedCulture, result);
         }
     }

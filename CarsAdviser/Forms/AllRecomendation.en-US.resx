@@ -117,29 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AllPlaylistBtn.Text" xml:space="preserve">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="preferencesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 33</value>
+  </data>
+  <data name="preferencesLabel.Text" xml:space="preserve">
     <value>General preferences</value>
   </data>
-  <data name="changePasswordBtn.Text" xml:space="preserve">
-    <value>Change password</value>
-  </data>
-  <data name="exitBtn.Text" xml:space="preserve">
-    <value>Exit</value>
-  </data>
-  <data name="addCarBtn.Text" xml:space="preserve">
-    <value>Add a car</value>
-  </data>
-  <data name="preferencesBtn.Text" xml:space="preserve">
-    <value>Preferences</value>
-  </data>
-  <data name="personalInformationBtn.Text" xml:space="preserve">
-    <value>Personal information</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="personalAccountLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 36</value>
-  </data>
-  <data name="personalAccountLabel.Text" xml:space="preserve">
-    <value>Personal account</value>
+  <data name="saveBtn.Text" xml:space="preserve">
+    <value>Select Preferences</value>
   </data>
 </root>

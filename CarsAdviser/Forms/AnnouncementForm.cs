@@ -169,7 +169,7 @@ namespace CarsAdviser.Forms
             {
                 Location = new Point(15, 234),
                 AutoSize = true,
-                Text = "Пробег:",
+                Text = Local.mileage,
                 ForeColor = Color.FromArgb(64, 64, 64),
                 Font = new Font("Candara", 12),
             };
@@ -177,7 +177,7 @@ namespace CarsAdviser.Forms
             {
                 Location = new Point(15, 270),
                 AutoSize = true,
-                Text = "Топливо:",
+                Text = Local.fuel,
                 ForeColor = Color.FromArgb(64, 64, 64),
                 Font = new Font("Candara", 12),
             };
@@ -185,7 +185,7 @@ namespace CarsAdviser.Forms
             {
                 Location = new Point(15, 307),
                 AutoSize = true,
-                Text = "Двигатель:",
+                Text = Local.engine,
                 ForeColor = Color.FromArgb(64, 64, 64),
                 Font = new Font("Candara", 12),
             };
@@ -193,7 +193,7 @@ namespace CarsAdviser.Forms
             {
                 Location = new Point(15, 345),
                 AutoSize = true,
-                Text = "Привод:",
+                Text = Local.drive,
                 ForeColor = Color.FromArgb(64, 64, 64),
                 Font = new Font("Candara", 12),
             };
@@ -201,7 +201,7 @@ namespace CarsAdviser.Forms
             {
                 Location = new Point(15, 383),
                 AutoSize = true,
-                Text = "Итоговая цена:",
+                Text = Local.price,
                 ForeColor = Color.FromArgb(64, 64, 64),
                 Font = new Font("Candara", 12),
             };
@@ -252,7 +252,7 @@ namespace CarsAdviser.Forms
             };
             Guna2Button detailsBtn = new Guna2Button()
             {
-                Text = "ПОДРОБНЕЕ 🡽",
+                Text = Local.details,
                 Size = new Size(126, 34),
                 FillColor = Color.Transparent,
                 ForeColor= Color.FromArgb(160, 113, 255),
@@ -316,24 +316,24 @@ namespace CarsAdviser.Forms
                                 cars = similarToPreferences.Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
                                                            .Where(c => c.Price >= priceFrom)
                                                            .Where(c => c.Price <= priceTo)
-                                                           .Take(9).ToList();
+                                                           .ToList();
                             }
                             else if (priceFrom != null && priceTo == null)
                             {
                                 cars = similarToPreferences.Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
                                                            .Where(c => c.Price >= priceFrom)
-                                                           .Take(9).ToList();
+                                                           .ToList();
                             }
                             else if (priceTo != null && priceFrom == null)
                             {
                                 cars = similarToPreferences.Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
                                                            .Where(c => c.Price <= priceTo)
-                                                           .Take(9).ToList();
+                                                           .ToList();
                             }
                             else
                             {
                                 cars = similarToPreferences.Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
-                                                           .Take(9).ToList();
+                                                           .ToList();
                             }
                         }
                         else
@@ -352,7 +352,6 @@ namespace CarsAdviser.Forms
                                             .Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
                                             .Where(c => c.Price >= priceFrom)
                                             .Where(c => c.Price <= priceTo)
-                                            .Take(9)
                                             .ToList();
                             }
                             else if (priceFrom != null && priceTo == null)
@@ -368,7 +367,6 @@ namespace CarsAdviser.Forms
                                             .Include(c => c.Cars_Colour)
                                             .Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
                                             .Where(c => c.Price >= priceFrom)
-                                            .Take(9)
                                             .ToList();
                             }
                             else if (priceTo != null && priceFrom == null)
@@ -384,7 +382,6 @@ namespace CarsAdviser.Forms
                                             .Include(c => c.Cars_Colour)
                                             .Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
                                             .Where(c => c.Price <= priceTo)
-                                            .Take(9)
                                             .ToList();
                             }
                             else
@@ -399,7 +396,6 @@ namespace CarsAdviser.Forms
                                             .Include(c => c.Cars_Wheel)
                                             .Include(c => c.Cars_Colour)
                                             .Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
-                                            .Take(9)
                                             .ToList();
                             }
                         }
@@ -420,7 +416,6 @@ namespace CarsAdviser.Forms
                                         .Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
                                         .Where(c => c.Price >= priceFrom)
                                         .Where(c => c.Price <= priceTo)
-                                        .Take(9)
                                         .ToList();
                         }
                         else if (priceFrom != null && priceTo == null)
@@ -436,7 +431,6 @@ namespace CarsAdviser.Forms
                                         .Include(c => c.Cars_Colour)
                                         .Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
                                         .Where(c => c.Price >= priceFrom)
-                                        .Take(9)
                                         .ToList();
                         }
                         else if (priceTo != null && priceFrom == null)
@@ -452,7 +446,6 @@ namespace CarsAdviser.Forms
                                         .Include(c => c.Cars_Colour)
                                         .Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
                                         .Where(c => c.Price <= priceTo)
-                                        .Take(9)
                                         .ToList();
                         }
                         else
@@ -467,89 +460,14 @@ namespace CarsAdviser.Forms
                                         .Include(c => c.Cars_Wheel)
                                         .Include(c => c.Cars_Colour)
                                         .Where(c => c.Cars_Stamp.Stamp.ToLower().Contains(searchTextBox.Text.ToLower()))
-                                        .Take(9)
                                         .ToList();
                         }
                     }
 
-                    for (int i = 0; i < cars.Count; i++)
+                    foreach (var car in cars)
                     {
-                        var car = cars[i];
-                        Guna2Panel carPanel = this.Controls.Find($"carPanel{i + 1}", true).FirstOrDefault() as Guna2Panel;
-                        if (carPanel != null)
-                        {
-                            carPanel.Visible = true;
-
-                            Guna2PictureBox carPicture = carPanel.Controls.Find($"carPictureBox{i + 1}", true).FirstOrDefault() as Guna2PictureBox;
-                            if (carPicture != null)
-                            {
-                                if (car.Photo_1 != null)
-                                {
-                                    carPicture.Image = Image.FromFile(car.Photo_1);
-                                }
-                                else
-                                {
-                                    carPicture.Image = Properties.Resources.noAuto;
-                                }
-                            }
-
-                            Guna2PictureBox carBrandPicture = carPanel.Controls.Find($"carBrandPictureBox{i + 1}", true).FirstOrDefault() as Guna2PictureBox;
-                            if (carBrandPicture != null)
-                            {
-                                carBrandPicture.Image = Image.FromFile(helper.GetStampImageLocation(car.Cars_Stamp.Stamp));
-                            }
-
-                            Label carName = carPanel.Controls.Find($"carNameLabel{i + 1}", true).FirstOrDefault() as Label;
-                            if (carName != null)
-                            {
-                                carName.Text = $"{car.Cars_Stamp.Stamp} {car.Cars_Model.Model}";
-                            }
-
-                            Label carYear = carPanel.Controls.Find($"carYearLabel{i + 1}", true).FirstOrDefault() as Label;
-                            if (carYear != null)
-                            {
-                                carYear.Text = $"{car.Year}";
-                            }
-
-                            Label carMileage = carPanel.Controls.Find($"mileageInfoLabel{i + 1}", true).FirstOrDefault() as Label;
-                            if (carMileage != null)
-                            {
-                                carMileage.Text = $"{car.Mileage} км";
-                            }
-
-                            Label carFuel = carPanel.Controls.Find($"carFuelInfoLabel{i + 1}", true).FirstOrDefault() as Label;
-                            if (carFuel != null)
-                            {
-                                carFuel.Text = $"{car.Cars_Fuel.Fuel}";
-                            }
-
-                            Label carEngine = carPanel.Controls.Find($"carEngineInfoLabel{i + 1}", true).FirstOrDefault() as Label;
-                            if (carEngine != null)
-                            {
-                                carEngine.Text = $"{car.Cars_Engine.Engine}";
-                            }
-
-                            Label carDrive = carPanel.Controls.Find($"carDriveInfoLabel{i + 1}", true).FirstOrDefault() as Label;
-                            if (carDrive != null)
-                            {
-                                carDrive.Text = $"{car.Cars_Drive.Drive}";
-                            }
-
-                            Label carPrice = carPanel.Controls.Find($"carPriceInfoLabel{i + 1}", true).FirstOrDefault() as Label;
-                            if (carPrice != null)
-                            {
-                                carPrice.Text = $"{car.Price.ToString("#,#", culture)} ₽";
-                            }
-                        }
-                    }
-
-                    for (int i = cars.Count; i < 9; i++)
-                    {
-                        Panel carPanel = this.Controls.Find($"carPanel{i + 1}", true).FirstOrDefault() as Panel;
-                        if (carPanel != null)
-                        {
-                            carPanel.Visible = false;
-                        }
+                        CarsPanel.Controls.Clear();
+                        LoadCurrentCar(car);
                     }
                 }
             }
@@ -598,11 +516,11 @@ namespace CarsAdviser.Forms
                 smtpServer.EnableSsl = true;
                 smtpServer.Send(mail);
 
-                MessageBox.Show("Письмо успешно отправлено на указанный адрес.");
+                MessageBox.Show(Local.mailSend);
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Ошибка при отправке письма: " + ex.Message);
+                MessageBox.Show($"{Local.mailSendError}: " + ex.Message);
             }
         }
         private string GetAutos()

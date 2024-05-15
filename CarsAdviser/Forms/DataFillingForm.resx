@@ -117,332 +117,161 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="uploadAvatarBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+  <data name="&gt;&gt;fillDataLabel.Name" xml:space="preserve">
+    <value>fillDataLabel</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="uploadAvatarBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt, style=Bold</value>
-  </data>
-  <data name="uploadAvatarBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>101, 541</value>
-  </data>
-  <data name="uploadAvatarBtn.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="patronymicTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>311, 36</value>
   </data>
-  <data name="uploadAvatarBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>311, 45</value>
+  <data name="&gt;&gt;surnameTextBox.Name" xml:space="preserve">
+    <value>surnameTextBox</value>
+  </data>
+  <data name="mandatoryFillingLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 302</value>
+  </data>
+  <data name="&gt;&gt;surnameTextBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="emailTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="uploadAvatarBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
+  <data name="fillDataLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="uploadAvatarBtn.Text" xml:space="preserve">
-    <value>Загрузить аватар</value>
-  </data>
-  <data name="&gt;&gt;uploadAvatarBtn.Name" xml:space="preserve">
-    <value>uploadAvatarBtn</value>
-  </data>
-  <data name="&gt;&gt;uploadAvatarBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;uploadAvatarBtn.Parent" xml:space="preserve">
+  <data name="&gt;&gt;nameTextBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;uploadAvatarBtn.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="mandatoryFillingLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 18</value>
   </data>
-  <data name="saveBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+  <data name="&gt;&gt;patronymicTextBox.Name" xml:space="preserve">
+    <value>patronymicTextBox</value>
+  </data>
+  <data name="&gt;&gt;surnameTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mandatoryFillingLabel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="saveBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 12pt, style=Bold</value>
   </data>
-  <data name="saveBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>101, 611</value>
-  </data>
-  <data name="saveBtn.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="phoneTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>311, 36</value>
   </data>
-  <data name="saveBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>311, 45</value>
+  <data name="emailTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="saveBtn.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
-  <data name="saveBtn.Text" xml:space="preserve">
-    <value>Готово</value>
+  <data name="mandatoryFillingLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 18</value>
   </data>
-  <data name="&gt;&gt;saveBtn.Name" xml:space="preserve">
-    <value>saveBtn</value>
+  <data name="cityTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 36</value>
   </data>
-  <data name="&gt;&gt;saveBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  <data name="&gt;&gt;cityTextBox.Name" xml:space="preserve">
+    <value>cityTextBox</value>
   </data>
-  <data name="&gt;&gt;saveBtn.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;emailTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
-  <data name="&gt;&gt;saveBtn.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="phoneTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 36</value>
   </data>
-  <data name="cityTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="&gt;&gt;fillDataLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>DataFillingForm</value>
+  </data>
+  <data name="uploadAvatarBtn.Text" xml:space="preserve">
+    <value>Загрузить аватар</value>
+  </data>
+  <data name="mandatoryFillingLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;patronymicTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="nameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="cityTextBox.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="phoneTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 400</value>
+  </data>
+  <data name="mandatoryFillingLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="mandatoryFillingLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="uploadAvatarBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 45</value>
+  </data>
+  <data name="&gt;&gt;mandatoryFillingLabel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="fillDataLabel.Text" xml:space="preserve">
+    <value>Заполните данные о себе</value>
+  </data>
+  <data name="&gt;&gt;fillDataLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="phoneTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="nameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;mandatoryFillingLabel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="uploadAvatarBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="phoneTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="patronymicTextBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="cityTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>101, 470</value>
   </data>
-  <data name="cityTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+  <data name="mandatoryFillingLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="cityTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>311, 36</value>
+  <data name="mandatoryFillingLabel3.Text" xml:space="preserve">
+    <value>Это поле обязательно для заполнения</value>
   </data>
-  <data name="cityTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>311, 36</value>
-  </data>
-  <data name="cityTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;cityTextBox.Name" xml:space="preserve">
-    <value>cityTextBox</value>
-  </data>
-  <data name="&gt;&gt;cityTextBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;cityTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;uploadAvatarBtn.Name" xml:space="preserve">
+    <value>uploadAvatarBtn</value>
   </data>
   <data name="&gt;&gt;cityTextBox.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="phoneTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="mandatoryFillingLabel4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;uploadAvatarBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;mandatoryFillingLabel2.Name" xml:space="preserve">
+    <value>mandatoryFillingLabel2</value>
+  </data>
+  <data name="mandatoryFillingLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
-  </data>
-  <data name="phoneTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="phoneTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>101, 400</value>
-  </data>
-  <data name="phoneTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="phoneTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>311, 36</value>
-  </data>
-  <data name="phoneTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>311, 36</value>
-  </data>
-  <data name="phoneTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;phoneTextBox.Name" xml:space="preserve">
-    <value>phoneTextBox</value>
-  </data>
-  <data name="&gt;&gt;phoneTextBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;phoneTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;phoneTextBox.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="emailTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="emailTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="emailTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>101, 330</value>
-  </data>
-  <data name="emailTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="emailTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>311, 36</value>
-  </data>
-  <data name="emailTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>311, 36</value>
-  </data>
-  <data name="emailTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;emailTextBox.Name" xml:space="preserve">
-    <value>emailTextBox</value>
-  </data>
-  <data name="&gt;&gt;emailTextBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;emailTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;emailTextBox.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="patronymicTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="patronymicTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="patronymicTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>101, 262</value>
-  </data>
-  <data name="patronymicTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="patronymicTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>311, 36</value>
-  </data>
-  <data name="patronymicTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>311, 36</value>
-  </data>
-  <data name="patronymicTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;patronymicTextBox.Name" xml:space="preserve">
-    <value>patronymicTextBox</value>
-  </data>
-  <data name="&gt;&gt;patronymicTextBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
   <data name="&gt;&gt;patronymicTextBox.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;patronymicTextBox.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="nameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="nameTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="nameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>101, 196</value>
-  </data>
-  <data name="nameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="nameTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>311, 36</value>
-  </data>
-  <data name="nameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>311, 36</value>
-  </data>
-  <data name="nameTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;nameTextBox.Name" xml:space="preserve">
-    <value>nameTextBox</value>
-  </data>
-  <data name="&gt;&gt;nameTextBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;nameTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;nameTextBox.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="surnameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="surnameTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="surnameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>101, 133</value>
-  </data>
-  <data name="surnameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="surnameTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>311, 36</value>
-  </data>
-  <data name="surnameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>311, 36</value>
-  </data>
-  <data name="surnameTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;surnameTextBox.Name" xml:space="preserve">
-    <value>surnameTextBox</value>
-  </data>
-  <data name="&gt;&gt;surnameTextBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;surnameTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;surnameTextBox.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="fillDataLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="fillDataLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="fillDataLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 20.25pt, style=Bold</value>
-  </data>
-  <data name="fillDataLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 63</value>
-  </data>
-  <data name="fillDataLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>317, 33</value>
-  </data>
-  <data name="fillDataLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="fillDataLabel.Text" xml:space="preserve">
-    <value>Заполните данные о себе</value>
-  </data>
-  <data name="&gt;&gt;fillDataLabel.Name" xml:space="preserve">
-    <value>fillDataLabel</value>
-  </data>
-  <data name="&gt;&gt;fillDataLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;fillDataLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;fillDataLabel.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="mandatoryFillingLabel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="mandatoryFillingLabel1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="mandatoryFillingLabel1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt</value>
-  </data>
-  <data name="mandatoryFillingLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 111</value>
-  </data>
-  <data name="mandatoryFillingLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 18</value>
-  </data>
-  <data name="mandatoryFillingLabel1.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
-  </data>
-  <data name="mandatoryFillingLabel1.Text" xml:space="preserve">
-    <value>Это поле обязательно для заполнения</value>
-  </data>
-  <data name="mandatoryFillingLabel1.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;mandatoryFillingLabel1.Name" xml:space="preserve">
-    <value>mandatoryFillingLabel1</value>
   </data>
   <data name="&gt;&gt;mandatoryFillingLabel1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -450,136 +279,307 @@
   <data name="&gt;&gt;mandatoryFillingLabel1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;mandatoryFillingLabel1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="mandatoryFillingLabel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="mandatoryFillingLabel2.AutoSize" type="System.Boolean, mscorlib">
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="mandatoryFillingLabel2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt</value>
+  <data name="patronymicTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
-  <data name="mandatoryFillingLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 174</value>
+  <data name="emailTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
   </data>
-  <data name="mandatoryFillingLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 18</value>
-  </data>
-  <data name="mandatoryFillingLabel2.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
-  </data>
-  <data name="mandatoryFillingLabel2.Text" xml:space="preserve">
-    <value>Это поле обязательно для заполнения</value>
-  </data>
-  <data name="mandatoryFillingLabel2.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;mandatoryFillingLabel2.Name" xml:space="preserve">
-    <value>mandatoryFillingLabel2</value>
-  </data>
-  <data name="&gt;&gt;mandatoryFillingLabel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="phoneTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
   </data>
   <data name="&gt;&gt;mandatoryFillingLabel2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;mandatoryFillingLabel2.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;cityTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
-  <data name="mandatoryFillingLabel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+  <data name="&gt;&gt;uploadAvatarBtn.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="mandatoryFillingLabel3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="phoneTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
   </data>
-  <data name="mandatoryFillingLabel3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt</value>
-  </data>
-  <data name="mandatoryFillingLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 302</value>
-  </data>
-  <data name="mandatoryFillingLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 18</value>
-  </data>
-  <data name="mandatoryFillingLabel3.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
-  </data>
-  <data name="mandatoryFillingLabel3.Text" xml:space="preserve">
-    <value>Это поле обязательно для заполнения</value>
-  </data>
-  <data name="mandatoryFillingLabel3.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="saveBtn.Text" xml:space="preserve">
+    <value>Готово</value>
   </data>
   <data name="&gt;&gt;mandatoryFillingLabel3.Name" xml:space="preserve">
     <value>mandatoryFillingLabel3</value>
   </data>
-  <data name="&gt;&gt;mandatoryFillingLabel3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;saveBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="&gt;&gt;mandatoryFillingLabel3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;emailTextBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;mandatoryFillingLabel3.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="emailTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 36</value>
   </data>
-  <data name="mandatoryFillingLabel4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+  <data name="&gt;&gt;mandatoryFillingLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="mandatoryFillingLabel4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="patronymicTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 262</value>
   </data>
-  <data name="mandatoryFillingLabel4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 11.25pt</value>
+  <data name="surnameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
   </data>
-  <data name="mandatoryFillingLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 378</value>
-  </data>
-  <data name="mandatoryFillingLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 18</value>
+  <data name="fillDataLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 33</value>
   </data>
   <data name="mandatoryFillingLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
   </data>
-  <data name="mandatoryFillingLabel4.Text" xml:space="preserve">
-    <value>Это поле обязательно для заполнения</value>
+  <data name="emailTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 330</value>
   </data>
-  <data name="mandatoryFillingLabel4.Visible" type="System.Boolean, mscorlib">
+  <data name="mandatoryFillingLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;mandatoryFillingLabel1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mandatoryFillingLabel3.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;mandatoryFillingLabel4.Name" xml:space="preserve">
-    <value>mandatoryFillingLabel4</value>
+  <data name="cityTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>311, 36</value>
   </data>
-  <data name="&gt;&gt;mandatoryFillingLabel4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;emailTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="patronymicTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;cityTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="surnameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 36</value>
+  </data>
+  <data name="mandatoryFillingLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;nameTextBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="saveBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;nameTextBox.Name" xml:space="preserve">
+    <value>nameTextBox</value>
+  </data>
+  <data name="surnameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 133</value>
+  </data>
+  <data name="&gt;&gt;phoneTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="mandatoryFillingLabel4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;mandatoryFillingLabel1.Name" xml:space="preserve">
+    <value>mandatoryFillingLabel1</value>
+  </data>
+  <data name="&gt;&gt;saveBtn.Name" xml:space="preserve">
+    <value>saveBtn</value>
+  </data>
+  <data name="uploadAvatarBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt, style=Bold</value>
+  </data>
+  <data name="nameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 36</value>
   </data>
   <data name="&gt;&gt;mandatoryFillingLabel4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;mandatoryFillingLabel4.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;mandatoryFillingLabel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="mandatoryFillingLabel2.Text" xml:space="preserve">
+    <value>Это поле обязательно для заполнения</value>
   </data>
-  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+  <data name="mandatoryFillingLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>981, 985</value>
+  <data name="cityTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>DataFillingForm</value>
+  <data name="nameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>DataFillingForm</value>
+  <data name="uploadAvatarBtn.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>311, 36</value>
+  </data>
+  <data name="mandatoryFillingLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 174</value>
+  </data>
+  <data name="mandatoryFillingLabel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="saveBtn.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>311, 36</value>
+  </data>
+  <data name="&gt;&gt;nameTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;phoneTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;saveBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mandatoryFillingLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 18</value>
+  </data>
+  <data name="uploadAvatarBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 541</value>
+  </data>
+  <data name="cityTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="mandatoryFillingLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 378</value>
+  </data>
+  <data name="&gt;&gt;mandatoryFillingLabel4.Name" xml:space="preserve">
+    <value>mandatoryFillingLabel4</value>
+  </data>
+  <data name="cityTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="uploadAvatarBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;emailTextBox.Name" xml:space="preserve">
+    <value>emailTextBox</value>
+  </data>
+  <data name="cityTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="mandatoryFillingLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="mandatoryFillingLabel2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mandatoryFillingLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 111</value>
+  </data>
+  <data name="mandatoryFillingLabel1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;phoneTextBox.Name" xml:space="preserve">
+    <value>phoneTextBox</value>
+  </data>
+  <data name="&gt;&gt;patronymicTextBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="mandatoryFillingLabel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="mandatoryFillingLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="surnameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="fillDataLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;phoneTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;surnameTextBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="surnameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="emailTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>311, 36</value>
+  </data>
+  <data name="mandatoryFillingLabel1.Text" xml:space="preserve">
+    <value>Это поле обязательно для заполнения</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>981, 985</value>
+  </data>
+  <data name="fillDataLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 63</value>
+  </data>
+  <data name="saveBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 611</value>
+  </data>
+  <data name="mandatoryFillingLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 18</value>
+  </data>
+  <data name="nameTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>311, 36</value>
+  </data>
+  <data name="&gt;&gt;mandatoryFillingLabel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;uploadAvatarBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="nameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 196</value>
+  </data>
+  <data name="mandatoryFillingLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;fillDataLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="saveBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 45</value>
+  </data>
+  <data name="surnameTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>311, 36</value>
+  </data>
+  <data name="mandatoryFillingLabel4.Text" xml:space="preserve">
+    <value>Это поле обязательно для заполнения</value>
+  </data>
+  <data name="mandatoryFillingLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="surnameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="emailTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="patronymicTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>311, 36</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DataFillingForm</value>
+  </data>
+  <data name="patronymicTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="nameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;saveBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;mandatoryFillingLabel4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="fillDataLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="fillDataLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 20.25pt, style=Bold</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

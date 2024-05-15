@@ -168,6 +168,15 @@
   <data name="DataChanged" xml:space="preserve">
     <value>Данные изменены</value>
   </data>
+  <data name="details" xml:space="preserve">
+    <value>ПОДРОБНЕЕ 🡽</value>
+  </data>
+  <data name="drive" xml:space="preserve">
+    <value>Привод:</value>
+  </data>
+  <data name="engine" xml:space="preserve">
+    <value>Двигатель:</value>
+  </data>
   <data name="EnterValidMail" xml:space="preserve">
     <value>Введите корректный адрес электронной почты!</value>
   </data>
@@ -176,6 +185,9 @@
   </data>
   <data name="formText" xml:space="preserve">
     <value>Авторизация</value>
+  </data>
+  <data name="fuel" xml:space="preserve">
+    <value>Топливо:</value>
   </data>
   <data name="ImageNotLoaded" xml:space="preserve">
     <value>Изображение не загружено</value>
@@ -186,11 +198,20 @@
   <data name="loginPlaceHolder" xml:space="preserve">
     <value>E-mail или телефон</value>
   </data>
+  <data name="mailSend" xml:space="preserve">
+    <value>Письмо успешно отправлено на указанный адрес</value>
+  </data>
+  <data name="mailSendError" xml:space="preserve">
+    <value>Ошибка при отправке письма</value>
+  </data>
   <data name="messageBoxError" xml:space="preserve">
     <value>Ошибка</value>
   </data>
   <data name="messageBoxInfo" xml:space="preserve">
     <value>Информация</value>
+  </data>
+  <data name="mileage" xml:space="preserve">
+    <value>Пробег:</value>
   </data>
   <data name="namePlaceHolder" xml:space="preserve">
     <value>Имя</value>
@@ -204,6 +225,12 @@
   <data name="passwordPlaceHolder" xml:space="preserve">
     <value>Пароль</value>
   </data>
+  <data name="passwordToMail" xml:space="preserve">
+    <value>Пароль отправлен на вашу почту</value>
+  </data>
+  <data name="passwordToMailError" xml:space="preserve">
+    <value>Ошибка отправки пароля по почте</value>
+  </data>
   <data name="patronymicPlaceHolder" xml:space="preserve">
     <value>Отчество</value>
   </data>
@@ -215,6 +242,9 @@
   </data>
   <data name="preferencesTaken" xml:space="preserve">
     <value>Предпочтения учтены</value>
+  </data>
+  <data name="price" xml:space="preserve">
+    <value>Итоговая цена:</value>
   </data>
   <data name="ratingSaved" xml:space="preserve">
     <value>Оценка сохранена</value>
@@ -238,11 +268,5 @@
   </data>
   <data name="wrongPrices" xml:space="preserve">
     <value>Цена &lt;от&gt; должна быть меньше чем &lt;до&gt;</value>
-  </data>
-  <data name="yandexAuth" xml:space="preserve">
-    <value>Войти с Yandex ID</value>
-  </data>
-  <data name="yandexReg" xml:space="preserve">
-    <value>Зарегистрироваться через Yandex ID</value>
   </data>
 </root>

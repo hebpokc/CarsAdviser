@@ -50,6 +50,7 @@ namespace CarsAdviser.Forms
             // 
             // priceGroupBox
             // 
+            resources.ApplyResources(this.priceGroupBox, "priceGroupBox");
             this.priceGroupBox.BorderRadius = 7;
             this.priceGroupBox.Controls.Add(this.applyBtn);
             this.priceGroupBox.Controls.Add(this.MailSendBtn);
@@ -61,7 +62,6 @@ namespace CarsAdviser.Forms
             this.priceGroupBox.Controls.Add(this.priceToTextBox);
             this.priceGroupBox.Controls.Add(this.rubleLabel);
             this.priceGroupBox.Controls.Add(this.priceFromTextBox);
-            resources.ApplyResources(this.priceGroupBox, "priceGroupBox");
             this.priceGroupBox.ForeColor = System.Drawing.Color.Black;
             this.priceGroupBox.Name = "priceGroupBox";
             // 
@@ -82,6 +82,7 @@ namespace CarsAdviser.Forms
             // 
             // MailSendBtn
             // 
+            resources.ApplyResources(this.MailSendBtn, "MailSendBtn");
             this.MailSendBtn.Animated = true;
             this.MailSendBtn.BackColor = System.Drawing.Color.Transparent;
             this.MailSendBtn.BorderRadius = 15;
@@ -90,7 +91,6 @@ namespace CarsAdviser.Forms
             this.MailSendBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.MailSendBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.MailSendBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.MailSendBtn, "MailSendBtn");
             this.MailSendBtn.ForeColor = System.Drawing.Color.White;
             this.MailSendBtn.Name = "MailSendBtn";
             this.MailSendBtn.Click += new System.EventHandler(this.MailSendBtn_Click);
@@ -191,6 +191,7 @@ namespace CarsAdviser.Forms
             // 
             // searchTextBox
             // 
+            resources.ApplyResources(this.searchTextBox, "searchTextBox");
             this.searchTextBox.Animated = true;
             this.searchTextBox.BorderColor = System.Drawing.Color.Silver;
             this.searchTextBox.BorderRadius = 7;
@@ -201,7 +202,6 @@ namespace CarsAdviser.Forms
             this.searchTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.searchTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.searchTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.searchTextBox, "searchTextBox");
             this.searchTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.searchTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.searchTextBox.Name = "searchTextBox";

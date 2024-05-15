@@ -78,7 +78,7 @@ namespace CarsAdviser.Forms
             this.addCarBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.addCarBtn.ForeColor = System.Drawing.Color.White;
             this.addCarBtn.Name = "addCarBtn";
-            this.addCarBtn.Click += new System.EventHandler(this.AddCarForm_Load);
+            this.addCarBtn.Click += new System.EventHandler(this.addCarBtn_Click);
             // 
             // addPhotoBtn
             // 

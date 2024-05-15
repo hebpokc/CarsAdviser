@@ -117,391 +117,391 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuPanel.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="menuPanel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="AllPlaylistBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="AllPlaylistBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 417</value>
-  </data>
-  <data name="AllPlaylistBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>291, 34</value>
-  </data>
-  <data name="AllPlaylistBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="AllPlaylistBtn.Text" xml:space="preserve">
-    <value>Общие подборки</value>
-  </data>
-  <data name="&gt;&gt;AllPlaylistBtn.Name" xml:space="preserve">
-    <value>AllPlaylistBtn</value>
-  </data>
-  <data name="&gt;&gt;AllPlaylistBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;AllPlaylistBtn.Parent" xml:space="preserve">
-    <value>menuPanel</value>
-  </data>
-  <data name="&gt;&gt;AllPlaylistBtn.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="yandexImg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>277, 208</value>
-  </data>
-  <data name="yandexImg.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 36</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="yandexImg.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="yandexImg.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="yandexImg.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="accountCirclePictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 52</value>
   </data>
   <data name="&gt;&gt;yandexImg.Name" xml:space="preserve">
     <value>yandexImg</value>
   </data>
-  <data name="&gt;&gt;yandexImg.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2CirclePictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  <data name="yandexImg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 208</value>
   </data>
-  <data name="&gt;&gt;yandexImg.Parent" xml:space="preserve">
+  <data name="surnameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 29</value>
+  </data>
+  <data name="&gt;&gt;nameLabel.Parent" xml:space="preserve">
     <value>menuPanel</value>
   </data>
-  <data name="&gt;&gt;yandexImg.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="changePasswordBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="changePasswordBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 318</value>
-  </data>
-  <data name="changePasswordBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>267, 34</value>
-  </data>
-  <data name="changePasswordBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="changePasswordBtn.Text" xml:space="preserve">
-    <value>Сменить пароль</value>
-  </data>
-  <data name="&gt;&gt;changePasswordBtn.Name" xml:space="preserve">
-    <value>changePasswordBtn</value>
-  </data>
-  <data name="&gt;&gt;changePasswordBtn.Type" xml:space="preserve">
+  <data name="&gt;&gt;preferencesBtn.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;changePasswordBtn.Parent" xml:space="preserve">
-    <value>menuPanel</value>
-  </data>
-  <data name="&gt;&gt;changePasswordBtn.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="exitBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="exitBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 515</value>
-  </data>
-  <data name="exitBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>267, 34</value>
-  </data>
-  <data name="exitBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="exitBtn.Text" xml:space="preserve">
-    <value>Выйти</value>
-  </data>
-  <data name="&gt;&gt;exitBtn.Name" xml:space="preserve">
-    <value>exitBtn</value>
   </data>
   <data name="&gt;&gt;exitBtn.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
   </data>
-  <data name="&gt;&gt;exitBtn.Parent" xml:space="preserve">
-    <value>menuPanel</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="nameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;exitBtn.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="changePasswordBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 318</value>
   </data>
-  <data name="addCarBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
+  <data name="personalInformationBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 266</value>
   </data>
   <data name="addCarBtn.Location" type="System.Drawing.Point, System.Drawing">
     <value>46, 466</value>
   </data>
-  <data name="addCarBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>291, 34</value>
+  <data name="mainPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>996, 562</value>
   </data>
-  <data name="addCarBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
+  <data name="addCarBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
   </data>
-  <data name="addCarBtn.Text" xml:space="preserve">
-    <value>Добавить авто</value>
-  </data>
-  <data name="&gt;&gt;addCarBtn.Name" xml:space="preserve">
-    <value>addCarBtn</value>
-  </data>
-  <data name="&gt;&gt;addCarBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;addCarBtn.Parent" xml:space="preserve">
-    <value>menuPanel</value>
-  </data>
-  <data name="&gt;&gt;addCarBtn.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="changePasswordBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
   </data>
   <data name="preferencesBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Candara, 12pt</value>
   </data>
-  <data name="preferencesBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 368</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AccountForm</value>
   </data>
-  <data name="preferencesBtn.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="exitBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>267, 34</value>
   </data>
   <data name="preferencesBtn.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
-  <data name="preferencesBtn.Text" xml:space="preserve">
-    <value>Предпочтения</value>
-  </data>
-  <data name="&gt;&gt;preferencesBtn.Name" xml:space="preserve">
-    <value>preferencesBtn</value>
-  </data>
-  <data name="&gt;&gt;preferencesBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;preferencesBtn.Parent" xml:space="preserve">
-    <value>menuPanel</value>
-  </data>
-  <data name="&gt;&gt;preferencesBtn.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="personalInformationBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 12pt</value>
-  </data>
-  <data name="personalInformationBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 266</value>
-  </data>
-  <data name="personalInformationBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>267, 34</value>
-  </data>
-  <data name="personalInformationBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="personalInformationBtn.Text" xml:space="preserve">
-    <value>Личная информация</value>
-  </data>
-  <data name="&gt;&gt;personalInformationBtn.Name" xml:space="preserve">
-    <value>personalInformationBtn</value>
-  </data>
-  <data name="&gt;&gt;personalInformationBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;personalInformationBtn.Parent" xml:space="preserve">
-    <value>menuPanel</value>
-  </data>
-  <data name="&gt;&gt;personalInformationBtn.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <data name="personalAccountLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="personalAccountLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 21.75pt, style=Bold</value>
+  <data name="&gt;&gt;AllPlaylistBtn.Parent" xml:space="preserve">
+    <value>menuPanel</value>
   </data>
-  <data name="personalAccountLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 208</value>
+  <data name="surnameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="personalAccountLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 36</value>
-  </data>
-  <data name="personalAccountLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="personalAccountLabel.Text" xml:space="preserve">
-    <value>Личный кабинет</value>
-  </data>
-  <data name="&gt;&gt;personalAccountLabel.Name" xml:space="preserve">
-    <value>personalAccountLabel</value>
+  <data name="&gt;&gt;surnameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;personalAccountLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="surnameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 18pt</value>
+  </data>
+  <data name="&gt;&gt;personalInformationBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="nameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 73</value>
+  </data>
+  <data name="preferencesBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 368</value>
+  </data>
+  <data name="mainPanel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;accountCirclePictureBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2CirclePictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="personalAccountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 208</value>
+  </data>
+  <data name="exitBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mainPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="addCarBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 34</value>
+  </data>
+  <data name="&gt;&gt;menuPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mainPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="mainPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 0</value>
+  </data>
+  <data name="menuPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="AllPlaylistBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 34</value>
+  </data>
+  <data name="&gt;&gt;addCarBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="personalInformationBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
+  <data name="preferencesBtn.Text" xml:space="preserve">
+    <value>Предпочтения</value>
+  </data>
+  <data name="&gt;&gt;addCarBtn.Parent" xml:space="preserve">
+    <value>menuPanel</value>
+  </data>
+  <data name="&gt;&gt;AllPlaylistBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;changePasswordBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mainPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;changePasswordBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;exitBtn.Parent" xml:space="preserve">
+    <value>menuPanel</value>
+  </data>
+  <data name="surnameLabel.Text" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="&gt;&gt;menuPanel.Name" xml:space="preserve">
+    <value>menuPanel</value>
+  </data>
+  <data name="&gt;&gt;yandexImg.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2CirclePictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="AllPlaylistBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;exitBtn.Name" xml:space="preserve">
+    <value>exitBtn</value>
+  </data>
+  <data name="addCarBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;changePasswordBtn.Name" xml:space="preserve">
+    <value>changePasswordBtn</value>
+  </data>
+  <data name="surnameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 122</value>
+  </data>
+  <data name="&gt;&gt;preferencesBtn.Name" xml:space="preserve">
+    <value>preferencesBtn</value>
+  </data>
+  <data name="menuPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="personalAccountLabel.Text" xml:space="preserve">
+    <value>Личный кабинет</value>
+  </data>
+  <data name="AllPlaylistBtn.Text" xml:space="preserve">
+    <value>Общие подборки</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.Name" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;nameLabel.Name" xml:space="preserve">
+    <value>nameLabel</value>
+  </data>
+  <data name="menuPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;exitBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;preferencesBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;AllPlaylistBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="menuPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;addCarBtn.Name" xml:space="preserve">
+    <value>addCarBtn</value>
+  </data>
+  <data name="&gt;&gt;AllPlaylistBtn.Name" xml:space="preserve">
+    <value>AllPlaylistBtn</value>
+  </data>
+  <data name="nameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 18pt</value>
+  </data>
+  <data name="accountCirclePictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="yandexImg.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="personalInformationBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;personalInformationBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;accountCirclePictureBox.Name" xml:space="preserve">
+    <value>accountCirclePictureBox</value>
+  </data>
+  <data name="personalInformationBtn.Text" xml:space="preserve">
+    <value>Личная информация</value>
+  </data>
+  <data name="exitBtn.Text" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+  <data name="&gt;&gt;nameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;addCarBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="changePasswordBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 34</value>
+  </data>
+  <data name="preferencesBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 34</value>
+  </data>
+  <data name="&gt;&gt;yandexImg.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="menuPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 562</value>
+  </data>
+  <data name="&gt;&gt;surnameLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="personalAccountLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="addCarBtn.Text" xml:space="preserve">
+    <value>Добавить авто</value>
+  </data>
+  <data name="nameLabel.Text" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="yandexImg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 36</value>
+  </data>
+  <data name="surnameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="AllPlaylistBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt</value>
+  </data>
   <data name="&gt;&gt;personalAccountLabel.Parent" xml:space="preserve">
+    <value>menuPanel</value>
+  </data>
+  <data name="yandexImg.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="exitBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 515</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>AccountForm</value>
+  </data>
+  <data name="accountCirclePictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 122</value>
+  </data>
+  <data name="&gt;&gt;surnameLabel.Parent" xml:space="preserve">
     <value>menuPanel</value>
   </data>
   <data name="&gt;&gt;personalAccountLabel.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="surnameLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;menuPanel.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="surnameLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 18pt</value>
-  </data>
-  <data name="surnameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>230, 122</value>
-  </data>
-  <data name="surnameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 29</value>
-  </data>
-  <data name="surnameLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="surnameLabel.Text" xml:space="preserve">
-    <value>Имя</value>
-  </data>
-  <data name="&gt;&gt;surnameLabel.Name" xml:space="preserve">
-    <value>surnameLabel</value>
-  </data>
-  <data name="&gt;&gt;surnameLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;surnameLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;yandexImg.Parent" xml:space="preserve">
     <value>menuPanel</value>
-  </data>
-  <data name="&gt;&gt;surnameLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="nameLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="nameLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 18pt</value>
-  </data>
-  <data name="nameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>230, 73</value>
   </data>
   <data name="nameLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 29</value>
   </data>
+  <data name="accountCirclePictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="changePasswordBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
   <data name="nameLabel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="nameLabel.Text" xml:space="preserve">
-    <value>Фамилия</value>
-  </data>
-  <data name="&gt;&gt;nameLabel.Name" xml:space="preserve">
-    <value>nameLabel</value>
-  </data>
-  <data name="&gt;&gt;nameLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nameLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;changePasswordBtn.Parent" xml:space="preserve">
     <value>menuPanel</value>
+  </data>
+  <data name="personalAccountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 36</value>
+  </data>
+  <data name="yandexImg.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;personalAccountLabel.Name" xml:space="preserve">
+    <value>personalAccountLabel</value>
+  </data>
+  <data name="&gt;&gt;preferencesBtn.Parent" xml:space="preserve">
+    <value>menuPanel</value>
+  </data>
+  <data name="&gt;&gt;menuPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;surnameLabel.Name" xml:space="preserve">
+    <value>surnameLabel</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="personalAccountLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 21.75pt, style=Bold</value>
   </data>
   <data name="&gt;&gt;nameLabel.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="accountCirclePictureBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>52, 52</value>
-  </data>
-  <data name="accountCirclePictureBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 122</value>
-  </data>
-  <data name="accountCirclePictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="accountCirclePictureBox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;accountCirclePictureBox.Name" xml:space="preserve">
-    <value>accountCirclePictureBox</value>
-  </data>
-  <data name="&gt;&gt;accountCirclePictureBox.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2CirclePictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;accountCirclePictureBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;personalInformationBtn.Parent" xml:space="preserve">
     <value>menuPanel</value>
   </data>
   <data name="&gt;&gt;accountCirclePictureBox.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="menuPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="menuPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="menuPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>340, 562</value>
-  </data>
-  <data name="menuPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;menuPanel.Name" xml:space="preserve">
-    <value>menuPanel</value>
-  </data>
-  <data name="&gt;&gt;menuPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuPanel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="mainPanel.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="mainPanel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="mainPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="mainPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>340, 0</value>
-  </data>
-  <data name="mainPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>996, 562</value>
-  </data>
-  <data name="mainPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;mainPanel.Name" xml:space="preserve">
-    <value>mainPanel</value>
-  </data>
-  <data name="&gt;&gt;mainPanel.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;mainPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;mainPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="AllPlaylistBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 417</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1336, 562</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>AccountForm</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>AccountForm</value>
+  <data name="&gt;&gt;accountCirclePictureBox.Parent" xml:space="preserve">
+    <value>menuPanel</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;personalInformationBtn.Name" xml:space="preserve">
+    <value>personalInformationBtn</value>
+  </data>
+  <data name="menuPanel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="personalInformationBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 34</value>
+  </data>
+  <data name="changePasswordBtn.Text" xml:space="preserve">
+    <value>Сменить пароль</value>
+  </data>
+  <data name="exitBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>
